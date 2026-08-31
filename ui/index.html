@@ -56,9 +56,10 @@
 <header>
   <h1>Schedule of Activities extractor</h1>
   <input type="file" id="f" accept="application/pdf">
-  <select id="engine">
-    <option value="text-layer">text-layer (no API key)</option>
-    <option value="vision">vision</option>
+  <select id="engine" title="Which extractor reads the page">
+    <option value="gemini">Gemini vision (recommended)</option>
+    <option value="vision">Claude vision</option>
+    <option value="text-layer">text-layer baseline (no API key)</option>
   </select>
   <button id="go">Extract</button>
   <span class="muted" id="status"></span>
@@ -68,6 +69,7 @@
   <section>
     <div id="meta"></div>
     <div id="grid" class="empty">Upload a protocol PDF. The locator finds the schedule; nothing is precomputed.</div>
+    <p class="muted" id="enginenote" style="margin-top:10px;font-size:12px"></p>
   </section>
   <aside id="side"><div class="muted">Click any cell to see its raw value, footnotes and source page.</div></aside>
 </main>
@@ -75,6 +77,22 @@
 <script>
 const $ = s => document.querySelector(s);
 let RESULT = null, PDF = null;
+
+const ENGINE_NOTE = {
+  "gemini": "",
+  "vision": "",
+  "text-layer": "The text-layer baseline reads the PDF's embedded text instead of " +
+    "the rendered page. It is the control this project is measured against, not the " +
+    "recommended path: superscript footnote markers lose the cell they mark, multi-line " +
+    "row labels split into separate rows, and cell shading is invisible. Expect visibly " +
+    "worse output here — that is the finding, not a bug.",
+};
+
+function engineNote() {
+  $("#enginenote").textContent = ENGINE_NOTE[$("#engine").value] || "";
+}
+$("#engine").onchange = engineNote;
+engineNote();
 
 $("#go").onclick = async () => {
   const file = $("#f").files[0];

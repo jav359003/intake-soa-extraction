@@ -21,7 +21,7 @@
           "attrs": {
             "visit": null,
             "day": null,
-            "week": null,
+            "week": "Study Week",
             "window": null
           },
           "provenance": [
@@ -49,8 +49,8 @@
           "label": "Screening/Baseline (14-21 days prior to randomization)",
           "attrs": {
             "visit": null,
-            "day": "14-21 days prior to randomization",
-            "week": null,
+            "day": null,
+            "week": "14-21 days prior to randomization",
             "window": null
           },
           "provenance": [
@@ -66,7 +66,7 @@
         {
           "id": "protocol12:soa0:period:1",
           "type": "period",
-          "label": "RANDOMIZATION",
+          "label": "Study Medication Administration",
           "attrs": {},
           "provenance": [],
           "ambiguous": false,
@@ -75,36 +75,7 @@
         {
           "id": "protocol12:soa0:visit:2",
           "type": "visit",
-          "label": "RANDOMIZATION",
-          "attrs": {
-            "visit": null,
-            "day": null,
-            "week": null,
-            "window": null
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:period:2",
-          "type": "period",
-          "label": "Study Medication Administration",
-          "attrs": {},
-          "provenance": [],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:visit:3",
-          "type": "visit",
-          "label": "Study Medication Administration Week 1-3",
+          "label": "Study Medication Administration (1-3)",
           "attrs": {
             "visit": null,
             "day": null,
@@ -122,9 +93,9 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:4",
+          "id": "protocol12:soa0:visit:3",
           "type": "visit",
-          "label": "Study Medication Administration Week 4",
+          "label": "Study Medication Administration (4)",
           "attrs": {
             "visit": null,
             "day": null,
@@ -142,9 +113,9 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:5",
+          "id": "protocol12:soa0:visit:4",
           "type": "visit",
-          "label": "Study Medication Administration Week 5-7",
+          "label": "Study Medication Administration (5-7)",
           "attrs": {
             "visit": null,
             "day": null,
@@ -162,9 +133,9 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:6",
+          "id": "protocol12:soa0:visit:5",
           "type": "visit",
-          "label": "Study Medication Administration Week 8",
+          "label": "Study Medication Administration (8)",
           "attrs": {
             "visit": null,
             "day": null,
@@ -182,9 +153,9 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:7",
+          "id": "protocol12:soa0:visit:6",
           "type": "visit",
-          "label": "Study Medication Administration Week 9-11",
+          "label": "Study Medication Administration (9-11)",
           "attrs": {
             "visit": null,
             "day": null,
@@ -202,9 +173,9 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:8",
+          "id": "protocol12:soa0:visit:7",
           "type": "visit",
-          "label": "Study Medication Administration Week 12/Term",
+          "label": "Study Medication Administration (12/Term)",
           "attrs": {
             "visit": null,
             "day": null,
@@ -222,7 +193,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:period:3",
+          "id": "protocol12:soa0:period:2",
           "type": "period",
           "label": "Follow-up",
           "attrs": {},
@@ -231,9 +202,9 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:9",
+          "id": "protocol12:soa0:visit:8",
           "type": "visit",
-          "label": "Follow-up Week 16",
+          "label": "Follow-up (16)",
           "attrs": {
             "visit": null,
             "day": null,
@@ -594,13 +565,33 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:9:3",
+          "id": "protocol12:soa0:cell:9:2",
           "type": "cell",
           "label": "x",
           "attrs": {
             "shaded": false,
             "markers": [
               "a"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:9:3",
+          "type": "cell",
+          "label": "x",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
             ]
           },
           "provenance": [
@@ -680,26 +671,6 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:9:8",
-          "type": "cell",
-          "label": "x",
-          "attrs": {
-            "shaded": false,
-            "markers": [
               "c"
             ]
           },
@@ -767,7 +738,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:11:8",
+          "id": "protocol12:soa0:cell:11:7",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -825,13 +796,33 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:12:3",
+          "id": "protocol12:soa0:cell:12:2",
           "type": "cell",
           "label": "x",
           "attrs": {
             "shaded": false,
             "markers": [
               "a"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:12:3",
+          "type": "cell",
+          "label": "x",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
             ]
           },
           "provenance": [
@@ -911,26 +902,6 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:12:8",
-          "type": "cell",
-          "label": "x",
-          "attrs": {
-            "shaded": false,
-            "markers": [
               "c"
             ]
           },
@@ -981,7 +952,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:13:8",
+          "id": "protocol12:soa0:cell:13:7",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1037,7 +1008,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:14:8",
+          "id": "protocol12:soa0:cell:14:7",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1093,7 +1064,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:15:4",
+          "id": "protocol12:soa0:cell:15:3",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1113,7 +1084,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:15:6",
+          "id": "protocol12:soa0:cell:15:5",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1133,7 +1104,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:15:8",
+          "id": "protocol12:soa0:cell:15:7",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1189,7 +1160,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:16:8",
+          "id": "protocol12:soa0:cell:16:7",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1245,7 +1216,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:17:3",
+          "id": "protocol12:soa0:cell:17:2",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1265,7 +1236,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:17:4",
+          "id": "protocol12:soa0:cell:17:3",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1285,7 +1256,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:17:6",
+          "id": "protocol12:soa0:cell:17:5",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1305,7 +1276,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:17:8",
+          "id": "protocol12:soa0:cell:17:7",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1325,7 +1296,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:17:9",
+          "id": "protocol12:soa0:cell:17:8",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1379,7 +1350,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:18:8",
+          "id": "protocol12:soa0:cell:18:7",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1439,9 +1410,29 @@
           "note": ""
         },
         {
+          "id": "protocol12:soa0:cell:19:2",
+          "type": "cell",
+          "label": "3X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "d"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
           "id": "protocol12:soa0:cell:19:3",
           "type": "cell",
-          "label": "3x",
+          "label": "3X",
           "attrs": {
             "shaded": false,
             "markers": [
@@ -1461,7 +1452,7 @@
         {
           "id": "protocol12:soa0:cell:19:4",
           "type": "cell",
-          "label": "3x",
+          "label": "3X",
           "attrs": {
             "shaded": false,
             "markers": [
@@ -1481,7 +1472,7 @@
         {
           "id": "protocol12:soa0:cell:19:5",
           "type": "cell",
-          "label": "3x",
+          "label": "3X",
           "attrs": {
             "shaded": false,
             "markers": [
@@ -1501,7 +1492,7 @@
         {
           "id": "protocol12:soa0:cell:19:6",
           "type": "cell",
-          "label": "3x",
+          "label": "3X",
           "attrs": {
             "shaded": false,
             "markers": [
@@ -1521,7 +1512,7 @@
         {
           "id": "protocol12:soa0:cell:19:7",
           "type": "cell",
-          "label": "3x",
+          "label": "3X",
           "attrs": {
             "shaded": false,
             "markers": [
@@ -1540,26 +1531,6 @@
         },
         {
           "id": "protocol12:soa0:cell:19:8",
-          "type": "cell",
-          "label": "3x",
-          "attrs": {
-            "shaded": false,
-            "markers": [
-              "d"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:19:9",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1582,6 +1553,24 @@
           "label": "Concomitant medications",
           "attrs": {
             "indent": 1,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:20:2",
+          "type": "cell",
+          "label": "3X",
+          "attrs": {
+            "shaded": false,
             "markers": []
           },
           "provenance": [
@@ -1687,24 +1676,6 @@
         {
           "id": "protocol12:soa0:cell:20:8",
           "type": "cell",
-          "label": "3X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:20:9",
-          "type": "cell",
           "label": "X",
           "attrs": {
             "shaded": false,
@@ -1794,7 +1765,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:23:5",
+          "id": "protocol12:soa0:cell:23:4",
           "type": "cell",
           "label": "x\nwk 6",
           "attrs": {
@@ -1814,9 +1785,9 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:23:8",
+          "id": "protocol12:soa0:cell:23:7",
           "type": "cell",
-          "label": "X X",
+          "label": "x x",
           "attrs": {
             "shaded": false,
             "markers": [
@@ -1873,9 +1844,9 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:24:8",
+          "id": "protocol12:soa0:cell:24:7",
           "type": "cell",
-          "label": "X",
+          "label": "x",
           "attrs": {
             "shaded": false,
             "markers": [
@@ -1918,6 +1889,26 @@
             "shaded": false,
             "markers": [
               "i"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:25:2",
+          "type": "cell",
+          "label": "x",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
             ]
           },
           "provenance": [
@@ -2017,26 +2008,6 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:25:8",
-          "type": "cell",
-          "label": "x",
-          "attrs": {
-            "shaded": false,
-            "markers": [
               "c"
             ]
           },
@@ -2076,6 +2047,26 @@
             "shaded": false,
             "markers": [
               "i"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:26:2",
+          "type": "cell",
+          "label": "x",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
             ]
           },
           "provenance": [
@@ -2175,26 +2166,6 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:26:8",
-          "type": "cell",
-          "label": "x",
-          "attrs": {
-            "shaded": false,
-            "markers": [
               "c"
             ]
           },
@@ -2234,6 +2205,26 @@
             "shaded": false,
             "markers": [
               "i"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:27:2",
+          "type": "cell",
+          "label": "x",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
             ]
           },
           "provenance": [
@@ -2333,26 +2324,6 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:27:8",
-          "type": "cell",
-          "label": "x",
-          "attrs": {
-            "shaded": false,
-            "markers": [
               "c"
             ]
           },
@@ -2405,7 +2376,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:28:5",
+          "id": "protocol12:soa0:cell:28:4",
           "type": "cell",
           "label": "X\nwk 6",
           "attrs": {
@@ -2423,7 +2394,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:28:8",
+          "id": "protocol12:soa0:cell:28:7",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2477,7 +2448,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:29:5",
+          "id": "protocol12:soa0:cell:29:4",
           "type": "cell",
           "label": "X\nwk 6",
           "attrs": {
@@ -2495,7 +2466,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:29:8",
+          "id": "protocol12:soa0:cell:29:7",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2585,7 +2556,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:31:4",
+          "id": "protocol12:soa0:cell:31:3",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2603,7 +2574,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:31:6",
+          "id": "protocol12:soa0:cell:31:5",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2621,7 +2592,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:31:8",
+          "id": "protocol12:soa0:cell:31:7",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2660,6 +2631,24 @@
           "id": "protocol12:soa0:cell:32:1",
           "type": "cell",
           "label": "3X/week",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:32:2",
+          "type": "cell",
+          "label": "3X",
           "attrs": {
             "shaded": false,
             "markers": []
@@ -2767,24 +2756,6 @@
         {
           "id": "protocol12:soa0:cell:32:8",
           "type": "cell",
-          "label": "3X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:32:9",
-          "type": "cell",
           "label": "X",
           "attrs": {
             "shaded": false,
@@ -2822,6 +2793,24 @@
           "id": "protocol12:soa0:cell:33:1",
           "type": "cell",
           "label": "3X/week",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:33:2",
+          "type": "cell",
+          "label": "3X",
           "attrs": {
             "shaded": false,
             "markers": []
@@ -2929,24 +2918,6 @@
         {
           "id": "protocol12:soa0:cell:33:8",
           "type": "cell",
-          "label": "3X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:33:9",
-          "type": "cell",
           "label": "X",
           "attrs": {
             "shaded": false,
@@ -3007,6 +2978,26 @@
           "attrs": {
             "indent": 1,
             "markers": []
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:35:2",
+          "type": "cell",
+          "label": "x",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
+            ]
           },
           "provenance": [
             {
@@ -3119,14 +3110,12 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:35:8",
-          "type": "cell",
-          "label": "x",
+          "id": "protocol12:soa0:asmt:36",
+          "type": "assessment",
+          "label": "Modafinil compliance",
           "attrs": {
-            "shaded": false,
-            "markers": [
-              "b"
-            ]
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -3139,11 +3128,11 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:asmt:36",
-          "type": "assessment",
-          "label": "Modafinil compliance",
+          "id": "protocol12:soa0:cell:36:2",
+          "type": "cell",
+          "label": "3X",
           "attrs": {
-            "indent": 1,
+            "shaded": false,
             "markers": []
           },
           "provenance": [
@@ -3247,31 +3236,12 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:36:8",
-          "type": "cell",
-          "label": "3X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol12:soa0:asmt:37",
           "type": "assessment",
-          "label": "CBT compliance",
+          "label": "CBT compliance ****",
           "attrs": {
             "indent": 1,
             "markers": [
-              "****",
               "h"
             ]
           },
@@ -3294,6 +3264,24 @@
             "markers": [
               "h"
             ]
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:37:2",
+          "type": "cell",
+          "label": "3X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
           },
           "provenance": [
             {
@@ -3396,24 +3384,6 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:37:8",
-          "type": "cell",
-          "label": "3X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol12:soa0:asmt:38",
           "type": "assessment",
           "label": "End of trial form",
@@ -3432,7 +3402,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:38:8",
+          "id": "protocol12:soa0:cell:38:7",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -3470,7 +3440,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:39:9",
+          "id": "protocol12:soa0:cell:39:8",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -3756,7 +3726,7 @@
         {
           "id": "protocol12:soa0:fn:14",
           "type": "footnote",
-          "label": "The following must be obtained weekly for at least two weeks during the screening/baseline period:\na. BSCS\nb. CGI-S\nc. CGI-O\nd. Urine toxicology screening at a central laboratory. Note: This assay will be performed at a central laboratory only on the urine samples collected for the subjects who are randomized in the study.",
+          "label": "The following must be obtained weekly for at least two weeks during the screening/baseline period:\n\ta. BSCS\n\tb. CGI-S\n\tc. CGI-O\n\td. Urine toxicology screening at a central laboratory. Note: This assay will be performed at a central laboratory only on the urine samples collected for the subjects who are randomized in the study.",
           "attrs": {
             "marker": "3",
             "complete": true,
@@ -3828,6 +3798,63 @@
           ],
           "ambiguous": false,
           "note": ""
+        },
+        {
+          "id": "protocol12:soa0:fn:18",
+          "type": "footnote",
+          "label": "Throughout the study medication administration period, subjects will be scheduled to return to the clinic three times per week for assessments. Some assessments will be collected three times per week (typically on a Monday, Wednesday, and Friday) and some will be collected once per week per the schedule in Table 3. Except for week 12, those assessments occurring once per week should be performed at the first clinic visit of the week whenever possible.",
+          "attrs": {
+            "marker": "Assessments During Study Medication Administration",
+            "complete": true,
+            "continued_on": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:fn:19",
+          "type": "footnote",
+          "label": "Urine methamphetamine and creatinine, SUR, concomitant medications and medication compliance are to be assessed three times during the last week of the study medication administration period. All other assessments scheduled for study week 12 (Table 3) should be completed, ideally at the final scheduled study visit. When a subject discontinues prematurely, regardless of the reason, all Table 3 week 12 assessments are to be completed. This may require requesting the subject to return specifically for final assessments.",
+          "attrs": {
+            "marker": "Assessments at End of Study (Week 12) or Early Termination",
+            "complete": true,
+            "continued_on": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:fn:20",
+          "type": "footnote",
+          "label": "The follow-up visit should be scheduled to occur approximately 4 weeks after the final in-clinic examination during the study medication administration period as per Table 3. Overview of Study Assessments. At the follow-up visit, record only those AEs which are serious and clinically significant; these must then be followed to resolution.",
+          "attrs": {
+            "marker": "Assessments at Follow-up (Week 16)",
+            "complete": true,
+            "continued_on": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
         }
       ],
       "edges": [
@@ -3845,43 +3872,37 @@
         },
         {
           "src": "protocol12:soa0:visit:3",
-          "dst": "protocol12:soa0:period:2",
+          "dst": "protocol12:soa0:period:1",
           "type": "visit_in_period",
           "attrs": {}
         },
         {
           "src": "protocol12:soa0:visit:4",
-          "dst": "protocol12:soa0:period:2",
+          "dst": "protocol12:soa0:period:1",
           "type": "visit_in_period",
           "attrs": {}
         },
         {
           "src": "protocol12:soa0:visit:5",
-          "dst": "protocol12:soa0:period:2",
+          "dst": "protocol12:soa0:period:1",
           "type": "visit_in_period",
           "attrs": {}
         },
         {
           "src": "protocol12:soa0:visit:6",
-          "dst": "protocol12:soa0:period:2",
+          "dst": "protocol12:soa0:period:1",
           "type": "visit_in_period",
           "attrs": {}
         },
         {
           "src": "protocol12:soa0:visit:7",
-          "dst": "protocol12:soa0:period:2",
+          "dst": "protocol12:soa0:period:1",
           "type": "visit_in_period",
           "attrs": {}
         },
         {
           "src": "protocol12:soa0:visit:8",
           "dst": "protocol12:soa0:period:2",
-          "type": "visit_in_period",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:visit:9",
-          "dst": "protocol12:soa0:period:3",
           "type": "visit_in_period",
           "attrs": {}
         },
@@ -4048,6 +4069,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:9:2",
+          "dst": "protocol12:soa0:asmt:9",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:9:2",
+          "dst": "protocol12:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:9:3",
           "dst": "protocol12:soa0:asmt:9",
           "type": "cell_of_assessment",
@@ -4104,18 +4137,6 @@
         {
           "src": "protocol12:soa0:cell:9:7",
           "dst": "protocol12:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:9:8",
-          "dst": "protocol12:soa0:asmt:9",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:9:8",
-          "dst": "protocol12:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4138,14 +4159,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:11:8",
+          "src": "protocol12:soa0:cell:11:7",
           "dst": "protocol12:soa0:asmt:11",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:11:8",
-          "dst": "protocol12:soa0:visit:8",
+          "src": "protocol12:soa0:cell:11:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4168,6 +4189,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:12:2",
+          "dst": "protocol12:soa0:asmt:12",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:12:2",
+          "dst": "protocol12:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:12:3",
           "dst": "protocol12:soa0:asmt:12",
           "type": "cell_of_assessment",
@@ -4224,18 +4257,6 @@
         {
           "src": "protocol12:soa0:cell:12:7",
           "dst": "protocol12:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:12:8",
-          "dst": "protocol12:soa0:asmt:12",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:12:8",
-          "dst": "protocol12:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4258,14 +4279,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:13:8",
+          "src": "protocol12:soa0:cell:13:7",
           "dst": "protocol12:soa0:asmt:13",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:13:8",
-          "dst": "protocol12:soa0:visit:8",
+          "src": "protocol12:soa0:cell:13:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4288,14 +4309,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:14:8",
+          "src": "protocol12:soa0:cell:14:7",
           "dst": "protocol12:soa0:asmt:14",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:14:8",
-          "dst": "protocol12:soa0:visit:8",
+          "src": "protocol12:soa0:cell:14:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4318,38 +4339,38 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:4",
+          "src": "protocol12:soa0:cell:15:3",
           "dst": "protocol12:soa0:asmt:15",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:4",
-          "dst": "protocol12:soa0:visit:4",
+          "src": "protocol12:soa0:cell:15:3",
+          "dst": "protocol12:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:6",
+          "src": "protocol12:soa0:cell:15:5",
           "dst": "protocol12:soa0:asmt:15",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:6",
-          "dst": "protocol12:soa0:visit:6",
+          "src": "protocol12:soa0:cell:15:5",
+          "dst": "protocol12:soa0:visit:5",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:8",
+          "src": "protocol12:soa0:cell:15:7",
           "dst": "protocol12:soa0:asmt:15",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:8",
-          "dst": "protocol12:soa0:visit:8",
+          "src": "protocol12:soa0:cell:15:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4372,14 +4393,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:16:8",
+          "src": "protocol12:soa0:cell:16:7",
           "dst": "protocol12:soa0:asmt:16",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:16:8",
-          "dst": "protocol12:soa0:visit:8",
+          "src": "protocol12:soa0:cell:16:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4402,6 +4423,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:17:2",
+          "dst": "protocol12:soa0:asmt:17",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:17:2",
+          "dst": "protocol12:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:17:3",
           "dst": "protocol12:soa0:asmt:17",
           "type": "cell_of_assessment",
@@ -4414,26 +4447,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:17:4",
+          "src": "protocol12:soa0:cell:17:5",
           "dst": "protocol12:soa0:asmt:17",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:17:4",
-          "dst": "protocol12:soa0:visit:4",
+          "src": "protocol12:soa0:cell:17:5",
+          "dst": "protocol12:soa0:visit:5",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:17:6",
+          "src": "protocol12:soa0:cell:17:7",
           "dst": "protocol12:soa0:asmt:17",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:17:6",
-          "dst": "protocol12:soa0:visit:6",
+          "src": "protocol12:soa0:cell:17:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4446,18 +4479,6 @@
         {
           "src": "protocol12:soa0:cell:17:8",
           "dst": "protocol12:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:17:9",
-          "dst": "protocol12:soa0:asmt:17",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:17:9",
-          "dst": "protocol12:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4480,14 +4501,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:18:8",
+          "src": "protocol12:soa0:cell:18:7",
           "dst": "protocol12:soa0:asmt:18",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:18:8",
-          "dst": "protocol12:soa0:visit:8",
+          "src": "protocol12:soa0:cell:18:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4510,6 +4531,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:19:2",
+          "dst": "protocol12:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:19:2",
+          "dst": "protocol12:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:19:3",
           "dst": "protocol12:soa0:asmt:19",
           "type": "cell_of_assessment",
@@ -4578,18 +4611,6 @@
         {
           "src": "protocol12:soa0:cell:19:8",
           "dst": "protocol12:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:19:9",
-          "dst": "protocol12:soa0:asmt:19",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:19:9",
-          "dst": "protocol12:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4600,6 +4621,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:20:2",
+          "dst": "protocol12:soa0:asmt:20",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:20:2",
+          "dst": "protocol12:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:20:3",
           "dst": "protocol12:soa0:asmt:20",
           "type": "cell_of_assessment",
@@ -4668,18 +4701,6 @@
         {
           "src": "protocol12:soa0:cell:20:8",
           "dst": "protocol12:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:20:9",
-          "dst": "protocol12:soa0:asmt:20",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:20:9",
-          "dst": "protocol12:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4708,26 +4729,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:23:5",
+          "src": "protocol12:soa0:cell:23:4",
           "dst": "protocol12:soa0:asmt:23",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:23:5",
-          "dst": "protocol12:soa0:visit:5",
+          "src": "protocol12:soa0:cell:23:4",
+          "dst": "protocol12:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:23:8",
+          "src": "protocol12:soa0:cell:23:7",
           "dst": "protocol12:soa0:asmt:23",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:23:8",
-          "dst": "protocol12:soa0:visit:8",
+          "src": "protocol12:soa0:cell:23:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4750,14 +4771,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:24:8",
+          "src": "protocol12:soa0:cell:24:7",
           "dst": "protocol12:soa0:asmt:24",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:24:8",
-          "dst": "protocol12:soa0:visit:8",
+          "src": "protocol12:soa0:cell:24:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4780,6 +4801,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:25:2",
+          "dst": "protocol12:soa0:asmt:25",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:25:2",
+          "dst": "protocol12:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:25:3",
           "dst": "protocol12:soa0:asmt:25",
           "type": "cell_of_assessment",
@@ -4836,18 +4869,6 @@
         {
           "src": "protocol12:soa0:cell:25:7",
           "dst": "protocol12:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:25:8",
-          "dst": "protocol12:soa0:asmt:25",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:25:8",
-          "dst": "protocol12:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4870,6 +4891,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:26:2",
+          "dst": "protocol12:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:26:2",
+          "dst": "protocol12:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:26:3",
           "dst": "protocol12:soa0:asmt:26",
           "type": "cell_of_assessment",
@@ -4926,18 +4959,6 @@
         {
           "src": "protocol12:soa0:cell:26:7",
           "dst": "protocol12:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:26:8",
-          "dst": "protocol12:soa0:asmt:26",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:26:8",
-          "dst": "protocol12:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4960,6 +4981,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:27:2",
+          "dst": "protocol12:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:27:2",
+          "dst": "protocol12:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:27:3",
           "dst": "protocol12:soa0:asmt:27",
           "type": "cell_of_assessment",
@@ -5020,18 +5053,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:27:8",
-          "dst": "protocol12:soa0:asmt:27",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:27:8",
-          "dst": "protocol12:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol12:soa0:asmt:28",
           "dst": "protocol12:soa0:cat:21",
           "type": "assessment_in_category",
@@ -5050,26 +5071,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:28:5",
+          "src": "protocol12:soa0:cell:28:4",
           "dst": "protocol12:soa0:asmt:28",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:28:5",
-          "dst": "protocol12:soa0:visit:5",
+          "src": "protocol12:soa0:cell:28:4",
+          "dst": "protocol12:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:28:8",
+          "src": "protocol12:soa0:cell:28:7",
           "dst": "protocol12:soa0:asmt:28",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:28:8",
-          "dst": "protocol12:soa0:visit:8",
+          "src": "protocol12:soa0:cell:28:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5092,26 +5113,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:29:5",
+          "src": "protocol12:soa0:cell:29:4",
           "dst": "protocol12:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:29:5",
-          "dst": "protocol12:soa0:visit:5",
+          "src": "protocol12:soa0:cell:29:4",
+          "dst": "protocol12:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:29:8",
+          "src": "protocol12:soa0:cell:29:7",
           "dst": "protocol12:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:29:8",
-          "dst": "protocol12:soa0:visit:8",
+          "src": "protocol12:soa0:cell:29:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5152,38 +5173,38 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:4",
+          "src": "protocol12:soa0:cell:31:3",
           "dst": "protocol12:soa0:asmt:31",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:4",
-          "dst": "protocol12:soa0:visit:4",
+          "src": "protocol12:soa0:cell:31:3",
+          "dst": "protocol12:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:6",
+          "src": "protocol12:soa0:cell:31:5",
           "dst": "protocol12:soa0:asmt:31",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:6",
-          "dst": "protocol12:soa0:visit:6",
+          "src": "protocol12:soa0:cell:31:5",
+          "dst": "protocol12:soa0:visit:5",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:8",
+          "src": "protocol12:soa0:cell:31:7",
           "dst": "protocol12:soa0:asmt:31",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:8",
-          "dst": "protocol12:soa0:visit:8",
+          "src": "protocol12:soa0:cell:31:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5206,6 +5227,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:32:2",
+          "dst": "protocol12:soa0:asmt:32",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:32:2",
+          "dst": "protocol12:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:32:3",
           "dst": "protocol12:soa0:asmt:32",
           "type": "cell_of_assessment",
@@ -5274,18 +5307,6 @@
         {
           "src": "protocol12:soa0:cell:32:8",
           "dst": "protocol12:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:32:9",
-          "dst": "protocol12:soa0:asmt:32",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:32:9",
-          "dst": "protocol12:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5308,6 +5329,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:33:2",
+          "dst": "protocol12:soa0:asmt:33",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:33:2",
+          "dst": "protocol12:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:33:3",
           "dst": "protocol12:soa0:asmt:33",
           "type": "cell_of_assessment",
@@ -5376,18 +5409,6 @@
         {
           "src": "protocol12:soa0:cell:33:8",
           "dst": "protocol12:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:33:9",
-          "dst": "protocol12:soa0:asmt:33",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:33:9",
-          "dst": "protocol12:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5416,6 +5437,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:35:2",
+          "dst": "protocol12:soa0:asmt:35",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:35:2",
+          "dst": "protocol12:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:35:3",
           "dst": "protocol12:soa0:asmt:35",
           "type": "cell_of_assessment",
@@ -5472,18 +5505,6 @@
         {
           "src": "protocol12:soa0:cell:35:7",
           "dst": "protocol12:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:35:8",
-          "dst": "protocol12:soa0:asmt:35",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:35:8",
-          "dst": "protocol12:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5494,6 +5515,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:36:2",
+          "dst": "protocol12:soa0:asmt:36",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:36:2",
+          "dst": "protocol12:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:36:3",
           "dst": "protocol12:soa0:asmt:36",
           "type": "cell_of_assessment",
@@ -5550,18 +5583,6 @@
         {
           "src": "protocol12:soa0:cell:36:7",
           "dst": "protocol12:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:36:8",
-          "dst": "protocol12:soa0:asmt:36",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:36:8",
-          "dst": "protocol12:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5584,6 +5605,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:37:2",
+          "dst": "protocol12:soa0:asmt:37",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:37:2",
+          "dst": "protocol12:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:37:3",
           "dst": "protocol12:soa0:asmt:37",
           "type": "cell_of_assessment",
@@ -5644,32 +5677,20 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:37:8",
-          "dst": "protocol12:soa0:asmt:37",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:37:8",
-          "dst": "protocol12:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol12:soa0:asmt:38",
           "dst": "protocol12:soa0:cat:21",
           "type": "assessment_in_category",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:38:8",
+          "src": "protocol12:soa0:cell:38:7",
           "dst": "protocol12:soa0:asmt:38",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:38:8",
-          "dst": "protocol12:soa0:visit:8",
+          "src": "protocol12:soa0:cell:38:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5680,14 +5701,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:39:9",
+          "src": "protocol12:soa0:cell:39:8",
           "dst": "protocol12:soa0:asmt:39",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:39:9",
-          "dst": "protocol12:soa0:visit:9",
+          "src": "protocol12:soa0:cell:39:8",
+          "dst": "protocol12:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5701,6 +5722,14 @@
         },
         {
           "src": "protocol12:soa0:fn:4",
+          "dst": "protocol12:soa0:cell:9:2",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:5",
           "dst": "protocol12:soa0:cell:9:3",
           "type": "footnote_annotates",
           "attrs": {
@@ -5732,7 +5761,7 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:5",
+          "src": "protocol12:soa0:fn:6",
           "dst": "protocol12:soa0:cell:9:7",
           "type": "footnote_annotates",
           "attrs": {
@@ -5741,15 +5770,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:9:8",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
-          "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:11:8",
+          "dst": "protocol12:soa0:cell:11:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5765,6 +5786,14 @@
         },
         {
           "src": "protocol12:soa0:fn:4",
+          "dst": "protocol12:soa0:cell:12:2",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:5",
           "dst": "protocol12:soa0:cell:12:3",
           "type": "footnote_annotates",
           "attrs": {
@@ -5796,7 +5825,7 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:5",
+          "src": "protocol12:soa0:fn:6",
           "dst": "protocol12:soa0:cell:12:7",
           "type": "footnote_annotates",
           "attrs": {
@@ -5805,7 +5834,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:12:8",
+          "dst": "protocol12:soa0:cell:13:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5813,15 +5842,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:13:8",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
-          "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:14:8",
+          "dst": "protocol12:soa0:cell:14:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5829,7 +5850,7 @@
         },
         {
           "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:15:4",
+          "dst": "protocol12:soa0:cell:15:3",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5837,7 +5858,7 @@
         },
         {
           "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:15:6",
+          "dst": "protocol12:soa0:cell:15:5",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5845,7 +5866,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:15:8",
+          "dst": "protocol12:soa0:cell:15:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5853,7 +5874,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:16:8",
+          "dst": "protocol12:soa0:cell:16:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5861,6 +5882,14 @@
         },
         {
           "src": "protocol12:soa0:fn:10",
+          "dst": "protocol12:soa0:cell:17:2",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:5",
           "dst": "protocol12:soa0:cell:17:3",
           "type": "footnote_annotates",
           "attrs": {
@@ -5869,15 +5898,7 @@
         },
         {
           "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:17:4",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
-          "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:17:6",
+          "dst": "protocol12:soa0:cell:17:5",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5885,7 +5906,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:17:8",
+          "dst": "protocol12:soa0:cell:17:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5893,7 +5914,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:18:8",
+          "dst": "protocol12:soa0:cell:18:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5910,6 +5931,14 @@
         {
           "src": "protocol12:soa0:fn:7",
           "dst": "protocol12:soa0:cell:19:1",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:7",
+          "dst": "protocol12:soa0:cell:19:2",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5956,14 +5985,6 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:7",
-          "dst": "protocol12:soa0:cell:19:8",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
           "src": "protocol12:soa0:fn:2",
           "dst": "protocol12:soa0:asmt:22",
           "type": "footnote_annotates",
@@ -5973,7 +5994,7 @@
         },
         {
           "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:23:5",
+          "dst": "protocol12:soa0:cell:23:4",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5981,7 +6002,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:23:8",
+          "dst": "protocol12:soa0:cell:23:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5989,7 +6010,7 @@
         },
         {
           "src": "protocol12:soa0:fn:8",
-          "dst": "protocol12:soa0:cell:23:8",
+          "dst": "protocol12:soa0:cell:23:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6005,7 +6026,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:24:8",
+          "dst": "protocol12:soa0:cell:24:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6014,6 +6035,14 @@
         {
           "src": "protocol12:soa0:fn:12",
           "dst": "protocol12:soa0:cell:25:1",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:5",
+          "dst": "protocol12:soa0:cell:25:2",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6052,16 +6081,8 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:25:7",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:25:8",
+          "dst": "protocol12:soa0:cell:25:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6070,6 +6091,14 @@
         {
           "src": "protocol12:soa0:fn:12",
           "dst": "protocol12:soa0:cell:26:1",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:5",
+          "dst": "protocol12:soa0:cell:26:2",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6108,16 +6137,8 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:26:7",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:26:8",
+          "dst": "protocol12:soa0:cell:26:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6126,6 +6147,14 @@
         {
           "src": "protocol12:soa0:fn:12",
           "dst": "protocol12:soa0:cell:27:1",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:5",
+          "dst": "protocol12:soa0:cell:27:2",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6164,16 +6193,8 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:27:7",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:27:8",
+          "dst": "protocol12:soa0:cell:27:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6190,6 +6211,14 @@
         {
           "src": "protocol12:soa0:fn:1",
           "dst": "protocol12:soa0:asmt:34",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:5",
+          "dst": "protocol12:soa0:cell:35:2",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6236,22 +6265,6 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:35:8",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
-          "src": "protocol12:soa0:fn:3",
-          "dst": "protocol12:soa0:asmt:37",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
           "src": "protocol12:soa0:fn:11",
           "dst": "protocol12:soa0:asmt:37",
           "type": "footnote_annotates",
@@ -6269,7 +6282,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:38:8",
+          "dst": "protocol12:soa0:cell:38:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6284,13 +6297,13 @@
   ],
   "stats": [
     {
-      "periods": 4,
-      "visits": 10,
+      "periods": 3,
+      "visits": 9,
       "categories": 3,
       "assessments": 37,
       "cells": 132,
-      "footnotes": 18,
-      "footnote_links": 73,
+      "footnotes": 21,
+      "footnote_links": 72,
       "ambiguous": 0,
       "warnings": 1,
       "conservation": 0

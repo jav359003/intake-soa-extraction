@@ -12,11 +12,6 @@
       "role": "period",
       "cells": [
         {
-          "text": "Study Phase",
-          "span": 1,
-          "markers": []
-        },
-        {
           "text": "Pre-intake Screening",
           "span": 1,
           "markers": []
@@ -57,11 +52,6 @@
       "level": 1,
       "role": "day",
       "cells": [
-        {
-          "text": "Study day",
-          "span": 1,
-          "markers": []
-        },
         {
           "text": "Up to -35",
           "span": 1,
@@ -125,26 +115,16 @@
   "columns": [
     {
       "index": 0,
-      "period": "Study Phase",
-      "visit": null,
-      "day": "Study day",
-      "week": null,
-      "window": null,
-      "markers": [],
-      "label": "Study Phase / Study day"
-    },
-    {
-      "index": 1,
       "period": "Pre-intake Screening",
       "visit": null,
       "day": "Up to -35",
       "week": null,
       "window": null,
       "markers": [],
-      "label": "Pre-intake Screening / Up to -35"
+      "label": "Pre-intake Screening | Up to -35"
     },
     {
-      "index": 2,
+      "index": 1,
       "period": "Intake Screening",
       "visit": null,
       "day": "-15* to -9",
@@ -153,97 +133,97 @@
       "markers": [
         "*"
       ],
-      "label": "Intake Screening / -15* to -9"
+      "label": "Intake Screening | -15* to -9"
     },
     {
-      "index": 3,
+      "index": 2,
       "period": "Screening Infusions",
       "visit": null,
       "day": "-6",
       "week": null,
       "window": null,
       "markers": [],
-      "label": "Screening Infusions / -6"
+      "label": "Screening Infusions | -6"
     },
     {
-      "index": 4,
+      "index": 3,
       "period": "Baseline Infusions",
       "visit": null,
       "day": "-2",
       "week": null,
       "window": null,
       "markers": [],
-      "label": "Baseline Infusions / -2"
+      "label": "Baseline Infusions | -2"
     },
     {
-      "index": 5,
+      "index": 4,
       "period": "Baseline Infusions",
       "visit": null,
       "day": "-1",
       "week": null,
       "window": null,
       "markers": [],
-      "label": "Baseline Infusions / -1"
+      "label": "Baseline Infusions | -1"
     },
     {
-      "index": 6,
+      "index": 5,
       "period": "Treatment Infusions",
       "visit": null,
       "day": "7",
       "week": null,
       "window": null,
       "markers": [],
-      "label": "Treatment Infusions / 7"
+      "label": "Treatment Infusions | 7"
     },
     {
-      "index": 7,
+      "index": 6,
       "period": "Treatment Infusions",
       "visit": null,
       "day": "8",
       "week": null,
       "window": null,
       "markers": [],
-      "label": "Treatment Infusions / 8"
+      "label": "Treatment Infusions | 8"
     },
     {
-      "index": 8,
+      "index": 7,
       "period": "Treatment Infusions",
       "visit": null,
       "day": "12",
       "week": null,
       "window": null,
       "markers": [],
-      "label": "Treatment Infusions / 12"
+      "label": "Treatment Infusions | 12"
     },
     {
-      "index": 9,
+      "index": 8,
       "period": "Treatment Infusions",
       "visit": null,
       "day": "13",
       "week": null,
       "window": null,
       "markers": [],
-      "label": "Treatment Infusions / 13"
+      "label": "Treatment Infusions | 13"
     },
     {
-      "index": 10,
+      "index": 9,
       "period": "Dis-charge",
       "visit": null,
       "day": "17",
       "week": null,
       "window": null,
       "markers": [],
-      "label": "Dis-charge / 17"
+      "label": "Dis-charge | 17"
     },
     {
-      "index": 11,
+      "index": 10,
       "period": "Follow-up",
       "visit": null,
       "day": "31",
       "week": null,
       "window": null,
       "markers": [],
-      "label": "Follow-up / 31"
+      "label": "Follow-up | 31"
     }
   ],
   "rows": [
@@ -255,8 +235,15 @@
       "markers": [],
       "cells": [
         {
-          "column": 1,
+          "column": 0,
           "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "",
           "markers": [],
           "shaded": true,
           "ambiguous": false
@@ -271,8 +258,15 @@
       "markers": [],
       "cells": [
         {
-          "column": 1,
+          "column": 0,
           "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "",
           "markers": [],
           "shaded": true,
           "ambiguous": false
@@ -287,14 +281,14 @@
       "markers": [],
       "cells": [
         {
-          "column": 1,
+          "column": 0,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
-          "column": 11,
+          "column": 10,
           "raw": "",
           "markers": [],
           "shaded": true,
@@ -310,7 +304,7 @@
       "markers": [],
       "cells": [
         {
-          "column": 2,
+          "column": 1,
           "raw": "X",
           "markers": [],
           "shaded": false,
@@ -326,10 +320,17 @@
       "markers": [],
       "cells": [
         {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
           "column": 1,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
@@ -390,13 +391,6 @@
         },
         {
           "column": 10,
-          "raw": "X",
-          "markers": [],
-          "shaded": false,
-          "ambiguous": false
-        },
-        {
-          "column": 11,
           "raw": "X",
           "markers": [],
           "shaded": false,
@@ -412,10 +406,10 @@
       "markers": [],
       "cells": [
         {
-          "column": 1,
+          "column": 0,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         }
       ]
@@ -428,14 +422,14 @@
       "markers": [],
       "cells": [
         {
-          "column": 1,
+          "column": 0,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
-          "column": 11,
+          "column": 10,
           "raw": "",
           "markers": [],
           "shaded": true,
@@ -451,30 +445,7 @@
       "markers": [],
       "cells": [
         {
-          "column": 1,
-          "raw": "X",
-          "markers": [],
-          "shaded": true,
-          "ambiguous": false
-        },
-        {
-          "column": 11,
-          "raw": "X",
-          "markers": [],
-          "shaded": true,
-          "ambiguous": false
-        }
-      ]
-    },
-    {
-      "index": 8,
-      "kind": "assessment",
-      "label": "Physical Exam (brief)",
-      "indent": 0,
-      "markers": [],
-      "cells": [
-        {
-          "column": 2,
+          "column": 0,
           "raw": "X",
           "markers": [],
           "shaded": false,
@@ -490,6 +461,29 @@
       ]
     },
     {
+      "index": 8,
+      "kind": "assessment",
+      "label": "Physical Exam (brief)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
       "index": 9,
       "kind": "assessment",
       "label": "ASI-Lite",
@@ -497,7 +491,7 @@
       "markers": [],
       "cells": [
         {
-          "column": 2,
+          "column": 1,
           "raw": "X",
           "markers": [],
           "shaded": false,
@@ -513,10 +507,17 @@
       "markers": [],
       "cells": [
         {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
           "column": 1,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
@@ -577,13 +578,6 @@
         },
         {
           "column": 10,
-          "raw": "X",
-          "markers": [],
-          "shaded": false,
-          "ambiguous": false
-        },
-        {
-          "column": 11,
           "raw": "X",
           "markers": [],
           "shaded": false,
@@ -601,14 +595,21 @@
       ],
       "cells": [
         {
-          "column": 1,
+          "column": 0,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
-          "column": 2,
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
           "raw": "X",
           "markers": [],
           "shaded": false,
@@ -627,13 +628,6 @@
           "markers": [],
           "shaded": false,
           "ambiguous": false
-        },
-        {
-          "column": 11,
-          "raw": "X",
-          "markers": [],
-          "shaded": true,
-          "ambiguous": false
         }
       ]
     },
@@ -645,10 +639,17 @@
       "markers": [],
       "cells": [
         {
-          "column": 1,
+          "column": 0,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
           "ambiguous": false
         },
         {
@@ -656,13 +657,6 @@
           "raw": "X",
           "markers": [],
           "shaded": false,
-          "ambiguous": false
-        },
-        {
-          "column": 11,
-          "raw": "X",
-          "markers": [],
-          "shaded": true,
           "ambiguous": false
         }
       ]
@@ -677,14 +671,21 @@
       ],
       "cells": [
         {
-          "column": 1,
+          "column": 0,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
-          "column": 2,
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
           "raw": "X",
           "markers": [],
           "shaded": false,
@@ -695,13 +696,6 @@
           "raw": "X",
           "markers": [],
           "shaded": false,
-          "ambiguous": false
-        },
-        {
-          "column": 11,
-          "raw": "X",
-          "markers": [],
-          "shaded": true,
           "ambiguous": false
         }
       ]
@@ -714,10 +708,10 @@
       "markers": [],
       "cells": [
         {
-          "column": 1,
+          "column": 0,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         }
       ]
@@ -730,14 +724,14 @@
       "markers": [],
       "cells": [
         {
-          "column": 1,
+          "column": 0,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
-          "column": 11,
+          "column": 10,
           "raw": "",
           "markers": [],
           "shaded": true,
@@ -753,14 +747,21 @@
       "markers": [],
       "cells": [
         {
-          "column": 1,
+          "column": 0,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
-          "column": 2,
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
           "raw": "X",
           "markers": [],
           "shaded": false,
@@ -771,13 +772,6 @@
           "raw": "X",
           "markers": [],
           "shaded": false,
-          "ambiguous": false
-        },
-        {
-          "column": 11,
-          "raw": "X",
-          "markers": [],
-          "shaded": true,
           "ambiguous": false
         }
       ]
@@ -790,8 +784,8 @@
       "markers": [],
       "cells": [
         {
-          "column": 2,
-          "raw": "X",
+          "column": 1,
+          "raw": "X^a",
           "markers": [
             "a"
           ],
@@ -810,7 +804,7 @@
       ],
       "cells": [
         {
-          "column": 11,
+          "column": 10,
           "raw": "",
           "markers": [],
           "shaded": true,
@@ -826,12 +820,19 @@
       "markers": [],
       "cells": [
         {
-          "column": 6,
-          "raw": "X",
+          "column": 5,
+          "raw": "X^b",
           "markers": [
             "b"
           ],
           "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
           "ambiguous": false
         }
       ]
@@ -844,8 +845,8 @@
       "markers": [],
       "cells": [
         {
-          "column": 7,
-          "raw": "X",
+          "column": 6,
+          "raw": "X^f",
           "markers": [
             "f"
           ],
@@ -853,14 +854,14 @@
           "ambiguous": false
         },
         {
-          "column": 9,
+          "column": 8,
           "raw": "X",
           "markers": [],
           "shaded": false,
           "ambiguous": false
         },
         {
-          "column": 11,
+          "column": 10,
           "raw": "",
           "markers": [],
           "shaded": true,
@@ -876,10 +877,17 @@
       "markers": [],
       "cells": [
         {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
           "column": 1,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
@@ -944,13 +952,6 @@
           "markers": [],
           "shaded": false,
           "ambiguous": false
-        },
-        {
-          "column": 11,
-          "raw": "X",
-          "markers": [],
-          "shaded": false,
-          "ambiguous": false
         }
       ]
     },
@@ -962,52 +963,52 @@
       "markers": [],
       "cells": [
         {
-          "column": 3,
+          "column": 2,
           "raw": "1&2",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "3",
+          "markers": [],
+          "shaded": false,
           "ambiguous": false
         },
         {
           "column": 4,
-          "raw": "3",
+          "raw": "4",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
           "column": 5,
-          "raw": "4",
+          "raw": "5",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
           "column": 6,
-          "raw": "5",
+          "raw": "6",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
           "column": 7,
-          "raw": "6",
+          "raw": "7",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
           "column": 8,
-          "raw": "7",
-          "markers": [],
-          "shaded": true,
-          "ambiguous": false
-        },
-        {
-          "column": 9,
           "raw": "8",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         }
       ]
@@ -1020,14 +1021,14 @@
       "markers": [],
       "cells": [
         {
-          "column": 3,
+          "column": 2,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
-          "column": 11,
+          "column": 10,
           "raw": "",
           "markers": [],
           "shaded": true,
@@ -1043,6 +1044,43 @@
       "markers": [],
       "cells": [
         {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "assessment",
+      "label": "40 mg cocaine i.v.",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
           "column": 4,
           "raw": "X",
           "markers": [],
@@ -1062,39 +1100,9 @@
           "markers": [],
           "shaded": false,
           "ambiguous": false
-        }
-      ]
-    },
-    {
-      "index": 25,
-      "kind": "assessment",
-      "label": "40 mg cocaine i.v.",
-      "indent": 0,
-      "markers": [],
-      "cells": [
-        {
-          "column": 5,
-          "raw": "X",
-          "markers": [],
-          "shaded": false,
-          "ambiguous": false
         },
         {
-          "column": 7,
-          "raw": "X",
-          "markers": [],
-          "shaded": false,
-          "ambiguous": false
-        },
-        {
-          "column": 9,
-          "raw": "X",
-          "markers": [],
-          "shaded": false,
-          "ambiguous": false
-        },
-        {
-          "column": 11,
+          "column": 10,
           "raw": "",
           "markers": [],
           "shaded": true,
@@ -1110,11 +1118,18 @@
       "markers": [],
       "cells": [
         {
-          "column": 2,
-          "raw": "X",
+          "column": 1,
+          "raw": "X^c",
           "markers": [
             "c"
           ],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
           "shaded": false,
           "ambiguous": false
         },
@@ -1161,10 +1176,10 @@
           "ambiguous": false
         },
         {
-          "column": 9,
-          "raw": "X",
+          "column": 10,
+          "raw": "",
           "markers": [],
-          "shaded": false,
+          "shaded": true,
           "ambiguous": false
         }
       ]
@@ -1177,12 +1192,19 @@
       "markers": [],
       "cells": [
         {
-          "column": 2,
-          "raw": "X",
+          "column": 1,
+          "raw": "X^d",
           "markers": [
             "d"
           ],
           "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
           "ambiguous": false
         }
       ]
@@ -1195,10 +1217,17 @@
       "markers": [],
       "cells": [
         {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
           "column": 3,
           "raw": "X",
           "markers": [],
-          "shaded": true,
+          "shaded": false,
           "ambiguous": false
         },
         {
@@ -1237,14 +1266,7 @@
           "ambiguous": false
         },
         {
-          "column": 9,
-          "raw": "X",
-          "markers": [],
-          "shaded": false,
-          "ambiguous": false
-        },
-        {
-          "column": 11,
+          "column": 10,
           "raw": "",
           "markers": [],
           "shaded": true,
@@ -1260,11 +1282,18 @@
       "markers": [],
       "cells": [
         {
-          "column": 2,
-          "raw": "X",
+          "column": 1,
+          "raw": "X^e",
           "markers": [
             "e"
           ],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
           "shaded": false,
           "ambiguous": false
         },
@@ -1311,10 +1340,10 @@
           "ambiguous": false
         },
         {
-          "column": 9,
-          "raw": "X",
+          "column": 10,
+          "raw": "",
           "markers": [],
-          "shaded": false,
+          "shaded": true,
           "ambiguous": false
         }
       ]
@@ -1327,28 +1356,28 @@
       "markers": [],
       "cells": [
         {
-          "column": 5,
+          "column": 4,
           "raw": "X",
           "markers": [],
           "shaded": false,
           "ambiguous": false
         },
         {
-          "column": 7,
+          "column": 6,
           "raw": "X",
           "markers": [],
           "shaded": false,
           "ambiguous": false
         },
         {
-          "column": 9,
+          "column": 8,
           "raw": "X",
           "markers": [],
           "shaded": false,
           "ambiguous": false
         },
         {
-          "column": 11,
+          "column": 10,
           "raw": "",
           "markers": [],
           "shaded": true,
@@ -1359,5 +1388,5 @@
   ],
   "footnotes": [],
   "unresolved": [],
-  "_model": "gemini-3.6-flash"
+  "_model": "gemini-3.5-flash"
 }

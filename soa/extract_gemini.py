@@ -40,7 +40,10 @@ def _cache_key(pdf_path: str, page_no: int, model: str) -> pathlib.Path:
     h.update(pathlib.Path(pdf_path).read_bytes()[:1_000_000])
     h.update(f"|{pathlib.Path(pdf_path).stat().st_size}|{page_no}|{model}|".encode())
     h.update((SYSTEM + PROMPT).encode())
-    return CACHE / f"{pathlib.Path(pdf_path).stem}_p{page_no}_{h.hexdigest()[:16]}.json"
+    # Content-addressed, not name-addressed. The same PDF uploaded through the
+    # UI lands in a temp file with a different name; keying on the name meant a
+    # re-upload re-paid for every page it had already extracted.
+    return CACHE / f"p{page_no}_{h.hexdigest()[:20]}.json"
 
 
 def extract_page(pdf_path: str, page_no: int, span: list[int] | None = None,

@@ -109,7 +109,7 @@
       "week": "-2",
       "window": null,
       "markers": [],
-      "label": "VISIT 1 / WEEK -2"
+      "label": "Visit 1 / Week -2"
     },
     {
       "index": 1,
@@ -119,7 +119,7 @@
       "week": "-.3",
       "window": null,
       "markers": [],
-      "label": "VISIT 2 / WEEK -.3"
+      "label": "Visit 2 / Week -.3"
     },
     {
       "index": 2,
@@ -129,7 +129,7 @@
       "week": "0",
       "window": null,
       "markers": [],
-      "label": "VISIT 3 / WEEK 0"
+      "label": "Visit 3 / Week 0"
     },
     {
       "index": 3,
@@ -139,7 +139,7 @@
       "week": "2",
       "window": null,
       "markers": [],
-      "label": "VISIT 4 / WEEK 2"
+      "label": "Visit 4 / Week 2"
     },
     {
       "index": 4,
@@ -149,7 +149,7 @@
       "week": "4",
       "window": null,
       "markers": [],
-      "label": "VISIT 5 / WEEK 4"
+      "label": "Visit 5 / Week 4"
     },
     {
       "index": 5,
@@ -159,7 +159,7 @@
       "week": "6",
       "window": null,
       "markers": [],
-      "label": "VISIT 7 / WEEK 6"
+      "label": "Visit 7 / Week 6"
     },
     {
       "index": 6,
@@ -169,7 +169,7 @@
       "week": "8",
       "window": null,
       "markers": [],
-      "label": "VISIT 8 / WEEK 8"
+      "label": "Visit 8 / Week 8"
     }
   ],
   "rows": [
@@ -486,7 +486,7 @@
     {
       "index": 15,
       "kind": "assessment",
-      "label": "CT Scan (if not within\nlast year and patient passes\nall other screens)",
+      "label": "CT Scan (if not within last year and patient passes all other screens)",
       "indent": 0,
       "markers": [],
       "cells": [
@@ -620,7 +620,7 @@
     {
       "index": 19,
       "kind": "assessment",
-      "label": "Plasma Specimen\n(Xanomeline)",
+      "label": "Plasma Specimen (Xanomeline)",
       "indent": 0,
       "markers": [],
       "cells": [
@@ -734,7 +734,9 @@
         {
           "column": 0,
           "raw": "P",
-          "markers": [],
+          "markers": [
+            "P"
+          ],
           "shaded": false,
           "ambiguous": false
         },
@@ -764,7 +766,9 @@
         {
           "column": 0,
           "raw": "P",
-          "markers": [],
+          "markers": [
+            "P"
+          ],
           "shaded": false,
           "ambiguous": false
         },
@@ -794,7 +798,9 @@
         {
           "column": 0,
           "raw": "P",
-          "markers": [],
+          "markers": [
+            "P"
+          ],
           "shaded": false,
           "ambiguous": false
         },
@@ -824,7 +830,9 @@
         {
           "column": 0,
           "raw": "P",
-          "markers": [],
+          "markers": [
+            "P"
+          ],
           "shaded": false,
           "ambiguous": false
         },
@@ -948,6 +956,33 @@
           "kind": "cell",
           "row": 26,
           "column": 6
+        }
+      ]
+    },
+    {
+      "marker": "P",
+      "text": "Practice only - It is recommended that a sampling of the CIBIC+, ADAS-Cog, DAD, and NPI-X be administered at Visit 1. Data from this sampling would not be considered as study data and would not be collected.",
+      "appears_complete": true,
+      "attaches_to": [
+        {
+          "kind": "cell",
+          "row": 23,
+          "column": 0
+        },
+        {
+          "kind": "cell",
+          "row": 24,
+          "column": 0
+        },
+        {
+          "kind": "cell",
+          "row": 25,
+          "column": 0
+        },
+        {
+          "kind": "cell",
+          "row": 26,
+          "column": 0
         }
       ]
     }
