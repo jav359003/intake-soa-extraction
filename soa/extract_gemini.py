@@ -30,8 +30,8 @@ MODEL = "gemini-3.7-flash"
 # the model that actually answered is recorded per page so the benchmark never
 # attributes a result to the wrong model.
 FALLBACKS = ["gemini-3.7-flash", "gemini-3.6-flash", "gemini-3.5-flash",
-             "gemini-3-flash-preview", "gemini-2.5-flash"]
-RETRIES = 4
+             "gemini-3-flash-preview"]
+RETRIES = 3
 
 
 def _cache_key(pdf_path: str, page_no: int, model: str) -> pathlib.Path:
@@ -93,29 +93,44 @@ def extract_page(pdf_path: str, page_no: int, span: list[int] | None = None,
             except Exception as e:                      # noqa: BLE001
                 last = e
                 code = getattr(e, "code", None) or getattr(e, "status_code", None)
-                if code == 404:
-                    break                               # wrong id, try next model
-                if code not in (429, 500, 503, None):
+                if code in (404, 429):
+                    # 404: model id not served. 429: daily free-tier quota for
+                    # this model is spent. Neither improves by waiting, so move
+                    # down the chain instead of burning the run on retries.
+                    break
+                if code not in (500, 503, None):
                     raise
                 time.sleep(min(2 ** attempt + random.random(), 20))
                 continue
 
-            # A 200 with no text is not success. It happens when the output
-            # budget is exhausted or the response is filtered, and treating it
-            # as an answer deletes a page of the table without a word.
-            if (r.text or "").strip():
-                resp, used = r, candidate
-                break
-            last = (f"empty response (finish_reason="
-                    f"{getattr((r.candidates or [None])[0], 'finish_reason', '?')}, "
-                    f"feedback={getattr(r, 'prompt_feedback', None)})")
-            time.sleep(min(2 ** attempt + random.random(), 20))
+            # A 200 with no text is not success, and neither is a 200 whose
+            # body will not parse. Both delete a page of the table without a
+            # word if accepted.
+            body = (r.text or "").strip()
+            if not body:
+                last = (f"empty response (finish_reason="
+                        f"{getattr((r.candidates or [None])[0], 'finish_reason', '?')})")
+                time.sleep(min(2 ** attempt + random.random(), 20))
+                continue
+            try:
+                json.loads(_strip_fence(body))
+            except json.JSONDecodeError as e:
+                last = (f"unparseable response from {candidate} "
+                        f"({len(body)} chars, finish_reason="
+                        f"{getattr((r.candidates or [None])[0], 'finish_reason', '?')}): {e}")
+                time.sleep(min(2 ** attempt + random.random(), 20))
+                continue
+            resp, used = r, candidate
+            break
         if resp is not None:
             break
     if resp is None:
         raise RuntimeError(
             f"Gemini produced no usable response for {pathlib.Path(pdf_path).name} "
-            f"p{page_no} after trying {order}: {last}")
+            f"p{page_no} after trying {order}. Last error: {last}. If this reads "
+            f"RESOURCE_EXHAUSTED, the free tier allows 20 requests per model per "
+            f"day and the quota is spent -- cached pages still work, and the rest "
+            f"resume when it resets.")
 
     text = resp.text or ""
     try:

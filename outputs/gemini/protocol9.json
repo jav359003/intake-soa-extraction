@@ -1702,7 +1702,7 @@
         {
           "id": "protocol9:soa0:asmt:20",
           "type": "assessment",
-          "label": "•Modified Himmelsbach (MHOWS) (13)\nPeak Effect Detox/Med Phase",
+          "label": "•Modified Himmelsbach (MHOWS) (13)",
           "attrs": {
             "indent": 1,
             "markers": []
@@ -1714,13 +1714,13 @@
               "source": "gemini"
             }
           ],
-          "ambiguous": false,
+          "ambiguous": true,
           "note": ""
         },
         {
           "id": "protocol9:soa0:asmt:21",
           "type": "assessment",
-          "label": "•Objective Opiate Withdrawal Scale (15)\n(OOWS Handlesman) (1000h)",
+          "label": "Peak Effect Detox/Med Phase",
           "attrs": {
             "indent": 1,
             "markers": []
@@ -1732,193 +1732,13 @@
               "source": "gemini"
             }
           ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:21:1",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:21:2",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:21:3",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:21:4",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:21:5",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:21:6",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:21:7",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:21:8",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:21:9",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:21:10",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
+          "ambiguous": true,
+          "note": "recovered from a row label that had several rows merged into it"
         },
         {
           "id": "protocol9:soa0:asmt:22",
           "type": "assessment",
-          "label": "•Short Opiate Withdrawal Scale (16)\n(SOWS Gossop) (1000h)",
+          "label": "•Objective Opiate Withdrawal Scale (15) (OOWS Handlesman) (1000h)",
           "attrs": {
             "indent": 1,
             "markers": []
@@ -2116,9 +1936,63 @@
         {
           "id": "protocol9:soa0:asmt:23",
           "type": "assessment",
-          "label": "•Modified Clinical Global Impressions Scale -\nPatient (17) (NIMH MCGI) ( 1000h)",
+          "label": "•Short Opiate Withdrawal Scale (16) (SOWS Gossop) (1000h)",
           "attrs": {
             "indent": 1,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:23:1",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:23:2",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:23:3",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
             "markers": []
           },
           "provenance": [
@@ -2260,7 +2134,7 @@
         {
           "id": "protocol9:soa0:asmt:24",
           "type": "assessment",
-          "label": "•Modified Clinical Global Impressions Scale -\nRater (18) (NIMH MCGI) (1000h)",
+          "label": "•Modified Clinical Global Impressions Scale - Patient (17) (NIMH MCGI) ( 1000h)",
           "attrs": {
             "indent": 1,
             "markers": []
@@ -2404,63 +2278,9 @@
         {
           "id": "protocol9:soa0:asmt:25",
           "type": "assessment",
-          "label": "•Subjective Opiate Withdrawal Scale (19)\n(SOWS Handlesman) (1000h)",
+          "label": "•Modified Clinical Global Impressions Scale - Rater (18) (NIMH MCGI) (1000h)",
           "attrs": {
             "indent": 1,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:25:1",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:25:2",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:25:3",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
             "markers": []
           },
           "provenance": [
@@ -2602,7 +2422,7 @@
         {
           "id": "protocol9:soa0:asmt:26",
           "type": "assessment",
-          "label": "•Visual Analog Scale (VAS-E) (20)– Efficacy of\nMedication for Reducing Withdrawal Sickness\n(1000h)",
+          "label": "•Subjective Opiate Withdrawal Scale (19) (SOWS Handlesman) (1000h)",
           "attrs": {
             "indent": 1,
             "markers": []
@@ -2619,6 +2439,24 @@
         },
         {
           "id": "protocol9:soa0:cell:26:1",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:26:2",
           "type": "cell",
           "label": "1X",
           "attrs": {
@@ -2672,6 +2510,24 @@
           "note": ""
         },
         {
+          "id": "protocol9:soa0:cell:26:5",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
           "id": "protocol9:soa0:cell:26:6",
           "type": "cell",
           "label": "1X",
@@ -2690,7 +2546,43 @@
           "note": ""
         },
         {
+          "id": "protocol9:soa0:cell:26:7",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
           "id": "protocol9:soa0:cell:26:8",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:26:9",
           "type": "cell",
           "label": "1X",
           "attrs": {
@@ -2728,9 +2620,9 @@
         {
           "id": "protocol9:soa0:asmt:27",
           "type": "assessment",
-          "label": "Medication Administration/Concomitant\nMedications (21)",
+          "label": "•Visual Analog Scale (VAS-E) (20)– Efficacy of",
           "attrs": {
-            "indent": 0,
+            "indent": 1,
             "markers": []
           },
           "provenance": [
@@ -2740,29 +2632,11 @@
               "source": "gemini"
             }
           ],
-          "ambiguous": false,
+          "ambiguous": true,
           "note": ""
         },
         {
           "id": "protocol9:soa0:cell:27:1",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:27:2",
           "type": "cell",
           "label": "1X",
           "attrs": {
@@ -2816,43 +2690,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:27:5",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol9:soa0:cell:27:6",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:27:7",
           "type": "cell",
           "label": "1X",
           "attrs": {
@@ -2888,43 +2726,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:27:9",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol9:soa0:cell:27:10",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 27,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:27:11",
           "type": "cell",
           "label": "1X",
           "attrs": {
@@ -2944,7 +2746,259 @@
         {
           "id": "protocol9:soa0:asmt:28",
           "type": "assessment",
-          "label": "Drop Out Day (cf. End of Study Form (31)\n(Reason for Drop Out)",
+          "label": "Medication for Reducing Withdrawal Sickness (1000h)",
+          "attrs": {
+            "indent": 1,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": true,
+          "note": "recovered from a row label that had several rows merged into it"
+        },
+        {
+          "id": "protocol9:soa0:asmt:29",
+          "type": "assessment",
+          "label": "Medication Administration/Concomitant",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:29:1",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:29:2",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:29:3",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:29:4",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:29:5",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:29:6",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:29:7",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:29:8",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:29:9",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:29:10",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:29:11",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:asmt:30",
+          "type": "assessment",
+          "label": "Medications (21)",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 27,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": true,
+          "note": "recovered from a row label that had several rows merged into it"
+        },
+        {
+          "id": "protocol9:soa0:asmt:31",
+          "type": "assessment",
+          "label": "Drop Out Day (cf. End of Study Form (31) (Reason for Drop Out)",
           "attrs": {
             "indent": 0,
             "markers": []
@@ -2960,7 +3014,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:28:1",
+          "id": "protocol9:soa0:cell:31:1",
           "type": "cell",
           "label": "",
           "attrs": {
@@ -2978,7 +3032,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:28:2",
+          "id": "protocol9:soa0:cell:31:2",
           "type": "cell",
           "label": "",
           "attrs": {
@@ -2996,7 +3050,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:28:3",
+          "id": "protocol9:soa0:cell:31:3",
           "type": "cell",
           "label": "",
           "attrs": {
@@ -3014,7 +3068,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:28:4",
+          "id": "protocol9:soa0:cell:31:4",
           "type": "cell",
           "label": "",
           "attrs": {
@@ -3032,7 +3086,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:28:5",
+          "id": "protocol9:soa0:cell:31:5",
           "type": "cell",
           "label": "",
           "attrs": {
@@ -3050,7 +3104,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:28:6",
+          "id": "protocol9:soa0:cell:31:6",
           "type": "cell",
           "label": "",
           "attrs": {
@@ -3068,7 +3122,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:28:7",
+          "id": "protocol9:soa0:cell:31:7",
           "type": "cell",
           "label": "",
           "attrs": {
@@ -3086,7 +3140,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:28:8",
+          "id": "protocol9:soa0:cell:31:8",
           "type": "cell",
           "label": "",
           "attrs": {
@@ -3104,7 +3158,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:28:9",
+          "id": "protocol9:soa0:cell:31:9",
           "type": "cell",
           "label": "",
           "attrs": {
@@ -3122,7 +3176,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:28:10",
+          "id": "protocol9:soa0:cell:31:10",
           "type": "cell",
           "label": "",
           "attrs": {
@@ -3140,7 +3194,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:28:11",
+          "id": "protocol9:soa0:cell:31:11",
           "type": "cell",
           "label": "",
           "attrs": {
@@ -3158,7 +3212,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cat:29",
+          "id": "protocol9:soa0:cat:32",
           "type": "category",
           "label": "Abuse Potential Assessment:",
           "attrs": {
@@ -3175,7 +3229,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:asmt:30",
+          "id": "protocol9:soa0:asmt:33",
           "type": "assessment",
           "label": "Addiction Research Center Inventory (22) - (ARCI-MBG) (1000h)",
           "attrs": {
@@ -3193,422 +3247,9 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:cell:30:0",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:30:1",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:30:2",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:30:3",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:30:4",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:30:5",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:30:6",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:30:7",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:30:8",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:30:9",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:asmt:31",
-          "type": "assessment",
-          "label": "Visual Analog Scale (VAS-High)(23) (1000h)",
-          "attrs": {
-            "indent": 1,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:31:0",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:31:1",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:31:2",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:31:3",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:31:4",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:31:5",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:31:6",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:31:7",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:31:8",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:31:9",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cat:32",
-          "type": "category",
-          "label": "Safety Measures:",
-          "attrs": {
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:asmt:33",
-          "type": "assessment",
-          "label": "(Sitting) Vital Signs (24, 33)\n(0800, 1000, 1100, 1300, 1800 2300h and at 0800 at day 11)",
-          "attrs": {
-            "indent": 1,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol9:soa0:cell:33:0",
           "type": "cell",
-          "label": "6X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3626,7 +3267,7 @@
         {
           "id": "protocol9:soa0:cell:33:1",
           "type": "cell",
-          "label": "6X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3644,7 +3285,7 @@
         {
           "id": "protocol9:soa0:cell:33:2",
           "type": "cell",
-          "label": "6X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3662,7 +3303,7 @@
         {
           "id": "protocol9:soa0:cell:33:3",
           "type": "cell",
-          "label": "6X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3680,7 +3321,7 @@
         {
           "id": "protocol9:soa0:cell:33:4",
           "type": "cell",
-          "label": "6X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3698,7 +3339,7 @@
         {
           "id": "protocol9:soa0:cell:33:5",
           "type": "cell",
-          "label": "6X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3716,7 +3357,7 @@
         {
           "id": "protocol9:soa0:cell:33:6",
           "type": "cell",
-          "label": "6X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3734,7 +3375,7 @@
         {
           "id": "protocol9:soa0:cell:33:7",
           "type": "cell",
-          "label": "6X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3752,7 +3393,7 @@
         {
           "id": "protocol9:soa0:cell:33:8",
           "type": "cell",
-          "label": "6X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3769,24 +3410,6 @@
         },
         {
           "id": "protocol9:soa0:cell:33:9",
-          "type": "cell",
-          "label": "6X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:33:10",
           "type": "cell",
           "label": "1X",
           "attrs": {
@@ -3806,7 +3429,7 @@
         {
           "id": "protocol9:soa0:asmt:34",
           "type": "assessment",
-          "label": "Orthostatic (Standing) Vital Signs (24,33)\n(800, 1100, 1300, 1800, 2300 and only at 0800 at day 11)",
+          "label": "Visual Analog Scale (VAS-High)(23) (1000h)",
           "attrs": {
             "indent": 1,
             "markers": []
@@ -3824,7 +3447,7 @@
         {
           "id": "protocol9:soa0:cell:34:0",
           "type": "cell",
-          "label": "5X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3842,7 +3465,7 @@
         {
           "id": "protocol9:soa0:cell:34:1",
           "type": "cell",
-          "label": "5X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3860,7 +3483,7 @@
         {
           "id": "protocol9:soa0:cell:34:2",
           "type": "cell",
-          "label": "5X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3878,7 +3501,7 @@
         {
           "id": "protocol9:soa0:cell:34:3",
           "type": "cell",
-          "label": "5X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3896,7 +3519,7 @@
         {
           "id": "protocol9:soa0:cell:34:4",
           "type": "cell",
-          "label": "5X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3914,7 +3537,7 @@
         {
           "id": "protocol9:soa0:cell:34:5",
           "type": "cell",
-          "label": "5X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3932,7 +3555,7 @@
         {
           "id": "protocol9:soa0:cell:34:6",
           "type": "cell",
-          "label": "5X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3950,7 +3573,7 @@
         {
           "id": "protocol9:soa0:cell:34:7",
           "type": "cell",
-          "label": "5X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3968,7 +3591,7 @@
         {
           "id": "protocol9:soa0:cell:34:8",
           "type": "cell",
-          "label": "5X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -3986,24 +3609,6 @@
         {
           "id": "protocol9:soa0:cell:34:9",
           "type": "cell",
-          "label": "5X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:34:10",
-          "type": "cell",
           "label": "1X",
           "attrs": {
             "shaded": true,
@@ -4020,65 +3625,10 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:asmt:35",
-          "type": "assessment",
-          "label": "Electrocardiogram (25) (1300 to 1430h)",
+          "id": "protocol9:soa0:cat:35",
+          "type": "category",
+          "label": "Safety Measures:",
           "attrs": {
-            "indent": 1,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:35:0",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:35:5",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:cell:35:9",
-          "type": "cell",
-          "label": "1X",
-          "attrs": {
-            "shaded": true,
             "markers": []
           },
           "provenance": [
@@ -4094,7 +3644,7 @@
         {
           "id": "protocol9:soa0:asmt:36",
           "type": "assessment",
-          "label": "Adverse Events & Abnormal Clinical Signs:\n(26) (1000h)",
+          "label": "(Sitting) Vital Signs (24, 33) (0800, 1000, 1100, 1300, 1800 2300h and at 0800 at day 11)",
           "attrs": {
             "indent": 1,
             "markers": []
@@ -4112,7 +3662,7 @@
         {
           "id": "protocol9:soa0:cell:36:0",
           "type": "cell",
-          "label": "1X",
+          "label": "6X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4130,7 +3680,7 @@
         {
           "id": "protocol9:soa0:cell:36:1",
           "type": "cell",
-          "label": "1X",
+          "label": "6X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4148,7 +3698,7 @@
         {
           "id": "protocol9:soa0:cell:36:2",
           "type": "cell",
-          "label": "1X",
+          "label": "6X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4166,7 +3716,7 @@
         {
           "id": "protocol9:soa0:cell:36:3",
           "type": "cell",
-          "label": "1X",
+          "label": "6X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4184,7 +3734,7 @@
         {
           "id": "protocol9:soa0:cell:36:4",
           "type": "cell",
-          "label": "1X",
+          "label": "6X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4202,7 +3752,7 @@
         {
           "id": "protocol9:soa0:cell:36:5",
           "type": "cell",
-          "label": "1X",
+          "label": "6X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4220,7 +3770,7 @@
         {
           "id": "protocol9:soa0:cell:36:6",
           "type": "cell",
-          "label": "1X",
+          "label": "6X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4238,7 +3788,7 @@
         {
           "id": "protocol9:soa0:cell:36:7",
           "type": "cell",
-          "label": "1X",
+          "label": "6X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4256,7 +3806,7 @@
         {
           "id": "protocol9:soa0:cell:36:8",
           "type": "cell",
-          "label": "1X",
+          "label": "6X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4274,7 +3824,7 @@
         {
           "id": "protocol9:soa0:cell:36:9",
           "type": "cell",
-          "label": "1X",
+          "label": "6X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4310,7 +3860,7 @@
         {
           "id": "protocol9:soa0:asmt:37",
           "type": "assessment",
-          "label": "Tobacco Withdrawal Scale (27) (1700)",
+          "label": "Orthostatic (Standing) Vital Signs (24,33) (800, 1100, 1300, 1800, 2300 and only at 0800 at day 11)",
           "attrs": {
             "indent": 1,
             "markers": []
@@ -4328,7 +3878,7 @@
         {
           "id": "protocol9:soa0:cell:37:0",
           "type": "cell",
-          "label": "1X",
+          "label": "5X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4346,7 +3896,7 @@
         {
           "id": "protocol9:soa0:cell:37:1",
           "type": "cell",
-          "label": "1X",
+          "label": "5X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4364,7 +3914,7 @@
         {
           "id": "protocol9:soa0:cell:37:2",
           "type": "cell",
-          "label": "1X",
+          "label": "5X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4382,7 +3932,7 @@
         {
           "id": "protocol9:soa0:cell:37:3",
           "type": "cell",
-          "label": "1X",
+          "label": "5X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4400,7 +3950,7 @@
         {
           "id": "protocol9:soa0:cell:37:4",
           "type": "cell",
-          "label": "1X",
+          "label": "5X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4418,7 +3968,7 @@
         {
           "id": "protocol9:soa0:cell:37:5",
           "type": "cell",
-          "label": "1X",
+          "label": "5X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4436,7 +3986,7 @@
         {
           "id": "protocol9:soa0:cell:37:6",
           "type": "cell",
-          "label": "1X",
+          "label": "5X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4454,7 +4004,7 @@
         {
           "id": "protocol9:soa0:cell:37:7",
           "type": "cell",
-          "label": "1X",
+          "label": "5X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4472,7 +4022,7 @@
         {
           "id": "protocol9:soa0:cell:37:8",
           "type": "cell",
-          "label": "1X",
+          "label": "5X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4489,6 +4039,24 @@
         },
         {
           "id": "protocol9:soa0:cell:37:9",
+          "type": "cell",
+          "label": "5X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:37:10",
           "type": "cell",
           "label": "1X",
           "attrs": {
@@ -4508,7 +4076,7 @@
         {
           "id": "protocol9:soa0:asmt:38",
           "type": "assessment",
-          "label": "Urine Toxicology (28)",
+          "label": "Electrocardiogram (25) (1300 to 1430h)",
           "attrs": {
             "indent": 1,
             "markers": []
@@ -4526,9 +4094,45 @@
         {
           "id": "protocol9:soa0:cell:38:0",
           "type": "cell",
-          "label": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "label": "1X",
           "attrs": {
-            "shaded": false,
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:38:5",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:38:9",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
             "markers": []
           },
           "provenance": [
@@ -4544,7 +4148,7 @@
         {
           "id": "protocol9:soa0:asmt:39",
           "type": "assessment",
-          "label": "Plasma Lofexidine Pk (LCMS) (29)\nTotal of 12 samples (10 ml of plasma each ),\nDay 4: 1X, 0800h; Day 6: 1X, 0800h\nDay 7: 8X, 0800, 0900, 1000, 1100, 1200, 1300, 1600, 1800h; 2100, 2300; Day 8: 1X:0800; Day 10: 1000h after MHOWS",
+          "label": "Adverse Events & Abnormal Clinical Signs: (26) (1000h)",
           "attrs": {
             "indent": 1,
             "markers": []
@@ -4560,9 +4164,81 @@
           "note": ""
         },
         {
+          "id": "protocol9:soa0:cell:39:0",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:39:1",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:39:2",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
           "id": "protocol9:soa0:cell:39:3",
           "type": "cell",
-          "label": "1 X",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:39:4",
+          "type": "cell",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4598,7 +4274,7 @@
         {
           "id": "protocol9:soa0:cell:39:6",
           "type": "cell",
-          "label": "8X",
+          "label": "1X",
           "attrs": {
             "shaded": true,
             "markers": []
@@ -4632,6 +4308,24 @@
           "note": ""
         },
         {
+          "id": "protocol9:soa0:cell:39:8",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
           "id": "protocol9:soa0:cell:39:9",
           "type": "cell",
           "label": "1X",
@@ -4648,6 +4342,402 @@
           ],
           "ambiguous": false,
           "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:39:10",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:asmt:40",
+          "type": "assessment",
+          "label": "Tobacco Withdrawal Scale (27) (1700)",
+          "attrs": {
+            "indent": 1,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:40:0",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:40:1",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:40:2",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:40:3",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:40:4",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:40:5",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:40:6",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:40:7",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:40:8",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:40:9",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:asmt:41",
+          "type": "assessment",
+          "label": "Urine Toxicology (28)",
+          "attrs": {
+            "indent": 1,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:41:0",
+          "type": "cell",
+          "label": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:asmt:42",
+          "type": "assessment",
+          "label": "Plasma Lofexidine Pk (LCMS) (29)",
+          "attrs": {
+            "indent": 1,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:42:3",
+          "type": "cell",
+          "label": "1 X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:42:5",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:42:6",
+          "type": "cell",
+          "label": "8X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:42:7",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:cell:42:9",
+          "type": "cell",
+          "label": "1X",
+          "attrs": {
+            "shaded": true,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol9:soa0:asmt:43",
+          "type": "assessment",
+          "label": "Total of 12 samples (10 ml of plasma each ), Day 4: 1X, 0800h; Day 6: 1X, 0800h",
+          "attrs": {
+            "indent": 1,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": true,
+          "note": "recovered from a row label that had several rows merged into it"
+        },
+        {
+          "id": "protocol9:soa0:asmt:44",
+          "type": "assessment",
+          "label": "Day 7: 8X, 0800, 0900, 1000, 1100, 1200, 1300, 1600, 1800h; 2100, 2300; Day 8: 1X:0800; Day 10: 1000h after MHOWS",
+          "attrs": {
+            "indent": 1,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 28,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": true,
+          "note": "recovered from a row label that had several rows merged into it"
         },
         {
           "id": "protocol9:soa0:fn:0",
@@ -5596,126 +5686,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:21:1",
-          "dst": "protocol9:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:1",
-          "dst": "protocol9:soa0:visit:1",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:2",
-          "dst": "protocol9:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:2",
-          "dst": "protocol9:soa0:visit:2",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:3",
-          "dst": "protocol9:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:3",
-          "dst": "protocol9:soa0:visit:3",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:4",
-          "dst": "protocol9:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:4",
-          "dst": "protocol9:soa0:visit:4",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:5",
-          "dst": "protocol9:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:5",
-          "dst": "protocol9:soa0:visit:5",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:6",
-          "dst": "protocol9:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:6",
-          "dst": "protocol9:soa0:visit:6",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:7",
-          "dst": "protocol9:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:7",
-          "dst": "protocol9:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:8",
-          "dst": "protocol9:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:8",
-          "dst": "protocol9:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:9",
-          "dst": "protocol9:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:9",
-          "dst": "protocol9:soa0:visit:9",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:10",
-          "dst": "protocol9:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:21:10",
-          "dst": "protocol9:soa0:visit:10",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol9:soa0:asmt:22",
           "dst": "protocol9:soa0:cat:19",
           "type": "assessment_in_category",
@@ -5845,6 +5815,42 @@
           "src": "protocol9:soa0:asmt:23",
           "dst": "protocol9:soa0:cat:19",
           "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:23:1",
+          "dst": "protocol9:soa0:asmt:23",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:23:1",
+          "dst": "protocol9:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:23:2",
+          "dst": "protocol9:soa0:asmt:23",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:23:2",
+          "dst": "protocol9:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:23:3",
+          "dst": "protocol9:soa0:asmt:23",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:23:3",
+          "dst": "protocol9:soa0:visit:3",
+          "type": "cell_at_visit",
           "attrs": {}
         },
         {
@@ -6028,42 +6034,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:25:1",
-          "dst": "protocol9:soa0:asmt:25",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:25:1",
-          "dst": "protocol9:soa0:visit:1",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:25:2",
-          "dst": "protocol9:soa0:asmt:25",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:25:2",
-          "dst": "protocol9:soa0:visit:2",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:25:3",
-          "dst": "protocol9:soa0:asmt:25",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:25:3",
-          "dst": "protocol9:soa0:visit:3",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol9:soa0:cell:25:4",
           "dst": "protocol9:soa0:asmt:25",
           "type": "cell_of_assessment",
@@ -6166,6 +6136,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol9:soa0:cell:26:2",
+          "dst": "protocol9:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:26:2",
+          "dst": "protocol9:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol9:soa0:cell:26:3",
           "dst": "protocol9:soa0:asmt:26",
           "type": "cell_of_assessment",
@@ -6190,6 +6172,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol9:soa0:cell:26:5",
+          "dst": "protocol9:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:26:5",
+          "dst": "protocol9:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol9:soa0:cell:26:6",
           "dst": "protocol9:soa0:asmt:26",
           "type": "cell_of_assessment",
@@ -6202,6 +6196,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol9:soa0:cell:26:7",
+          "dst": "protocol9:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:26:7",
+          "dst": "protocol9:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol9:soa0:cell:26:8",
           "dst": "protocol9:soa0:asmt:26",
           "type": "cell_of_assessment",
@@ -6210,6 +6216,18 @@
         {
           "src": "protocol9:soa0:cell:26:8",
           "dst": "protocol9:soa0:visit:8",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:26:9",
+          "dst": "protocol9:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:26:9",
+          "dst": "protocol9:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -6244,18 +6262,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:27:2",
-          "dst": "protocol9:soa0:asmt:27",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:27:2",
-          "dst": "protocol9:soa0:visit:2",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol9:soa0:cell:27:3",
           "dst": "protocol9:soa0:asmt:27",
           "type": "cell_of_assessment",
@@ -6280,18 +6286,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:27:5",
-          "dst": "protocol9:soa0:asmt:27",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:27:5",
-          "dst": "protocol9:soa0:visit:5",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol9:soa0:cell:27:6",
           "dst": "protocol9:soa0:asmt:27",
           "type": "cell_of_assessment",
@@ -6300,18 +6294,6 @@
         {
           "src": "protocol9:soa0:cell:27:6",
           "dst": "protocol9:soa0:visit:6",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:27:7",
-          "dst": "protocol9:soa0:asmt:27",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:27:7",
-          "dst": "protocol9:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -6328,18 +6310,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:27:9",
-          "dst": "protocol9:soa0:asmt:27",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:27:9",
-          "dst": "protocol9:soa0:visit:9",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol9:soa0:cell:27:10",
           "dst": "protocol9:soa0:asmt:27",
           "type": "cell_of_assessment",
@@ -6348,18 +6318,6 @@
         {
           "src": "protocol9:soa0:cell:27:10",
           "dst": "protocol9:soa0:visit:10",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:27:11",
-          "dst": "protocol9:soa0:asmt:27",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:27:11",
-          "dst": "protocol9:soa0:visit:11",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -6370,279 +6328,153 @@
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:1",
-          "dst": "protocol9:soa0:asmt:28",
+          "src": "protocol9:soa0:asmt:29",
+          "dst": "protocol9:soa0:cat:19",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:29:1",
+          "dst": "protocol9:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:1",
+          "src": "protocol9:soa0:cell:29:1",
           "dst": "protocol9:soa0:visit:1",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:2",
-          "dst": "protocol9:soa0:asmt:28",
+          "src": "protocol9:soa0:cell:29:2",
+          "dst": "protocol9:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:2",
+          "src": "protocol9:soa0:cell:29:2",
           "dst": "protocol9:soa0:visit:2",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:3",
-          "dst": "protocol9:soa0:asmt:28",
+          "src": "protocol9:soa0:cell:29:3",
+          "dst": "protocol9:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:3",
+          "src": "protocol9:soa0:cell:29:3",
           "dst": "protocol9:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:4",
-          "dst": "protocol9:soa0:asmt:28",
+          "src": "protocol9:soa0:cell:29:4",
+          "dst": "protocol9:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:4",
+          "src": "protocol9:soa0:cell:29:4",
           "dst": "protocol9:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:5",
-          "dst": "protocol9:soa0:asmt:28",
+          "src": "protocol9:soa0:cell:29:5",
+          "dst": "protocol9:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:5",
+          "src": "protocol9:soa0:cell:29:5",
           "dst": "protocol9:soa0:visit:5",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:6",
-          "dst": "protocol9:soa0:asmt:28",
+          "src": "protocol9:soa0:cell:29:6",
+          "dst": "protocol9:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:6",
+          "src": "protocol9:soa0:cell:29:6",
           "dst": "protocol9:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:7",
-          "dst": "protocol9:soa0:asmt:28",
+          "src": "protocol9:soa0:cell:29:7",
+          "dst": "protocol9:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:7",
+          "src": "protocol9:soa0:cell:29:7",
           "dst": "protocol9:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:8",
-          "dst": "protocol9:soa0:asmt:28",
+          "src": "protocol9:soa0:cell:29:8",
+          "dst": "protocol9:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:8",
+          "src": "protocol9:soa0:cell:29:8",
           "dst": "protocol9:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:9",
-          "dst": "protocol9:soa0:asmt:28",
+          "src": "protocol9:soa0:cell:29:9",
+          "dst": "protocol9:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:9",
+          "src": "protocol9:soa0:cell:29:9",
           "dst": "protocol9:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:10",
-          "dst": "protocol9:soa0:asmt:28",
+          "src": "protocol9:soa0:cell:29:10",
+          "dst": "protocol9:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:10",
+          "src": "protocol9:soa0:cell:29:10",
           "dst": "protocol9:soa0:visit:10",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:11",
-          "dst": "protocol9:soa0:asmt:28",
+          "src": "protocol9:soa0:cell:29:11",
+          "dst": "protocol9:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:28:11",
+          "src": "protocol9:soa0:cell:29:11",
           "dst": "protocol9:soa0:visit:11",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
           "src": "protocol9:soa0:asmt:30",
-          "dst": "protocol9:soa0:cat:29",
+          "dst": "protocol9:soa0:cat:19",
           "type": "assessment_in_category",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:0",
-          "dst": "protocol9:soa0:asmt:30",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:0",
-          "dst": "protocol9:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:1",
-          "dst": "protocol9:soa0:asmt:30",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:1",
-          "dst": "protocol9:soa0:visit:1",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:2",
-          "dst": "protocol9:soa0:asmt:30",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:2",
-          "dst": "protocol9:soa0:visit:2",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:3",
-          "dst": "protocol9:soa0:asmt:30",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:3",
-          "dst": "protocol9:soa0:visit:3",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:4",
-          "dst": "protocol9:soa0:asmt:30",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:4",
-          "dst": "protocol9:soa0:visit:4",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:5",
-          "dst": "protocol9:soa0:asmt:30",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:5",
-          "dst": "protocol9:soa0:visit:5",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:6",
-          "dst": "protocol9:soa0:asmt:30",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:6",
-          "dst": "protocol9:soa0:visit:6",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:7",
-          "dst": "protocol9:soa0:asmt:30",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:7",
-          "dst": "protocol9:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:8",
-          "dst": "protocol9:soa0:asmt:30",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:8",
-          "dst": "protocol9:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:9",
-          "dst": "protocol9:soa0:asmt:30",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:30:9",
-          "dst": "protocol9:soa0:visit:9",
-          "type": "cell_at_visit",
           "attrs": {}
         },
         {
           "src": "protocol9:soa0:asmt:31",
-          "dst": "protocol9:soa0:cat:29",
+          "dst": "protocol9:soa0:cat:19",
           "type": "assessment_in_category",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:31:0",
-          "dst": "protocol9:soa0:asmt:31",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:31:0",
-          "dst": "protocol9:soa0:visit:0",
-          "type": "cell_at_visit",
           "attrs": {}
         },
         {
@@ -6750,6 +6582,30 @@
         {
           "src": "protocol9:soa0:cell:31:9",
           "dst": "protocol9:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:31:10",
+          "dst": "protocol9:soa0:asmt:31",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:31:10",
+          "dst": "protocol9:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:31:11",
+          "dst": "protocol9:soa0:asmt:31",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:31:11",
+          "dst": "protocol9:soa0:visit:11",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -6880,18 +6736,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:33:10",
-          "dst": "protocol9:soa0:asmt:33",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:33:10",
-          "dst": "protocol9:soa0:visit:10",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol9:soa0:asmt:34",
           "dst": "protocol9:soa0:cat:32",
           "type": "assessment_in_category",
@@ -7018,62 +6862,8 @@
           "attrs": {}
         },
         {
-          "src": "protocol9:soa0:cell:34:10",
-          "dst": "protocol9:soa0:asmt:34",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:34:10",
-          "dst": "protocol9:soa0:visit:10",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:asmt:35",
-          "dst": "protocol9:soa0:cat:32",
-          "type": "assessment_in_category",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:35:0",
-          "dst": "protocol9:soa0:asmt:35",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:35:0",
-          "dst": "protocol9:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:35:5",
-          "dst": "protocol9:soa0:asmt:35",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:35:5",
-          "dst": "protocol9:soa0:visit:5",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:35:9",
-          "dst": "protocol9:soa0:asmt:35",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol9:soa0:cell:35:9",
-          "dst": "protocol9:soa0:visit:9",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol9:soa0:asmt:36",
-          "dst": "protocol9:soa0:cat:32",
+          "dst": "protocol9:soa0:cat:35",
           "type": "assessment_in_category",
           "attrs": {}
         },
@@ -7211,7 +7001,7 @@
         },
         {
           "src": "protocol9:soa0:asmt:37",
-          "dst": "protocol9:soa0:cat:32",
+          "dst": "protocol9:soa0:cat:35",
           "type": "assessment_in_category",
           "attrs": {}
         },
@@ -7336,8 +7126,20 @@
           "attrs": {}
         },
         {
+          "src": "protocol9:soa0:cell:37:10",
+          "dst": "protocol9:soa0:asmt:37",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:37:10",
+          "dst": "protocol9:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol9:soa0:asmt:38",
-          "dst": "protocol9:soa0:cat:32",
+          "dst": "protocol9:soa0:cat:35",
           "type": "assessment_in_category",
           "attrs": {}
         },
@@ -7354,9 +7156,69 @@
           "attrs": {}
         },
         {
+          "src": "protocol9:soa0:cell:38:5",
+          "dst": "protocol9:soa0:asmt:38",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:38:5",
+          "dst": "protocol9:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:38:9",
+          "dst": "protocol9:soa0:asmt:38",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:38:9",
+          "dst": "protocol9:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol9:soa0:asmt:39",
-          "dst": "protocol9:soa0:cat:32",
+          "dst": "protocol9:soa0:cat:35",
           "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:39:0",
+          "dst": "protocol9:soa0:asmt:39",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:39:0",
+          "dst": "protocol9:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:39:1",
+          "dst": "protocol9:soa0:asmt:39",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:39:1",
+          "dst": "protocol9:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:39:2",
+          "dst": "protocol9:soa0:asmt:39",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:39:2",
+          "dst": "protocol9:soa0:visit:2",
+          "type": "cell_at_visit",
           "attrs": {}
         },
         {
@@ -7368,6 +7230,18 @@
         {
           "src": "protocol9:soa0:cell:39:3",
           "dst": "protocol9:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:39:4",
+          "dst": "protocol9:soa0:asmt:39",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:39:4",
+          "dst": "protocol9:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -7408,6 +7282,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol9:soa0:cell:39:8",
+          "dst": "protocol9:soa0:asmt:39",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:39:8",
+          "dst": "protocol9:soa0:visit:8",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol9:soa0:cell:39:9",
           "dst": "protocol9:soa0:asmt:39",
           "type": "cell_of_assessment",
@@ -7417,6 +7303,240 @@
           "src": "protocol9:soa0:cell:39:9",
           "dst": "protocol9:soa0:visit:9",
           "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:39:10",
+          "dst": "protocol9:soa0:asmt:39",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:39:10",
+          "dst": "protocol9:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:asmt:40",
+          "dst": "protocol9:soa0:cat:35",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:0",
+          "dst": "protocol9:soa0:asmt:40",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:0",
+          "dst": "protocol9:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:1",
+          "dst": "protocol9:soa0:asmt:40",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:1",
+          "dst": "protocol9:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:2",
+          "dst": "protocol9:soa0:asmt:40",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:2",
+          "dst": "protocol9:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:3",
+          "dst": "protocol9:soa0:asmt:40",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:3",
+          "dst": "protocol9:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:4",
+          "dst": "protocol9:soa0:asmt:40",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:4",
+          "dst": "protocol9:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:5",
+          "dst": "protocol9:soa0:asmt:40",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:5",
+          "dst": "protocol9:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:6",
+          "dst": "protocol9:soa0:asmt:40",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:6",
+          "dst": "protocol9:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:7",
+          "dst": "protocol9:soa0:asmt:40",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:7",
+          "dst": "protocol9:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:8",
+          "dst": "protocol9:soa0:asmt:40",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:8",
+          "dst": "protocol9:soa0:visit:8",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:9",
+          "dst": "protocol9:soa0:asmt:40",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:40:9",
+          "dst": "protocol9:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:asmt:41",
+          "dst": "protocol9:soa0:cat:35",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:41:0",
+          "dst": "protocol9:soa0:asmt:41",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:41:0",
+          "dst": "protocol9:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:asmt:42",
+          "dst": "protocol9:soa0:cat:35",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:42:3",
+          "dst": "protocol9:soa0:asmt:42",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:42:3",
+          "dst": "protocol9:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:42:5",
+          "dst": "protocol9:soa0:asmt:42",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:42:5",
+          "dst": "protocol9:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:42:6",
+          "dst": "protocol9:soa0:asmt:42",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:42:6",
+          "dst": "protocol9:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:42:7",
+          "dst": "protocol9:soa0:asmt:42",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:42:7",
+          "dst": "protocol9:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:42:9",
+          "dst": "protocol9:soa0:asmt:42",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:cell:42:9",
+          "dst": "protocol9:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:asmt:43",
+          "dst": "protocol9:soa0:cat:35",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:asmt:44",
+          "dst": "protocol9:soa0:cat:35",
+          "type": "assessment_in_category",
           "attrs": {}
         },
         {
@@ -7446,7 +7566,11 @@
       ],
       "warnings": [
         "located by: 64 cell-like tokens; 19 repeated column positions, 92% of rows; 606 ruling lines; schedule-like heading; landscape page",
+        "p27: '•Modified Himmelsbach (MHOWS) (13)' was extracted with 1 other row label(s) merged into it (Peak Effect Detox/Med Phase). The rows were separated so none is missing, but all 0 cell values stayed on the first row -- their true attribution is not recoverable from the merged label and needs a human eye.",
+        "p27: '•Visual Analog Scale (VAS-E) (20)– Effic' was extracted with 1 other row label(s) merged into it (Medication for Reducing Withdr). The rows were separated so none is missing, but all 6 cell values stayed on the first row -- their true attribution is not recoverable from the merged label and needs a human eye.",
+        "p27: 'Medication Administration/Concomitant' was extracted with 1 other row label(s) merged into it (Medications (21)). The rows were separated so none is missing, but all 11 cell values stayed on the first row -- their true attribution is not recoverable from the merged label and needs a human eye.",
         "row-continuation page has 12 columns against the table's 11; the first 11 were aligned by position and 1 extra column(s) appended. Check whether the page really adds visits or the extractor miscounted.",
+        "p28: 'Plasma Lofexidine Pk (LCMS) (29)' was extracted with 2 other row label(s) merged into it (Total of 12 samples (10 ml of ; Day 7: 8X, 0800, 0900, 1000, 1). The rows were separated so none is missing, but all 5 cell values stayed on the first row -- their true attribution is not recoverable from the merged label and needs a human eye.",
         "row-continuation page has 11 columns against the table's 12; the first 11 were aligned by position and 0 extra column(s) appended. Check whether the page really adds visits or the extractor miscounted.",
         "'Form numbers may change (small print)' appears verbatim on more than one page with no marker; treated as a running footer rather than a second footnote"
       ],
@@ -7458,14 +7582,14 @@
       "periods": 4,
       "visits": 12,
       "categories": 4,
-      "assessments": 36,
+      "assessments": 41,
       "cells": 202,
       "footnotes": 8,
       "footnote_links": 3,
-      "ambiguous": 0,
-      "warnings": 4,
+      "ambiguous": 9,
+      "warnings": 8,
       "conservation": 0
     }
   ],
-  "seconds": 1.0
+  "seconds": 1.1
 }

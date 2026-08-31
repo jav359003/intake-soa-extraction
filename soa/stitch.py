@@ -22,6 +22,7 @@ from __future__ import annotations
 
 import re
 import copy
+import re
 from difflib import SequenceMatcher
 
 from .schema import SoAGraph, Node, Edge, Provenance
@@ -196,6 +197,68 @@ def split_spans(per_page: list[dict], page_numbers: list[int]
     return groups
 
 
+def _split_merged_rows(page: dict, pno: int, warnings: list[str]) -> None:
+    """Recover rows an extractor collapsed into a single label.
+
+    A label carrying an embedded newline means several printed rows were read
+    as one. protocol1 came back with "Study drug record / Medications dispensed
+    / Medications returned" as a single assessment on both of its pages, which
+    deletes two assessments from the study.
+
+    The rows are restored so nothing is missing, but the cells are NOT split:
+    which value belonged to which row is not recoverable from a merged label,
+    and inventing an attribution would be worse than admitting the gap. The
+    cells stay on the first row and every recovered row is marked ambiguous
+    with a warning naming the page, so a reviewer knows exactly what to check.
+    """
+    out, changed = [], False
+    for r in page.get("rows", []):
+        raw_parts = [x.strip() for x in re.split(r"[\r\n]+", r.get("label", "")) if x.strip()]
+        # A newline in a label means one of two very different things: several
+        # printed rows read as one, or a single label wrapped across lines. Two
+        # rows would each start like a label; a wrapped continuation reads as a
+        # fragment -- it opens with a bracket, a lowercase word, or a unit or
+        # timing qualifier. protocol9 wraps constantly ("•Objective Opiate
+        # Withdrawal Scale (15)" / "(OOWS Handlesman) (1000h)") and splitting
+        # those invents assessments that do not exist.
+        parts: list[str] = []
+        for x in raw_parts:
+            looks_like_continuation = (
+                x[0] in "([{" or x[0].islower()
+                or re.match(r"^\d{3,4}\s*h\b", x)          # a clock time
+                or re.match(r"^(and|or|with|per|for|in|at|to)\b", x, re.I))
+            # A line ending in a dash, comma or colon is mid-phrase; whatever
+            # follows completes it. protocol9 wraps "Modified Clinical Global
+            # Impressions Scale -" onto "Patient (17) (NIMH MCGI)".
+            if parts and re.search(r"[-\u2013\u2014,:;/]\s*$", parts[-1]):
+                looks_like_continuation = True
+            if parts and looks_like_continuation:
+                parts[-1] = f"{parts[-1]} {x}"
+            else:
+                parts.append(x)
+        if len(parts) < 2:
+            if len(raw_parts) > 1:
+                r = {**r, "label": parts[0] if parts else r.get("label", "")}
+            out.append(r)
+            continue
+        changed = True
+        first = {**r, "label": parts[0], "ambiguous": True}
+        out.append(first)
+        for extra in parts[1:]:
+            out.append({**r, "label": extra, "cells": [], "ambiguous": True,
+                        "recovered_from_merge": True})
+        warnings.append(
+            f"p{pno}: '{parts[0][:40]}' was extracted with {len(parts) - 1} other "
+            f"row label(s) merged into it ({'; '.join(x[:30] for x in parts[1:])}). "
+            f"The rows were separated so none is missing, but all {len(r.get('cells', []))} "
+            f"cell values stayed on the first row -- their true attribution is not "
+            f"recoverable from the merged label and needs a human eye.")
+    if changed:
+        for i, r in enumerate(out):
+            r["index"] = i
+        page["rows"] = out
+
+
 def merge_pages(pages: list[dict], page_numbers: list[int]) -> dict:
     """Fold a list of per-page extractions into one table dict."""
     table = {"title": None, "columns": [], "rows": [], "footnotes": [],
@@ -220,6 +283,7 @@ def merge_pages(pages: list[dict], page_numbers: list[int]) -> dict:
             table["unresolved"] += [f"p{pno}: {u}" for u in page.get("unresolved", [])]
             continue
 
+        _split_merged_rows(page, pno, table["warnings"])
         table["title"] = table["title"] or page.get("title")
         table["unresolved"] += [f"p{pno}: {u}" for u in page.get("unresolved", [])]
 
@@ -372,6 +436,9 @@ def to_graph(table: dict, protocol: str, table_id: str, pages: list[int],
             continue
         aid = g.add(Node(id=f"{table_id}:asmt:{r['index']}", type="assessment",
                          label=r.get("label", ""), provenance=pv,
+                         ambiguous=bool(r.get("ambiguous")),
+                         note=("recovered from a row label that had several rows "
+                               "merged into it" if r.get("recovered_from_merge") else ""),
                          attrs={"indent": r.get("indent", 0),
                                 "markers": r.get("markers", []) or []}))
         row_ids[r["index"]] = aid

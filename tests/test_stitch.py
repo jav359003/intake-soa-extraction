@@ -286,6 +286,32 @@ def test_footnote_page_stays_with_its_table():
     assert len(split_spans([p1, p2], [26, 29])) == 1
 
 
+def test_merged_row_labels_are_separated():
+    """protocol1 returned "Study drug record / Medications dispensed /
+    Medications returned" as one assessment on both pages, deleting two."""
+    p1 = page([col(0, "V1"), col(1, "V2")],
+              [row(0, "Study drug record\nMedications dispensed\nMedications returned",
+                   [(0, "X", ()), (1, "X", ())])])
+    t = merge_pages([p1], [53])
+    labels = [r["label"] for r in t["rows"]]
+    assert labels == ["Study drug record", "Medications dispensed",
+                      "Medications returned"], labels
+    assert any("merged into it" in w for w in t["warnings"])
+    # Cells are not invented onto the recovered rows.
+    assert len(t["rows"][0]["cells"]) == 2
+    assert t["rows"][1]["cells"] == [] and t["rows"][2]["cells"] == []
+    g = to_graph(t, "p1", "t1", [53])
+    assert len(g.by_type("assessment")) == 3
+    assert all(n.ambiguous for n in g.by_type("assessment"))
+
+
+def test_single_line_label_is_untouched():
+    p1 = page([col(0, "V1")], [row(0, "Vital signs/Temperature", [(0, "X", ())])])
+    t = merge_pages([p1], [53])
+    assert [r["label"] for r in t["rows"]] == ["Vital signs/Temperature"]
+    assert not any("merged into it" in w for w in t["warnings"])
+
+
 if __name__ == "__main__":
     fns = [(k, v) for k, v in sorted(globals().items()) if k.startswith("test_")]
     bad = 0
