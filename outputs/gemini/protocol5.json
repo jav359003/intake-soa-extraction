@@ -419,7 +419,8 @@
           "type": "assessment",
           "label": "Informed consent",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -454,7 +455,8 @@
           "type": "assessment",
           "label": "Locator form/Demographics",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -489,7 +491,8 @@
           "type": "assessment",
           "label": "Cocaine use by timeline follow-back",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -542,7 +545,8 @@
           "type": "assessment",
           "label": "Breathalyzer test",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -577,7 +581,8 @@
           "type": "assessment",
           "label": "12-lead ECG",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -792,7 +797,8 @@
           "type": "assessment",
           "label": "SCID",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -827,7 +833,8 @@
           "type": "assessment",
           "label": "Medical History",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -880,7 +887,8 @@
           "type": "assessment",
           "label": "Physical Exam (complete)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -933,7 +941,8 @@
           "type": "assessment",
           "label": "Physical Exam (brief)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -986,7 +995,8 @@
           "type": "assessment",
           "label": "ASI-Lite",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1021,7 +1031,8 @@
           "type": "assessment",
           "label": "Vital Signs",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1236,7 +1247,10 @@
           "type": "assessment",
           "label": "Chemistries plus liver function tests**",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": [
+              "**"
+            ]
           },
           "provenance": [
             {
@@ -1343,7 +1357,8 @@
           "type": "assessment",
           "label": "Hematology",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1414,7 +1429,10 @@
           "type": "assessment",
           "label": "Pregnancy Test***",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": [
+              "***"
+            ]
           },
           "provenance": [
             {
@@ -1503,7 +1521,8 @@
           "type": "assessment",
           "label": "Infectious disease serology",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1538,7 +1557,8 @@
           "type": "assessment",
           "label": "Plasma alcohol",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1591,7 +1611,8 @@
           "type": "assessment",
           "label": "Urine toxicology screen",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1680,7 +1701,8 @@
           "type": "assessment",
           "label": "POMS, BSCS",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1717,7 +1739,10 @@
           "type": "assessment",
           "label": "Cognitive assessments****",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": [
+              "****"
+            ]
           },
           "provenance": [
             {
@@ -1752,7 +1777,8 @@
           "type": "assessment",
           "label": "Atomoxetine or placebo",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1789,7 +1815,8 @@
           "type": "assessment",
           "label": "Atomoxetine blood levels",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1862,7 +1889,8 @@
           "type": "assessment",
           "label": "Adverse Events",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2077,7 +2105,8 @@
           "type": "assessment",
           "label": "Cocaine Infusion Session #",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2220,7 +2249,8 @@
           "type": "assessment",
           "label": "Saline/20 mg cocaine/40 mg cocaine i.v.",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2273,7 +2303,8 @@
           "type": "assessment",
           "label": "20 mg cocaine i.v.",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2344,7 +2375,8 @@
           "type": "assessment",
           "label": "40 mg cocaine i.v.",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2433,7 +2465,8 @@
           "type": "assessment",
           "label": "VAS",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2596,7 +2629,8 @@
           "type": "assessment",
           "label": "ARCI",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2633,7 +2667,8 @@
           "type": "assessment",
           "label": "Continuous BP, HR, ECG monitoring",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2794,7 +2829,8 @@
           "type": "assessment",
           "label": "BPRS",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2957,7 +2993,8 @@
           "type": "assessment",
           "label": "Cocaine Blood PK",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3046,7 +3083,8 @@
           "type": "assessment",
           "label": "Chemistries plus liver function tests",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3225,7 +3263,8 @@
           "type": "assessment",
           "label": "Hematology",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3350,7 +3389,8 @@
           "type": "assessment",
           "label": "Infectious disease serology",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3439,7 +3479,8 @@
           "type": "assessment",
           "label": "PK Samples for cocaine",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3564,7 +3605,8 @@
           "type": "assessment",
           "label": "PK Samples for Atomoxetine",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3707,7 +3749,8 @@
           "type": "assessment",
           "label": "Pregnancy Test",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3850,7 +3893,8 @@
           "type": "assessment",
           "label": "Alcohol Test",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3939,7 +3983,8 @@
           "type": "assessment",
           "label": "Total",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -6210,8 +6255,32 @@
           "attrs": {}
         },
         {
+          "src": "protocol5:soa0:fn:1",
+          "dst": "protocol5:soa0:asmt:11",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol5:soa0:fn:2",
+          "dst": "protocol5:soa0:asmt:13",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
           "src": "protocol5:soa0:fn:10",
           "dst": "protocol5:soa0:cell:17:2",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol5:soa0:fn:3",
+          "dst": "protocol5:soa0:asmt:18",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6262,7 +6331,8 @@
         "located by: 101 cell-like tokens; 27 repeated column positions, 92% of rows; 1339 ruling lines; landscape page",
         "p51: continuation axis uncertain -- None (row-label overlap 50%, inconclusive)",
         "row-continuation page has 16 columns against the table's 12; the first 12 were aligned by position and 4 extra column(s) appended. Check whether the page really adds visits or the extractor miscounted."
-      ]
+      ],
+      "discarded": 0
     }
   ],
   "stats": [
@@ -6273,7 +6343,7 @@
       "assessments": 39,
       "cells": 160,
       "footnotes": 12,
-      "footnote_links": 6,
+      "footnote_links": 9,
       "ambiguous": 0,
       "warnings": 3,
       "conservation": 0

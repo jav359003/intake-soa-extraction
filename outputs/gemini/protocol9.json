@@ -296,7 +296,8 @@
           "type": "assessment",
           "label": "Informed Consent, Screening (01), Opiate Screening (02)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -331,7 +332,10 @@
           "type": "assessment",
           "label": "* Morphine (0600, 1100, 1630, 2200 h)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": [
+              "*"
+            ]
           },
           "provenance": [
             {
@@ -402,7 +406,10 @@
           "type": "assessment",
           "label": "**Lofexidine or Placebo\n(0800, 1300, 1800, 2300 h)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": [
+              "**"
+            ]
           },
           "provenance": [
             {
@@ -545,7 +552,8 @@
           "type": "assessment",
           "label": "Medical History (03)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -580,7 +588,8 @@
           "type": "assessment",
           "label": "Physical Examination (04)\n(Study Day 1 and Exit Day)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -633,7 +642,8 @@
           "type": "assessment",
           "label": "Prior Medications (05)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -650,7 +660,8 @@
           "type": "assessment",
           "label": "Laboratory Assessments: Blood (06,07), Urine (08)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -703,7 +714,8 @@
           "type": "assessment",
           "label": "Serum Pregnancy Test (Beta HCG) (09)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -738,7 +750,8 @@
           "type": "assessment",
           "label": "Tuberculosis Skin Test (PPD), RPR, CD4 (10)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -773,7 +786,8 @@
           "type": "assessment",
           "label": "HIV (optional, per separate consent)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -808,7 +822,8 @@
           "type": "assessment",
           "label": "Psychiatric Assessment (SCID, Axis I, DSM IV) (11)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -843,7 +858,8 @@
           "type": "assessment",
           "label": "Addiction Severity Index (ASI) (12)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -878,7 +894,8 @@
           "type": "assessment",
           "label": "Weight (on admission & 0630-0800h ā breakfast) (13)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1092,7 +1109,9 @@
           "id": "protocol9:soa0:cat:13",
           "type": "category",
           "label": "Primary Outcome Measure:",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1108,7 +1127,10 @@
           "type": "assessment",
           "label": "*** Modified Himmelsbach (MHOWS), obtained at 1000h (13)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": [
+              "***"
+            ]
           },
           "provenance": [
             {
@@ -1305,7 +1327,8 @@
           "type": "assessment",
           "label": "Emesis Tracking (14)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1501,7 +1524,9 @@
           "id": "protocol9:soa0:cat:16",
           "type": "category",
           "label": "Secondary Outcome Measures:",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 27,
@@ -1517,7 +1542,8 @@
           "type": "assessment",
           "label": "•Modified Himmelsbach (MHOWS) (13)\nPeak Effect Detox/Med Phase",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -1534,7 +1560,8 @@
           "type": "assessment",
           "label": "•Objective Opiate Withdrawal Scale (15)\n(OOWS Handlesman) (1000h)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -1731,7 +1758,8 @@
           "type": "assessment",
           "label": "•Short Opiate Withdrawal Scale (16)\n(SOWS Gossop) (1000h)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -1928,7 +1956,8 @@
           "type": "assessment",
           "label": "•Modified Clinical Global Impressions Scale -\nPatient (17) (NIMH MCGI) ( 1000h)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -2071,7 +2100,8 @@
           "type": "assessment",
           "label": "•Modified Clinical Global Impressions Scale -\nRater (18) (NIMH MCGI) (1000h)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -2214,7 +2244,8 @@
           "type": "assessment",
           "label": "•Subjective Opiate Withdrawal Scale (19)\n(SOWS Handlesman) (1000h)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -2411,7 +2442,8 @@
           "type": "assessment",
           "label": "•Visual Analog Scale (VAS-E) (20)– Efficacy of\nMedication for Reducing Withdrawal Sickness\n(1000h)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -2536,7 +2568,8 @@
           "type": "assessment",
           "label": "Medication Administration/Concomitant\nMedications (21)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2751,7 +2784,8 @@
           "type": "assessment",
           "label": "Drop Out Day (cf. End of Study Form (31)\n(Reason for Drop Out)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2965,7 +2999,9 @@
           "id": "protocol9:soa0:cat:26",
           "type": "category",
           "label": "Abuse Potential Assessment:",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 28,
@@ -2981,7 +3017,8 @@
           "type": "assessment",
           "label": "Addiction Research Center Inventory (22) - (ARCI-MBG) (1000h)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -3178,7 +3215,8 @@
           "type": "assessment",
           "label": "Visual Analog Scale (VAS-High)(23) (1000h)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -3374,7 +3412,9 @@
           "id": "protocol9:soa0:cat:29",
           "type": "category",
           "label": "Safety Measures:",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 28,
@@ -3390,7 +3430,8 @@
           "type": "assessment",
           "label": "(Sitting) Vital Signs (24, 33)\n(0800, 1000, 1100, 1300, 1800 2300h and at 0800 at day 11)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -3605,7 +3646,8 @@
           "type": "assessment",
           "label": "Orthostatic (Standing) Vital Signs (24,33)\n(800, 1100, 1300, 1800, 2300 and only at 0800 at day 11)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -3820,7 +3862,8 @@
           "type": "assessment",
           "label": "Electrocardiogram (25) (1300 to 1430h)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -3891,7 +3934,8 @@
           "type": "assessment",
           "label": "Adverse Events & Abnormal Clinical Signs:\n(26) (1000h)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -4106,7 +4150,8 @@
           "type": "assessment",
           "label": "Tobacco Withdrawal Scale (27) (1700)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -4303,7 +4348,8 @@
           "type": "assessment",
           "label": "Urine Toxicology (28)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -4338,7 +4384,8 @@
           "type": "assessment",
           "label": "Plasma Lofexidine Pk (LCMS) (29)\nTotal of 12 samples (10 ml of plasma each ),\nDay 4: 1X, 0800h; Day 6: 1X, 0800h\nDay 7: 8X, 0800, 0900, 1000, 1100, 1200, 1300, 1600, 1800h; 2100, 2300; Day 8: 1X:0800; Day 10: 1000h after MHOWS",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -4462,25 +4509,6 @@
         {
           "id": "protocol9:soa0:fn:1",
           "type": "footnote",
-          "label": "Form numbers may change (small print)",
-          "attrs": {
-            "marker": null,
-            "complete": true,
-            "continued_on": []
-          },
-          "provenance": [
-            {
-              "page": 28,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol9:soa0:fn:2",
-          "type": "footnote",
           "label": "Detox = Detoxification",
           "attrs": {
             "marker": "Detox",
@@ -4498,7 +4526,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:fn:3",
+          "id": "protocol9:soa0:fn:2",
           "type": "footnote",
           "label": "SCID: The Structured Clinical Interview for DSM IV (Axis I)",
           "attrs": {
@@ -4517,7 +4545,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:fn:4",
+          "id": "protocol9:soa0:fn:3",
           "type": "footnote",
           "label": "* Morphine: study day 1 morphine administration times may vary depending upon time of admission.",
           "attrs": {
@@ -4536,7 +4564,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:fn:5",
+          "id": "protocol9:soa0:fn:4",
           "type": "footnote",
           "label": "** Lofexidine: The physician may withhold a dose of study medication if the patient is experiencing symptoms of hypotension (dizziness making it difficult to stand for one minute, or syncope) or if the patient’s orthostatic blood pressure is ≤ 80 mmHg systolic immediately before the dose is due to be given. If more than two doses of study medication need to be withheld in a single day, the patient will be terminated from the study and treated for their withdrawal symptoms with standard treatment.",
           "attrs": {
@@ -4555,7 +4583,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:fn:6",
+          "id": "protocol9:soa0:fn:5",
           "type": "footnote",
           "label": "*** MHOWS = Modified Himmelsbach Opiate Withdrawal Scale (Primary Outcome Measure)",
           "attrs": {
@@ -4574,7 +4602,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:fn:7",
+          "id": "protocol9:soa0:fn:6",
           "type": "footnote",
           "label": "time range for collection = 0 to ±30 min for all items",
           "attrs": {
@@ -4593,7 +4621,7 @@
           "note": ""
         },
         {
-          "id": "protocol9:soa0:fn:8",
+          "id": "protocol9:soa0:fn:7",
           "type": "footnote",
           "label": "•Measures, time range and order: These measures should start being collected at 1000, and must be completed by 1200, and shall be collected in the following order: MHOWS, OOWS, SOWS Gossop, MCGI (rater, patient), SOWS (Handelsman), VAS-E, Addiction Research Center Inventory (ARCI-MBG) and Visual Analog Scale (VAS-High) for “Drug High”.",
           "attrs": {
@@ -7150,13 +7178,39 @@
           "dst": "protocol9:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
+        },
+        {
+          "src": "protocol9:soa0:fn:3",
+          "dst": "protocol9:soa0:asmt:1",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol9:soa0:fn:4",
+          "dst": "protocol9:soa0:asmt:2",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol9:soa0:fn:5",
+          "dst": "protocol9:soa0:asmt:14",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
         }
       ],
       "warnings": [
         "located by: 64 cell-like tokens; 19 repeated column positions, 92% of rows; 606 ruling lines; schedule-like heading; landscape page",
         "row-continuation page has 12 columns against the table's 11; the first 11 were aligned by position and 1 extra column(s) appended. Check whether the page really adds visits or the extractor miscounted.",
-        "row-continuation page has 11 columns against the table's 12; the first 11 were aligned by position and 0 extra column(s) appended. Check whether the page really adds visits or the extractor miscounted."
-      ]
+        "row-continuation page has 11 columns against the table's 12; the first 11 were aligned by position and 0 extra column(s) appended. Check whether the page really adds visits or the extractor miscounted.",
+        "'Form numbers may change (small print)' appears verbatim on more than one page with no marker; treated as a running footer rather than a second footnote"
+      ],
+      "discarded": 0
     }
   ],
   "stats": [
@@ -7166,12 +7220,12 @@
       "categories": 4,
       "assessments": 33,
       "cells": 196,
-      "footnotes": 9,
-      "footnote_links": 0,
+      "footnotes": 8,
+      "footnote_links": 3,
       "ambiguous": 0,
-      "warnings": 3,
+      "warnings": 4,
       "conservation": 0
     }
   ],
-  "seconds": 1.1
+  "seconds": 1.0
 }

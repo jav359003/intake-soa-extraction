@@ -213,6 +213,50 @@ def test_unmappable_cell_is_parked_not_dropped():
     assert any("no matching header" in w for w in g.warnings)
 
 
+def test_row_level_marker_binds_to_the_assessment():
+    """protocol9 carries all three of its markers on row labels, not cells,
+    and linked none of them: to_graph copied cell markers into the graph but
+    never row markers."""
+    p1 = page([col(0, "D1")],
+              [row(0, "Morphine", [(0, "1X", ())], markers=["*"])],
+              footnotes=[{"marker": "*", "text": "Morphine: times may vary.",
+                          "appears_complete": True, "attaches_to": []}])
+    g = to_graph(merge_pages([p1], [26]), "p9", "t1", [26])
+    links = [e for e in g.edges if e.type == "footnote_annotates"]
+    asmt = next(n for n in g.nodes if n.type == "assessment")
+    assert len(links) == 1 and links[0].dst == asmt.id, g.warnings
+
+
+def test_category_banding_is_accounted_not_counted_as_loss():
+    """Empty cells on a category row are the grey band drawn across the table,
+    not data. Dropping them is right; calling them lost is a false alarm."""
+    p1 = page([col(0, "D1"), col(1, "D2")],
+              [row(0, "Safety", [(0, "", ()), (1, "", ())], kind="category"),
+               row(1, "ECG", [(0, "X", ())])])
+    g = to_graph(merge_pages([p1], [25]), "p12", "t1", [25])
+    assert g.discarded == 2 and len(g.by_type("cell")) == 1
+
+
+def test_category_row_with_real_values_is_reported():
+    """A category row carrying an actual value means the row was misread as a
+    heading, and an assessment is being thrown away."""
+    p1 = page([col(0, "D1")],
+              [row(0, "Safety", [(0, "3X", ())], kind="category")])
+    g = to_graph(merge_pages([p1], [25]), "p12", "t1", [25])
+    assert any("misread as a heading" in w for w in g.warnings), g.warnings
+
+
+def test_repeated_unmarked_footer_is_not_a_second_footnote():
+    """protocol9 prints "Form numbers may change" at the foot of two pages."""
+    mk = lambda: {"marker": "", "text": "Form numbers may change (small print)",
+                  "appears_complete": True, "attaches_to": []}
+    p1 = page([col(0, "D1")], [row(0, "ECG", [(0, "X", ())])], footnotes=[mk()])
+    p2 = page([col(0, "D1")], [row(0, "Weight", [(0, "X", ())])], footnotes=[mk()])
+    t = merge_pages([p1, p2], [27, 28])
+    assert len(t["footnotes"]) == 1, t["footnotes"]
+    assert any("running footer" in w for w in t["warnings"])
+
+
 if __name__ == "__main__":
     fns = [(k, v) for k, v in sorted(globals().items()) if k.startswith("test_")]
     bad = 0

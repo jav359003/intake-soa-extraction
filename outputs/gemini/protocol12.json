@@ -254,7 +254,9 @@
           "id": "protocol12:soa0:cat:0",
           "type": "category",
           "label": "Screening",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 48,
@@ -270,7 +272,8 @@
           "type": "assessment",
           "label": "Informed consent",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -305,7 +308,8 @@
           "type": "assessment",
           "label": "SCID/Psychiatric evaluation",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -340,7 +344,8 @@
           "type": "assessment",
           "label": "Medical history",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -375,7 +380,8 @@
           "type": "assessment",
           "label": "ACDS assessment (ADHD diagnosis)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -410,7 +416,8 @@
           "type": "assessment",
           "label": "Meth Timeline Followback",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -445,7 +452,8 @@
           "type": "assessment",
           "label": "Prior medications",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -480,7 +488,8 @@
           "type": "assessment",
           "label": "Infectious disease panel/syphilis test/PPD",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -515,7 +524,8 @@
           "type": "assessment",
           "label": "HIV test (optional)",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -550,7 +560,10 @@
           "type": "assessment",
           "label": "Alcohol breathalyzer",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": [
+              "f"
+            ]
           },
           "provenance": [
             {
@@ -704,7 +717,9 @@
           "id": "protocol12:soa0:cat:10",
           "type": "category",
           "label": "Safety",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 48,
@@ -720,7 +735,8 @@
           "type": "assessment",
           "label": "Physical exam",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -775,7 +791,10 @@
           "type": "assessment",
           "label": "Vital signs",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": [
+              "**"
+            ]
           },
           "provenance": [
             {
@@ -930,7 +949,8 @@
           "type": "assessment",
           "label": "Hematology",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -985,7 +1005,8 @@
           "type": "assessment",
           "label": "Blood chemistries",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -1040,7 +1061,8 @@
           "type": "assessment",
           "label": "HAM-D",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -1135,7 +1157,8 @@
           "type": "assessment",
           "label": "Medical urinalysis",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -1190,7 +1213,8 @@
           "type": "assessment",
           "label": "Pregnancy test",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -1323,7 +1347,8 @@
           "type": "assessment",
           "label": "ECG",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -1378,7 +1403,10 @@
           "type": "assessment",
           "label": "Adverse events",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": [
+              "d"
+            ]
           },
           "provenance": [
             {
@@ -1553,7 +1581,8 @@
           "type": "assessment",
           "label": "Concomitant medications",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -1695,7 +1724,9 @@
           "id": "protocol12:soa0:cat:21",
           "type": "category",
           "label": "Efficacy",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 48,
@@ -1711,7 +1742,10 @@
           "type": "assessment",
           "label": "ASI",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": [
+              "***"
+            ]
           },
           "provenance": [
             {
@@ -1746,7 +1780,8 @@
           "type": "assessment",
           "label": "ASI-Lite Follow-up",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -1804,7 +1839,10 @@
           "type": "assessment",
           "label": "HRBS",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": [
+              "***"
+            ]
           },
           "provenance": [
             {
@@ -1859,7 +1897,8 @@
           "type": "assessment",
           "label": "BSCS",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -2016,7 +2055,8 @@
           "type": "assessment",
           "label": "CGI-S",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -2173,7 +2213,8 @@
           "type": "assessment",
           "label": "CGI-O",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -2330,7 +2371,10 @@
           "type": "assessment",
           "label": "CANTABelect",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": [
+              "j"
+            ]
           },
           "provenance": [
             {
@@ -2401,7 +2445,8 @@
           "type": "assessment",
           "label": "Barratt Impulsiveness Scale",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -2472,7 +2517,8 @@
           "type": "assessment",
           "label": "ACDS",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -2507,7 +2553,8 @@
           "type": "assessment",
           "label": "AISRS assessment",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -2596,7 +2643,8 @@
           "type": "assessment",
           "label": "SUR",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -2757,7 +2805,8 @@
           "type": "assessment",
           "label": "Urine for meth/tox screen/creatinine",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -2918,7 +2967,10 @@
           "type": "assessment",
           "label": "Urine tox screen on site test device",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": [
+              "**"
+            ]
           },
           "provenance": [
             {
@@ -2953,7 +3005,8 @@
           "type": "assessment",
           "label": "Medication Administration",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -3090,7 +3143,8 @@
           "type": "assessment",
           "label": "Modafinil compliance",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -3215,7 +3269,11 @@
           "type": "assessment",
           "label": "CBT compliance",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": [
+              "****",
+              "h"
+            ]
           },
           "provenance": [
             {
@@ -3360,7 +3418,8 @@
           "type": "assessment",
           "label": "End of trial form",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -3397,7 +3456,8 @@
           "type": "assessment",
           "label": "Follow-up interview",
           "attrs": {
-            "indent": 1
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -5632,6 +5692,14 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:fn:9",
+          "dst": "protocol12:soa0:asmt:9",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
           "src": "protocol12:soa0:fn:4",
           "dst": "protocol12:soa0:cell:9:3",
           "type": "footnote_annotates",
@@ -5682,6 +5750,14 @@
         {
           "src": "protocol12:soa0:fn:6",
           "dst": "protocol12:soa0:cell:11:8",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:1",
+          "dst": "protocol12:soa0:asmt:12",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5825,6 +5901,14 @@
         },
         {
           "src": "protocol12:soa0:fn:7",
+          "dst": "protocol12:soa0:asmt:19",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:7",
           "dst": "protocol12:soa0:cell:19:1",
           "type": "footnote_annotates",
           "attrs": {
@@ -5880,6 +5964,14 @@
           }
         },
         {
+          "src": "protocol12:soa0:fn:2",
+          "dst": "protocol12:soa0:asmt:22",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
           "src": "protocol12:soa0:fn:5",
           "dst": "protocol12:soa0:cell:23:5",
           "type": "footnote_annotates",
@@ -5898,6 +5990,14 @@
         {
           "src": "protocol12:soa0:fn:8",
           "dst": "protocol12:soa0:cell:23:8",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:2",
+          "dst": "protocol12:soa0:asmt:24",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6080,6 +6180,22 @@
           }
         },
         {
+          "src": "protocol12:soa0:fn:13",
+          "dst": "protocol12:soa0:asmt:28",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:1",
+          "dst": "protocol12:soa0:asmt:34",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
           "src": "protocol12:soa0:fn:5",
           "dst": "protocol12:soa0:cell:35:3",
           "type": "footnote_annotates",
@@ -6128,6 +6244,22 @@
           }
         },
         {
+          "src": "protocol12:soa0:fn:3",
+          "dst": "protocol12:soa0:asmt:37",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:11",
+          "dst": "protocol12:soa0:asmt:37",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
           "src": "protocol12:soa0:fn:11",
           "dst": "protocol12:soa0:cell:37:1",
           "type": "footnote_annotates",
@@ -6145,9 +6277,9 @@
         }
       ],
       "warnings": [
-        "located by: 121 cell-like tokens; 16 repeated column positions, 96% of rows; 554 ruling lines; schedule-like heading; table caption",
-        "CONSERVATION: pages produced 156 cells, the merged table has 132. 24 were lost in stitching."
-      ]
+        "located by: 121 cell-like tokens; 16 repeated column positions, 96% of rows; 554 ruling lines; schedule-like heading; table caption"
+      ],
+      "discarded": 24
     }
   ],
   "stats": [
@@ -6158,11 +6290,11 @@
       "assessments": 37,
       "cells": 132,
       "footnotes": 18,
-      "footnote_links": 64,
+      "footnote_links": 73,
       "ambiguous": 0,
-      "warnings": 2,
-      "conservation": 1
+      "warnings": 1,
+      "conservation": 0
     }
   ],
-  "seconds": 1.2
+  "seconds": 1.1
 }

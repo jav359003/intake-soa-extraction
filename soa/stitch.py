@@ -239,11 +239,14 @@ def merge_pages(pages: list[dict], page_numbers: list[int]) -> dict:
             table["footnotes"].append({**fn, "page": pno})
         prev_grid = page
 
-    table["footnotes"] = _join_footnotes(table["footnotes"], table["warnings"])
+    furniture = [0]
+    table["footnotes"] = _join_footnotes(table["footnotes"], table["warnings"], furniture)
+    table["furniture_dropped"] = furniture[0]
     return table
 
 
-def _join_footnotes(footnotes: list[dict], warnings: list[str]) -> list[dict]:
+def _join_footnotes(footnotes: list[dict], warnings: list[str],
+                    dropped: list[int] | None = None) -> list[dict]:
     """Rejoin a footnote whose text ran onto the following page.
 
     A footnote block routinely spills past a page break, and the continuation
@@ -251,16 +254,29 @@ def _join_footnotes(footnotes: list[dict], warnings: list[str]) -> list[dict]:
     pages back. The signal available is: the previous footnote was reported
     incomplete, and the next fragment arrived without a marker.
     """
+    dropped = dropped if dropped is not None else [0]
     out: list[dict] = []
+    seen_unmarked: dict[str, dict] = {}
     for fn in footnotes:
         marker = (fn.get("marker") or "").strip()
+        body = (fn.get("text") or "").strip()
+        if not marker and body and body in seen_unmarked:
+            seen_unmarked[body].setdefault("also_on", []).append(fn.get("page"))
+            warnings.append(
+                f"'{body[:50]}' appears verbatim on more than one page with no "
+                f"marker; treated as a running footer rather than a second footnote")
+            dropped[0] += 1
+            continue
         if out and not marker and out[-1].get("appears_complete") is False:
             prev = out[-1]
             prev["text"] = f"{prev['text'].rstrip()} {fn.get('text','').lstrip()}".strip()
             prev["appears_complete"] = fn.get("appears_complete", True)
             prev.setdefault("continued_on", []).append(fn.get("page"))
             continue
-        out.append(dict(fn))
+        rec = dict(fn)
+        out.append(rec)
+        if not marker and body:
+            seen_unmarked[body] = rec
     for fn in out:
         if fn.get("appears_complete") is False:
             warnings.append(
@@ -297,12 +313,24 @@ def to_graph(table: dict, protocol: str, table_id: str, pages: list[int],
     for r in table.get("rows", []):
         pv = [Provenance(page=r.get("page", pages[0]), source=source)]
         if r.get("kind") == "category":
+            banding = [c for c in r.get("cells", []) if not (c.get("raw") or "").strip()]
+            real = [c for c in r.get("cells", []) if (c.get("raw") or "").strip()]
+            g.discarded += len(banding)
+            if real:
+                g.warnings.append(
+                    f"category row '{r.get('label','')[:40]}' carries "
+                    f"{len(real)} non-empty cell(s) "
+                    f"({', '.join(repr(c.get('raw')) for c in real[:3])}). Either it "
+                    f"is an assessment misread as a heading, or those values belong "
+                    f"to another row; they are not in the output.")
             cat_id = g.add(Node(id=f"{table_id}:cat:{r['index']}", type="category",
-                                label=r.get("label", ""), provenance=pv))
+                                label=r.get("label", ""), provenance=pv,
+                                attrs={"markers": r.get("markers", []) or []}))
             continue
         aid = g.add(Node(id=f"{table_id}:asmt:{r['index']}", type="assessment",
                          label=r.get("label", ""), provenance=pv,
-                         attrs={"indent": r.get("indent", 0)}))
+                         attrs={"indent": r.get("indent", 0),
+                                "markers": r.get("markers", []) or []}))
         row_ids[r["index"]] = aid
         if cat_id:
             g.link(aid, cat_id, "assessment_in_category")
@@ -399,10 +427,11 @@ def conservation_report(per_page: list[dict], page_numbers: list[int],
 
     # Cells: a column continuation legitimately merges cells onto existing
     # rows, so the total should be preserved, never reduced.
-    if out_cells < in_cells:
+    if out_cells + graph.discarded < in_cells:
         problems.append(
             f"CONSERVATION: pages produced {in_cells} cells, the merged table has "
-            f"{out_cells}. {in_cells - out_cells} were lost in stitching.")
+            f"{out_cells} and {graph.discarded} were discarded for a stated reason. "
+            f"{in_cells - out_cells - graph.discarded} are unaccounted for.")
 
     # Rows: a column continuation restates rows, so the merged count is
     # legitimately lower. It can never exceed the input.
@@ -413,10 +442,12 @@ def conservation_report(per_page: list[dict], page_numbers: list[int],
 
     # Footnotes only ever combine (a spill rejoins its parent), never vanish.
     joined = sum(len(n.attrs.get("continued_on") or []) for n in graph.by_type("footnote"))
-    if out_fns + joined < in_fns:
+    furniture = table.get("furniture_dropped", 0)
+    if out_fns + joined + furniture < in_fns:
         problems.append(
-            f"CONSERVATION: pages produced {in_fns} footnotes, {out_fns} survived "
-            f"({joined} joined to a previous one). {in_fns - out_fns - joined} lost.")
+            f"CONSERVATION: pages produced {in_fns} footnotes; {out_fns} survived, "
+            f"{joined} joined to a previous one, {furniture} were repeated page "
+            f"furniture. {in_fns - out_fns - joined - furniture} unaccounted for.")
 
     # Every page in the span was included for a reason. One that contributed
     # nothing at all is either a locator false positive or a silent failure,

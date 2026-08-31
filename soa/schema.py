@@ -68,6 +68,7 @@ class SoAGraph:
     nodes: list[Node] = field(default_factory=list)
     edges: list[Edge] = field(default_factory=list)
     warnings: list[str] = field(default_factory=list)
+    discarded: int = 0          # cells dropped deliberately, with a reason
 
     # -- construction helpers -------------------------------------------------
 

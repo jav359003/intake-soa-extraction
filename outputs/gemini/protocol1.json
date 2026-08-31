@@ -258,7 +258,8 @@
           "type": "assessment",
           "label": "Informed consent",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -293,7 +294,8 @@
           "type": "assessment",
           "label": "Patient number assigned",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -328,7 +330,8 @@
           "type": "assessment",
           "label": "Hachinski ≤4",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -363,7 +366,8 @@
           "type": "assessment",
           "label": "MMSE 10-23",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -398,7 +402,8 @@
           "type": "assessment",
           "label": "Physical examination",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -469,7 +474,8 @@
           "type": "assessment",
           "label": "Medical History",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -504,7 +510,8 @@
           "type": "assessment",
           "label": "Habits",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -539,7 +546,8 @@
           "type": "assessment",
           "label": "Chest x-ray",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -574,7 +582,8 @@
           "type": "assessment",
           "label": "Apo E genotyping",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -609,7 +618,8 @@
           "type": "assessment",
           "label": "Patient randomized",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -644,7 +654,8 @@
           "type": "assessment",
           "label": "Vital signs/Temperature",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -913,7 +924,8 @@
           "type": "assessment",
           "label": "Ambulatory ECG placed",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -948,7 +960,8 @@
           "type": "assessment",
           "label": "Ambulatory ECG removed",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -983,7 +996,8 @@
           "type": "assessment",
           "label": "ECG",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1198,7 +1212,8 @@
           "type": "assessment",
           "label": "Placebo TTS test",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1233,7 +1248,8 @@
           "type": "assessment",
           "label": "CT Scan (if not within\nlast year and patient passes\nall other screens)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1268,7 +1284,8 @@
           "type": "assessment",
           "label": "Concomitant Medications",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1519,7 +1536,8 @@
           "type": "assessment",
           "label": "Laboratory (Chem/Hemat):",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1734,7 +1752,8 @@
           "type": "assessment",
           "label": "Laboratory (Urinalysis)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1841,7 +1860,8 @@
           "type": "assessment",
           "label": "Plasma Specimen\n(Xanomeline)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1984,7 +2004,8 @@
           "type": "assessment",
           "label": "Hemoglobin A1C",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2021,7 +2042,8 @@
           "type": "assessment",
           "label": "Study drug record\nMedications dispensed\nMedications returned",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2236,7 +2258,8 @@
           "type": "assessment",
           "label": "TTS Acceptability Survey",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2289,7 +2312,8 @@
           "type": "assessment",
           "label": "ADAS-Cog",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2432,7 +2456,8 @@
           "type": "assessment",
           "label": "CIBIC+",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2575,7 +2600,8 @@
           "type": "assessment",
           "label": "DAD",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2718,7 +2744,8 @@
           "type": "assessment",
           "label": "NPI-X",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2977,7 +3004,8 @@
           "type": "assessment",
           "label": "Adverse events",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5025,7 +5053,8 @@
       ],
       "warnings": [
         "located by: 71 cell-like tokens; 18 repeated column positions, 100% of rows; 972 ruling lines; schedule-like heading"
-      ]
+      ],
+      "discarded": 0
     }
   ],
   "stats": [
