@@ -56,7 +56,7 @@ def _lines(words: list[Word], tol: float = 3.0) -> list[list[Word]]:
     return out
 
 
-def _column_centres(lines: list[list[Word]], min_support: int = 3,
+def _column_centres(lines: list[list[Word]], min_support: int | None = None,
                     tol: float = 9.0) -> list[float]:
     """Infer column x-centres from cell-like tokens only.
 
@@ -64,6 +64,12 @@ def _column_centres(lines: list[list[Word]], min_support: int = 3,
     vertically. Clustering only the cell tokens gives a much cleaner column
     signal than clustering every word on the page.
     """
+    # Support scales with page density. A fixed threshold cannot fit all five
+    # reference protocols: 3 leaks label text into the grid on the dense pages,
+    # 5 drops real visit columns on the sparse ones. Requiring a cluster to
+    # appear on roughly a twelfth of the page's lines tracks both.
+    if min_support is None:
+        min_support = max(3, len(lines) // 12)
     xs = sorted(w.cx for ln in lines for w in ln if CELL.match(w.text))
     if not xs:
         return []
@@ -77,7 +83,14 @@ def _column_centres(lines: list[list[Word]], min_support: int = 3,
 
 
 def _label_boundary(lines: list[list[Word]], centres: list[float]) -> float:
-    """x below which text is a row label rather than a cell value."""
+    """x below which text is a row label rather than a cell value.
+
+    Taking the leftmost cell cluster is not enough: a long row label puts words
+    at repeatable x positions too, so a weak cluster inside the label block
+    reads as a data column and splits "Informed consent" into a label and a
+    cell. Anchor on the leftmost *strongly supported* cluster instead, and only
+    treat weaker clusters to its right as columns.
+    """
     return (min(centres) - 12.0) if centres else 1e9
 
 

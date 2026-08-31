@@ -45,7 +45,7 @@ def run(pdf_path: str, engine: str = "vision", model: str | None = None,
         per_page = _extract_span(engine, str(pdf), pages, model)
         merged = merge_pages(per_page, pages)
         g = to_graph(merged, protocol=pdf.stem, table_id=f"{pdf.stem}:soa{i}",
-                     pages=pages)
+                     pages=pages, source=engine)
         g.warnings.insert(0, f"located by: {'; '.join(tbl['reasons'])}")
         graphs.append(g)
 

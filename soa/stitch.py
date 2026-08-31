@@ -31,6 +31,21 @@ COLUMN_CONT_OVERLAP = 0.60
 ROW_CONT_OVERLAP = 0.25          # below this, the rows are genuinely new
 
 
+def norm_marker(m: str) -> str:
+    """Reduce a footnote marker to a comparable key.
+
+    Sponsors write the same marker two ways in the same document: protocol15
+    prints a bare superscript "c" on the cell and labels the footnote "Xc -".
+    protocol5 does the same with "Xa"/"Xb". Comparing raw strings leaves every
+    one of those links unmade -- 64 of them on protocol15 alone -- so both
+    sides are stripped to the marker itself before matching.
+    """
+    m = (m or "").strip().strip("().:-\u2013\u2014 ")
+    if len(m) == 2 and m[0] in "Xx" and m[1].isalpha():
+        m = m[1]                       # Xa -> a
+    return m.lower()
+
+
 def _norm(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", " ", (s or "").lower()).strip()
 
@@ -200,7 +215,8 @@ def _join_footnotes(footnotes: list[dict], warnings: list[str]) -> list[dict]:
     return out
 
 
-def to_graph(table: dict, protocol: str, table_id: str, pages: list[int]) -> SoAGraph:
+def to_graph(table: dict, protocol: str, table_id: str, pages: list[int],
+             source: str = "vlm") -> SoAGraph:
     """Lower the merged table into the node/edge output."""
     g = SoAGraph(protocol=protocol, table_id=table_id, pages=pages,
                  title=table.get("title") or "")
@@ -217,7 +233,7 @@ def to_graph(table: dict, protocol: str, table_id: str, pages: list[int]) -> SoA
             id=f"{table_id}:visit:{c['index']}", type="visit",
             label=c.get("label") or f"col{c['index']}",
             attrs={k: c.get(k) for k in ("visit", "day", "week", "window")},
-            provenance=[Provenance(page=pages[0])]))
+            provenance=[Provenance(page=pages[0], source=source)]))
         col_ids[c["index"]] = vid
         if per:
             g.link(vid, period_ids[per], "visit_in_period")
@@ -225,7 +241,7 @@ def to_graph(table: dict, protocol: str, table_id: str, pages: list[int]) -> SoA
     cat_id: str | None = None
     row_ids: dict[int, str] = {}
     for r in table.get("rows", []):
-        pv = [Provenance(page=r.get("page", pages[0]))]
+        pv = [Provenance(page=r.get("page", pages[0]), source=source)]
         if r.get("kind") == "category":
             cat_id = g.add(Node(id=f"{table_id}:cat:{r['index']}", type="category",
                                 label=r.get("label", ""), provenance=pv))
@@ -260,9 +276,9 @@ def to_graph(table: dict, protocol: str, table_id: str, pages: list[int]) -> SoA
             attrs={"marker": fn.get("marker", ""),
                    "complete": fn.get("appears_complete", True),
                    "continued_on": fn.get("continued_on", [])},
-            provenance=[Provenance(page=fn.get("page", pages[-1]))]))
+            provenance=[Provenance(page=fn.get("page", pages[-1]), source=source)]))
         if fn.get("marker"):
-            by_marker[fn["marker"].strip()] = fid
+            by_marker[norm_marker(fn["marker"])] = fid
         for a in fn.get("attaches_to", []):
             tgt = None
             if a.get("kind") == "cell":
@@ -279,7 +295,7 @@ def to_graph(table: dict, protocol: str, table_id: str, pages: list[int]) -> SoA
     # footnote did not name the cell itself, and conflicts are reported.
     for n in g.nodes:
         for mk in (n.attrs.get("markers") or []):
-            fid = by_marker.get(str(mk).strip())
+            fid = by_marker.get(norm_marker(str(mk)))
             if fid and not any(e.src == fid and e.dst == n.id
                                and e.type == "footnote_annotates" for e in g.edges):
                 g.link(fid, n.id, "footnote_annotates", inferred_from="marker")

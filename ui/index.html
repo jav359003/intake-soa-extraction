@@ -1,0 +1,207 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>SoA Extractor</title>
+<style>
+  :root {
+    --bg:#fbfbfa; --panel:#fff; --line:#e3e1dd; --ink:#1b1a18; --dim:#6d6a65;
+    --accent:#2f5d50; --warn:#8a5a2b; --warnbg:#fdf6ec; --amb:#fff4d6;
+    --shade:#eceae6; --hl:#d8ebe3;
+  }
+  * { box-sizing:border-box; }
+  body { margin:0; font:13px/1.5 ui-sans-serif,-apple-system,"Segoe UI",sans-serif;
+         background:var(--bg); color:var(--ink); }
+  header { padding:14px 20px; border-bottom:1px solid var(--line); background:var(--panel);
+           display:flex; gap:16px; align-items:center; flex-wrap:wrap; position:sticky; top:0; z-index:5; }
+  h1 { font-size:15px; margin:0; font-weight:650; letter-spacing:-.01em; }
+  .muted { color:var(--dim); }
+  button, select, input[type=file] { font:inherit; }
+  button { background:var(--accent); color:#fff; border:0; border-radius:6px;
+           padding:7px 14px; cursor:pointer; }
+  button:disabled { opacity:.5; cursor:default; }
+  main { display:grid; grid-template-columns:minmax(0,1fr) 420px; gap:0; align-items:start; }
+  @media (max-width:1100px){ main { grid-template-columns:1fr; } }
+  section { padding:16px 20px; min-width:0; }
+  aside { padding:16px 20px; border-left:1px solid var(--line); background:var(--panel);
+          position:sticky; top:53px; max-height:calc(100vh - 53px); overflow:auto; }
+  .scroll { overflow:auto; border:1px solid var(--line); border-radius:8px; background:var(--panel); }
+  table { border-collapse:separate; border-spacing:0; font-size:12px; }
+  th, td { border-right:1px solid var(--line); border-bottom:1px solid var(--line);
+           padding:4px 7px; text-align:center; white-space:nowrap; }
+  thead th { position:sticky; top:0; background:var(--panel); z-index:2; font-weight:600; }
+  th.row, td.row { position:sticky; left:0; background:var(--panel); text-align:left;
+                   z-index:1; max-width:340px; white-space:normal; }
+  tr.cat td { background:var(--shade); font-weight:650; text-align:left; }
+  td.val { cursor:pointer; }
+  td.val:hover { background:var(--hl); }
+  td.amb { background:var(--amb); }
+  td.shaded { background:var(--shade); }
+  sup { color:var(--accent); font-weight:700; margin-left:1px; }
+  .pill { display:inline-block; padding:1px 7px; border-radius:99px; font-size:11px;
+          border:1px solid var(--line); background:var(--panel); margin-right:5px; }
+  .warn { background:var(--warnbg); border-left:3px solid var(--warn); padding:7px 10px;
+          margin:5px 0; border-radius:0 5px 5px 0; font-size:12px; }
+  .warn details { margin-top:5px; }
+  .warn summary { cursor:pointer; color:var(--dim); font-size:11px; }
+  .warn b { color:var(--warn); }
+  .fn { border-bottom:1px solid var(--line); padding:8px 0; font-size:12px; }
+  .fn b { color:var(--accent); }
+  img { width:100%; border:1px solid var(--line); border-radius:6px; display:block; }
+  h3 { font-size:12px; text-transform:uppercase; letter-spacing:.05em; color:var(--dim);
+       margin:18px 0 8px; }
+  h3:first-child { margin-top:0; }
+  code { background:var(--shade); padding:1px 5px; border-radius:4px; font-size:11px; }
+  .empty { color:var(--dim); padding:40px 0; text-align:center; }
+</style>
+
+<header>
+  <h1>Schedule of Activities extractor</h1>
+  <input type="file" id="f" accept="application/pdf">
+  <select id="engine">
+    <option value="text-layer">text-layer (no API key)</option>
+    <option value="vision">vision</option>
+  </select>
+  <button id="go">Extract</button>
+  <span class="muted" id="status"></span>
+</header>
+
+<main>
+  <section>
+    <div id="meta"></div>
+    <div id="grid" class="empty">Upload a protocol PDF. The locator finds the schedule; nothing is precomputed.</div>
+  </section>
+  <aside id="side"><div class="muted">Click any cell to see its raw value, footnotes and source page.</div></aside>
+</main>
+
+<script>
+const $ = s => document.querySelector(s);
+let RESULT = null, PDF = null;
+
+$("#go").onclick = async () => {
+  const file = $("#f").files[0];
+  if (!file) return alert("Choose a PDF first.");
+  const fd = new FormData();
+  fd.append("file", file);
+  fd.append("engine", $("#engine").value);
+  $("#go").disabled = true;
+  $("#status").textContent = "locating and extracting…";
+  try {
+    const r = await fetch("/extract", { method:"POST", body:fd });
+    const j = await r.json();
+    if (!r.ok) throw new Error(j.detail || "extraction failed");
+    RESULT = j; PDF = j._pdf;
+    $("#status").textContent = `${j.seconds}s · ${j.engine}`;
+    renderAll(j);
+  } catch (e) {
+    $("#status").textContent = "";
+    $("#grid").innerHTML = `<div class="warn">${esc(e.message)}</div>`;
+  } finally { $("#go").disabled = false; }
+};
+
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c =>
+  ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+
+function renderAll(j) {
+  if (!j.tables.length) {
+    $("#grid").innerHTML = `<div class="warn">No Schedule of Activities found in this document.</div>`;
+    return;
+  }
+  $("#meta").innerHTML = j.tables.map((t, i) => {
+    const s = j.stats[i];
+    return `<div style="margin-bottom:10px">
+      <span class="pill">table ${i+1}</span>
+      <span class="pill">pages ${t.pages.join(", ")}</span>
+      <span class="pill">${s.visits} visits</span>
+      <span class="pill">${s.assessments} assessments</span>
+      <span class="pill">${s.cells} cells</span>
+      <span class="pill">${s.footnotes} footnotes, ${s.footnote_links} linked</span>
+      ${s.ambiguous ? `<span class="pill">${s.ambiguous} ambiguous</span>` : ""}
+      <div class="muted" style="margin-top:5px">${esc(t.title || "")}</div>
+    </div>`;
+  }).join("");
+  $("#grid").className = "";
+  $("#grid").innerHTML = j.tables.map((t, i) => gridHTML(t, i)).join("");
+}
+
+// The graph is canonical; this rebuilds the grid view from its edges, which is
+// also a check that the edges say what the table said.
+function view(t) {
+  const byId = Object.fromEntries(t.nodes.map(n => [n.id, n]));
+  const of = {}, at = {}, fnOn = {};
+  for (const e of t.edges) {
+    if (e.type === "cell_of_assessment") of[e.src] = e.dst;
+    if (e.type === "cell_at_visit") at[e.src] = e.dst;
+    if (e.type === "footnote_annotates") (fnOn[e.dst] ||= []).push(e.src);
+  }
+  const visits = t.nodes.filter(n => n.type === "visit");
+  const cells = {};
+  for (const n of t.nodes.filter(n => n.type === "cell"))
+    cells[`${of[n.id]}|${at[n.id]}`] = n;
+  // Rows in document order, categories interleaved where they appeared.
+  const rows = t.nodes.filter(n => n.type === "assessment" || n.type === "category");
+  return { byId, visits, cells, rows, fnOn };
+}
+
+function gridHTML(t, ti) {
+  const v = view(t);
+  const head = `<tr><th class="row">Assessment</th>${
+    v.visits.map(x => `<th>${esc(x.label)}${x.attrs.day ? `<div class="muted">${esc(x.attrs.day)}</div>` : ""}</th>`).join("")}</tr>`;
+  const body = v.rows.map(r => {
+    if (r.type === "category")
+      return `<tr class="cat"><td class="row" colspan="${v.visits.length + 1}">${esc(r.label)}</td></tr>`;
+    const tds = v.visits.map(x => {
+      const c = v.cells[`${r.id}|${x.id}`];
+      if (!c) return `<td></td>`;
+      const mk = (c.attrs.markers || []).map(m => `<sup>${esc(m)}</sup>`).join("");
+      const cls = ["val", c.ambiguous ? "amb" : "", c.attrs.shaded ? "shaded" : ""].join(" ");
+      return `<td class="${cls}" data-t="${ti}" data-c="${esc(c.id)}">${esc(c.label)}${mk}</td>`;
+    }).join("");
+    const rmk = (r.attrs.markers || []).map(m => `<sup>${esc(m)}</sup>`).join("");
+    return `<tr><td class="row">${esc(r.label)}${rmk}</td>${tds}</tr>`;
+  }).join("");
+  return `<div class="scroll"><table><thead>${head}</thead><tbody>${body}</tbody></table></div>
+          ${warnHTML(t)}`;
+}
+
+function warnHTML(t) {
+  if (!t.warnings.length) return "";
+  // Warnings repeat by shape -- 40 copies of "marker 'b' matches no footnote"
+  // is one problem, not forty. Group by shape so the distinct issues are
+  // readable, and keep the full list one click away.
+  const groups = new Map();
+  for (const w of t.warnings) {
+    const key = w.replace(/'[^']*'/g, "'…'").replace(/\b\d+\b/g, "N");
+    if (!groups.has(key)) groups.set(key, []);
+    groups.get(key).push(w);
+  }
+  const rows = [...groups.entries()].sort((a, b) => b[1].length - a[1].length);
+  return `<h3>Warnings (${t.warnings.length} in ${rows.length} groups)</h3>` +
+    rows.map(([key, all]) => `<div class="warn">
+        ${all.length > 1 ? `<b>${all.length}×</b> ` : ""}${esc(all[0])}
+        ${all.length > 1 ? `<details><summary>show all ${all.length}</summary>
+          ${all.map(w => `<div class="muted">${esc(w)}</div>`).join("")}</details>` : ""}
+      </div>`).join("");
+}
+
+document.addEventListener("click", e => {
+  const td = e.target.closest("td.val");
+  if (!td || !RESULT) return;
+  const t = RESULT.tables[+td.dataset.t];
+  const v = view(t);
+  const cell = v.byId[td.dataset.c];
+  const fns = (v.fnOn[cell.id] || []).map(id => v.byId[id]);
+  const page = cell.provenance[0]?.page;
+  $("#side").innerHTML = `
+    <h3>Cell</h3>
+    <div>raw value: <code>${esc(cell.label) || "(empty)"}</code></div>
+    ${cell.attrs.shaded ? `<div class="muted">shaded — not applicable at this visit</div>` : ""}
+    ${cell.ambiguous ? `<div class="warn">marked ambiguous by the extractor</div>` : ""}
+    <div class="muted" style="margin-top:6px">source: page ${page} · ${esc(cell.provenance[0]?.source || "")}</div>
+    <h3>Footnotes (${fns.length})</h3>
+    ${fns.length ? fns.map(f => `<div class="fn"><b>${esc(f.attrs.marker)}</b> ${esc(f.label)}
+      ${f.attrs.complete === false ? `<div class="warn">looks truncated</div>` : ""}</div>`).join("")
+      : `<div class="muted">none</div>`}
+    <h3>Source page ${page}</h3>
+    <img src="/page?pdf=${encodeURIComponent(PDF)}&page=${page}" alt="source page ${page}">`;
+  $("#side").scrollTop = 0;
+});
+</script>
