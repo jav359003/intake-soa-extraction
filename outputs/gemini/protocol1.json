@@ -1,0 +1,2737 @@
+{
+  "protocol": "protocol1",
+  "engine": "gemini",
+  "model": null,
+  "n_pages": 97,
+  "tables": [
+    {
+      "protocol": "protocol1",
+      "table_id": "protocol1:soa0",
+      "pages": [
+        53,
+        54
+      ],
+      "title": "Schedule of Events for Protocol H2Q-MC-LZZT(c) (concluded)",
+      "nodes": [
+        {
+          "id": "protocol1:soa0:visit:0",
+          "type": "visit",
+          "label": "VISIT 9 | WEEK 12",
+          "attrs": {
+            "visit": "9",
+            "day": null,
+            "week": "12",
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:visit:1",
+          "type": "visit",
+          "label": "VISIT 10 | WEEK 16",
+          "attrs": {
+            "visit": "10",
+            "day": null,
+            "week": "16",
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:visit:2",
+          "type": "visit",
+          "label": "VISIT 11 | WEEK 20",
+          "attrs": {
+            "visit": "11",
+            "day": null,
+            "week": "20",
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:visit:3",
+          "type": "visit",
+          "label": "VISIT 12 | WEEK 24",
+          "attrs": {
+            "visit": "12",
+            "day": null,
+            "week": "24",
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:visit:4",
+          "type": "visit",
+          "label": "VISIT 13 | WEEK 26",
+          "attrs": {
+            "visit": "13",
+            "day": null,
+            "week": "26",
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:visit:5",
+          "type": "visit",
+          "label": "VISIT ET",
+          "attrs": {
+            "visit": "ET",
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:visit:6",
+          "type": "visit",
+          "label": "VISIT RT",
+          "attrs": {
+            "visit": "RT",
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:0",
+          "type": "assessment",
+          "label": "Informed consent",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:1",
+          "type": "assessment",
+          "label": "Patient number assigned",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:2",
+          "type": "assessment",
+          "label": "Hachinski ≤4",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:3",
+          "type": "assessment",
+          "label": "MMSE 10-23",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:4",
+          "type": "assessment",
+          "label": "Physical examination",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:4:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:4:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:5",
+          "type": "assessment",
+          "label": "Medical History",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:6",
+          "type": "assessment",
+          "label": "Habits",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:7",
+          "type": "assessment",
+          "label": "Chest x-ray",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:8",
+          "type": "assessment",
+          "label": "Apo E genotyping",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:9",
+          "type": "assessment",
+          "label": "Patient randomized",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:10",
+          "type": "assessment",
+          "label": "Vital signs/Temperature",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:10:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:10:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:10:2",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:10:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:10:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:10:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:10:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:11",
+          "type": "assessment",
+          "label": "Ambulatory ECG placed",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:12",
+          "type": "assessment",
+          "label": "Ambulatory ECG removed",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:13",
+          "type": "assessment",
+          "label": "ECG",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:13:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:13:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:13:2",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:13:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:13:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:13:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:14",
+          "type": "assessment",
+          "label": "Placebo TTS test",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:15",
+          "type": "assessment",
+          "label": "CT Scan (if not within last year and patient passes all other screens)",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:16",
+          "type": "assessment",
+          "label": "Concomitant Medications",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:16:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:16:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:16:2",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:16:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:16:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:16:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:16:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:17",
+          "type": "assessment",
+          "label": "Laboratory (Chem/Hemat):",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:17:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:17:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:17:2",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:17:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:17:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:17:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:18",
+          "type": "assessment",
+          "label": "Laboratory (Urinalysis)",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:18:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:18:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:18:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:19",
+          "type": "assessment",
+          "label": "Plasma Specimen (Xanomeline)",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:19:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:19:2",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:19:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:20",
+          "type": "assessment",
+          "label": "Hemoglobin A1c",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:21",
+          "type": "assessment",
+          "label": "Study drug record Medications dispensed Medications returned",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:21:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:21:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:21:2",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:21:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:21:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:21:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:22",
+          "type": "assessment",
+          "label": "TTS Acceptability Survey",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:22:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:22:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:23",
+          "type": "assessment",
+          "label": "ADAS-Cog",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:23:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:23:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:23:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:23:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:24",
+          "type": "assessment",
+          "label": "CIBIC+",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:24:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:24:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:24:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:24:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:25",
+          "type": "assessment",
+          "label": "DAD",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:25:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:25:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:25:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:25:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:26",
+          "type": "assessment",
+          "label": "NPI-X",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:26:0",
+          "type": "cell",
+          "label": "Xb",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:26:1",
+          "type": "cell",
+          "label": "Xb",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:26:2",
+          "type": "cell",
+          "label": "Xb",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:26:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:26:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:26:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:26:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:asmt:27",
+          "type": "assessment",
+          "label": "Adverse events",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:27:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:27:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:27:2",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:27:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:27:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:27:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:27:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:fn:0",
+          "type": "footnote",
+          "label": "Xb = Performed at this visit and via telephone interview 2 weeks following this visit.",
+          "attrs": {
+            "marker": "b",
+            "complete": true,
+            "continued_on": []
+          },
+          "provenance": [
+            {
+              "page": 54,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        }
+      ],
+      "edges": [
+        {
+          "src": "protocol1:soa0:cell:4:4",
+          "dst": "protocol1:soa0:asmt:4",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:4:4",
+          "dst": "protocol1:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:4:5",
+          "dst": "protocol1:soa0:asmt:4",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:4:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:0",
+          "dst": "protocol1:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:0",
+          "dst": "protocol1:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:1",
+          "dst": "protocol1:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:1",
+          "dst": "protocol1:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:2",
+          "dst": "protocol1:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:2",
+          "dst": "protocol1:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:3",
+          "dst": "protocol1:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:3",
+          "dst": "protocol1:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:4",
+          "dst": "protocol1:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:4",
+          "dst": "protocol1:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:5",
+          "dst": "protocol1:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:6",
+          "dst": "protocol1:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:6",
+          "dst": "protocol1:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:0",
+          "dst": "protocol1:soa0:asmt:13",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:0",
+          "dst": "protocol1:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:1",
+          "dst": "protocol1:soa0:asmt:13",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:1",
+          "dst": "protocol1:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:2",
+          "dst": "protocol1:soa0:asmt:13",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:2",
+          "dst": "protocol1:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:3",
+          "dst": "protocol1:soa0:asmt:13",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:3",
+          "dst": "protocol1:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:4",
+          "dst": "protocol1:soa0:asmt:13",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:4",
+          "dst": "protocol1:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:5",
+          "dst": "protocol1:soa0:asmt:13",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:0",
+          "dst": "protocol1:soa0:asmt:16",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:0",
+          "dst": "protocol1:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:1",
+          "dst": "protocol1:soa0:asmt:16",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:1",
+          "dst": "protocol1:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:2",
+          "dst": "protocol1:soa0:asmt:16",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:2",
+          "dst": "protocol1:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:3",
+          "dst": "protocol1:soa0:asmt:16",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:3",
+          "dst": "protocol1:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:4",
+          "dst": "protocol1:soa0:asmt:16",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:4",
+          "dst": "protocol1:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:5",
+          "dst": "protocol1:soa0:asmt:16",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:6",
+          "dst": "protocol1:soa0:asmt:16",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:6",
+          "dst": "protocol1:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:0",
+          "dst": "protocol1:soa0:asmt:17",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:0",
+          "dst": "protocol1:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:1",
+          "dst": "protocol1:soa0:asmt:17",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:1",
+          "dst": "protocol1:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:2",
+          "dst": "protocol1:soa0:asmt:17",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:2",
+          "dst": "protocol1:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:3",
+          "dst": "protocol1:soa0:asmt:17",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:3",
+          "dst": "protocol1:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:4",
+          "dst": "protocol1:soa0:asmt:17",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:4",
+          "dst": "protocol1:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:5",
+          "dst": "protocol1:soa0:asmt:17",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:18:0",
+          "dst": "protocol1:soa0:asmt:18",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:18:0",
+          "dst": "protocol1:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:18:3",
+          "dst": "protocol1:soa0:asmt:18",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:18:3",
+          "dst": "protocol1:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:18:5",
+          "dst": "protocol1:soa0:asmt:18",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:18:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:19:0",
+          "dst": "protocol1:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:19:0",
+          "dst": "protocol1:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:19:2",
+          "dst": "protocol1:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:19:2",
+          "dst": "protocol1:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:19:5",
+          "dst": "protocol1:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:19:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:0",
+          "dst": "protocol1:soa0:asmt:21",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:0",
+          "dst": "protocol1:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:1",
+          "dst": "protocol1:soa0:asmt:21",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:1",
+          "dst": "protocol1:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:2",
+          "dst": "protocol1:soa0:asmt:21",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:2",
+          "dst": "protocol1:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:3",
+          "dst": "protocol1:soa0:asmt:21",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:3",
+          "dst": "protocol1:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:4",
+          "dst": "protocol1:soa0:asmt:21",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:4",
+          "dst": "protocol1:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:5",
+          "dst": "protocol1:soa0:asmt:21",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:22:4",
+          "dst": "protocol1:soa0:asmt:22",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:22:4",
+          "dst": "protocol1:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:22:5",
+          "dst": "protocol1:soa0:asmt:22",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:22:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:23:1",
+          "dst": "protocol1:soa0:asmt:23",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:23:1",
+          "dst": "protocol1:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:23:3",
+          "dst": "protocol1:soa0:asmt:23",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:23:3",
+          "dst": "protocol1:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:23:5",
+          "dst": "protocol1:soa0:asmt:23",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:23:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:23:6",
+          "dst": "protocol1:soa0:asmt:23",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:23:6",
+          "dst": "protocol1:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:24:1",
+          "dst": "protocol1:soa0:asmt:24",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:24:1",
+          "dst": "protocol1:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:24:3",
+          "dst": "protocol1:soa0:asmt:24",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:24:3",
+          "dst": "protocol1:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:24:5",
+          "dst": "protocol1:soa0:asmt:24",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:24:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:24:6",
+          "dst": "protocol1:soa0:asmt:24",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:24:6",
+          "dst": "protocol1:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:25:1",
+          "dst": "protocol1:soa0:asmt:25",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:25:1",
+          "dst": "protocol1:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:25:3",
+          "dst": "protocol1:soa0:asmt:25",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:25:3",
+          "dst": "protocol1:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:25:5",
+          "dst": "protocol1:soa0:asmt:25",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:25:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:25:6",
+          "dst": "protocol1:soa0:asmt:25",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:25:6",
+          "dst": "protocol1:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:0",
+          "dst": "protocol1:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:0",
+          "dst": "protocol1:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:1",
+          "dst": "protocol1:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:1",
+          "dst": "protocol1:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:2",
+          "dst": "protocol1:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:2",
+          "dst": "protocol1:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:3",
+          "dst": "protocol1:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:3",
+          "dst": "protocol1:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:4",
+          "dst": "protocol1:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:4",
+          "dst": "protocol1:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:5",
+          "dst": "protocol1:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:6",
+          "dst": "protocol1:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:6",
+          "dst": "protocol1:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:0",
+          "dst": "protocol1:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:0",
+          "dst": "protocol1:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:1",
+          "dst": "protocol1:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:1",
+          "dst": "protocol1:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:2",
+          "dst": "protocol1:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:2",
+          "dst": "protocol1:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:3",
+          "dst": "protocol1:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:3",
+          "dst": "protocol1:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:4",
+          "dst": "protocol1:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:4",
+          "dst": "protocol1:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:5",
+          "dst": "protocol1:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:5",
+          "dst": "protocol1:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:6",
+          "dst": "protocol1:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:6",
+          "dst": "protocol1:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:fn:0",
+          "dst": "protocol1:soa0:cell:26:0",
+          "type": "footnote_annotates",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:fn:0",
+          "dst": "protocol1:soa0:cell:26:1",
+          "type": "footnote_annotates",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:fn:0",
+          "dst": "protocol1:soa0:cell:26:2",
+          "type": "footnote_annotates",
+          "attrs": {}
+        }
+      ],
+      "warnings": [
+        "located by: 71 cell-like tokens; 18 repeated column positions, 100% of rows; 972 ruling lines; schedule-like heading"
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "periods": 0,
+      "visits": 7,
+      "categories": 0,
+      "assessments": 28,
+      "cells": 68,
+      "footnotes": 1,
+      "footnote_links": 3,
+      "ambiguous": 0,
+      "warnings": 1
+    }
+  ],
+  "seconds": 202.9
+}

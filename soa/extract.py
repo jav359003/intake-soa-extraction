@@ -19,10 +19,11 @@ to merge four page images at once tends to silently drop the middle two.
 
 from __future__ import annotations
 
-import json, os, re
+import hashlib, json, os, pathlib, re
 from dataclasses import dataclass
 
 from .render import RenderedPage, render
+from .config import api_key
 
 MODEL = "claude-opus-5"
 MAX_TOKENS = 16000
@@ -117,6 +118,20 @@ If this page holds no SoA table, return {{"is_soa_page": false}} and nothing els
 """
 
 
+CACHE = pathlib.Path(__file__).resolve().parents[1] / "cache" / "pages"
+
+
+def _cache_key(pdf_path: str, page_no: int, model: str) -> pathlib.Path:
+    """Cache on the inputs that can change the answer: the page bytes, the
+    model, and the prompt. Editing the prompt invalidates every entry, which is
+    what you want -- a cached answer from an older prompt is a silent lie."""
+    h = hashlib.sha256()
+    h.update(pathlib.Path(pdf_path).read_bytes()[:1_000_000])
+    h.update(f"|{pathlib.Path(pdf_path).stat().st_size}|{page_no}|{model}|".encode())
+    h.update((SYSTEM + PROMPT).encode())
+    return CACHE / f"{pathlib.Path(pdf_path).stem}_p{page_no}_{h.hexdigest()[:16]}.json"
+
+
 @dataclass
 class PageExtraction:
     page: int
@@ -148,9 +163,22 @@ def build_messages(rp: RenderedPage, span: list[int] | None = None) -> list[dict
 
 
 def extract_page(pdf_path: str, page_no: int, span: list[int] | None = None,
-                 client=None, model: str = MODEL) -> PageExtraction:
+                 client=None, model: str = MODEL, use_cache: bool = True) -> PageExtraction:
+    """Extract one page, reusing a cached response when the inputs are unchanged.
+
+    Every downstream fix -- stitching, footnote binding, the graph -- needs to be
+    iterated against real extractions. Paying for a fresh vision call on each
+    iteration makes that loop slow and expensive, and tempts you into debugging
+    against synthetic data instead of the real thing.
+    """
+    key = _cache_key(pdf_path, page_no, model)
+    if use_cache and key.exists():
+        c = json.loads(key.read_text())
+        return PageExtraction(page=page_no, data=c["data"], raw=c["raw"],
+                              usage={**c["usage"], "cached": True})
+
     import anthropic
-    client = client or anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    client = client or anthropic.Anthropic(api_key=api_key())
     rp = render(pdf_path, page_no)
     resp = client.messages.create(
         model=model,
@@ -166,10 +194,15 @@ def extract_page(pdf_path: str, page_no: int, span: list[int] | None = None,
         # Surface the failure rather than silently returning an empty table --
         # an empty result here would read downstream as "this page had no rows".
         data = {"is_soa_page": None, "parse_error": str(e)}
-    return PageExtraction(
+    ex = PageExtraction(
         page=page_no, data=data, raw=text,
         usage={"input": resp.usage.input_tokens, "output": resp.usage.output_tokens},
     )
+    if data.get("is_soa_page") is not None:
+        key.parent.mkdir(parents=True, exist_ok=True)
+        key.write_text(json.dumps({"data": ex.data, "raw": ex.raw, "usage": ex.usage},
+                                  ensure_ascii=False))
+    return ex
 
 
 def extract_span(pdf_path: str, pages: list[int], **kw) -> list[PageExtraction]:

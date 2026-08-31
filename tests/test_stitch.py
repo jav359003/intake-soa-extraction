@@ -151,6 +151,27 @@ def test_footnote_only_page_contributes_no_rows():
     assert len(t["rows"]) == 1 and len(t["footnotes"]) == 1
 
 
+def test_failed_page_is_reported_not_swallowed():
+    """A page the extractor could not read must be shouted about.
+
+    This is the protocol1 p53 case: the model returned nothing, the page
+    became is_soa_page=None, and half the table vanished with no warning."""
+    good = page([col(0, "Wk 1")], [row(0, "ECG", [(0, "X", ())])])
+    bad = {"is_soa_page": None, "parse_error": "Expecting value: line 1 column 1"}
+    t = merge_pages([good, bad], [53, 54])
+    assert any("EXTRACTION FAILED" in w for w in t["warnings"]), t["warnings"]
+    assert any("p54" in w for w in t["warnings"])
+
+
+def test_axis_singular_form_is_understood():
+    """Models write axis as "column" as readily as "columns"."""
+    rows_same = [row(0, "Consent", []), row(1, "Vitals", []), row(2, "ECG", [])]
+    p1 = page([col(0, "Week 0")], rows_same)
+    p2 = page([col(0, "Week 4")], rows_same, axis="column")
+    axis, evidence, confident = decide_axis(p1, p2)
+    assert axis == "columns" and confident is True, (axis, evidence, confident)
+
+
 if __name__ == "__main__":
     fns = [(k, v) for k, v in sorted(globals().items()) if k.startswith("test_")]
     bad = 0

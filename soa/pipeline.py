@@ -20,14 +20,17 @@ from .locate import locate
 from .stitch import merge_pages, to_graph
 from .schema import SoAGraph
 
-ENGINES = ("vision", "text-layer")
+ENGINES = ("vision", "gemini", "text-layer")
 
 
 def _extract_span(engine: str, pdf: str, pages: list[int], model: str | None):
     if engine == "text-layer":
         from .baseline import extract_span
         return extract_span(pdf, pages)
-    from .extract import extract_span, MODEL
+    if engine == "gemini":
+        from .extract_gemini import extract_span, MODEL
+    else:
+        from .extract import extract_span, MODEL
     exs = extract_span(pdf, pages, model=model or MODEL)
     return [e.data for e in exs]
 
@@ -43,6 +46,11 @@ def run(pdf_path: str, engine: str = "vision", model: str | None = None,
     for i, tbl in enumerate(loc["tables"]):
         pages = tbl["pages"]
         per_page = _extract_span(engine, str(pdf), pages, model)
+        if out_dir:
+            d = pathlib.Path(out_dir) / "pages"; d.mkdir(parents=True, exist_ok=True)
+            for pno, pg in zip(pages, per_page):
+                (d / f"{pdf.stem}_p{pno}.json").write_text(
+                    json.dumps(pg, indent=2, ensure_ascii=False))
         merged = merge_pages(per_page, pages)
         g = to_graph(merged, protocol=pdf.stem, table_id=f"{pdf.stem}:soa{i}",
                      pages=pages, source=engine)

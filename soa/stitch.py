@@ -77,6 +77,10 @@ def decide_axis(prev_page: dict, page: dict) -> tuple[str, str, bool]:
     row on the page with nothing to show for it.
     """
     claimed = ((page.get("continuation") or {}).get("axis") or "").lower() or None
+    if claimed in ("column", "col", "columns"):
+        claimed = "columns"
+    elif claimed in ("row", "rows"):
+        claimed = "rows"
     evidence = (page.get("continuation") or {}).get("evidence", "")
     overlap = _label_overlap(prev_page.get("rows", []), page.get("rows", []))
 
@@ -125,6 +129,15 @@ def merge_pages(pages: list[dict], page_numbers: list[int]) -> dict:
     prev_grid: dict | None = None
 
     for pno, page in zip(page_numbers, pages):
+        if page.get("is_soa_page") is None:
+            # Extraction failed on this page. Silence here is the worst
+            # outcome in the brief -- a dropped page is a dropped set of
+            # visits or assessments that nobody notices.
+            table["warnings"].append(
+                f"p{pno}: EXTRACTION FAILED ({page.get('parse_error', 'no reason given')}). "
+                f"Every row and column on this page is missing from the output.")
+            continue
+
         if not page.get("is_soa_page"):
             # A page with no grid is still in the span for a reason: it carries
             # the footnote block. Fold its notes in and move on.

@@ -4,3 +4,4 @@ scratch/
 .env
 protocols
 .gstack/
+cache/
