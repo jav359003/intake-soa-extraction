@@ -1,0 +1,5597 @@
+{
+  "protocol": "protocol5",
+  "engine": "text-layer",
+  "model": null,
+  "n_pages": 61,
+  "tables": [
+    {
+      "protocol": "protocol5",
+      "table_id": "protocol5:soa0",
+      "pages": [
+        50,
+        51
+      ],
+      "title": "Appendi x",
+      "nodes": [
+        {
+          "id": "protocol5:soa0:visit:0",
+          "type": "visit",
+          "label": "col0",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:1",
+          "type": "visit",
+          "label": "col1",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:2",
+          "type": "visit",
+          "label": "col2",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:3",
+          "type": "visit",
+          "label": "col3",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:4",
+          "type": "visit",
+          "label": "col4",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:5",
+          "type": "visit",
+          "label": "col5",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:6",
+          "type": "visit",
+          "label": "col6",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:7",
+          "type": "visit",
+          "label": "col7",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:8",
+          "type": "visit",
+          "label": "col8",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:9",
+          "type": "visit",
+          "label": "col9",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:10",
+          "type": "visit",
+          "label": "col10",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:11",
+          "type": "visit",
+          "label": "col11",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:12",
+          "type": "visit",
+          "label": "col12",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:0",
+          "type": "assessment",
+          "label": "Follow- up 31",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:0:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:0:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:0:2",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:0:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:0:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:0:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:0:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:1",
+          "type": "assessment",
+          "label": "Dis­ charge 17",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:1:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:1:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:1:2",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:1:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:1:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:1:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:1:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:2",
+          "type": "assessment",
+          "label": "13",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:2:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:2:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:2:2",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:2:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:2:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "8"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:2:8",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:2:9",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:2:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:2:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:2:12",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:2:6",
+          "type": "cell",
+          "label": "8",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:3",
+          "type": "assessment",
+          "label": "Infusions",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:3:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:3:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:3:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "7"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:3:7",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:3:9",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:3:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:3:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:4",
+          "type": "assessment",
+          "label": "12",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:4:6",
+          "type": "cell",
+          "label": "7",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:5",
+          "type": "assessment",
+          "label": "8",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:5:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:5:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:5:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "f"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:5:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "6"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:5:8",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:5:9",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:5:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:5:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:5:12",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:5:6",
+          "type": "cell",
+          "label": "6",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cat:6",
+          "type": "category",
+          "label": "Treatment",
+          "attrs": {},
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:7",
+          "type": "assessment",
+          "label": "7",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:7:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:7:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:7:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "5"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:7:7",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:7:9",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:7:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:7:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:7:6",
+          "type": "cell",
+          "label": "5",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:8",
+          "type": "assessment",
+          "label": "-1",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:8:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:8:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:8:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "4"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:8:8",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:8:9",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:8:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:8:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:8:12",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:8:6",
+          "type": "cell",
+          "label": "4",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cat:9",
+          "type": "category",
+          "label": "Baseline Infusions",
+          "attrs": {},
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:10",
+          "type": "assessment",
+          "label": "-2",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:10:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:10:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:10:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "3"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:10:7",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:10:9",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:10:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:10:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:10:6",
+          "type": "cell",
+          "label": "3",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:11",
+          "type": "assessment",
+          "label": "Screening Infusions -6",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:11:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:11:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:11:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:11:7",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:11:9",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:11:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:11:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:11:6",
+          "type": "cell",
+          "label": "1&2",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cat:12",
+          "type": "category",
+          "label": "-9",
+          "attrs": {},
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:13",
+          "type": "assessment",
+          "label": "to",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:13:9",
+          "type": "cell",
+          "label": "d",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:14",
+          "type": "assessment",
+          "label": "Intake Screening X",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:14:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:14:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:14:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:14:2",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:14:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:14:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:14:5",
+          "type": "cell",
+          "label": "Xa",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:14:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:14:9",
+          "type": "cell",
+          "label": "Xc",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "d"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:14:11",
+          "type": "cell",
+          "label": "Xe",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:15",
+          "type": "assessment",
+          "label": "",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:15:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cat:16",
+          "type": "category",
+          "label": "-15*",
+          "attrs": {},
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cat:17",
+          "type": "category",
+          "label": "e",
+          "attrs": {},
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cat:18",
+          "type": "category",
+          "label": "-35",
+          "attrs": {},
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:19",
+          "type": "assessment",
+          "label": "Schedul Pre- intake Screening to X X X",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:19:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:19:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:19:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:19:2",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:19:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:19:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:19:4",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:19:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:19:5",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:19:6",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cat:20",
+          "type": "category",
+          "label": "Up",
+          "attrs": {},
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cat:21",
+          "type": "category",
+          "label": "s",
+          "attrs": {},
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:22",
+          "type": "assessment",
+          "label": "Event",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:22:7",
+          "type": "cell",
+          "label": "i.v.",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cat:23",
+          "type": "category",
+          "label": "and follow-back",
+          "attrs": {},
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:24",
+          "type": "assessment",
+          "label": "e",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:24:6",
+          "type": "cell",
+          "label": "#",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:25",
+          "type": "assessment",
+          "label": "Tim",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:25:10",
+          "type": "cell",
+          "label": "ECG",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:26",
+          "type": "assessment",
+          "label": "I: timeline",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:26:2",
+          "type": "cell",
+          "label": "liver",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:26:7",
+          "type": "cell",
+          "label": "cocaine/40",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:27",
+          "type": "assessment",
+          "label": "form/Demographics",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:27:1",
+          "type": "cell",
+          "label": "(brief)",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:27:5",
+          "type": "cell",
+          "label": "assessments****",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:27:10",
+          "type": "cell",
+          "label": "HR,",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:28",
+          "type": "assessment",
+          "label": "x",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:28:6",
+          "type": "cell",
+          "label": "blood",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:28:7",
+          "type": "cell",
+          "label": "i.v.",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:28:8",
+          "type": "cell",
+          "label": "i.v.",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:28:12",
+          "type": "cell",
+          "label": "PK",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:29",
+          "type": "assessment",
+          "label": "test",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:29:2",
+          "type": "cell",
+          "label": "plus",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:29:4",
+          "type": "cell",
+          "label": "Test***",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:29:6",
+          "type": "cell",
+          "label": "or",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:30",
+          "type": "assessment",
+          "label": "consent by",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:30:4",
+          "type": "cell",
+          "label": "disease",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:30:6",
+          "type": "cell",
+          "label": "Infusion",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:30:10",
+          "type": "cell",
+          "label": "BP,",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:31",
+          "type": "assessment",
+          "label": "Appendi",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:31:5",
+          "type": "cell",
+          "label": "alcohol",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:31:5",
+          "type": "cell",
+          "label": "toxicology",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:31:5",
+          "type": "cell",
+          "label": "BSCS",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:31:7",
+          "type": "cell",
+          "label": "mg",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:32",
+          "type": "assessment",
+          "label": "use",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:32:0",
+          "type": "cell",
+          "label": "ECG",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:32:7",
+          "type": "cell",
+          "label": "cocaine",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:32:8",
+          "type": "cell",
+          "label": "cocaine",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:33",
+          "type": "assessment",
+          "label": "Phase",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:34",
+          "type": "assessment",
+          "label": "day",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:34:1",
+          "type": "cell",
+          "label": "Signs",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:35",
+          "type": "assessment",
+          "label": "Breathalyzer",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:35:2",
+          "type": "cell",
+          "label": "Chemistries",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:35:3",
+          "type": "cell",
+          "label": "Hematology",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:35:6",
+          "type": "cell",
+          "label": "Atomoxetine",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:35:6",
+          "type": "cell",
+          "label": "Atomoxetine",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:36",
+          "type": "assessment",
+          "label": "Informed",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:36:1",
+          "type": "cell",
+          "label": "ASI-Lite",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:36:4",
+          "type": "cell",
+          "label": "Infectious",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:36:5",
+          "type": "cell",
+          "label": "Cognitive",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:36:6",
+          "type": "cell",
+          "label": "Cocaine",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:36:7",
+          "type": "cell",
+          "label": "Saline/20",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:36:7",
+          "type": "cell",
+          "label": "mg",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:36:8",
+          "type": "cell",
+          "label": "mg",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:37",
+          "type": "assessment",
+          "label": "Locator Cocaine",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:37:0",
+          "type": "cell",
+          "label": "12-lead",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:37:0",
+          "type": "cell",
+          "label": "Medical",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:37:0",
+          "type": "cell",
+          "label": "Physical",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:37:1",
+          "type": "cell",
+          "label": "Physical",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:37:5",
+          "type": "cell",
+          "label": "Plasma",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:37:5",
+          "type": "cell",
+          "label": "POMS,",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:37:6",
+          "type": "cell",
+          "label": "Adverse",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:37:12",
+          "type": "cell",
+          "label": "Cocaine",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:38",
+          "type": "assessment",
+          "label": "Study Study",
+          "attrs": {
+            "indent": 0
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:38:0",
+          "type": "cell",
+          "label": "SCID",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:38:1",
+          "type": "cell",
+          "label": "Vital",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:38:5",
+          "type": "cell",
+          "label": "Urine",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:38:9",
+          "type": "cell",
+          "label": "VAS",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:38:10",
+          "type": "cell",
+          "label": "ARCI",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:cell:38:11",
+          "type": "cell",
+          "label": "BPRS",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "vlm"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        }
+      ],
+      "edges": [
+        {
+          "src": "protocol5:soa0:cell:0:0",
+          "dst": "protocol5:soa0:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:0:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:0:1",
+          "dst": "protocol5:soa0:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:0:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:0:2",
+          "dst": "protocol5:soa0:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:0:2",
+          "dst": "protocol5:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:0:3",
+          "dst": "protocol5:soa0:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:0:3",
+          "dst": "protocol5:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:0:4",
+          "dst": "protocol5:soa0:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:0:4",
+          "dst": "protocol5:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:0:5",
+          "dst": "protocol5:soa0:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:0:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:0:6",
+          "dst": "protocol5:soa0:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:0:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:0",
+          "dst": "protocol5:soa0:asmt:1",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:1",
+          "dst": "protocol5:soa0:asmt:1",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:2",
+          "dst": "protocol5:soa0:asmt:1",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:2",
+          "dst": "protocol5:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:3",
+          "dst": "protocol5:soa0:asmt:1",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:3",
+          "dst": "protocol5:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:4",
+          "dst": "protocol5:soa0:asmt:1",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:4",
+          "dst": "protocol5:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:5",
+          "dst": "protocol5:soa0:asmt:1",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:6",
+          "dst": "protocol5:soa0:asmt:1",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:1:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:0",
+          "dst": "protocol5:soa0:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:1",
+          "dst": "protocol5:soa0:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:2",
+          "dst": "protocol5:soa0:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:2",
+          "dst": "protocol5:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:6",
+          "dst": "protocol5:soa0:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:6",
+          "dst": "protocol5:soa0:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:8",
+          "dst": "protocol5:soa0:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:8",
+          "dst": "protocol5:soa0:visit:8",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:9",
+          "dst": "protocol5:soa0:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:9",
+          "dst": "protocol5:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:10",
+          "dst": "protocol5:soa0:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:10",
+          "dst": "protocol5:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:11",
+          "dst": "protocol5:soa0:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:11",
+          "dst": "protocol5:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:12",
+          "dst": "protocol5:soa0:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:12",
+          "dst": "protocol5:soa0:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:6",
+          "dst": "protocol5:soa0:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:2:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:0",
+          "dst": "protocol5:soa0:asmt:3",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:1",
+          "dst": "protocol5:soa0:asmt:3",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:6",
+          "dst": "protocol5:soa0:asmt:3",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:7",
+          "dst": "protocol5:soa0:asmt:3",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:7",
+          "dst": "protocol5:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:9",
+          "dst": "protocol5:soa0:asmt:3",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:9",
+          "dst": "protocol5:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:10",
+          "dst": "protocol5:soa0:asmt:3",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:10",
+          "dst": "protocol5:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:11",
+          "dst": "protocol5:soa0:asmt:3",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:3:11",
+          "dst": "protocol5:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:4:6",
+          "dst": "protocol5:soa0:asmt:4",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:4:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:0",
+          "dst": "protocol5:soa0:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:1",
+          "dst": "protocol5:soa0:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:6",
+          "dst": "protocol5:soa0:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:6",
+          "dst": "protocol5:soa0:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:8",
+          "dst": "protocol5:soa0:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:8",
+          "dst": "protocol5:soa0:visit:8",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:9",
+          "dst": "protocol5:soa0:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:9",
+          "dst": "protocol5:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:10",
+          "dst": "protocol5:soa0:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:10",
+          "dst": "protocol5:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:11",
+          "dst": "protocol5:soa0:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:11",
+          "dst": "protocol5:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:12",
+          "dst": "protocol5:soa0:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:12",
+          "dst": "protocol5:soa0:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:6",
+          "dst": "protocol5:soa0:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:5:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:7",
+          "dst": "protocol5:soa0:cat:6",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:0",
+          "dst": "protocol5:soa0:asmt:7",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:1",
+          "dst": "protocol5:soa0:asmt:7",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:6",
+          "dst": "protocol5:soa0:asmt:7",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:7",
+          "dst": "protocol5:soa0:asmt:7",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:7",
+          "dst": "protocol5:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:9",
+          "dst": "protocol5:soa0:asmt:7",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:9",
+          "dst": "protocol5:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:10",
+          "dst": "protocol5:soa0:asmt:7",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:10",
+          "dst": "protocol5:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:11",
+          "dst": "protocol5:soa0:asmt:7",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:11",
+          "dst": "protocol5:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:6",
+          "dst": "protocol5:soa0:asmt:7",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:7:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:8",
+          "dst": "protocol5:soa0:cat:6",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:0",
+          "dst": "protocol5:soa0:asmt:8",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:1",
+          "dst": "protocol5:soa0:asmt:8",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:6",
+          "dst": "protocol5:soa0:asmt:8",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:8",
+          "dst": "protocol5:soa0:asmt:8",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:8",
+          "dst": "protocol5:soa0:visit:8",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:9",
+          "dst": "protocol5:soa0:asmt:8",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:9",
+          "dst": "protocol5:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:10",
+          "dst": "protocol5:soa0:asmt:8",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:10",
+          "dst": "protocol5:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:11",
+          "dst": "protocol5:soa0:asmt:8",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:11",
+          "dst": "protocol5:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:12",
+          "dst": "protocol5:soa0:asmt:8",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:12",
+          "dst": "protocol5:soa0:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:6",
+          "dst": "protocol5:soa0:asmt:8",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:8:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:10",
+          "dst": "protocol5:soa0:cat:9",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:0",
+          "dst": "protocol5:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:1",
+          "dst": "protocol5:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:6",
+          "dst": "protocol5:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:7",
+          "dst": "protocol5:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:7",
+          "dst": "protocol5:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:9",
+          "dst": "protocol5:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:9",
+          "dst": "protocol5:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:10",
+          "dst": "protocol5:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:10",
+          "dst": "protocol5:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:11",
+          "dst": "protocol5:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:11",
+          "dst": "protocol5:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:6",
+          "dst": "protocol5:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:10:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:11",
+          "dst": "protocol5:soa0:cat:9",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:0",
+          "dst": "protocol5:soa0:asmt:11",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:1",
+          "dst": "protocol5:soa0:asmt:11",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:6",
+          "dst": "protocol5:soa0:asmt:11",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:7",
+          "dst": "protocol5:soa0:asmt:11",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:7",
+          "dst": "protocol5:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:9",
+          "dst": "protocol5:soa0:asmt:11",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:9",
+          "dst": "protocol5:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:10",
+          "dst": "protocol5:soa0:asmt:11",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:10",
+          "dst": "protocol5:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:11",
+          "dst": "protocol5:soa0:asmt:11",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:11",
+          "dst": "protocol5:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:6",
+          "dst": "protocol5:soa0:asmt:11",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:11:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:13",
+          "dst": "protocol5:soa0:cat:12",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:13:9",
+          "dst": "protocol5:soa0:asmt:13",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:13:9",
+          "dst": "protocol5:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:14",
+          "dst": "protocol5:soa0:cat:12",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:0",
+          "dst": "protocol5:soa0:asmt:14",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:1",
+          "dst": "protocol5:soa0:asmt:14",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:1",
+          "dst": "protocol5:soa0:asmt:14",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:2",
+          "dst": "protocol5:soa0:asmt:14",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:2",
+          "dst": "protocol5:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:4",
+          "dst": "protocol5:soa0:asmt:14",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:4",
+          "dst": "protocol5:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:5",
+          "dst": "protocol5:soa0:asmt:14",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:5",
+          "dst": "protocol5:soa0:asmt:14",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:6",
+          "dst": "protocol5:soa0:asmt:14",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:9",
+          "dst": "protocol5:soa0:asmt:14",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:9",
+          "dst": "protocol5:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:11",
+          "dst": "protocol5:soa0:asmt:14",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:14:11",
+          "dst": "protocol5:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:15",
+          "dst": "protocol5:soa0:cat:12",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:15:10",
+          "dst": "protocol5:soa0:asmt:15",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:15:10",
+          "dst": "protocol5:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:19",
+          "dst": "protocol5:soa0:cat:18",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:0",
+          "dst": "protocol5:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:0",
+          "dst": "protocol5:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:1",
+          "dst": "protocol5:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:2",
+          "dst": "protocol5:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:2",
+          "dst": "protocol5:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:3",
+          "dst": "protocol5:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:3",
+          "dst": "protocol5:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:4",
+          "dst": "protocol5:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:4",
+          "dst": "protocol5:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:4",
+          "dst": "protocol5:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:4",
+          "dst": "protocol5:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:5",
+          "dst": "protocol5:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:5",
+          "dst": "protocol5:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:6",
+          "dst": "protocol5:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:19:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:22",
+          "dst": "protocol5:soa0:cat:21",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:22:7",
+          "dst": "protocol5:soa0:asmt:22",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:22:7",
+          "dst": "protocol5:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:24",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:24:6",
+          "dst": "protocol5:soa0:asmt:24",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:24:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:25",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:25:10",
+          "dst": "protocol5:soa0:asmt:25",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:25:10",
+          "dst": "protocol5:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:26",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:26:2",
+          "dst": "protocol5:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:26:2",
+          "dst": "protocol5:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:26:7",
+          "dst": "protocol5:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:26:7",
+          "dst": "protocol5:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:27",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:27:1",
+          "dst": "protocol5:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:27:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:27:5",
+          "dst": "protocol5:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:27:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:27:10",
+          "dst": "protocol5:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:27:10",
+          "dst": "protocol5:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:28",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:28:6",
+          "dst": "protocol5:soa0:asmt:28",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:28:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:28:7",
+          "dst": "protocol5:soa0:asmt:28",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:28:7",
+          "dst": "protocol5:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:28:8",
+          "dst": "protocol5:soa0:asmt:28",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:28:8",
+          "dst": "protocol5:soa0:visit:8",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:28:12",
+          "dst": "protocol5:soa0:asmt:28",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:28:12",
+          "dst": "protocol5:soa0:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:29",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:29:2",
+          "dst": "protocol5:soa0:asmt:29",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:29:2",
+          "dst": "protocol5:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:29:4",
+          "dst": "protocol5:soa0:asmt:29",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:29:4",
+          "dst": "protocol5:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:29:6",
+          "dst": "protocol5:soa0:asmt:29",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:29:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:30",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:30:4",
+          "dst": "protocol5:soa0:asmt:30",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:30:4",
+          "dst": "protocol5:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:30:6",
+          "dst": "protocol5:soa0:asmt:30",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:30:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:30:10",
+          "dst": "protocol5:soa0:asmt:30",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:30:10",
+          "dst": "protocol5:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:31",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:31:5",
+          "dst": "protocol5:soa0:asmt:31",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:31:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:31:5",
+          "dst": "protocol5:soa0:asmt:31",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:31:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:31:5",
+          "dst": "protocol5:soa0:asmt:31",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:31:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:31:7",
+          "dst": "protocol5:soa0:asmt:31",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:31:7",
+          "dst": "protocol5:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:32",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:32:0",
+          "dst": "protocol5:soa0:asmt:32",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:32:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:32:7",
+          "dst": "protocol5:soa0:asmt:32",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:32:7",
+          "dst": "protocol5:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:32:8",
+          "dst": "protocol5:soa0:asmt:32",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:32:8",
+          "dst": "protocol5:soa0:visit:8",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:33",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:34",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:34:1",
+          "dst": "protocol5:soa0:asmt:34",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:34:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:35",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:35:2",
+          "dst": "protocol5:soa0:asmt:35",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:35:2",
+          "dst": "protocol5:soa0:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:35:3",
+          "dst": "protocol5:soa0:asmt:35",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:35:3",
+          "dst": "protocol5:soa0:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:35:6",
+          "dst": "protocol5:soa0:asmt:35",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:35:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:35:6",
+          "dst": "protocol5:soa0:asmt:35",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:35:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:36",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:1",
+          "dst": "protocol5:soa0:asmt:36",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:4",
+          "dst": "protocol5:soa0:asmt:36",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:4",
+          "dst": "protocol5:soa0:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:5",
+          "dst": "protocol5:soa0:asmt:36",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:6",
+          "dst": "protocol5:soa0:asmt:36",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:7",
+          "dst": "protocol5:soa0:asmt:36",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:7",
+          "dst": "protocol5:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:7",
+          "dst": "protocol5:soa0:asmt:36",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:7",
+          "dst": "protocol5:soa0:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:8",
+          "dst": "protocol5:soa0:asmt:36",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:36:8",
+          "dst": "protocol5:soa0:visit:8",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:37",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:0",
+          "dst": "protocol5:soa0:asmt:37",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:0",
+          "dst": "protocol5:soa0:asmt:37",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:0",
+          "dst": "protocol5:soa0:asmt:37",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:1",
+          "dst": "protocol5:soa0:asmt:37",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:5",
+          "dst": "protocol5:soa0:asmt:37",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:5",
+          "dst": "protocol5:soa0:asmt:37",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:6",
+          "dst": "protocol5:soa0:asmt:37",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:6",
+          "dst": "protocol5:soa0:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:12",
+          "dst": "protocol5:soa0:asmt:37",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:37:12",
+          "dst": "protocol5:soa0:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:asmt:38",
+          "dst": "protocol5:soa0:cat:23",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:38:0",
+          "dst": "protocol5:soa0:asmt:38",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:38:0",
+          "dst": "protocol5:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:38:1",
+          "dst": "protocol5:soa0:asmt:38",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:38:1",
+          "dst": "protocol5:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:38:5",
+          "dst": "protocol5:soa0:asmt:38",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:38:5",
+          "dst": "protocol5:soa0:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:38:9",
+          "dst": "protocol5:soa0:asmt:38",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:38:9",
+          "dst": "protocol5:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:38:10",
+          "dst": "protocol5:soa0:asmt:38",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:38:10",
+          "dst": "protocol5:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:38:11",
+          "dst": "protocol5:soa0:asmt:38",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:cell:38:11",
+          "dst": "protocol5:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        }
+      ],
+      "warnings": [
+        "located by: 101 cell-like tokens; 27 repeated column positions, 92% of rows; 1339 ruling lines; landscape page",
+        "p50: row 0: value 'X' matched no column",
+        "p50: row 1: value 'X' matched no column",
+        "p50: row 6 'Treatment' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
+        "p50: row 7: value 'X' matched no column",
+        "p50: row 9 'Baseline Infusions' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
+        "p50: row 12 '-9' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
+        "p50: row 14: value 'X' matched no column",
+        "p50: row 16 '-15*' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
+        "p50: row 17 'e' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
+        "p50: row 18 '-35' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
+        "p50: row 19: value 'X' matched no column",
+        "p50: row 19: value 'X' matched no column",
+        "p50: row 20 'Up' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
+        "p50: row 21 's' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
+        "p50: row 23 'and follow-back' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
+        "p51: no column structure found in text layer",
+        "marker '8' on cell 'X' matches no footnote",
+        "marker '7' on cell 'X' matches no footnote",
+        "marker 'f' on cell 'X' matches no footnote",
+        "marker '6' on cell 'X' matches no footnote",
+        "marker '5' on cell 'X' matches no footnote",
+        "marker '4' on cell 'X' matches no footnote",
+        "marker '3' on cell 'X' matches no footnote",
+        "marker 'd' on cell 'Xc' matches no footnote"
+      ]
+    }
+  ],
+  "stats": [
+    {
+      "periods": 0,
+      "visits": 13,
+      "categories": 9,
+      "assessments": 30,
+      "cells": 149,
+      "footnotes": 0,
+      "footnote_links": 0,
+      "ambiguous": 59,
+      "warnings": 25
+    }
+  ],
+  "seconds": 1.0
+}
