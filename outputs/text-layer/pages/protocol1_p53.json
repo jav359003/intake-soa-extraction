@@ -1,0 +1,1607 @@
+{
+  "is_soa_page": true,
+  "_engine": "text-layer",
+  "title": "Xanomeline (LY246708) H2Q-MC-LZZT(c)",
+  "continuation": {
+    "is_continuation": null,
+    "axis": null,
+    "evidence": ""
+  },
+  "column_headers": [
+    {
+      "level": 0,
+      "role": null,
+      "cells": [
+        {
+          "text": "Protocol",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Attachment",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "LZZT.1",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "role": null,
+      "cells": [
+        {
+          "text": "Schedule",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "of",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Events",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "for",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Protocol",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "H2Q-MC-LZZT(c)",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "role": null,
+      "cells": [
+        {
+          "text": "VISIT",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "4",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "5",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "7",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "8",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "role": null,
+      "cells": [
+        {
+          "text": "ACTIVITY",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "WEEK",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "-2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "-.3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "0",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "4",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "8",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "index": 0,
+      "period": null,
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "ACTIVITY"
+    },
+    {
+      "index": 1,
+      "period": null,
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "for 1 -2"
+    },
+    {
+      "index": 2,
+      "period": null,
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Attachment 2 -.3"
+    },
+    {
+      "index": 3,
+      "period": null,
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Protocol 3 0"
+    },
+    {
+      "index": 4,
+      "period": null,
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "4 2"
+    },
+    {
+      "index": 5,
+      "period": null,
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "LZZT.1 5 4"
+    },
+    {
+      "index": 6,
+      "period": null,
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "7 6"
+    },
+    {
+      "index": 7,
+      "period": null,
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "8 8"
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Informed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Patient",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "number",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Hachinski",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "≤4",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "MMSE",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "10-23",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Physical",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Medical",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "History",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Habits",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Chest",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "x-ray",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Apo",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "E",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "genotyping",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Patient",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "randomized",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Vital",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Ambulatory",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Ambulatory",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "ECG",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Placebo",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "TTS",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "CT",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "Scan",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "(if",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Concomitant",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Laboratory",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Laboratory",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Plasma",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "Specimen",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "Xa",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Hemoglobin",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Study",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "drug",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "ADAS-Cog",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "P",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "CIBIC+",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "P",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "DAD",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "P",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "Xb",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "NPI-X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "P",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "Adverse",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "events",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "=",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "Performed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "Xa",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "=",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "Performed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "patient",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "is",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "an",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "insulin-dependent",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "diabetic.",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "Xb",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 0,
+          "raw": "=",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "and",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "via",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "telephone",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "interview",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "2",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "weeks",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "following",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "this",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "visit.",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "assessment",
+      "label": "",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "P",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "=",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "Practice",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "recommended",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "that",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "a",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "sampling",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "of",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "the",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "CIBIC+,",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "ADAS-Cog,",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "DAD,",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 31,
+      "kind": "assessment",
+      "label": "Clinical",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "Study",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 0,
+          "raw": "Protocol",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "Document",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "Page",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "53",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "marker": "",
+      "text": "Abbreviations:  CT = computed tomography; ECG = electrocardiogram",
+      "appears_complete": true,
+      "attaches_to": []
+    }
+  ],
+  "unresolved": [
+    "row 30: value '-' matched no column",
+    "footnote linkage not recoverable from the text layer; markers extracted but not bound to cells"
+  ]
+}

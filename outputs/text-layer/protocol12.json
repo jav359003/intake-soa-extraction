@@ -179,7 +179,8 @@
           "type": "assessment",
           "label": "Informed consent",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -214,7 +215,8 @@
           "type": "assessment",
           "label": "SCID/Psychiatric evaluation",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -249,7 +251,8 @@
           "type": "assessment",
           "label": "Medical history",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -283,7 +286,9 @@
           "id": "protocol12:soa0:cat:3",
           "type": "category",
           "label": "ACDS assessment (ADHD",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 48,
@@ -299,7 +304,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -351,7 +357,9 @@
           "id": "protocol12:soa0:cat:5",
           "type": "category",
           "label": "diagnosis)",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 48,
@@ -367,7 +375,8 @@
           "type": "assessment",
           "label": "Meth Timeline Followback",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -420,7 +429,8 @@
           "type": "assessment",
           "label": "Prior medications",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -473,7 +483,8 @@
           "type": "assessment",
           "label": "Infectious disease panel/syphilis",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -508,7 +519,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -542,7 +554,9 @@
           "id": "protocol12:soa0:cat:10",
           "type": "category",
           "label": "test/PPD",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 48,
@@ -558,7 +572,8 @@
           "type": "assessment",
           "label": "HIV test (optional)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -593,7 +608,8 @@
           "type": "assessment",
           "label": "Alcohol breathalyzerf",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -735,7 +751,9 @@
           "id": "protocol12:soa0:cat:13",
           "type": "category",
           "label": "Safety",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 48,
@@ -751,7 +769,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -804,7 +823,8 @@
           "type": "assessment",
           "label": "Physical exam",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -839,7 +859,8 @@
           "type": "assessment",
           "label": "Vital signs**",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1000,7 +1021,8 @@
           "type": "assessment",
           "label": "Hematology",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1071,7 +1093,8 @@
           "type": "assessment",
           "label": "Blood chemistries",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1142,7 +1165,8 @@
           "type": "assessment",
           "label": "HAM-D",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1231,7 +1255,8 @@
           "type": "assessment",
           "label": "Medical urinalysis",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1284,7 +1309,8 @@
           "type": "assessment",
           "label": "Pregnancy test",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1409,7 +1435,8 @@
           "type": "assessment",
           "label": "ECG",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1462,7 +1489,8 @@
           "type": "assessment",
           "label": "Adverse eventsd",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1623,7 +1651,8 @@
           "type": "assessment",
           "label": "Concomitant medications",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1765,7 +1794,9 @@
           "id": "protocol12:soa0:cat:25",
           "type": "category",
           "label": "Efficacy",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 48,
@@ -1781,7 +1812,8 @@
           "type": "assessment",
           "label": "ASI***",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1816,7 +1848,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1851,7 +1884,8 @@
           "type": "assessment",
           "label": "ASI-Lite Follow-up",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1904,7 +1938,8 @@
           "type": "assessment",
           "label": "HRBS***",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1957,7 +1992,8 @@
           "type": "assessment",
           "label": "BSCS",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2118,7 +2154,8 @@
           "type": "assessment",
           "label": "CGI-S",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2279,7 +2316,8 @@
           "type": "assessment",
           "label": "CGI-O",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2440,7 +2478,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2475,7 +2514,8 @@
           "type": "assessment",
           "label": "CANTABelectJ",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2528,7 +2568,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2563,7 +2604,8 @@
           "type": "assessment",
           "label": "Barratt Impulsiveness Scale",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2616,7 +2658,8 @@
           "type": "assessment",
           "label": "ACDS",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2651,7 +2694,8 @@
           "type": "assessment",
           "label": "AISRS assessment",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2740,7 +2784,8 @@
           "type": "assessment",
           "label": "SUR",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2900,7 +2945,9 @@
           "id": "protocol12:soa0:cat:40",
           "type": "category",
           "label": "Urine for meth/tox",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 48,
@@ -2916,7 +2963,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3059,7 +3107,8 @@
           "type": "assessment",
           "label": "screen/creatinine",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3093,7 +3142,9 @@
           "id": "protocol12:soa0:cat:43",
           "type": "category",
           "label": "Urine tox screen on site test",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 48,
@@ -3109,7 +3160,8 @@
           "type": "assessment",
           "label": "device**",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3144,7 +3196,8 @@
           "type": "assessment",
           "label": "Medication Administration",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3269,7 +3322,8 @@
           "type": "assessment",
           "label": "Modafinil compliance",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3394,7 +3448,8 @@
           "type": "assessment",
           "label": "CBT compliance ****h",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3537,7 +3592,8 @@
           "type": "assessment",
           "label": "End of trial form",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3572,7 +3628,8 @@
           "type": "assessment",
           "label": "Follow-up interview",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3606,7 +3663,9 @@
           "id": "protocol12:soa0:cat:50",
           "type": "category",
           "label": "Modafinil for Methamphetamine Dependence",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 48,
@@ -3621,7 +3680,9 @@
           "id": "protocol12:soa0:cat:51",
           "type": "category",
           "label": "Version No.: 3, Date: November 7, 2008",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 48,
@@ -5604,6 +5665,8 @@
         }
       ],
       "warnings": [
+        "CONSERVATION: p49 is inside the located span but produced no rows and no footnotes -- either a locator false positive or an extraction that returned an empty table.",
+        "CONSERVATION: p50 is inside the located span but produced no rows and no footnotes -- either a locator false positive or an extraction that returned an empty table.",
         "located by: 121 cell-like tokens; 16 repeated column positions, 96% of rows; 554 ruling lines; schedule-like heading; table caption",
         "p48: row 3 'ACDS assessment (ADHD' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
         "p48: row 5 'diagnosis)' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
@@ -5616,7 +5679,8 @@
         "p48: row 51 'Version No.: 3, Date: November 7, 2008' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
         "p49: no column structure found in text layer",
         "p50: no column structure found in text layer"
-      ]
+      ],
+      "discarded": 0
     }
   ],
   "stats": [
@@ -5629,7 +5693,8 @@
       "footnotes": 0,
       "footnote_links": 0,
       "ambiguous": 23,
-      "warnings": 12
+      "warnings": 14,
+      "conservation": 2
     }
   ],
   "seconds": 1.2

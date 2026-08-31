@@ -160,7 +160,8 @@
           "type": "assessment",
           "label": "Discharge 11 1X",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -194,7 +195,9 @@
           "id": "protocol9:soa0:cat:1",
           "type": "category",
           "label": "Medical",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -210,7 +213,8 @@
           "type": "assessment",
           "label": "10",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -406,7 +410,9 @@
           "id": "protocol9:soa0:cat:3",
           "type": "category",
           "label": "Med/",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -421,7 +427,9 @@
           "id": "protocol9:soa0:cat:4",
           "type": "category",
           "label": "Detox Phase (Placebo, QID)",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -436,7 +444,9 @@
           "id": "protocol9:soa0:cat:5",
           "type": "category",
           "label": "Post",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -452,7 +462,8 @@
           "type": "assessment",
           "label": "9",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -631,7 +642,8 @@
           "type": "assessment",
           "label": "8",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -809,7 +821,9 @@
           "id": "protocol9:soa0:cat:8",
           "type": "category",
           "label": "Phase",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -824,7 +838,9 @@
           "id": "protocol9:soa0:cat:9",
           "type": "category",
           "label": "to Placebo)",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -840,7 +856,8 @@
           "type": "assessment",
           "label": "7",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1018,7 +1035,9 @@
           "id": "protocol9:soa0:cat:11",
           "type": "category",
           "label": "Placebo",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1033,7 +1052,9 @@
           "id": "protocol9:soa0:cat:12",
           "type": "category",
           "label": "or",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1049,7 +1070,8 @@
           "type": "assessment",
           "label": "Detoxification: 6",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1101,7 +1123,9 @@
           "id": "protocol9:soa0:cat:14",
           "type": "category",
           "label": "or (randomized",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1116,7 +1140,9 @@
           "id": "protocol9:soa0:cat:15",
           "type": "category",
           "label": "Lofexidine",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1132,7 +1158,8 @@
           "type": "assessment",
           "label": "5",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1310,7 +1337,9 @@
           "id": "protocol9:soa0:cat:17",
           "type": "category",
           "label": "Medication",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1326,7 +1355,8 @@
           "type": "assessment",
           "label": "4",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1559,7 +1589,8 @@
           "type": "assessment",
           "label": "Phase 3",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1611,7 +1642,9 @@
           "id": "protocol9:soa0:cat:20",
           "type": "category",
           "label": "4 4 4",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1626,7 +1659,9 @@
           "id": "protocol9:soa0:cat:21",
           "type": "category",
           "label": "Day Day Day",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1641,7 +1676,9 @@
           "id": "protocol9:soa0:cat:22",
           "type": "category",
           "label": "Morphine)",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1657,7 +1694,8 @@
           "type": "assessment",
           "label": "Agonist 2",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1709,7 +1747,9 @@
           "id": "protocol9:soa0:cat:24",
           "type": "category",
           "label": "to to to",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1724,7 +1764,9 @@
           "id": "protocol9:soa0:cat:25",
           "type": "category",
           "label": "Prior Prior Prior",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1739,7 +1781,9 @@
           "id": "protocol9:soa0:cat:26",
           "type": "category",
           "label": "(all",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1755,7 +1799,8 @@
           "type": "assessment",
           "label": "Opiate 1 1X 1X 1X 1X 1X",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1807,7 +1852,9 @@
           "id": "protocol9:soa0:cat:28",
           "type": "category",
           "label": "(08)",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1822,7 +1869,9 @@
           "id": "protocol9:soa0:cat:29",
           "type": "category",
           "label": "IV)",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1837,7 +1886,9 @@
           "id": "protocol9:soa0:cat:30",
           "type": "category",
           "label": "3 h) h)",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1852,7 +1903,9 @@
           "id": "protocol9:soa0:cat:31",
           "type": "category",
           "label": "Opiate (10)",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1867,7 +1920,9 @@
           "id": "protocol9:soa0:cat:32",
           "type": "category",
           "label": "Urine",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1882,7 +1937,9 @@
           "id": "protocol9:soa0:cat:33",
           "type": "category",
           "label": "DSM",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1897,7 +1954,9 @@
           "id": "protocol9:soa0:cat:34",
           "type": "category",
           "label": "Data 2200 2300",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1912,7 +1971,9 @@
           "id": "protocol9:soa0:cat:35",
           "type": "category",
           "label": "Phase",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1927,7 +1988,9 @@
           "id": "protocol9:soa0:cat:36",
           "type": "category",
           "label": "CD4",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -1943,7 +2006,8 @@
           "type": "assessment",
           "label": "(01), I,",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1978,7 +2042,8 @@
           "type": "assessment",
           "label": "(09)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1995,7 +2060,8 @@
           "type": "assessment",
           "label": "(06,07),",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2029,7 +2095,9 @@
           "id": "protocol9:soa0:cat:40",
           "type": "category",
           "label": "and 1630, 1800, RPR, Axis",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2044,7 +2112,9 @@
           "id": "protocol9:soa0:cat:41",
           "type": "category",
           "label": "(12)",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2059,7 +2129,9 @@
           "id": "protocol9:soa0:cat:42",
           "type": "category",
           "label": "HCG) consent)",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2074,7 +2146,9 @@
           "id": "protocol9:soa0:cat:43",
           "type": "category",
           "label": "Screening Blood",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2090,7 +2164,8 @@
           "type": "assessment",
           "label": "(ASI)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2125,7 +2200,8 @@
           "type": "assessment",
           "label": "Lofexidine (SCID,",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2159,7 +2235,9 @@
           "id": "protocol9:soa0:cat:46",
           "type": "category",
           "label": "1100, 1300, (PPD),",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2174,7 +2252,9 @@
           "id": "protocol9:soa0:cat:47",
           "type": "category",
           "label": "Day) (Beta",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2189,7 +2269,9 @@
           "id": "protocol9:soa0:cat:48",
           "type": "category",
           "label": "Placebo (04)",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2205,7 +2287,8 @@
           "type": "assessment",
           "label": "Measures",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2239,7 +2322,9 @@
           "id": "protocol9:soa0:cat:50",
           "type": "category",
           "label": "separate",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2255,7 +2340,8 @@
           "type": "assessment",
           "label": "Index",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2289,7 +2375,9 @@
           "id": "protocol9:soa0:cat:52",
           "type": "category",
           "label": "Exit Test Test",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2304,7 +2392,9 @@
           "id": "protocol9:soa0:cat:53",
           "type": "category",
           "label": "(05) Assessments:",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2320,7 +2410,8 @@
           "type": "assessment",
           "label": "(0600, (0800,",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2354,7 +2445,9 @@
           "id": "protocol9:soa0:cat:55",
           "type": "category",
           "label": "Consent, or (03)",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2370,7 +2463,8 @@
           "type": "assessment",
           "label": "for Assessment",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2423,7 +2517,8 @@
           "type": "assessment",
           "label": "Examination per",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2457,7 +2552,9 @@
           "id": "protocol9:soa0:cat:58",
           "type": "category",
           "label": "and Skin",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2472,7 +2569,9 @@
           "id": "protocol9:soa0:cat:59",
           "type": "category",
           "label": "of Severity",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2487,7 +2586,9 @@
           "id": "protocol9:soa0:cat:60",
           "type": "category",
           "label": "(02)",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2503,7 +2604,8 @@
           "type": "assessment",
           "label": "History 1 Pregnancy",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2538,7 +2640,8 @@
           "type": "assessment",
           "label": "Medications",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2573,7 +2676,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2608,7 +2712,8 @@
           "type": "assessment",
           "label": "4. Week (optional,",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2625,7 +2730,8 @@
           "type": "assessment",
           "label": "Day",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2677,7 +2783,9 @@
           "id": "protocol9:soa0:cat:66",
           "type": "category",
           "label": "Day Morphine **Lofexidine",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2692,7 +2800,9 @@
           "id": "protocol9:soa0:cat:67",
           "type": "category",
           "label": "Collection",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2707,7 +2817,9 @@
           "id": "protocol9:soa0:cat:68",
           "type": "category",
           "label": "Schedule Informed Screening Laboratory Tuberculosis",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2723,7 +2835,8 @@
           "type": "assessment",
           "label": "of Psychiatric",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2758,7 +2871,8 @@
           "type": "assessment",
           "label": "Physical Addiction",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2793,7 +2907,8 @@
           "type": "assessment",
           "label": "Table Medical",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2845,7 +2960,9 @@
           "id": "protocol9:soa0:cat:72",
           "type": "category",
           "label": "Study (Study Serum",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2861,7 +2978,8 @@
           "type": "assessment",
           "label": "Date Day Prior HIV",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2878,7 +2996,8 @@
           "type": "assessment",
           "label": "(11)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2966,7 +3085,9 @@
           "id": "protocol9:soa0:cat:75",
           "type": "category",
           "label": "*",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 26,
@@ -2982,7 +3103,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3017,7 +3139,8 @@
           "type": "assessment",
           "label": "10",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3052,7 +3175,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3177,7 +3301,8 @@
           "type": "assessment",
           "label": "9",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3248,7 +3373,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3319,7 +3445,8 @@
           "type": "assessment",
           "label": "8",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3462,7 +3589,8 @@
           "type": "assessment",
           "label": "7",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3587,7 +3715,8 @@
           "type": "assessment",
           "label": "6",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3874,7 +4003,8 @@
           "type": "assessment",
           "label": "5",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3999,7 +4129,8 @@
           "type": "assessment",
           "label": "4",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -4142,7 +4273,8 @@
           "type": "assessment",
           "label": "3",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -4375,7 +4507,8 @@
           "type": "assessment",
           "label": "2",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -4590,7 +4723,8 @@
           "type": "assessment",
           "label": "1",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -4823,7 +4957,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -4875,7 +5010,9 @@
           "id": "protocol9:soa0:cat:90",
           "type": "category",
           "label": "3",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 27,
@@ -4891,7 +5028,8 @@
           "type": "assessment",
           "label": "Data",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -4926,7 +5064,8 @@
           "type": "assessment",
           "label": "(13)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -4978,7 +5117,9 @@
           "id": "protocol9:soa0:cat:93",
           "type": "category",
           "label": "Phase",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 27,
@@ -4994,7 +5135,8 @@
           "type": "assessment",
           "label": "and Phase",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5065,7 +5207,8 @@
           "type": "assessment",
           "label": "(MHOWS)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5136,7 +5279,8 @@
           "type": "assessment",
           "label": "Measures:",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5189,7 +5333,8 @@
           "type": "assessment",
           "label": "Lofexidine",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5259,7 +5404,9 @@
           "id": "protocol9:soa0:cat:98",
           "type": "category",
           "label": "Detox/Med",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 27,
@@ -5275,7 +5422,8 @@
           "type": "assessment",
           "label": "Measures",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5328,7 +5476,8 @@
           "type": "assessment",
           "label": "Continued Outcome",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5380,7 +5529,9 @@
           "id": "protocol9:soa0:cat:101",
           "type": "category",
           "label": "Himmelsbach",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 27,
@@ -5396,7 +5547,8 @@
           "type": "assessment",
           "label": "for",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5431,7 +5583,8 @@
           "type": "assessment",
           "label": "Effect",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5520,7 +5673,8 @@
           "type": "assessment",
           "label": "of",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5627,7 +5781,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5662,7 +5817,8 @@
           "type": "assessment",
           "label": "4,",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5715,7 +5871,8 @@
           "type": "assessment",
           "label": "Peak",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5750,7 +5907,8 @@
           "type": "assessment",
           "label": "Day",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5785,7 +5943,8 @@
           "type": "assessment",
           "label": "Collection",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5856,7 +6015,8 @@
           "type": "assessment",
           "label": "Schedule Secondary",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5927,7 +6087,8 @@
           "type": "assessment",
           "label": "•Modified",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -6016,7 +6177,8 @@
           "type": "assessment",
           "label": "Table",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -6087,7 +6249,8 @@
           "type": "assessment",
           "label": "Study",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -6176,7 +6339,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -6210,7 +6374,9 @@
           "id": "protocol9:soa0:cat:115",
           "type": "category",
           "label": "Data",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 28,
@@ -6226,7 +6392,8 @@
           "type": "assessment",
           "label": "Phase",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -6297,7 +6464,8 @@
           "type": "assessment",
           "label": "and",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -6367,7 +6535,9 @@
           "id": "protocol9:soa0:cat:118",
           "type": "category",
           "label": "Lofexidine Assessment:",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 28,
@@ -6382,7 +6552,9 @@
           "id": "protocol9:soa0:cat:119",
           "type": "category",
           "label": "Continued",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 28,
@@ -6398,7 +6570,8 @@
           "type": "assessment",
           "label": "Potential",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -6451,7 +6624,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -6485,7 +6659,9 @@
           "id": "protocol9:soa0:cat:122",
           "type": "category",
           "label": "Day",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 28,
@@ -6501,7 +6677,8 @@
           "type": "assessment",
           "label": "Schedule",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -6572,7 +6749,8 @@
           "type": "assessment",
           "label": "Table Abuse",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -10131,8 +10309,10 @@
         }
       ],
       "warnings": [
+        "CONSERVATION: p29 is inside the located span but produced no rows and no footnotes -- either a locator false positive or an extraction that returned an empty table.",
         "located by: 64 cell-like tokens; 19 repeated column positions, 92% of rows; 606 ruling lines; schedule-like heading; landscape page",
         "p27: continuation axis uncertain --  (row-label overlap 34%, inconclusive)",
+        "row-continuation page has 7 columns against the table's 2; the first 2 were aligned by position and 5 extra column(s) appended. Check whether the page really adds visits or the extractor miscounted.",
         "p28: row '' not present on the previous page; appended rather than merged",
         "p28: row 'Data' not present on the previous page; appended rather than merged",
         "p28: row 'Phase' not present on the previous page; appended rather than merged",
@@ -10202,7 +10382,8 @@
         "p28: row 22: value '–' matched no column",
         "p28: row 24 'Day' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
         "p29: no column structure found in text layer"
-      ]
+      ],
+      "discarded": 0
     }
   ],
   "stats": [
@@ -10215,8 +10396,9 @@
       "footnotes": 3,
       "footnote_links": 0,
       "ambiguous": 93,
-      "warnings": 71
+      "warnings": 73,
+      "conservation": 1
     }
   ],
-  "seconds": 1.1
+  "seconds": 1.2
 }

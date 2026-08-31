@@ -198,7 +198,8 @@
           "type": "assessment",
           "label": "Follow- up 31",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -341,7 +342,8 @@
           "type": "assessment",
           "label": "Dis­ charge 17",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -484,7 +486,8 @@
           "type": "assessment",
           "label": "13",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -701,7 +704,8 @@
           "type": "assessment",
           "label": "Infusions",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -828,7 +832,8 @@
           "type": "assessment",
           "label": "12",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -863,7 +868,8 @@
           "type": "assessment",
           "label": "8",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1063,7 +1069,9 @@
           "id": "protocol5:soa0:cat:6",
           "type": "category",
           "label": "Treatment",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 50,
@@ -1079,7 +1087,8 @@
           "type": "assessment",
           "label": "7",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1224,7 +1233,8 @@
           "type": "assessment",
           "label": "-1",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1404,7 +1414,9 @@
           "id": "protocol5:soa0:cat:9",
           "type": "category",
           "label": "Baseline Infusions",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 50,
@@ -1420,7 +1432,8 @@
           "type": "assessment",
           "label": "-2",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1565,7 +1578,8 @@
           "type": "assessment",
           "label": "Screening Infusions -6",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1707,7 +1721,9 @@
           "id": "protocol5:soa0:cat:12",
           "type": "category",
           "label": "-9",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 50,
@@ -1723,7 +1739,8 @@
           "type": "assessment",
           "label": "to",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1758,7 +1775,8 @@
           "type": "assessment",
           "label": "Intake Screening X",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1957,7 +1975,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1991,7 +2010,9 @@
           "id": "protocol5:soa0:cat:16",
           "type": "category",
           "label": "-15*",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 50,
@@ -2006,7 +2027,9 @@
           "id": "protocol5:soa0:cat:17",
           "type": "category",
           "label": "e",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 50,
@@ -2021,7 +2044,9 @@
           "id": "protocol5:soa0:cat:18",
           "type": "category",
           "label": "-35",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 50,
@@ -2037,7 +2062,8 @@
           "type": "assessment",
           "label": "Schedul Pre- intake Screening to X X X",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2233,7 +2259,9 @@
           "id": "protocol5:soa0:cat:20",
           "type": "category",
           "label": "Up",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 50,
@@ -2248,7 +2276,9 @@
           "id": "protocol5:soa0:cat:21",
           "type": "category",
           "label": "s",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 50,
@@ -2264,7 +2294,8 @@
           "type": "assessment",
           "label": "Event",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2298,7 +2329,9 @@
           "id": "protocol5:soa0:cat:23",
           "type": "category",
           "label": "and follow-back",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 50,
@@ -2314,7 +2347,8 @@
           "type": "assessment",
           "label": "e",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2349,7 +2383,8 @@
           "type": "assessment",
           "label": "Tim",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2384,7 +2419,8 @@
           "type": "assessment",
           "label": "I: timeline",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2437,7 +2473,8 @@
           "type": "assessment",
           "label": "form/Demographics",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2508,7 +2545,8 @@
           "type": "assessment",
           "label": "x",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2597,7 +2635,8 @@
           "type": "assessment",
           "label": "test",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2668,7 +2707,8 @@
           "type": "assessment",
           "label": "consent by",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2739,7 +2779,8 @@
           "type": "assessment",
           "label": "Appendi",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2828,7 +2869,8 @@
           "type": "assessment",
           "label": "use",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2899,7 +2941,8 @@
           "type": "assessment",
           "label": "Phase",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2916,7 +2959,8 @@
           "type": "assessment",
           "label": "day",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2951,7 +2995,8 @@
           "type": "assessment",
           "label": "Breathalyzer",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3040,7 +3085,8 @@
           "type": "assessment",
           "label": "Informed",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3183,7 +3229,8 @@
           "type": "assessment",
           "label": "Locator Cocaine",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3344,7 +3391,8 @@
           "type": "assessment",
           "label": "Study Study",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5352,6 +5400,8 @@
         }
       ],
       "warnings": [
+        "CONSERVATION: p51 is inside the located span but produced no rows and no footnotes -- either a locator false positive or an extraction that returned an empty table.",
+        "CONSERVATION: 8 markers were read off the page but none bound to a footnote. Every footnote qualifier on this table is lost.",
         "located by: 101 cell-like tokens; 27 repeated column positions, 92% of rows; 1339 ruling lines; landscape page",
         "p50: row 0: value 'X' matched no column",
         "p50: row 1: value 'X' matched no column",
@@ -5381,7 +5431,8 @@
         "marker '4' on cell 'X' matches no footnote",
         "marker '3' on cell 'X' matches no footnote",
         "marker 'd' on cell 'Xc' matches no footnote"
-      ]
+      ],
+      "discarded": 0
     }
   ],
   "stats": [
@@ -5394,7 +5445,8 @@
       "footnotes": 0,
       "footnote_links": 0,
       "ambiguous": 59,
-      "warnings": 29
+      "warnings": 31,
+      "conservation": 2
     }
   ],
   "seconds": 1.0

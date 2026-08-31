@@ -177,7 +177,8 @@
           "type": "assessment",
           "label": "Informed consent",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -212,7 +213,8 @@
           "type": "assessment",
           "label": "SCID",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -247,7 +249,8 @@
           "type": "assessment",
           "label": "Psychiatric evaluation",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -282,7 +285,8 @@
           "type": "assessment",
           "label": "ADD evaluation",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -317,7 +321,8 @@
           "type": "assessment",
           "label": "Medical history",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -370,7 +375,8 @@
           "type": "assessment",
           "label": "Prior medications",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -423,7 +429,8 @@
           "type": "assessment",
           "label": "Infectious disease panel/",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -458,7 +465,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -492,7 +500,9 @@
           "id": "protocol15:soa0:cat:8",
           "type": "category",
           "label": "syphilis test",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 25,
@@ -508,7 +518,8 @@
           "type": "assessment",
           "label": "HIV Test (optional)",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -542,7 +553,9 @@
           "id": "protocol15:soa0:cat:10",
           "type": "category",
           "label": "Safety",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 25,
@@ -558,7 +571,8 @@
           "type": "assessment",
           "label": "d",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -611,7 +625,8 @@
           "type": "assessment",
           "label": "Physical exam/FEV 1",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -666,7 +681,8 @@
           "type": "assessment",
           "label": "Vital signs",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -821,7 +837,8 @@
           "type": "assessment",
           "label": "Hematology",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -916,7 +933,8 @@
           "type": "assessment",
           "label": "Blood chemistries",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1011,7 +1029,8 @@
           "type": "assessment",
           "label": "Ham-D",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1124,7 +1143,8 @@
           "type": "assessment",
           "label": "CSSA",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1261,7 +1281,8 @@
           "type": "assessment",
           "label": "Urinalysis",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1356,7 +1377,8 @@
           "type": "assessment",
           "label": "Pregnancy test",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1451,7 +1473,8 @@
           "type": "assessment",
           "label": "ECG",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1524,7 +1547,8 @@
           "type": "assessment",
           "label": "Adverse events",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1685,7 +1709,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1810,7 +1835,8 @@
           "type": "assessment",
           "label": "Concomitant medications",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -1964,7 +1990,9 @@
           "id": "protocol15:soa0:cat:24",
           "type": "category",
           "label": "Efficacy",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 25,
@@ -1980,7 +2008,8 @@
           "type": "assessment",
           "label": "ASI-Lite",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2075,7 +2104,8 @@
           "type": "assessment",
           "label": "HRBS",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2130,7 +2160,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2255,7 +2286,8 @@
           "type": "assessment",
           "label": "BSCS",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2392,7 +2424,8 @@
           "type": "assessment",
           "label": "CCQ-NOW",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2429,7 +2462,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2554,7 +2588,8 @@
           "type": "assessment",
           "label": "CGI-S",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2691,7 +2726,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2816,7 +2852,8 @@
           "type": "assessment",
           "label": "CGI-O",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -2953,7 +2990,8 @@
           "type": "assessment",
           "label": "SUI",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3204,7 +3242,8 @@
           "type": "assessment",
           "label": "Urine BE and creatinine",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3455,7 +3494,8 @@
           "type": "assessment",
           "label": "",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3580,7 +3620,8 @@
           "type": "assessment",
           "label": "Urine tox screen",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3735,7 +3776,8 @@
           "type": "assessment",
           "label": "Serum prolactin",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -3806,7 +3848,8 @@
           "type": "assessment",
           "label": "Treatment compliance",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -4039,7 +4082,8 @@
           "type": "assessment",
           "label": "Follow-up interview",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -4074,7 +4118,8 @@
           "type": "assessment",
           "label": "*Baseline assessments must occur",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -4307,7 +4352,8 @@
           "type": "assessment",
           "label": "weeks of subject enrollment. Baseline",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -4414,7 +4460,8 @@
           "type": "assessment",
           "label": "Xa – Blood is collected in fasted state",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -4575,7 +4622,8 @@
           "type": "assessment",
           "label": "once during weeks 3-6, and once at",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -4790,7 +4838,8 @@
           "type": "assessment",
           "label": "prior to investigational agent may be",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5041,7 +5090,8 @@
           "type": "assessment",
           "label": "day 1 prior to administration of first",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5112,7 +5162,8 @@
           "type": "assessment",
           "label": "Xb - Once during the week preferably",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5219,7 +5270,8 @@
           "type": "assessment",
           "label": "Xc - At the final scheduled study visit",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5398,7 +5450,8 @@
           "type": "assessment",
           "label": "Xd - FEV is only performed in those",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5486,7 +5539,9 @@
           "id": "protocol15:soa0:cat:50",
           "type": "category",
           "label": "1",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 25,
@@ -5502,7 +5557,8 @@
           "type": "assessment",
           "label": "NIDO-CTO-0007 Cabergoline for",
           "attrs": {
-            "indent": 0
+            "indent": 0,
+            "markers": []
           },
           "provenance": [
             {
@@ -5554,7 +5610,9 @@
           "id": "protocol15:soa0:cat:52",
           "type": "category",
           "label": "Version No.: 2, Date: 22 2 May 2001",
-          "attrs": {},
+          "attrs": {
+            "markers": []
+          },
           "provenance": [
             {
               "page": 25,
@@ -9348,7 +9406,8 @@
         "p25: row 50 '1' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
         "p25: row 52 'Version No.: 2, Date: 22 2 May 2001' has no values; read as a category header, but it may be an assessment performed at no visit on this page",
         "p25: footnote linkage not recoverable from the text layer; markers extracted but not bound to cells"
-      ]
+      ],
+      "discarded": 0
     }
   ],
   "stats": [
@@ -9361,7 +9420,8 @@
       "footnotes": 5,
       "footnote_links": 64,
       "ambiguous": 126,
-      "warnings": 16
+      "warnings": 16,
+      "conservation": 0
     }
   ],
   "seconds": 0.9
