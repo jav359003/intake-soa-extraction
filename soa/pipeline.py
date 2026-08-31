@@ -17,7 +17,8 @@ import json, pathlib, time
 from dataclasses import asdict
 
 from .locate import locate
-from .stitch import merge_pages, to_graph, conservation_report
+from .stitch import (merge_pages, to_graph, conservation_report,
+                     split_spans, reconcile_across_tables)
 from .schema import SoAGraph
 
 ENGINES = ("vision", "gemini", "text-layer")
@@ -43,6 +44,7 @@ def run(pdf_path: str, engine: str = "vision", model: str | None = None,
     loc = locate(str(pdf))
 
     graphs: list[SoAGraph] = []
+    pending: list[tuple] = []
     for i, tbl in enumerate(loc["tables"]):
         pages = tbl["pages"]
         per_page = _extract_span(engine, str(pdf), pages, model)
@@ -51,13 +53,25 @@ def run(pdf_path: str, engine: str = "vision", model: str | None = None,
             for pno, pg in zip(pages, per_page):
                 (d / f"{pdf.stem}_p{pno}.json").write_text(
                     json.dumps(pg, indent=2, ensure_ascii=False))
-        merged = merge_pages(per_page, pages)
-        g = to_graph(merged, protocol=pdf.stem, table_id=f"{pdf.stem}:soa{i}",
-                     pages=pages, source=engine)
-        problems = conservation_report(per_page, pages, merged, g)
-        g.warnings = problems + g.warnings
-        g.warnings.insert(0, f"located by: {'; '.join(tbl['reasons'])}")
-        graphs.append(g)
+        # One located span can hold more than one schedule -- a main table plus
+        # a PK sub-schedule or an extension schedule. Split before merging.
+        for k, (grp, grp_pages) in enumerate(split_spans(per_page, pages)):
+            merged = merge_pages(grp, grp_pages)
+            g = to_graph(merged, protocol=pdf.stem,
+                         table_id=f"{pdf.stem}:soa{i}{'' if k == 0 else f'.{k}'}",
+                         pages=grp_pages, source=engine)
+            g.warnings.insert(0, f"located by: {'; '.join(tbl['reasons'])}")
+            # Conservation runs after every table exists and markers have been
+            # reconciled across them, or it reports losses that are about to be
+            # resolved.
+            pending.append((grp, grp_pages, merged, g))
+            graphs.append(g)
+
+    # A page can carry the footnotes of one table and the start of the next,
+    # so markers are reconciled after every table in the document exists.
+    reconcile_across_tables(graphs)
+    for grp, grp_pages, merged, g in pending:
+        g.warnings = conservation_report(grp, grp_pages, merged, g) + g.warnings
 
     result = {
         "protocol": pdf.stem,

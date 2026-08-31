@@ -8,7 +8,7 @@ stitcher's fault.
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parents[1]))
 
-from soa.stitch import merge_pages, to_graph, decide_axis
+from soa.stitch import merge_pages, to_graph, decide_axis, split_spans
 
 
 def page(cols, rows, footnotes=(), title="T", axis=None, is_soa=True):
@@ -255,6 +255,35 @@ def test_repeated_unmarked_footer_is_not_a_second_footnote():
     t = merge_pages([p1, p2], [27, 28])
     assert len(t["footnotes"]) == 1, t["footnotes"]
     assert any("running footer" in w for w in t["warnings"])
+
+
+def test_second_table_in_span_is_split_out():
+    """protocol5 p51 is 'APPENDIX II: Schedule of Blood Collections', a
+    different table printed right after the main schedule."""
+    p1 = page([col(0, "D1")], [row(0, "Consent", [(0, "X", ())])],
+              title="Appendix I: Time and Events Schedule")
+    p2 = page([col(0, "Screening"), col(1, "D-8")],
+              [row(0, "Hematology", [(0, "X", ())])],
+              title="APPENDIX II: Schedule of Blood Collections")
+    groups = split_spans([p1, p2], [50, 51])
+    assert len(groups) == 2, [g[1] for g in groups]
+    assert groups[0][1] == [50] and groups[1][1] == [51]
+
+
+def test_continuation_page_is_not_split_out():
+    """A page that says it continues, or repeats the title, stays attached."""
+    p1 = page([col(0, "D1")], [row(0, "Consent", [(0, "X", ())])], title="Table 4")
+    p2 = page([col(0, "D1")], [row(0, "ECG", [(0, "X", ())])],
+              title="Table 4, Continued", axis="rows")
+    assert len(split_spans([p1, p2], [26, 27])) == 1
+
+
+def test_footnote_page_stays_with_its_table():
+    p1 = page([col(0, "D1")], [row(0, "ECG", [(0, "X", ())])], title="Table 4")
+    p2 = page([], [], is_soa=False, title="Footnotes to Flow Chart",
+              footnotes=[{"marker": "a", "text": "note", "appears_complete": True,
+                          "attaches_to": []}])
+    assert len(split_spans([p1, p2], [26, 29])) == 1
 
 
 if __name__ == "__main__":

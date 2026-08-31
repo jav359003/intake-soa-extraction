@@ -153,6 +153,49 @@ def _merge_columns(base: list[dict], new: list[dict], positional: bool = False,
     return out, mapping
 
 
+def split_spans(per_page: list[dict], page_numbers: list[int]
+                ) -> list[tuple[list[dict], list[int]]]:
+    """Partition a located span into the distinct tables it actually holds.
+
+    The locator grows a span by page shape, which correctly picks up
+    continuation pages and footnote blocks -- but a protocol may print a second,
+    unrelated schedule right after the first. protocol5 p51 is
+    "APPENDIX II: Schedule of Blood Collections", a sixteen-column PK table
+    immediately after the twelve-column main schedule. Merging the two produces
+    one table that is neither.
+
+    A split needs two independent signals agreeing, because splitting a genuine
+    continuation is as damaging as merging two tables:
+      - the page says outright it is not a continuation, and
+      - it carries a title that is not the title of the table so far.
+
+    When they disagree, the pages stay together: a merged table keeps every
+    cell and warns, which is the recoverable direction.
+    """
+    groups: list[tuple[list[dict], list[int]]] = []
+    cur: list[dict] = []
+    cur_pages: list[int] = []
+    cur_title = ""
+
+    for pno, page in zip(page_numbers, per_page):
+        title = (page.get("title") or "").strip()
+        if page.get("is_soa_page") and cur:
+            declared_new = (page.get("continuation") or {}).get("is_continuation") is False
+            different_title = bool(title) and bool(cur_title) and not _similar(
+                title, cur_title, bar=0.75)
+            if declared_new and different_title:
+                groups.append((cur, cur_pages))
+                cur, cur_pages, cur_title = [], [], title
+        if not cur_title and title:
+            cur_title = title
+        cur.append(page)
+        cur_pages.append(pno)
+
+    if cur:
+        groups.append((cur, cur_pages))
+    return groups
+
+
 def merge_pages(pages: list[dict], page_numbers: list[int]) -> dict:
     """Fold a list of per-page extractions into one table dict."""
     table = {"title": None, "columns": [], "rows": [], "footnotes": [],
@@ -483,3 +526,53 @@ def conservation_report(per_page: list[dict], page_numbers: list[int],
             f"CONSERVATION: {marked} markers were read off the page but none bound "
             f"to a footnote. Every footnote qualifier on this table is lost.")
     return problems
+
+
+def reconcile_across_tables(graphs: list["SoAGraph"]) -> None:
+    """Bind markers to footnotes that ended up on a sibling table's page.
+
+    When a span splits, a page can carry both the tail of one table and the
+    start of the next. protocol5 p51 opens with the footnotes for the main
+    schedule ("*Days -15 through -9 are allotted for washout...") and then
+    prints APPENDIX II as a separate table. Splitting by title sends those
+    footnotes to the wrong table and leaves the main one with orphan markers.
+
+    Rather than guess at page geometry, this matches on the evidence that
+    survives: a marker with no footnote here, and exactly one footnote with
+    that marker somewhere else in the same document. The footnote is copied in
+    and the borrow is recorded, so a reader can see it was inferred.
+    """
+    by_marker: dict[str, list[tuple["SoAGraph", Node]]] = {}
+    for g in graphs:
+        for n in g.by_type("footnote"):
+            mk = norm_marker(n.attrs.get("marker", ""))
+            if mk:
+                by_marker.setdefault(mk, []).append((g, n))
+
+    for g in graphs:
+        linked = {e.dst for e in g.edges if e.type == "footnote_annotates"}
+        for node in list(g.nodes):
+            if node.type == "footnote" or node.id in linked:
+                continue
+            for mk in (node.attrs.get("markers") or []):
+                key = norm_marker(str(mk))
+                here = any(norm_marker(n.attrs.get("marker", "")) == key
+                           for n in g.by_type("footnote"))
+                if here or key not in by_marker:
+                    continue
+                owners = [(og, n) for og, n in by_marker[key] if og is not g]
+                if len(owners) != 1:
+                    continue                       # ambiguous, leave it flagged
+                og, src = owners[0]
+                fid = f"{g.table_id}:fn:borrowed:{key}"
+                if not any(n.id == fid for n in g.nodes):
+                    g.add(Node(id=fid, type="footnote", label=src.label,
+                               attrs={**src.attrs, "borrowed_from": og.table_id},
+                               provenance=list(src.provenance), ambiguous=True,
+                               note=f"printed on {og.pages}, which this document "
+                                    f"splits into a separate table"))
+                    g.warnings.append(
+                        f"footnote '{mk}' was printed with {og.table_id} but is the "
+                        f"only match for markers on this table; linked across and "
+                        f"marked inferred")
+                g.link(fid, node.id, "footnote_annotates", inferred_from="sibling-table")
