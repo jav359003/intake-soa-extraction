@@ -172,6 +172,47 @@ def test_axis_singular_form_is_understood():
     assert axis == "columns" and confident is True, (axis, evidence, confident)
 
 
+def test_row_continuation_maps_columns_by_position_not_label():
+    """protocol9 restates the same 11 study days with different labels on each
+    page. Label matching appended phantom columns and orphaned every cell."""
+    p1 = page([col(0, "Opiate Agonist Phase (all Morphine)"), col(1, "Detoxification Phase")],
+              [row(0, "Consent", [(0, "1X", ())])])
+    p2 = page([col(0, "1"), col(1, "2")],
+              [row(0, "ECG", [(0, "1X", ()), (1, "1X", ())])])
+    t = merge_pages([p1, p2], [26, 27])
+    assert t["axes"][1]["axis"] == "rows", t["axes"]
+    assert len(t["columns"]) == 2, [c["label"] for c in t["columns"]]
+    g = to_graph(t, "p9", "t1", [26, 27])
+    assert not [w for w in g.warnings if "does not exist" in w], g.warnings
+    assert len(g.by_type("cell")) == 3
+
+
+def test_row_continuation_column_count_mismatch_aligns_prefix_and_warns():
+    """protocol9 p27 reported 12 columns for an 11-column table. Falling back
+    to label matching appended a second full set of columns and orphaned all 72
+    cells on the page. The prefix is aligned by position instead, the surplus
+    is appended, and no cell is lost."""
+    p1 = page([col(0, "D1"), col(1, "D2")], [row(0, "Consent", [(0, "X", ())])])
+    p2 = page([col(0, "D1"), col(1, "D2"), col(2, "D3")],
+              [row(0, "ECG", [(0, "X", ()), (2, "X", ())])])
+    t = merge_pages([p1, p2], [26, 27])
+    assert any("aligned by position" in w for w in t["warnings"]), t["warnings"]
+    assert len(t["columns"]) == 3, [c["label"] for c in t["columns"]]
+    g = to_graph(t, "p9", "t1", [26, 27])
+    assert len(g.by_type("cell")) == 3          # nothing dropped
+    assert not [w for w in g.warnings if "does not exist" in w]
+
+
+def test_unmappable_cell_is_parked_not_dropped():
+    """A cell whose column cannot be resolved still means something is
+    scheduled. Dropping it deletes an activity."""
+    p1 = page([col(0, "D1")], [row(0, "ECG", [(0, "X", ()), (7, "X", ())])])
+    g = to_graph(merge_pages([p1], [26]), "p9", "t1", [26])
+    assert len(g.by_type("cell")) == 2
+    assert any(n.type == "visit" and n.ambiguous for n in g.nodes)
+    assert any("no matching header" in w for w in g.warnings)
+
+
 if __name__ == "__main__":
     fns = [(k, v) for k, v in sorted(globals().items()) if k.startswith("test_")]
     bad = 0

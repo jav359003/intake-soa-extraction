@@ -17,7 +17,7 @@ import json, pathlib, time
 from dataclasses import asdict
 
 from .locate import locate
-from .stitch import merge_pages, to_graph
+from .stitch import merge_pages, to_graph, conservation_report
 from .schema import SoAGraph
 
 ENGINES = ("vision", "gemini", "text-layer")
@@ -54,6 +54,8 @@ def run(pdf_path: str, engine: str = "vision", model: str | None = None,
         merged = merge_pages(per_page, pages)
         g = to_graph(merged, protocol=pdf.stem, table_id=f"{pdf.stem}:soa{i}",
                      pages=pages, source=engine)
+        problems = conservation_report(per_page, pages, merged, g)
+        g.warnings = problems + g.warnings
         g.warnings.insert(0, f"located by: {'; '.join(tbl['reasons'])}")
         graphs.append(g)
 
@@ -63,7 +65,10 @@ def run(pdf_path: str, engine: str = "vision", model: str | None = None,
         "model": model,
         "n_pages": loc["n_pages"],
         "tables": [json.loads(g.to_json()) for g in graphs],
-        "stats": [g.stats() for g in graphs],
+        "stats": [{**g.stats(),
+                   "conservation": sum(1 for w in g.warnings
+                                       if w.startswith("CONSERVATION"))}
+                  for g in graphs],
         "seconds": round(time.time() - t0, 1),
     }
     if out_dir:

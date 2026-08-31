@@ -1,0 +1,78 @@
+{
+  "is_soa_page": false,
+  "is_footnote_page": true,
+  "footnotes": [
+    {
+      "marker": "*",
+      "text": "Screening and baseline assessments may be conducted concurrently, and both must be completed within 21-days prior to randomization.",
+      "appears_complete": true
+    },
+    {
+      "marker": "**",
+      "text": "Vital Signs and On-site Urine Toxicology Screen are both screening and baseline measures, and will serve as a possible basis for exclusion from study.",
+      "appears_complete": true
+    },
+    {
+      "marker": "***",
+      "text": "ASI and HRBS also serve as both screening and baseline measures, but will not be used as a basis for exclusion from study.",
+      "appears_complete": true
+    },
+    {
+      "marker": "****",
+      "text": "CBT to be conducted three times a week during 12-week study medication administration period.",
+      "appears_complete": true
+    },
+    {
+      "marker": "Xa",
+      "text": "Vital signs are taken at each visit for the first three study weeks, then weekly thereafter, preferably at the first visit of the week.",
+      "appears_complete": true
+    },
+    {
+      "marker": "Xb",
+      "text": "Once per week preferably at the first visit of the week. If the study physician has medical concerns, blood may be drawn again to assess blood chemistry (for example, liver enzymes). In addition, at weeks 4 and 8, if female, a urine pregnancy test will be performed.",
+      "appears_complete": true
+    },
+    {
+      "marker": "Xc",
+      "text": "At the final scheduled study visit (preferably last visit of week 12) or if the subject discontinues prematurely. If the study physician has medical concerns, additional ECGs may be performed.",
+      "appears_complete": true
+    },
+    {
+      "marker": "Xd",
+      "text": "AEs will be assessed and recorded by investigative staff nurse or physician or PIs designee at every visit. A study physician will meet with the subject once a week to review the AEs and to assess for any additional AEs.",
+      "appears_complete": true
+    },
+    {
+      "marker": "Xe",
+      "text": "-If there is a clear indication that a participant will terminate early and not return for the termination interview, the ASI-Lite Follow-up interview should be conducted as soon as possible during any scheduled or unscheduled visit.",
+      "appears_complete": true
+    },
+    {
+      "marker": "Xf",
+      "text": "The alcohol breathalyzer test will only be performed if the subject is suspected to be intoxicated at clinic visits in accordance with institutional and state regulations.",
+      "appears_complete": true
+    },
+    {
+      "marker": "Xg",
+      "text": "On study day 1, prior to randomization.",
+      "appears_complete": true
+    },
+    {
+      "marker": "Xh",
+      "text": "During screening/baseline, subjects will attend 2 60-minute early recovery skills sessions each week.",
+      "appears_complete": true
+    },
+    {
+      "marker": "Xi",
+      "text": "Obtained weekly during screening/baseline.",
+      "appears_complete": true
+    },
+    {
+      "marker": "Xj",
+      "text": "CANTABelect tests should be completed twice during the screening/baseline period. The IED test (Intra-Extra Dimensional Set Shifting) will only be done at week 12 or the termination visit, whichever comes first.",
+      "appears_complete": true
+    }
+  ],
+  "unresolved": [],
+  "_model": "gemini-3.6-flash"
+}

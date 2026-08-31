@@ -1,0 +1,1363 @@
+{
+  "is_soa_page": true,
+  "title": "Appendix I: Time and Events Schedule",
+  "continuation": {
+    "is_continuation": false,
+    "axis": null,
+    "evidence": null
+  },
+  "column_headers": [
+    {
+      "level": 0,
+      "role": "period",
+      "cells": [
+        {
+          "text": "Study Phase",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Pre-intake Screening",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Intake Screening",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Screening Infusions",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Baseline Infusions",
+          "span": 2,
+          "markers": []
+        },
+        {
+          "text": "Treatment Infusions",
+          "span": 4,
+          "markers": []
+        },
+        {
+          "text": "Dis-charge",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Follow-up",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "role": "day",
+      "cells": [
+        {
+          "text": "Study day",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Up to -35",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "-15* to -9",
+          "span": 1,
+          "markers": [
+            "*"
+          ]
+        },
+        {
+          "text": "-6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "-2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "-1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "7",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "8",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "12",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "13",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "17",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "31",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "index": 0,
+      "period": "Study Phase",
+      "visit": null,
+      "day": "Study day",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Study Phase / Study day"
+    },
+    {
+      "index": 1,
+      "period": "Pre-intake Screening",
+      "visit": null,
+      "day": "Up to -35",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Pre-intake Screening / Up to -35"
+    },
+    {
+      "index": 2,
+      "period": "Intake Screening",
+      "visit": null,
+      "day": "-15* to -9",
+      "week": null,
+      "window": null,
+      "markers": [
+        "*"
+      ],
+      "label": "Intake Screening / -15* to -9"
+    },
+    {
+      "index": 3,
+      "period": "Screening Infusions",
+      "visit": null,
+      "day": "-6",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Screening Infusions / -6"
+    },
+    {
+      "index": 4,
+      "period": "Baseline Infusions",
+      "visit": null,
+      "day": "-2",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Baseline Infusions / -2"
+    },
+    {
+      "index": 5,
+      "period": "Baseline Infusions",
+      "visit": null,
+      "day": "-1",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Baseline Infusions / -1"
+    },
+    {
+      "index": 6,
+      "period": "Treatment Infusions",
+      "visit": null,
+      "day": "7",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Treatment Infusions / 7"
+    },
+    {
+      "index": 7,
+      "period": "Treatment Infusions",
+      "visit": null,
+      "day": "8",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Treatment Infusions / 8"
+    },
+    {
+      "index": 8,
+      "period": "Treatment Infusions",
+      "visit": null,
+      "day": "12",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Treatment Infusions / 12"
+    },
+    {
+      "index": 9,
+      "period": "Treatment Infusions",
+      "visit": null,
+      "day": "13",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Treatment Infusions / 13"
+    },
+    {
+      "index": 10,
+      "period": "Dis-charge",
+      "visit": null,
+      "day": "17",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Dis-charge / 17"
+    },
+    {
+      "index": 11,
+      "period": "Follow-up",
+      "visit": null,
+      "day": "31",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Follow-up / 31"
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "kind": "assessment",
+      "label": "Informed consent",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "assessment",
+      "label": "Locator form/Demographics",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "assessment",
+      "label": "Cocaine use by timeline follow-back",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "assessment",
+      "label": "Breathalyzer test",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "assessment",
+      "label": "12-lead ECG",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "assessment",
+      "label": "SCID",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "assessment",
+      "label": "Medical History",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "assessment",
+      "label": "Physical Exam (complete)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "assessment",
+      "label": "Physical Exam (brief)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "assessment",
+      "label": "ASI-Lite",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "assessment",
+      "label": "Vital Signs",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "assessment",
+      "label": "Chemistries plus liver function tests**",
+      "indent": 0,
+      "markers": [
+        "**"
+      ],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "assessment",
+      "label": "Hematology",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "assessment",
+      "label": "Pregnancy Test***",
+      "indent": 0,
+      "markers": [
+        "***"
+      ],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "assessment",
+      "label": "Infectious disease serology",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "assessment",
+      "label": "Plasma alcohol",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "assessment",
+      "label": "Urine toxicology screen",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "assessment",
+      "label": "POMS, BSCS",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [
+            "a"
+          ],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "assessment",
+      "label": "Cognitive assessments****",
+      "indent": 0,
+      "markers": [
+        "****"
+      ],
+      "cells": [
+        {
+          "column": 11,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "assessment",
+      "label": "Atomoxetine or placebo",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [
+            "b"
+          ],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "assessment",
+      "label": "Atomoxetine blood levels",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [
+            "f"
+          ],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "assessment",
+      "label": "Adverse Events",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "assessment",
+      "label": "Cocaine Infusion Session #",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 3,
+          "raw": "1&2",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "3",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "4",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "5",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "6",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "7",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "8",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 23,
+      "kind": "assessment",
+      "label": "Saline/20 mg cocaine/40 mg cocaine i.v.",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 24,
+      "kind": "assessment",
+      "label": "20 mg cocaine i.v.",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 25,
+      "kind": "assessment",
+      "label": "40 mg cocaine i.v.",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "assessment",
+      "label": "VAS",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [
+            "c"
+          ],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "assessment",
+      "label": "ARCI",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [
+            "d"
+          ],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "assessment",
+      "label": "Continuous BP, HR, ECG monitoring",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "assessment",
+      "label": "BPRS",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [
+            "e"
+          ],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 30,
+      "kind": "assessment",
+      "label": "Cocaine Blood PK",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    }
+  ],
+  "footnotes": [],
+  "unresolved": [],
+  "_model": "gemini-3.6-flash"
+}

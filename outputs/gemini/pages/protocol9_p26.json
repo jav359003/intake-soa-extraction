@@ -1,0 +1,859 @@
+{
+  "is_soa_page": true,
+  "title": "Table 4.\nSchedule of Measures and Data Collection for Lofexidine Phase 3",
+  "continuation": {
+    "is_continuation": false,
+    "axis": null,
+    "evidence": null
+  },
+  "column_headers": [
+    {
+      "level": 0,
+      "role": "period",
+      "cells": [
+        {
+          "text": "Opiate Agonist Phase\n\n(all Morphine)",
+          "span": 3,
+          "markers": []
+        },
+        {
+          "text": "Detoxification:\nMedication or Placebo Phase\n\n(randomized to\nLofexidine or Placebo)",
+          "span": 5,
+          "markers": []
+        },
+        {
+          "text": "Post Med/\nDetox\nPhase\n(Placebo,\nQID)",
+          "span": 2,
+          "markers": []
+        },
+        {
+          "text": "Medical\nDischarge",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "role": "day",
+      "cells": [
+        {
+          "text": "1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "4",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "5",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "7",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "8",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "9",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "10",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "11",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "role": "date",
+      "cells": [
+        {
+          "text": "Date",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "role": "day_of_week",
+      "cells": [
+        {
+          "text": "Day of Week",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "index": 0,
+      "period": "Opiate Agonist Phase (all Morphine)",
+      "visit": null,
+      "day": "1",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Opiate Agonist Phase (all Morphine) Day 1"
+    },
+    {
+      "index": 1,
+      "period": "Opiate Agonist Phase (all Morphine)",
+      "visit": null,
+      "day": "2",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Opiate Agonist Phase (all Morphine) Day 2"
+    },
+    {
+      "index": 2,
+      "period": "Opiate Agonist Phase (all Morphine)",
+      "visit": null,
+      "day": "3",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Opiate Agonist Phase (all Morphine) Day 3"
+    },
+    {
+      "index": 3,
+      "period": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo)",
+      "visit": null,
+      "day": "4",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo) Day 4"
+    },
+    {
+      "index": 4,
+      "period": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo)",
+      "visit": null,
+      "day": "5",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo) Day 5"
+    },
+    {
+      "index": 5,
+      "period": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo)",
+      "visit": null,
+      "day": "6",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo) Day 6"
+    },
+    {
+      "index": 6,
+      "period": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo)",
+      "visit": null,
+      "day": "7",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo) Day 7"
+    },
+    {
+      "index": 7,
+      "period": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo)",
+      "visit": null,
+      "day": "8",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Detoxification: Medication or Placebo Phase (randomized to Lofexidine or Placebo) Day 8"
+    },
+    {
+      "index": 8,
+      "period": "Post Med/ Detox Phase (Placebo, QID)",
+      "visit": null,
+      "day": "9",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Post Med/ Detox Phase (Placebo, QID) Day 9"
+    },
+    {
+      "index": 9,
+      "period": "Post Med/ Detox Phase (Placebo, QID)",
+      "visit": null,
+      "day": "10",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Post Med/ Detox Phase (Placebo, QID) Day 10"
+    },
+    {
+      "index": 10,
+      "period": "Medical Discharge",
+      "visit": null,
+      "day": "11",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Medical Discharge Day 11"
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "kind": "assessment",
+      "label": "Informed Consent, Screening (01), Opiate Screening (02)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "assessment",
+      "label": "* Morphine (0600, 1100, 1630, 2200 h)",
+      "indent": 0,
+      "markers": [
+        "*"
+      ],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "assessment",
+      "label": "**Lofexidine or Placebo\n(0800, 1300, 1800, 2300 h)",
+      "indent": 0,
+      "markers": [
+        "**"
+      ],
+      "cells": [
+        {
+          "column": 3,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "assessment",
+      "label": "Medical History (03)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "assessment",
+      "label": "Physical Examination (04)\n(Study Day 1 and Exit Day)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "assessment",
+      "label": "Prior Medications (05)",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 6,
+      "kind": "assessment",
+      "label": "Laboratory Assessments: Blood (06,07), Urine (08)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "assessment",
+      "label": "Serum Pregnancy Test (Beta HCG) (09)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "assessment",
+      "label": "Tuberculosis Skin Test (PPD), RPR, CD4 (10)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "assessment",
+      "label": "HIV (optional, per separate consent)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "Prior to Day 4",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "assessment",
+      "label": "Psychiatric Assessment (SCID, Axis I, DSM IV) (11)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "Prior to Day 4",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "assessment",
+      "label": "Addiction Severity Index (ASI) (12)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "Prior to Day 4",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "assessment",
+      "label": "Weight (on admission & 0630-0800h ā breakfast) (13)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "category",
+      "label": "Primary Outcome Measure:",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 14,
+      "kind": "assessment",
+      "label": "*** Modified Himmelsbach (MHOWS), obtained at 1000h (13)",
+      "indent": 0,
+      "markers": [
+        "***"
+      ],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "assessment",
+      "label": "Emesis Tracking (14)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    }
+  ],
+  "footnotes": [],
+  "unresolved": [],
+  "_model": "gemini-3.5-flash"
+}

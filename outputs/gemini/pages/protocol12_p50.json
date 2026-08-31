@@ -1,0 +1,32 @@
+{
+  "is_soa_page": false,
+  "is_footnote_page": true,
+  "footnotes": [
+    {
+      "marker": "3",
+      "text": "The following must be obtained weekly for at least two weeks during the screening/baseline period:\na. BSCS\nb. CGI-S\nc. CGI-O\nd. Urine toxicology screening at a central laboratory. Note: This assay will be performed at a central laboratory only on the urine samples collected for the subjects who are randomized in the study.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "4",
+      "text": "Daily report of methamphetamine, marijuana, nicotine, alcohol, opiates, and cocaine use will be recorded at each visit on a SUR CRF.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "5",
+      "text": "HAM-D, ASI, ACDS, AISRS, Barratt Impulsiveness Scale and HRBS assessments must be obtained once. The CANTABelect assessments must be obtained twice.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "6",
+      "text": "AEs will be assessed and recorded at each screening/baseline visit and reviewed by site investigator or study physician weekly.",
+      "appears_complete": true,
+      "attaches_to": []
+    }
+  ],
+  "unresolved": [],
+  "_model": "gemini-3.6-flash"
+}

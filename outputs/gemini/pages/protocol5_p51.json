@@ -1,0 +1,790 @@
+{
+  "is_soa_page": true,
+  "title": "APPENDIX II: Schedule of Blood Collections",
+  "continuation": {
+    "is_continuation": false,
+    "axis": null,
+    "evidence": null
+  },
+  "column_headers": [
+    {
+      "level": 0,
+      "role": "period",
+      "cells": [
+        {
+          "text": "Analysis",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Volume Per Sample",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Type",
+          "span": 1,
+          "markers": [
+            "a"
+          ]
+        },
+        {
+          "text": "Number of Samples per Day",
+          "span": 12,
+          "markers": [
+            "b"
+          ]
+        },
+        {
+          "text": "Total Volume",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "role": "day",
+      "cells": [
+        {
+          "text": "Study Day",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Screening",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D-8",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D-1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D8",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D11",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D13",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D17",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D31",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "index": 0,
+      "period": null,
+      "visit": null,
+      "day": "Study Day",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Analysis"
+    },
+    {
+      "index": 1,
+      "period": null,
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Volume Per Sample"
+    },
+    {
+      "index": 2,
+      "period": null,
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [
+        "a"
+      ],
+      "label": "Type"
+    },
+    {
+      "index": 3,
+      "period": "Number of Samples per Day",
+      "visit": null,
+      "day": "Screening",
+      "week": null,
+      "window": null,
+      "markers": [
+        "b"
+      ],
+      "label": "Screening"
+    },
+    {
+      "index": 4,
+      "period": "Number of Samples per Day",
+      "visit": null,
+      "day": "D-8",
+      "week": null,
+      "window": null,
+      "markers": [
+        "b"
+      ],
+      "label": "D-8"
+    },
+    {
+      "index": 5,
+      "period": "Number of Samples per Day",
+      "visit": null,
+      "day": "D-1",
+      "week": null,
+      "window": null,
+      "markers": [
+        "b"
+      ],
+      "label": "D-1"
+    },
+    {
+      "index": 6,
+      "period": "Number of Samples per Day",
+      "visit": null,
+      "day": "D1",
+      "week": null,
+      "window": null,
+      "markers": [
+        "b"
+      ],
+      "label": "D1"
+    },
+    {
+      "index": 7,
+      "period": "Number of Samples per Day",
+      "visit": null,
+      "day": "D2",
+      "week": null,
+      "window": null,
+      "markers": [
+        "b"
+      ],
+      "label": "D2"
+    },
+    {
+      "index": 8,
+      "period": "Number of Samples per Day",
+      "visit": null,
+      "day": "D3",
+      "week": null,
+      "window": null,
+      "markers": [
+        "b"
+      ],
+      "label": "D3"
+    },
+    {
+      "index": 9,
+      "period": "Number of Samples per Day",
+      "visit": null,
+      "day": "D6",
+      "week": null,
+      "window": null,
+      "markers": [
+        "b"
+      ],
+      "label": "D6"
+    },
+    {
+      "index": 10,
+      "period": "Number of Samples per Day",
+      "visit": null,
+      "day": "D8",
+      "week": null,
+      "window": null,
+      "markers": [
+        "b"
+      ],
+      "label": "D8"
+    },
+    {
+      "index": 11,
+      "period": "Number of Samples per Day",
+      "visit": null,
+      "day": "D11",
+      "week": null,
+      "window": null,
+      "markers": [
+        "b"
+      ],
+      "label": "D11"
+    },
+    {
+      "index": 12,
+      "period": "Number of Samples per Day",
+      "visit": null,
+      "day": "D13",
+      "week": null,
+      "window": null,
+      "markers": [
+        "b"
+      ],
+      "label": "D13"
+    },
+    {
+      "index": 13,
+      "period": "Number of Samples per Day",
+      "visit": null,
+      "day": "D17",
+      "week": null,
+      "window": null,
+      "markers": [
+        "b"
+      ],
+      "label": "D17"
+    },
+    {
+      "index": 14,
+      "period": "Number of Samples per Day",
+      "visit": null,
+      "day": "D31",
+      "week": null,
+      "window": null,
+      "markers": [
+        "b"
+      ],
+      "label": "D31"
+    },
+    {
+      "index": 15,
+      "period": null,
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Total Volume"
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "kind": "assessment",
+      "label": "Chemistries plus liver function tests",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "10 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "S",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 12,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 13,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 14,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 15,
+          "raw": "60 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "assessment",
+      "label": "Hematology",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "10 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "P",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 13,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 14,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 15,
+          "raw": "30 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "assessment",
+      "label": "Infectious disease serology",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "10 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "S",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 15,
+          "raw": "10 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "assessment",
+      "label": "PK Samples for cocaine",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "5 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "P",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "15",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "15",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 12,
+          "raw": "15",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 15,
+          "raw": "225 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "assessment",
+      "label": "PK Samples for Atomoxetine",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "5 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "P",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "2",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "2",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 11,
+          "raw": "2",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 12,
+          "raw": "2",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 15,
+          "raw": "40 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "assessment",
+      "label": "Pregnancy Test",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "5 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "S",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 13,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 14,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 15,
+          "raw": "20 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "assessment",
+      "label": "Alcohol Test",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "5 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "P",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 15,
+          "raw": "5 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "assessment",
+      "label": "Total",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 15,
+          "raw": "390 mL",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "marker": "*",
+      "text": "*Days -15 through -9 are allotted for washout of cocaine after admission. Subjects’ urine will be tested daily to document when it becomes negative for cocaine.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "**",
+      "text": "** Blood chemistries, including liver function tests, will be performed at outpatient and inpatient screening, on days 6 and 13, at discharge (day 17) and at follow-up (day 31).",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "***",
+      "text": "*** Pregnancy test at intake screening should be done within 72 hours before the first screening cocaine infusion.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "****",
+      "text": "**** Cognitive assessments will be performed on day -7 and on day 11.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Xa",
+      "text": "X^a - POMS, BSCS will be performed at intake and then every other day.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Xb",
+      "text": "X^b - atomoxetine will be administered at 20 mg q.d. on days 0 and 1, 40 mg q.d. on days 2 and 3, 80 mg q.d. on days 4-8 and 100 mg q.d. on days 9-13.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Xc",
+      "text": "X^c - VAS will be performed on days -10, -9, and on all infusion days.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Xd",
+      "text": "X^d - ARCI will be performed on days -10, -9, and on all non-infusion days.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Xe",
+      "text": "X^e - BPRS will be administered on baseline, every day during treatment with atomoxetine and on the days of all cocaine infusions.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Xf",
+      "text": "X^f - atomoxetine blood levels will be determined on days 6, 8, 11 and 13.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "a",
+      "text": "S = serum, P = plasma;",
+      "appears_complete": true,
+      "attaches_to": [
+        {
+          "kind": "column_header",
+          "level": 0,
+          "column": 2
+        }
+      ]
+    },
+    {
+      "marker": "b",
+      "text": "D = day",
+      "appears_complete": true,
+      "attaches_to": [
+        {
+          "kind": "column_header",
+          "level": 0,
+          "column": 3
+        }
+      ]
+    }
+  ],
+  "unresolved": [],
+  "_model": "gemini-3.5-flash"
+}

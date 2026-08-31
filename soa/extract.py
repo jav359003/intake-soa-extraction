@@ -114,7 +114,20 @@ Rules that matter on this specific kind of table:
   appears on every page (a document title, a version line, a page number) is
   not part of the table.
 
-If this page holds no SoA table, return {{"is_soa_page": false}} and nothing else.
+PAGES THAT CARRY ONLY FOOTNOTES STILL MATTER. A Schedule of Activities often
+runs its footnote block onto the pages after the grid -- sometimes under a
+heading like "Notes on the Schedule of Assessments", sometimes with no heading
+at all. If this page has no grid but does carry notes, abbreviations, a legend
+or numbered items that qualify a schedule, return:
+
+  {{"is_soa_page": false, "is_footnote_page": true, "footnotes": [...],
+    "unresolved": [...]}}
+
+with the footnotes filled in exactly as described above. Returning an empty
+object for such a page silently deletes the footnotes from the extraction.
+
+Only if the page has neither a grid nor any schedule-related notes, return
+{{"is_soa_page": false, "is_footnote_page": false}} and nothing else.
 """
 
 
