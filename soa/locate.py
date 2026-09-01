@@ -69,6 +69,9 @@ class PageFeatures:
     grid: bool = False          # looks like a table in its own right
     footnoteish: bool = False   # carries marker-led lines
     new_section: bool = False   # opens a new numbered section / appendix
+    image_coverage: float = 0.0 # share of the page covered by raster images
+    image_table: bool = False   # unreadable here, readable by the extractor
+    sparse: bool = False        # almost no body text, but not an empty page
     first_line: str = ""
     score: float = 0.0
     reasons: list[str] = field(default_factory=list)
@@ -110,12 +113,56 @@ def _columns(rows, tol: float = 6.0, min_rows: int = 4):
     return len(cols), (len(covered) / len(rows) if rows else 0.0)
 
 
+def _image_coverage(page: pymupdf.Page) -> float:
+    """Fraction of the page covered by embedded raster images."""
+    try:
+        area = float(page.rect.width * page.rect.height) or 1.0
+        covered = 0.0
+        for info in page.get_image_info():
+            b = info.get("bbox")
+            if b:
+                covered += max(0.0, b[2] - b[0]) * max(0.0, b[3] - b[1])
+        return min(covered / area, 1.0)
+    except Exception:
+        return 0.0
+
+
 def page_features(page: pymupdf.Page, index: int) -> PageFeatures:
     f = PageFeatures(page=index)
     words = page.get_text("words")
     text = page.get_text("text")
     f.n_words = len(words)
+    f.image_coverage = _image_coverage(page)
+    r = page.rect
+    f.landscape = r.width > r.height
     f.first_line = next((l.strip() for l in text.splitlines() if l.strip()), "")[:90]
+
+    # A page carrying a schedule caption and almost nothing else holds a table
+    # this module cannot read: an embedded image, a vector-drawn grid, or a
+    # redacted block. NCT05392192 prints "Table 1: Schedule of Assessments" and
+    # then a solid black rectangle where the table was -- the sponsor redacted
+    # it before publishing. Text-layer signals all score zero on such a page.
+    #
+    # Finding nothing there is the wrong answer. The right answer is that a
+    # schedule is present and its content could not be read, which is something
+    # a reviewer must be told. So the page becomes a candidate on the strength
+    # of its caption alone, and the extractor -- which works from the rendered
+    # page -- gets to say what is actually there.
+    caption_only = (
+        f.n_words < 80
+        and HEADING.search(text)
+        and (f.image_coverage >= 0.10 or f.landscape))
+    f.sparse = f.n_words < 80 and (f.image_coverage >= 0.05 or len(page.get_drawings()) >= 2)
+    if caption_only or (f.image_coverage >= 0.30 and f.n_words < 80):
+        f.image_table = True
+        f.score = 8.0 + 4.0 * f.image_coverage
+        f.reasons.append(
+            f"schedule caption with only {f.n_words} words of body text and "
+            f"{f.image_coverage:.0%} image coverage; the table is not in the text "
+            f"layer, so the page is sent to the extractor to read from the "
+            f"rendered image")
+        return f
+
     if not words:
         return f
 
@@ -134,8 +181,6 @@ def page_features(page: pymupdf.Page, index: int) -> PageFeatures:
         if item[0] == "l" or (item[0] == "re" and min(item[1].width, item[1].height) < 3)
     )
 
-    r = page.rect
-    f.landscape = r.width > r.height
     head_zone = "\n".join(text.splitlines()[:6])
     f.heading = bool(HEADING.search(head_zone))
     f.grid = f.n_cells >= 12 and f.n_columns >= 5 and f.cell_ratio >= 0.02
@@ -197,13 +242,28 @@ def _expand(feats: list[PageFeatures], seed: int, max_table: int = 6,
     n = len(feats)
     span = {seed}
 
+    # A table the text layer cannot read runs across its continuation pages the
+    # same way any other does, but those pages carry no caption and no cells to
+    # recognise -- only the same sparse shape. NCT05392192's redacted schedule
+    # spans three pages and only the first is captioned.
+    if by_page[seed].image_table:
+        for step in (1, -1):
+            page = seed + step
+            while 0 < page <= n and len(span) < max_table:
+                f = by_page[page]
+                if not f.sparse or f.new_section:
+                    break
+                span.add(page)
+                page += step
+        return sorted(span)
+
     for step in (1, -1):
         page = seed + step
         while 0 < page <= n and len(span) < max_table:
             f = by_page[page]
             if f.new_section and not f.continued:
                 break
-            if not (f.grid or f.continued):
+            if not (f.grid or f.continued or f.image_table):
                 break
             span.add(page)
             page += step
@@ -239,9 +299,16 @@ def locate(pdf_path: str, threshold: float = 5.0, seed_margin: float = 0.55) -> 
     # Seeds must be close to the best page in the document. Absolute score is
     # not comparable across protocols -- a 2011 Word table and a modern ruled
     # one land in different ranges -- so the bar is relative.
-    seed_bar = max(threshold, top * seed_margin)
+    # Relative to the best page, but also clearly above the document's ordinary
+    # pages. Prose scores 5.0-6.0 through incidental column alignment, so a
+    # document with no schedule at all otherwise produces a seed per page.
+    scores = sorted((f.score for f in feats), reverse=True)
+    typical = scores[len(scores) // 2] if scores else 0.0
+    noise = sorted(scores)[int(len(scores) * 0.9)] if len(scores) > 10 else 0.0
+    seed_bar = max(threshold, top * seed_margin, noise + 1.0, typical + 2.0)
 
-    seeds = sorted((f for f in feats if f.score >= seed_bar), key=lambda f: -f.score)
+    seeds = sorted((f for f in feats if f.score >= seed_bar or f.image_table),
+                   key=lambda f: -f.score)
     tables, claimed = [], set()
     for s in seeds:
         if s.page in claimed:
