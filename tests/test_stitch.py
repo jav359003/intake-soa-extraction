@@ -312,6 +312,30 @@ def test_single_line_label_is_untouched():
     assert not any("merged into it" in w for w in t["warnings"])
 
 
+def test_similar_visit_labels_are_not_merged():
+    """protocol1 lost visits 9, 11, 12 and 13 to fuzzy column matching:
+    "Visit 11 / Week 20" and "Visit 1 / Week -2" are 0.93-similar strings and
+    entirely different visits."""
+    rows_same = [row(0, "Vital signs", [(0, "X", ())])]
+    p1 = page([col(0, "Visit 1 / Week -2")], rows_same)
+    p2 = page([col(0, "Visit 11 / Week 20")],
+              [row(0, "Vital signs", [(0, "X", ())])])
+    t = merge_pages([p1, p2], [53, 54])
+    assert t["axes"][1]["axis"] == "columns", t["axes"]
+    assert len(t["columns"]) == 2, [c["label"] for c in t["columns"]]
+    assert any("closely resembles" in w for w in t["warnings"])
+
+
+def test_identical_column_label_still_merges():
+    """A visit genuinely repeated on the continuation page is one column."""
+    p1 = page([col(0, "Screening"), col(1, "Week 4")],
+              [row(0, "ECG", [(0, "X", ())]), row(1, "Vitals", [(0, "X", ())])])
+    p2 = page([col(0, "Screening"), col(1, "Week 8")],
+              [row(0, "ECG", [(1, "X", ())]), row(1, "Vitals", [(1, "X", ())])])
+    t = merge_pages([p1, p2], [53, 54])
+    assert len(t["columns"]) == 3, [c["label"] for c in t["columns"]]
+
+
 if __name__ == "__main__":
     fns = [(k, v) for k, v in sorted(globals().items()) if k.startswith("test_")]
     bad = 0

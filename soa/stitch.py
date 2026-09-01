@@ -142,10 +142,25 @@ def _merge_columns(base: list[dict], new: list[dict], positional: bool = False,
                 f"really adds visits or the extractor miscounted.")
         return out, mapping
 
+    # Column identity must be exact, never fuzzy. Visit labels are
+    # systematically similar by construction: "Visit 1 / Week -2" and
+    # "Visit 11 / Week 20" are 0.93-similar strings and completely different
+    # visits. Fuzzy matching merged protocol1's visits 9, 11, 12 and 13 into
+    # visit 1 and deleted four patient visits from the study. Row labels are
+    # prose and still match fuzzily; column labels are identifiers.
     for c in new:
+        key = _norm(c.get("label", ""))
         hit = next((i for i, b in enumerate(out)
-                    if _similar(b.get("label", ""), c.get("label", ""))
-                    and _norm(b.get("label", ""))), None)
+                    if key and _norm(b.get("label", "")) == key), None)
+        if hit is None and key:
+            near = [b.get("label", "") for b in out
+                    if _similar(b.get("label", ""), c.get("label", ""), bar=0.85)]
+            if near and warnings is not None:
+                warnings.append(
+                    f"column '{c.get('label','')}' closely resembles "
+                    f"{near[:2]} but is not identical; kept as a separate visit. "
+                    f"If these are the same visit the table now has a duplicate "
+                    f"column.")
         if hit is None:
             mapping[c["index"]] = len(out)
             out.append({**c, "index": len(out)})

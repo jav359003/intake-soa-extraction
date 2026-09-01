@@ -156,6 +156,26 @@
         {
           "id": "protocol1:soa0:visit:7",
           "type": "visit",
+          "label": "Visit 9 / Week 12",
+          "attrs": {
+            "visit": "9",
+            "day": null,
+            "week": "12",
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:visit:8",
+          "type": "visit",
           "label": "Visit 10 / Week 16",
           "attrs": {
             "visit": "10",
@@ -174,7 +194,67 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:visit:8",
+          "id": "protocol1:soa0:visit:9",
+          "type": "visit",
+          "label": "Visit 11 / Week 20",
+          "attrs": {
+            "visit": "11",
+            "day": null,
+            "week": "20",
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:visit:10",
+          "type": "visit",
+          "label": "Visit 12 / Week 24",
+          "attrs": {
+            "visit": "12",
+            "day": null,
+            "week": "24",
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:visit:11",
+          "type": "visit",
+          "label": "Visit 13 / Week 26",
+          "attrs": {
+            "visit": "13",
+            "day": null,
+            "week": "26",
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:visit:12",
           "type": "visit",
           "label": "Visit ET",
           "attrs": {
@@ -194,7 +274,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:visit:9",
+          "id": "protocol1:soa0:visit:13",
           "type": "visit",
           "label": "Visit RT",
           "attrs": {
@@ -394,7 +474,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:4:0",
+          "id": "protocol1:soa0:cell:4:11",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -412,7 +492,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:4:8",
+          "id": "protocol1:soa0:cell:4:12",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -754,79 +834,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:10:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:10:7",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:10:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:10:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:10:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -863,6 +871,78 @@
         },
         {
           "id": "protocol1:soa0:cell:10:9",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:10:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:10:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:10:12",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:10:13",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1060,24 +1140,6 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:13:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:13:7",
           "type": "cell",
           "label": "X",
@@ -1096,61 +1158,79 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:13:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:13:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:13:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:13:8",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:13:9",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:13:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:13:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:13:12",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1366,79 +1446,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:16:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:16:7",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:16:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:16:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:16:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1475,6 +1483,78 @@
         },
         {
           "id": "protocol1:soa0:cell:16:9",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:16:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:16:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:16:12",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:16:13",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1600,24 +1680,6 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:17:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:17:7",
           "type": "cell",
           "label": "X",
@@ -1636,61 +1698,79 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:17:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:17:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:17:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:17:8",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:17:9",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:17:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:17:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:17:12",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1762,7 +1842,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:18:0",
+          "id": "protocol1:soa0:cell:18:7",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1780,7 +1860,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:18:0",
+          "id": "protocol1:soa0:cell:18:10",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1798,7 +1878,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:18:8",
+          "id": "protocol1:soa0:cell:18:12",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1906,7 +1986,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:19:0",
+          "id": "protocol1:soa0:cell:19:7",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1924,7 +2004,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:19:0",
+          "id": "protocol1:soa0:cell:19:9",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1942,7 +2022,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:19:8",
+          "id": "protocol1:soa0:cell:19:12",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2106,24 +2186,6 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:21:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:21:7",
           "type": "cell",
           "label": "X",
@@ -2142,61 +2204,79 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:21:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:21:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:21:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:21:8",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:21:9",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:21:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:21:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:21:12",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2268,7 +2348,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:24:0",
+          "id": "protocol1:soa0:cell:24:11",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2286,7 +2366,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:24:8",
+          "id": "protocol1:soa0:cell:24:12",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2378,42 +2458,6 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:25:7",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:25:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:25:8",
           "type": "cell",
           "label": "X",
@@ -2432,7 +2476,43 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:25:9",
+          "id": "protocol1:soa0:cell:25:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:25:12",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:25:13",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2524,42 +2604,6 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:26:7",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:26:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:26:8",
           "type": "cell",
           "label": "X",
@@ -2578,7 +2622,43 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:26:9",
+          "id": "protocol1:soa0:cell:26:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:26:12",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:26:13",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2670,42 +2750,6 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:27:7",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:27:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:27:8",
           "type": "cell",
           "label": "X",
@@ -2724,7 +2768,43 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:27:9",
+          "id": "protocol1:soa0:cell:27:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:27:12",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:27:13",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2872,26 +2952,6 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:28:0",
-          "type": "cell",
-          "label": "Xb",
-          "attrs": {
-            "shaded": false,
-            "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:28:7",
           "type": "cell",
           "label": "Xb",
@@ -2912,7 +2972,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:28:0",
+          "id": "protocol1:soa0:cell:28:8",
           "type": "cell",
           "label": "Xb",
           "attrs": {
@@ -2932,61 +2992,81 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:28:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:28:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:28:8",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:28:9",
+          "type": "cell",
+          "label": "Xb",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:28:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:28:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:28:12",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:28:13",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -3148,79 +3228,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:cell:29:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol1:soa0:cell:29:7",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:29:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:29:0",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 53,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:cell:29:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -3257,6 +3265,78 @@
         },
         {
           "id": "protocol1:soa0:cell:29:9",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:29:10",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:29:11",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:29:12",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 53,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol1:soa0:cell:29:13",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -3450,26 +3530,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:4:0",
+          "src": "protocol1:soa0:cell:4:11",
           "dst": "protocol1:soa0:asmt:4",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:4:0",
-          "dst": "protocol1:soa0:visit:0",
+          "src": "protocol1:soa0:cell:4:11",
+          "dst": "protocol1:soa0:visit:11",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:4:8",
+          "src": "protocol1:soa0:cell:4:12",
           "dst": "protocol1:soa0:asmt:4",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:4:8",
-          "dst": "protocol1:soa0:visit:8",
+          "src": "protocol1:soa0:cell:4:12",
+          "dst": "protocol1:soa0:visit:12",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3618,18 +3698,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:10:0",
-          "dst": "protocol1:soa0:asmt:10",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:10:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:cell:10:7",
           "dst": "protocol1:soa0:asmt:10",
           "type": "cell_of_assessment",
@@ -3638,42 +3706,6 @@
         {
           "src": "protocol1:soa0:cell:10:7",
           "dst": "protocol1:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:10:0",
-          "dst": "protocol1:soa0:asmt:10",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:10:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:10:0",
-          "dst": "protocol1:soa0:asmt:10",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:10:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:10:0",
-          "dst": "protocol1:soa0:asmt:10",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:10:0",
-          "dst": "protocol1:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3698,6 +3730,54 @@
         {
           "src": "protocol1:soa0:cell:10:9",
           "dst": "protocol1:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:10",
+          "dst": "protocol1:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:10",
+          "dst": "protocol1:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:11",
+          "dst": "protocol1:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:11",
+          "dst": "protocol1:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:12",
+          "dst": "protocol1:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:12",
+          "dst": "protocol1:soa0:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:13",
+          "dst": "protocol1:soa0:asmt:10",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:10:13",
+          "dst": "protocol1:soa0:visit:13",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3786,18 +3866,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:13:0",
-          "dst": "protocol1:soa0:asmt:13",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:13:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:cell:13:7",
           "dst": "protocol1:soa0:asmt:13",
           "type": "cell_of_assessment",
@@ -3810,42 +3878,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:13:0",
-          "dst": "protocol1:soa0:asmt:13",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:13:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:13:0",
-          "dst": "protocol1:soa0:asmt:13",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:13:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:13:0",
-          "dst": "protocol1:soa0:asmt:13",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:13:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:cell:13:8",
           "dst": "protocol1:soa0:asmt:13",
           "type": "cell_of_assessment",
@@ -3854,6 +3886,54 @@
         {
           "src": "protocol1:soa0:cell:13:8",
           "dst": "protocol1:soa0:visit:8",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:9",
+          "dst": "protocol1:soa0:asmt:13",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:9",
+          "dst": "protocol1:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:10",
+          "dst": "protocol1:soa0:asmt:13",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:10",
+          "dst": "protocol1:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:11",
+          "dst": "protocol1:soa0:asmt:13",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:11",
+          "dst": "protocol1:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:12",
+          "dst": "protocol1:soa0:asmt:13",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:13:12",
+          "dst": "protocol1:soa0:visit:12",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3954,18 +4034,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:16:0",
-          "dst": "protocol1:soa0:asmt:16",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:16:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:cell:16:7",
           "dst": "protocol1:soa0:asmt:16",
           "type": "cell_of_assessment",
@@ -3974,42 +4042,6 @@
         {
           "src": "protocol1:soa0:cell:16:7",
           "dst": "protocol1:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:16:0",
-          "dst": "protocol1:soa0:asmt:16",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:16:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:16:0",
-          "dst": "protocol1:soa0:asmt:16",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:16:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:16:0",
-          "dst": "protocol1:soa0:asmt:16",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:16:0",
-          "dst": "protocol1:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4034,6 +4066,54 @@
         {
           "src": "protocol1:soa0:cell:16:9",
           "dst": "protocol1:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:10",
+          "dst": "protocol1:soa0:asmt:16",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:10",
+          "dst": "protocol1:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:11",
+          "dst": "protocol1:soa0:asmt:16",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:11",
+          "dst": "protocol1:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:12",
+          "dst": "protocol1:soa0:asmt:16",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:12",
+          "dst": "protocol1:soa0:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:13",
+          "dst": "protocol1:soa0:asmt:16",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:16:13",
+          "dst": "protocol1:soa0:visit:13",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4098,18 +4178,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:17:0",
-          "dst": "protocol1:soa0:asmt:17",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:17:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:cell:17:7",
           "dst": "protocol1:soa0:asmt:17",
           "type": "cell_of_assessment",
@@ -4122,42 +4190,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:17:0",
-          "dst": "protocol1:soa0:asmt:17",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:17:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:17:0",
-          "dst": "protocol1:soa0:asmt:17",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:17:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:17:0",
-          "dst": "protocol1:soa0:asmt:17",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:17:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:cell:17:8",
           "dst": "protocol1:soa0:asmt:17",
           "type": "cell_of_assessment",
@@ -4166,6 +4198,54 @@
         {
           "src": "protocol1:soa0:cell:17:8",
           "dst": "protocol1:soa0:visit:8",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:9",
+          "dst": "protocol1:soa0:asmt:17",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:9",
+          "dst": "protocol1:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:10",
+          "dst": "protocol1:soa0:asmt:17",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:10",
+          "dst": "protocol1:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:11",
+          "dst": "protocol1:soa0:asmt:17",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:11",
+          "dst": "protocol1:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:12",
+          "dst": "protocol1:soa0:asmt:17",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:17:12",
+          "dst": "protocol1:soa0:visit:12",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4194,38 +4274,38 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:18:0",
+          "src": "protocol1:soa0:cell:18:7",
           "dst": "protocol1:soa0:asmt:18",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:18:0",
-          "dst": "protocol1:soa0:visit:0",
+          "src": "protocol1:soa0:cell:18:7",
+          "dst": "protocol1:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:18:0",
+          "src": "protocol1:soa0:cell:18:10",
           "dst": "protocol1:soa0:asmt:18",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:18:0",
-          "dst": "protocol1:soa0:visit:0",
+          "src": "protocol1:soa0:cell:18:10",
+          "dst": "protocol1:soa0:visit:10",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:18:8",
+          "src": "protocol1:soa0:cell:18:12",
           "dst": "protocol1:soa0:asmt:18",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:18:8",
-          "dst": "protocol1:soa0:visit:8",
+          "src": "protocol1:soa0:cell:18:12",
+          "dst": "protocol1:soa0:visit:12",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4278,38 +4358,38 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:19:0",
+          "src": "protocol1:soa0:cell:19:7",
           "dst": "protocol1:soa0:asmt:19",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:19:0",
-          "dst": "protocol1:soa0:visit:0",
+          "src": "protocol1:soa0:cell:19:7",
+          "dst": "protocol1:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:19:0",
+          "src": "protocol1:soa0:cell:19:9",
           "dst": "protocol1:soa0:asmt:19",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:19:0",
-          "dst": "protocol1:soa0:visit:0",
+          "src": "protocol1:soa0:cell:19:9",
+          "dst": "protocol1:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:19:8",
+          "src": "protocol1:soa0:cell:19:12",
           "dst": "protocol1:soa0:asmt:19",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:19:8",
-          "dst": "protocol1:soa0:visit:8",
+          "src": "protocol1:soa0:cell:19:12",
+          "dst": "protocol1:soa0:visit:12",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4386,18 +4466,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:21:0",
-          "dst": "protocol1:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:21:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:cell:21:7",
           "dst": "protocol1:soa0:asmt:21",
           "type": "cell_of_assessment",
@@ -4410,42 +4478,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:21:0",
-          "dst": "protocol1:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:21:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:21:0",
-          "dst": "protocol1:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:21:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:21:0",
-          "dst": "protocol1:soa0:asmt:21",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:21:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:cell:21:8",
           "dst": "protocol1:soa0:asmt:21",
           "type": "cell_of_assessment",
@@ -4458,26 +4490,74 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:24:0",
-          "dst": "protocol1:soa0:asmt:24",
+          "src": "protocol1:soa0:cell:21:9",
+          "dst": "protocol1:soa0:asmt:21",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:24:0",
-          "dst": "protocol1:soa0:visit:0",
+          "src": "protocol1:soa0:cell:21:9",
+          "dst": "protocol1:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:24:8",
+          "src": "protocol1:soa0:cell:21:10",
+          "dst": "protocol1:soa0:asmt:21",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:10",
+          "dst": "protocol1:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:11",
+          "dst": "protocol1:soa0:asmt:21",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:11",
+          "dst": "protocol1:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:12",
+          "dst": "protocol1:soa0:asmt:21",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:21:12",
+          "dst": "protocol1:soa0:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:24:11",
           "dst": "protocol1:soa0:asmt:24",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:24:8",
-          "dst": "protocol1:soa0:visit:8",
+          "src": "protocol1:soa0:cell:24:11",
+          "dst": "protocol1:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:24:12",
+          "dst": "protocol1:soa0:asmt:24",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:24:12",
+          "dst": "protocol1:soa0:visit:12",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4518,30 +4598,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:25:7",
-          "dst": "protocol1:soa0:asmt:25",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:25:7",
-          "dst": "protocol1:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:25:0",
-          "dst": "protocol1:soa0:asmt:25",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:25:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:cell:25:8",
           "dst": "protocol1:soa0:asmt:25",
           "type": "cell_of_assessment",
@@ -4554,14 +4610,38 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:25:9",
+          "src": "protocol1:soa0:cell:25:10",
           "dst": "protocol1:soa0:asmt:25",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:25:9",
-          "dst": "protocol1:soa0:visit:9",
+          "src": "protocol1:soa0:cell:25:10",
+          "dst": "protocol1:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:25:12",
+          "dst": "protocol1:soa0:asmt:25",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:25:12",
+          "dst": "protocol1:soa0:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:25:13",
+          "dst": "protocol1:soa0:asmt:25",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:25:13",
+          "dst": "protocol1:soa0:visit:13",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4602,30 +4682,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:26:7",
-          "dst": "protocol1:soa0:asmt:26",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:26:7",
-          "dst": "protocol1:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:26:0",
-          "dst": "protocol1:soa0:asmt:26",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:26:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:cell:26:8",
           "dst": "protocol1:soa0:asmt:26",
           "type": "cell_of_assessment",
@@ -4638,14 +4694,38 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:26:9",
+          "src": "protocol1:soa0:cell:26:10",
           "dst": "protocol1:soa0:asmt:26",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:26:9",
-          "dst": "protocol1:soa0:visit:9",
+          "src": "protocol1:soa0:cell:26:10",
+          "dst": "protocol1:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:12",
+          "dst": "protocol1:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:12",
+          "dst": "protocol1:soa0:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:13",
+          "dst": "protocol1:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:26:13",
+          "dst": "protocol1:soa0:visit:13",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4686,30 +4766,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:27:7",
-          "dst": "protocol1:soa0:asmt:27",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:27:7",
-          "dst": "protocol1:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:27:0",
-          "dst": "protocol1:soa0:asmt:27",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:27:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:cell:27:8",
           "dst": "protocol1:soa0:asmt:27",
           "type": "cell_of_assessment",
@@ -4722,14 +4778,38 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:27:9",
+          "src": "protocol1:soa0:cell:27:10",
           "dst": "protocol1:soa0:asmt:27",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:27:9",
-          "dst": "protocol1:soa0:visit:9",
+          "src": "protocol1:soa0:cell:27:10",
+          "dst": "protocol1:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:12",
+          "dst": "protocol1:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:12",
+          "dst": "protocol1:soa0:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:13",
+          "dst": "protocol1:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:27:13",
+          "dst": "protocol1:soa0:visit:13",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4806,18 +4886,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:28:0",
-          "dst": "protocol1:soa0:asmt:28",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:28:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:cell:28:7",
           "dst": "protocol1:soa0:asmt:28",
           "type": "cell_of_assessment",
@@ -4826,42 +4894,6 @@
         {
           "src": "protocol1:soa0:cell:28:7",
           "dst": "protocol1:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:28:0",
-          "dst": "protocol1:soa0:asmt:28",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:28:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:28:0",
-          "dst": "protocol1:soa0:asmt:28",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:28:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:28:0",
-          "dst": "protocol1:soa0:asmt:28",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:28:0",
-          "dst": "protocol1:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4886,6 +4918,54 @@
         {
           "src": "protocol1:soa0:cell:28:9",
           "dst": "protocol1:soa0:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:28:10",
+          "dst": "protocol1:soa0:asmt:28",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:28:10",
+          "dst": "protocol1:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:28:11",
+          "dst": "protocol1:soa0:asmt:28",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:28:11",
+          "dst": "protocol1:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:28:12",
+          "dst": "protocol1:soa0:asmt:28",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:28:12",
+          "dst": "protocol1:soa0:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:28:13",
+          "dst": "protocol1:soa0:asmt:28",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:28:13",
+          "dst": "protocol1:soa0:visit:13",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4974,18 +5054,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:cell:29:0",
-          "dst": "protocol1:soa0:asmt:29",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:29:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:cell:29:7",
           "dst": "protocol1:soa0:asmt:29",
           "type": "cell_of_assessment",
@@ -4994,42 +5062,6 @@
         {
           "src": "protocol1:soa0:cell:29:7",
           "dst": "protocol1:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:29:0",
-          "dst": "protocol1:soa0:asmt:29",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:29:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:29:0",
-          "dst": "protocol1:soa0:asmt:29",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:29:0",
-          "dst": "protocol1:soa0:visit:0",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:29:0",
-          "dst": "protocol1:soa0:asmt:29",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:cell:29:0",
-          "dst": "protocol1:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5058,6 +5090,54 @@
           "attrs": {}
         },
         {
+          "src": "protocol1:soa0:cell:29:10",
+          "dst": "protocol1:soa0:asmt:29",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:29:10",
+          "dst": "protocol1:soa0:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:29:11",
+          "dst": "protocol1:soa0:asmt:29",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:29:11",
+          "dst": "protocol1:soa0:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:29:12",
+          "dst": "protocol1:soa0:asmt:29",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:29:12",
+          "dst": "protocol1:soa0:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:29:13",
+          "dst": "protocol1:soa0:asmt:29",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol1:soa0:cell:29:13",
+          "dst": "protocol1:soa0:visit:13",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol1:soa0:fn:0",
           "dst": "protocol1:soa0:cell:20:0",
           "type": "footnote_annotates",
@@ -5066,12 +5146,6 @@
         {
           "src": "protocol1:soa0:fn:1",
           "dst": "protocol1:soa0:cell:26:6",
-          "type": "footnote_annotates",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:fn:2",
-          "dst": "protocol1:soa0:cell:24:0",
           "type": "footnote_annotates",
           "attrs": {}
         },
@@ -5125,7 +5199,7 @@
         },
         {
           "src": "protocol1:soa0:fn:3",
-          "dst": "protocol1:soa0:cell:28:0",
+          "dst": "protocol1:soa0:cell:28:7",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5133,7 +5207,15 @@
         },
         {
           "src": "protocol1:soa0:fn:3",
-          "dst": "protocol1:soa0:cell:28:7",
+          "dst": "protocol1:soa0:cell:28:8",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol1:soa0:fn:3",
+          "dst": "protocol1:soa0:cell:28:9",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5144,7 +5226,13 @@
         "located by: 71 cell-like tokens; 18 repeated column positions, 100% of rows; 972 ruling lines; schedule-like heading",
         "p53: 'Study drug record' was extracted with 2 other row label(s) merged into it (Medications dispensed; Medications returned). The rows were separated so none is missing, but all 5 cell values stayed on the first row -- their true attribution is not recoverable from the merged label and needs a human eye.",
         "p54: 'Study drug record' was extracted with 2 other row label(s) merged into it (Medications dispensed; Medications returned). The rows were separated so none is missing, but all 6 cell values stayed on the first row -- their true attribution is not recoverable from the merged label and needs a human eye.",
-        "p54: continuation axis uncertain -- extractor said 'rows', row-label overlap is 100% so treated as 'columns'"
+        "p54: continuation axis uncertain -- extractor said 'rows', row-label overlap is 100% so treated as 'columns'",
+        "column 'Visit 9 / Week 12' closely resembles ['Visit 1 / Week -2', 'Visit 4 / Week 2'] but is not identical; kept as a separate visit. If these are the same visit the table now has a duplicate column.",
+        "column 'Visit 10 / Week 16' closely resembles ['Visit 1 / Week -2', 'Visit 7 / Week 6'] but is not identical; kept as a separate visit. If these are the same visit the table now has a duplicate column.",
+        "column 'Visit 11 / Week 20' closely resembles ['Visit 1 / Week -2', 'Visit 3 / Week 0'] but is not identical; kept as a separate visit. If these are the same visit the table now has a duplicate column.",
+        "column 'Visit 12 / Week 24' closely resembles ['Visit 1 / Week -2', 'Visit 2 / Week -.3'] but is not identical; kept as a separate visit. If these are the same visit the table now has a duplicate column.",
+        "column 'Visit 13 / Week 26' closely resembles ['Visit 1 / Week -2', 'Visit 3 / Week 0'] but is not identical; kept as a separate visit. If these are the same visit the table now has a duplicate column.",
+        "column 'Visit RT' closely resembles ['Visit ET'] but is not identical; kept as a separate visit. If these are the same visit the table now has a duplicate column."
       ],
       "discarded": 0
     }
@@ -5152,14 +5240,14 @@
   "stats": [
     {
       "periods": 0,
-      "visits": 10,
+      "visits": 14,
       "categories": 0,
       "assessments": 30,
       "cells": 139,
       "footnotes": 6,
       "footnote_links": 12,
       "ambiguous": 3,
-      "warnings": 4,
+      "warnings": 10,
       "conservation": 0
     }
   ],
