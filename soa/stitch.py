@@ -212,6 +212,41 @@ def split_spans(per_page: list[dict], page_numbers: list[int]
     return groups
 
 
+# A cell that says "X" on one line and "wk 6" beneath it is one cell with a
+# timing qualifier. Extractors routinely return that second line as its own
+# row, which invents an assessment called "wk 6". Purely temporal labels are
+# never assessment names in an SoA -- an activity is a thing done, not a time.
+TIMING_ONLY = re.compile(
+    r"^\(?\s*(wk|week|wks|weeks|day|days|d|month|months|mo|hr|hrs|h|q\dw)\b"
+    r"[\s.\-–—0-9,and/]*\)?$", re.I)
+
+
+def _fold_timing_rows(page: dict, pno: int, warnings: list[str]) -> None:
+    """Fold rows that are only a timing qualifier back into the row above.
+
+    Their cells belong to the assessment above them, so they are merged there
+    rather than discarded: the value is real, only the row is not.
+    """
+    out: list[dict] = []
+    for r in page.get("rows", []):
+        label = (r.get("label") or "").strip()
+        if out and label and TIMING_ONLY.match(label) and out[-1].get("kind") == "assessment":
+            prev = out[-1]
+            for c in r.get("cells", []):
+                prev.setdefault("cells", []).append({**c, "qualifier": label})
+            warnings.append(
+                f"p{pno}: '{label}' was returned as its own assessment; it is a "
+                f"timing qualifier printed under a cell, so its "
+                f"{len(r.get('cells', []))} value(s) were folded into "
+                f"'{prev.get('label','')[:40]}' and the row dropped.")
+            continue
+        out.append(r)
+    if len(out) != len(page.get("rows", [])):
+        for i, r in enumerate(out):
+            r["index"] = i
+        page["rows"] = out
+
+
 def _split_merged_rows(page: dict, pno: int, warnings: list[str]) -> None:
     """Recover rows an extractor collapsed into a single label.
 
@@ -298,6 +333,7 @@ def merge_pages(pages: list[dict], page_numbers: list[int]) -> dict:
             table["unresolved"] += [f"p{pno}: {u}" for u in page.get("unresolved", [])]
             continue
 
+        _fold_timing_rows(page, pno, table["warnings"])
         _split_merged_rows(page, pno, table["warnings"])
         table["title"] = table["title"] or page.get("title")
         table["unresolved"] += [f"p{pno}: {u}" for u in page.get("unresolved", [])]

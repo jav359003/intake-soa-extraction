@@ -13,6 +13,14 @@ import json, pathlib, sys
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 
+def _flat(s: str) -> str:
+    """Cells legitimately contain newlines -- a value printed over a timing
+    qualifier, "X" above "wk 6", is one cell. Printing them raw breaks the grid
+    into lines that look like extra rows, which is how I nearly recorded three
+    assessments that did not exist."""
+    return " ".join((s or "").split())
+
+
 def grid(table: dict, width: int = 13) -> str:
     by_id = {n["id"]: n for n in table["nodes"]}
     of = {e["src"]: e["dst"] for e in table["edges"] if e["type"] == "cell_of_assessment"}
@@ -36,17 +44,17 @@ def grid(table: dict, width: int = 13) -> str:
 
     for n in table["nodes"]:
         if n["type"] == "category":
-            out.append(f"[{n['label'][:60]}]")
+            out.append(f"[{_flat(n['label'])[:60]}]")
         elif n["type"] == "assessment":
             mk = "".join(f"^{m}" for m in (n["attrs"].get("markers") or []))
-            row = f"{(n['label'] + mk)[:39]:<40}"
+            row = f"{_flat(n['label'] + mk)[:39]:<40}"
             flag = " *AMBIG" if n["ambiguous"] else ""
             for v in visits:
                 c = cells.get((n["id"], v["id"]))
                 if not c:
                     row += " " * width
                     continue
-                val = c["label"] or ("[shaded]" if c["attrs"].get("shaded") else "")
+                val = _flat(c["label"]) or ("[shaded]" if c["attrs"].get("shaded") else "")
                 val += "".join(f"^{m}" for m in (c["attrs"].get("markers") or []))
                 row += f"{val[:width-1]:<{width}}"
             out.append(row.rstrip() + flag)
@@ -59,7 +67,7 @@ def grid(table: dict, width: int = 13) -> str:
                           if e["type"] == "footnote_annotates" and e["src"] == n["id"])
             trunc = "" if n["attrs"].get("complete", True) else "  [TRUNCATED]"
             out.append(f"  [{n['attrs'].get('marker','')}] ({anchors} anchors){trunc} "
-                       f"{n['label'][:150]}")
+                       f"{_flat(n['label'])[:150]}")
     ws = [w for w in table["warnings"] if not w.startswith("located by")]
     if ws:
         out.append("")

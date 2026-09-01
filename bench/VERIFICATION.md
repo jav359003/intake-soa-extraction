@@ -123,3 +123,70 @@ The two readings differ in what gets built: three forms or one. Recall-first
 argues for splitting, and the split is flagged rather than silent, so a reviewer
 sees it. But this is a question for a clinical SME, not a heuristic, and it is
 written down here rather than guessed at quietly.
+
+---
+
+## protocol12 — NIDA, Modafinil for Methamphetamine Dependence, p48–50
+
+Table on p48, footnotes running p49 → p50.
+
+| check | result |
+|---|---|
+| assessments | **37 / 37** |
+| category rows | **3 / 3** (Screening, Safety, Efficacy) |
+| visits | 8 / 8, plus 1 spurious (below) |
+| cell values | correct, with one case defect (below) |
+| footnotes | **21** captured across three pages, **72** anchors |
+| multi-line cell values | correct — `X` printed over `wk 6` is kept as one cell |
+
+Row by row against the page, all 37 assessments matched, including the awkward
+ones: `Adverse events` as `3X/week^d` then `3X^d` six times, `ASI-Lite Follow-up`
+appearing only at weeks 5-7 and 12/Term, `CBT compliance` as `2X/week^h`.
+
+The footnote work is the strongest result here. The block starts on p49 under
+"Notes on the Schedule of Assessments" and runs onto p50, with 21 notes bound to
+72 anchors — `Xb` alone carries 34. Earlier in the build this protocol returned
+**zero** footnotes, because the extraction prompt told the model to return
+nothing for a page with no grid.
+
+### Defect: cell values are lowercased
+
+The page prints `Xa`, `Xb`, `Xc`. The extractor returns raw value `x` with the
+marker carried separately. The marker survives and the meaning survives, but the
+character case does not, and the brief asks for values reproduced exactly.
+
+Small, but it is a genuine verbatim failure and it is systematic rather than
+occasional — it affects every marked cell on this table. It is not present on
+protocol15, where `X` came back as `X`, so it is model variance on a page-by-page
+basis rather than a rule.
+
+### Inconsistency: the RANDOMIZATION divider
+
+protocol15's vertical RANDOMIZATION band was returned as a column and explained.
+protocol12 prints the same device and it was not returned at all. Neither is
+wrong, but the same structure should not be handled two ways by the same system,
+and today it is.
+
+### One spurious column
+
+As on protocol15, the row-label header cell "Assessment" is read as a visit. It
+holds no values. Same cause, same cheap direction of error.
+
+### A tooling bug that nearly became a false finding
+
+My first pass through this table recorded three spurious assessments called
+"wk 6". They do not exist. A cell that prints `X` above `wk 6` is one cell with
+a timing qualifier, and the grid printer in `bench/verify.py` was rendering the
+newline inside that cell as a line break, which looked exactly like an extra
+row.
+
+This is the second time in this verification pass that reading the output
+instead of the page produced a defect that was not there. Both are recorded
+because the pattern matters more than either instance: **an anomaly in a
+rendering of the data is a hypothesis about the data, and the page is the only
+thing that settles it.**
+
+The timing-qualifier folding written in response is still in `stitch.py`
+(`_fold_timing_rows`). It did not fire on any of the five protocols. It is
+defensive code for a failure that has not yet been observed, which is worth
+saying plainly rather than presenting as a fix.

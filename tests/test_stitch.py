@@ -336,6 +336,28 @@ def test_identical_column_label_still_merges():
     assert len(t["columns"]) == 3, [c["label"] for c in t["columns"]]
 
 
+def test_timing_qualifier_row_is_folded_not_kept():
+    """protocol12 returned three rows called 'wk 6'. A cell printing "X" over
+    "wk 6" is one cell with a qualifier, not an assessment called wk 6."""
+    p1 = page([col(0, "Wk 5-7"), col(1, "Wk 12")],
+              [row(0, "CANTABelect", [(0, "X", ())]),
+               row(1, "wk 6", [(1, "X", ())])])
+    t = merge_pages([p1], [48])
+    assert [r["label"] for r in t["rows"]] == ["CANTABelect"], t["rows"]
+    assert len(t["rows"][0]["cells"]) == 2
+    assert t["rows"][0]["cells"][1]["qualifier"] == "wk 6"
+    assert any("timing qualifier" in w for w in t["warnings"])
+
+
+def test_real_assessment_starting_with_a_time_word_is_kept():
+    """'Daily diary review' is an assessment, not a timing qualifier."""
+    p1 = page([col(0, "Wk 1")],
+              [row(0, "ECG", [(0, "X", ())]),
+               row(1, "Daily diary review", [(0, "X", ())])])
+    t = merge_pages([p1], [48])
+    assert [r["label"] for r in t["rows"]] == ["ECG", "Daily diary review"]
+
+
 if __name__ == "__main__":
     fns = [(k, v) for k, v in sorted(globals().items()) if k.startswith("test_")]
     bad = 0
