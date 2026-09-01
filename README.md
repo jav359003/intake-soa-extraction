@@ -144,8 +144,15 @@ Nothing is normalised. `3X/2 weeks` stays `3X/2 weeks`. A shaded cell is
 
 ```
 five reference protocols   12/12 pages = 100%    0 spurious
-three unseen protocols      8/8  pages = 100%   10 spurious
+three unseen protocols      8/8  pages = 100%    9 spurious
+one scanned protocol        1/1  page  = 100%    2 spurious
 ```
+
+The scanned case has no text layer at all, so every text-based signal reads the
+same on every page and the locator first returned **all 61 pages**. It now
+renders text-poor pages small and counts long straight runs of dark pixels: a
+table is long horizontal and vertical rules, and that survives having nothing to
+read. 61 spans → 1 exact hit plus 2 spurious.
 
 ### Extraction, hand-verified against the printed pages
 
@@ -262,6 +269,12 @@ both pages had extracted 7 correctly. Column merging matched labels fuzzily at
 lost, they were piled onto the wrong columns. Only reading the printed page found
 it, which is the argument for manual verification in one sentence.
 
+**Every table gained a phantom visit.** An SoA labels its own row axis —
+"Assessment", "ACTIVITY", "Trial Activity" — and the extractor read that header
+cell as the first column. Now dropped when it both names the row axis and holds
+no values; a real visit that happens to be called "Assessment" still carries
+cells and survives.
+
 **A prompt deleted 18 footnotes.** The extraction prompt said "if this page holds
 no SoA table, return nothing". protocol12's p49 is titled "Notes on the Schedule
 of Assessments". The model obeyed. The single most expensive bug in this project
@@ -269,15 +282,15 @@ was a sentence I wrote, not code.
 
 ### Known limits
 
-- A **scanned** protocol with no text layer will not be located by shape, only by
-  the caption path added for redacted tables. Untested.
 - **Cell case is not always preserved.** protocol12's `Xa` came back as `x`;
   protocol15's did not. Per-page model variance.
 - **Structure handled inconsistently between pages.** protocol15's RANDOMIZATION
   divider was returned as a column and explained; protocol12's identical device
   was dropped.
-- **One spurious column per table.** The row-label header ("Assessment") is read
-  as a visit. Carries no values.
+- **Precision on documents with no text layer is poor** — a fully scanned
+  protocol yields 2 spurious page spans against 1 real one. Recall is intact and
+  each spurious span costs one extractor call that reports an empty page, but
+  the ratio would be worse on a longer scan.
 - **~15 fitted constants** in the locator and stitcher, listed and sourced in
   `bench/HOLDOUT.md`. The vision path has almost none, which is itself the
   finding: the generalizable part of this system is the part with the fewest

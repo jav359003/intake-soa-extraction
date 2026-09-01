@@ -431,6 +431,19 @@ def _join_footnotes(footnotes: list[dict], warnings: list[str],
             prev["appears_complete"] = fn.get("appears_complete", True)
             prev.setdefault("continued_on", []).append(fn.get("page"))
             continue
+        if marker and body:
+            twin = next((o for o in out
+                         if norm_marker(o.get("marker", "")) == norm_marker(marker)
+                         and _similar(o.get("text", ""), body, bar=0.92)), None)
+            if twin is not None:
+                # Same marker, same text, different page: one footnote printed
+                # on both page legends, not two.
+                twin.setdefault("also_on", []).append(fn.get("page"))
+                warnings.append(
+                    f"footnote '{marker}' is printed identically on p{twin.get('page')} "
+                    f"and p{fn.get('page')}; kept once")
+                dropped[0] += 1
+                continue
         rec = dict(fn)
         out.append(rec)
         if not marker and body:
@@ -443,9 +456,45 @@ def _join_footnotes(footnotes: list[dict], warnings: list[str],
     return out
 
 
+ROW_AXIS_HEADER = re.compile(
+    r"^\s*(assessment|activity|procedure|evaluation|event|test|item|"
+    r"trial activity|study activity|study procedure|visit type)s?\b", re.I)
+
+
+def _drop_row_axis_column(table: dict, warnings: list[str]) -> None:
+    """Remove the row-label header if it was returned as a visit.
+
+    An SoA labels its own row axis -- "Assessment", "ACTIVITY", "Trial
+    Activity" -- and extractors read that header cell as the first column.
+    It is safe to identify because it must satisfy both conditions: the label
+    names the row axis, and no cell in the table sits in it. A real visit that
+    happens to be called "Assessment" would still carry values.
+    """
+    used = {c.get("column") for r in table.get("rows", []) for c in r.get("cells", [])}
+    victims = [c for c in table.get("columns", [])
+               if ROW_AXIS_HEADER.match(c.get("label", "") or "")
+               and c["index"] not in used]
+    if not victims:
+        return
+    drop = {c["index"] for c in victims}
+    keep = [c for c in table["columns"] if c["index"] not in drop]
+    remap = {c["index"]: i for i, c in enumerate(keep)}
+    for i, c in enumerate(keep):
+        c["index"] = i
+    table["columns"] = keep
+    for r in table.get("rows", []):
+        r["cells"] = [{**c, "column": remap[c["column"]]}
+                      for c in r.get("cells", []) if c.get("column") in remap]
+    for c in victims:
+        warnings.append(
+            f"column '{c.get('label','')}' names the table's row axis and holds no "
+            f"values; dropped as the row-label header rather than kept as a visit")
+
+
 def to_graph(table: dict, protocol: str, table_id: str, pages: list[int],
              source: str = "vlm") -> SoAGraph:
     """Lower the merged table into the node/edge output."""
+    _drop_row_axis_column(table, table.setdefault("warnings", []))
     g = SoAGraph(protocol=protocol, table_id=table_id, pages=pages,
                  title=table.get("title") or "")
     g.warnings = list(table.get("warnings", [])) + list(table.get("unresolved", []))

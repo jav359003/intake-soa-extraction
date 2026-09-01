@@ -13,26 +13,6 @@
       "title": "Table 1. Overview of Study Assessments",
       "nodes": [
         {
-          "id": "protocol15:soa0:visit:0",
-          "type": "visit",
-          "label": "Assessment",
-          "attrs": {
-            "visit": null,
-            "day": null,
-            "week": "Study Week",
-            "window": null
-          },
-          "provenance": [
-            {
-              "page": 25,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol15:soa0:period:0",
           "type": "period",
           "label": "Screening",
@@ -42,7 +22,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:visit:1",
+          "id": "protocol15:soa0:visit:0",
           "type": "visit",
           "label": "Screening -4 to 0*",
           "attrs": {
@@ -71,7 +51,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:visit:2",
+          "id": "protocol15:soa0:visit:1",
           "type": "visit",
           "label": "Baseline",
           "attrs": {
@@ -91,7 +71,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:visit:3",
+          "id": "protocol15:soa0:visit:2",
           "type": "visit",
           "label": "Randomization",
           "attrs": {
@@ -120,7 +100,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:visit:4",
+          "id": "protocol15:soa0:visit:3",
           "type": "visit",
           "label": "Treatment 1-3",
           "attrs": {
@@ -140,7 +120,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:visit:5",
+          "id": "protocol15:soa0:visit:4",
           "type": "visit",
           "label": "Treatment 4",
           "attrs": {
@@ -160,7 +140,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:visit:6",
+          "id": "protocol15:soa0:visit:5",
           "type": "visit",
           "label": "Treatment 5-7",
           "attrs": {
@@ -180,7 +160,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:visit:7",
+          "id": "protocol15:soa0:visit:6",
           "type": "visit",
           "label": "Treatment 8",
           "attrs": {
@@ -200,7 +180,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:visit:8",
+          "id": "protocol15:soa0:visit:7",
           "type": "visit",
           "label": "Treatment 9-11",
           "attrs": {
@@ -220,7 +200,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:visit:9",
+          "id": "protocol15:soa0:visit:8",
           "type": "visit",
           "label": "Treatment 12",
           "attrs": {
@@ -249,7 +229,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:visit:10",
+          "id": "protocol15:soa0:visit:9",
           "type": "visit",
           "label": "Follow-up 16",
           "attrs": {
@@ -304,7 +284,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:1:1",
+          "id": "protocol15:soa0:cell:1:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -340,7 +320,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:2:1",
+          "id": "protocol15:soa0:cell:2:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -376,7 +356,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:3:1",
+          "id": "protocol15:soa0:cell:3:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -412,7 +392,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:4:1",
+          "id": "protocol15:soa0:cell:4:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -448,7 +428,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:5:1",
+          "id": "protocol15:soa0:cell:5:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -484,7 +464,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:6:1",
+          "id": "protocol15:soa0:cell:6:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -520,7 +500,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:7:1",
+          "id": "protocol15:soa0:cell:7:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -556,7 +536,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:8:1",
+          "id": "protocol15:soa0:cell:8:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -611,7 +591,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:10:1",
+          "id": "protocol15:soa0:cell:10:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -629,7 +609,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:10:9",
+          "id": "protocol15:soa0:cell:10:8",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -667,12 +647,32 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:11:1",
+          "id": "protocol15:soa0:cell:11:0",
           "type": "cell",
           "label": "X",
           "attrs": {
             "shaded": false,
             "markers": []
+          },
+          "provenance": [
+            {
+              "page": 25,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol15:soa0:cell:11:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
+            ]
           },
           "provenance": [
             {
@@ -771,26 +771,6 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 25,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol15:soa0:cell:11:9",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": [
               "c"
             ]
           },
@@ -823,7 +803,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:12:1",
+          "id": "protocol15:soa0:cell:12:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -841,7 +821,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:12:5",
+          "id": "protocol15:soa0:cell:12:4",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -861,7 +841,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:12:7",
+          "id": "protocol15:soa0:cell:12:6",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -881,7 +861,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:12:9",
+          "id": "protocol15:soa0:cell:12:8",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -919,7 +899,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:13:1",
+          "id": "protocol15:soa0:cell:13:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -937,7 +917,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:13:5",
+          "id": "protocol15:soa0:cell:13:4",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -957,7 +937,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:13:7",
+          "id": "protocol15:soa0:cell:13:6",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -977,7 +957,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:13:9",
+          "id": "protocol15:soa0:cell:13:8",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1015,7 +995,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:14:1",
+          "id": "protocol15:soa0:cell:14:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1033,7 +1013,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:14:5",
+          "id": "protocol15:soa0:cell:14:4",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1053,7 +1033,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:14:7",
+          "id": "protocol15:soa0:cell:14:6",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1073,7 +1053,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:14:9",
+          "id": "protocol15:soa0:cell:14:8",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1111,12 +1091,32 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:15:2",
+          "id": "protocol15:soa0:cell:15:1",
           "type": "cell",
           "label": "3X",
           "attrs": {
             "shaded": false,
             "markers": []
+          },
+          "provenance": [
+            {
+              "page": 25,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol15:soa0:cell:15:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
+            ]
           },
           "provenance": [
             {
@@ -1215,26 +1215,6 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 25,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol15:soa0:cell:15:9",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": [
               "c"
             ]
           },
@@ -1267,7 +1247,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:16:1",
+          "id": "protocol15:soa0:cell:16:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1285,7 +1265,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:16:5",
+          "id": "protocol15:soa0:cell:16:4",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1305,7 +1285,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:16:7",
+          "id": "protocol15:soa0:cell:16:6",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1325,7 +1305,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:16:9",
+          "id": "protocol15:soa0:cell:16:8",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1363,7 +1343,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:17:1",
+          "id": "protocol15:soa0:cell:17:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1381,7 +1361,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:17:5",
+          "id": "protocol15:soa0:cell:17:4",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1401,7 +1381,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:17:7",
+          "id": "protocol15:soa0:cell:17:6",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1421,7 +1401,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:17:9",
+          "id": "protocol15:soa0:cell:17:8",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1459,7 +1439,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:18:1",
+          "id": "protocol15:soa0:cell:18:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1477,7 +1457,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:18:9",
+          "id": "protocol15:soa0:cell:18:8",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1497,7 +1477,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:18:10",
+          "id": "protocol15:soa0:cell:18:9",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1533,6 +1513,24 @@
           "note": ""
         },
         {
+          "id": "protocol15:soa0:cell:19:0",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 25,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
           "id": "protocol15:soa0:cell:19:1",
           "type": "cell",
           "label": "X",
@@ -1551,9 +1549,9 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:19:2",
+          "id": "protocol15:soa0:cell:19:3",
           "type": "cell",
-          "label": "X",
+          "label": "3X",
           "attrs": {
             "shaded": false,
             "markers": []
@@ -1661,24 +1659,6 @@
         {
           "id": "protocol15:soa0:cell:19:9",
           "type": "cell",
-          "label": "3X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 25,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol15:soa0:cell:19:10",
-          "type": "cell",
           "label": "X",
           "attrs": {
             "shaded": false,
@@ -1713,12 +1693,32 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:20:2",
+          "id": "protocol15:soa0:cell:20:1",
           "type": "cell",
           "label": "Weekly x 2 weeks",
           "attrs": {
             "shaded": false,
             "markers": []
+          },
+          "provenance": [
+            {
+              "page": 25,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol15:soa0:cell:20:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
+            ]
           },
           "provenance": [
             {
@@ -1836,26 +1836,6 @@
           "label": "X",
           "attrs": {
             "shaded": false,
-            "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 25,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol15:soa0:cell:20:10",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
             "markers": []
           },
           "provenance": [
@@ -1904,7 +1884,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:22:1",
+          "id": "protocol15:soa0:cell:22:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1922,7 +1902,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:22:5",
+          "id": "protocol15:soa0:cell:22:4",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1942,7 +1922,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:22:7",
+          "id": "protocol15:soa0:cell:22:6",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1962,7 +1942,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:22:9",
+          "id": "protocol15:soa0:cell:22:8",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2000,7 +1980,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:23:1",
+          "id": "protocol15:soa0:cell:23:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2018,7 +1998,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:23:9",
+          "id": "protocol15:soa0:cell:23:8",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2056,12 +2036,32 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:24:2",
+          "id": "protocol15:soa0:cell:24:1",
           "type": "cell",
           "label": "Weekly x 2 weeks",
           "attrs": {
             "shaded": false,
             "markers": []
+          },
+          "provenance": [
+            {
+              "page": 25,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol15:soa0:cell:24:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
+            ]
           },
           "provenance": [
             {
@@ -2174,26 +2174,6 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:24:9",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 25,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol15:soa0:asmt:25",
           "type": "assessment",
           "label": "CCQ-NOW",
@@ -2212,7 +2192,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:25:2",
+          "id": "protocol15:soa0:cell:25:1",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2230,7 +2210,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:25:9",
+          "id": "protocol15:soa0:cell:25:8",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2268,12 +2248,32 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:26:2",
+          "id": "protocol15:soa0:cell:26:1",
           "type": "cell",
           "label": "Weekly x 2 weeks",
           "attrs": {
             "shaded": false,
             "markers": []
+          },
+          "provenance": [
+            {
+              "page": 25,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol15:soa0:cell:26:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
+            ]
           },
           "provenance": [
             {
@@ -2386,26 +2386,6 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:26:9",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 25,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol15:soa0:asmt:27",
           "type": "assessment",
           "label": "CGI-O",
@@ -2424,12 +2404,32 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:27:2",
+          "id": "protocol15:soa0:cell:27:1",
           "type": "cell",
           "label": "Weekly x 2 weeks",
           "attrs": {
             "shaded": false,
             "markers": []
+          },
+          "provenance": [
+            {
+              "page": 25,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol15:soa0:cell:27:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
+            ]
           },
           "provenance": [
             {
@@ -2542,26 +2542,6 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:27:9",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 25,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol15:soa0:asmt:28",
           "type": "assessment",
           "label": "SUI",
@@ -2580,9 +2560,27 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:28:2",
+          "id": "protocol15:soa0:cell:28:1",
           "type": "cell",
           "label": "3 X/week for 2 weeks",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 25,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol15:soa0:cell:28:3",
+          "type": "cell",
+          "label": "3 X",
           "attrs": {
             "shaded": false,
             "markers": []
@@ -2690,24 +2688,6 @@
         {
           "id": "protocol15:soa0:cell:28:9",
           "type": "cell",
-          "label": "3 X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 25,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol15:soa0:cell:28:10",
-          "type": "cell",
           "label": "X",
           "attrs": {
             "shaded": false,
@@ -2742,9 +2722,27 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:29:2",
+          "id": "protocol15:soa0:cell:29:1",
           "type": "cell",
           "label": "3 X/week for 2 weeks",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 25,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol15:soa0:cell:29:3",
+          "type": "cell",
+          "label": "3 X",
           "attrs": {
             "shaded": false,
             "markers": []
@@ -2852,24 +2850,6 @@
         {
           "id": "protocol15:soa0:cell:29:9",
           "type": "cell",
-          "label": "3 X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 25,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol15:soa0:cell:29:10",
-          "type": "cell",
           "label": "X",
           "attrs": {
             "shaded": false,
@@ -2904,12 +2884,32 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:30:2",
+          "id": "protocol15:soa0:cell:30:1",
           "type": "cell",
           "label": "Weekly x 2 weeks",
           "attrs": {
             "shaded": false,
             "markers": []
+          },
+          "provenance": [
+            {
+              "page": 25,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol15:soa0:cell:30:3",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
+            ]
           },
           "provenance": [
             {
@@ -3027,26 +3027,6 @@
           "label": "X",
           "attrs": {
             "shaded": false,
-            "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 25,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol15:soa0:cell:30:10",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
             "markers": []
           },
           "provenance": [
@@ -3078,7 +3058,27 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:31:2",
+          "id": "protocol15:soa0:cell:31:1",
+          "type": "cell",
+          "label": "X",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "a"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 25,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol15:soa0:cell:31:3",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -3118,27 +3118,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:31:5",
-          "type": "cell",
-          "label": "X",
-          "attrs": {
-            "shaded": false,
-            "markers": [
-              "a"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 25,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol15:soa0:cell:31:9",
+          "id": "protocol15:soa0:cell:31:8",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -3163,6 +3143,24 @@
           "label": "Treatment compliance",
           "attrs": {
             "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 25,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol15:soa0:cell:32:3",
+          "type": "cell",
+          "label": "3 X",
+          "attrs": {
+            "shaded": false,
             "markers": []
           },
           "provenance": [
@@ -3266,24 +3264,6 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:32:9",
-          "type": "cell",
-          "label": "3 X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 25,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol15:soa0:asmt:33",
           "type": "assessment",
           "label": "Follow-up interview",
@@ -3302,7 +3282,7 @@
           "note": ""
         },
         {
-          "id": "protocol15:soa0:cell:33:10",
+          "id": "protocol15:soa0:cell:33:9",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -3417,14 +3397,20 @@
       ],
       "edges": [
         {
-          "src": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:visit:0",
           "dst": "protocol15:soa0:period:0",
           "type": "visit_in_period",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:visit:2",
+          "src": "protocol15:soa0:visit:1",
           "dst": "protocol15:soa0:period:1",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:visit:3",
+          "dst": "protocol15:soa0:period:2",
           "type": "visit_in_period",
           "attrs": {}
         },
@@ -3460,12 +3446,6 @@
         },
         {
           "src": "protocol15:soa0:visit:9",
-          "dst": "protocol15:soa0:period:2",
-          "type": "visit_in_period",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:visit:10",
           "dst": "protocol15:soa0:period:3",
           "type": "visit_in_period",
           "attrs": {}
@@ -3477,14 +3457,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:1:1",
+          "src": "protocol15:soa0:cell:1:0",
           "dst": "protocol15:soa0:asmt:1",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:1:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:1:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3495,14 +3475,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:2:1",
+          "src": "protocol15:soa0:cell:2:0",
           "dst": "protocol15:soa0:asmt:2",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:2:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:2:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3513,14 +3493,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:3:1",
+          "src": "protocol15:soa0:cell:3:0",
           "dst": "protocol15:soa0:asmt:3",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:3:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:3:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3531,14 +3511,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:4:1",
+          "src": "protocol15:soa0:cell:4:0",
           "dst": "protocol15:soa0:asmt:4",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:4:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:4:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3549,14 +3529,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:5:1",
+          "src": "protocol15:soa0:cell:5:0",
           "dst": "protocol15:soa0:asmt:5",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:5:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:5:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3567,14 +3547,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:6:1",
+          "src": "protocol15:soa0:cell:6:0",
           "dst": "protocol15:soa0:asmt:6",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:6:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:6:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3585,14 +3565,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:7:1",
+          "src": "protocol15:soa0:cell:7:0",
           "dst": "protocol15:soa0:asmt:7",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:7:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:7:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3603,14 +3583,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:8:1",
+          "src": "protocol15:soa0:cell:8:0",
           "dst": "protocol15:soa0:asmt:8",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:8:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:8:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3621,26 +3601,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:10:1",
+          "src": "protocol15:soa0:cell:10:0",
           "dst": "protocol15:soa0:asmt:10",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:10:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:10:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:10:9",
+          "src": "protocol15:soa0:cell:10:8",
           "dst": "protocol15:soa0:asmt:10",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:10:9",
-          "dst": "protocol15:soa0:visit:9",
+          "src": "protocol15:soa0:cell:10:8",
+          "dst": "protocol15:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3651,14 +3631,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:11:1",
+          "src": "protocol15:soa0:cell:11:0",
           "dst": "protocol15:soa0:asmt:11",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:11:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:11:0",
+          "dst": "protocol15:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:11:3",
+          "dst": "protocol15:soa0:asmt:11",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:11:3",
+          "dst": "protocol15:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3719,18 +3711,6 @@
         {
           "src": "protocol15:soa0:cell:11:8",
           "dst": "protocol15:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:11:9",
-          "dst": "protocol15:soa0:asmt:11",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:11:9",
-          "dst": "protocol15:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3741,50 +3721,50 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:12:1",
+          "src": "protocol15:soa0:cell:12:0",
           "dst": "protocol15:soa0:asmt:12",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:12:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:12:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:12:5",
+          "src": "protocol15:soa0:cell:12:4",
           "dst": "protocol15:soa0:asmt:12",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:12:5",
-          "dst": "protocol15:soa0:visit:5",
+          "src": "protocol15:soa0:cell:12:4",
+          "dst": "protocol15:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:12:7",
+          "src": "protocol15:soa0:cell:12:6",
           "dst": "protocol15:soa0:asmt:12",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:12:7",
-          "dst": "protocol15:soa0:visit:7",
+          "src": "protocol15:soa0:cell:12:6",
+          "dst": "protocol15:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:12:9",
+          "src": "protocol15:soa0:cell:12:8",
           "dst": "protocol15:soa0:asmt:12",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:12:9",
-          "dst": "protocol15:soa0:visit:9",
+          "src": "protocol15:soa0:cell:12:8",
+          "dst": "protocol15:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3795,50 +3775,50 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:13:1",
+          "src": "protocol15:soa0:cell:13:0",
           "dst": "protocol15:soa0:asmt:13",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:13:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:13:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:13:5",
+          "src": "protocol15:soa0:cell:13:4",
           "dst": "protocol15:soa0:asmt:13",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:13:5",
-          "dst": "protocol15:soa0:visit:5",
+          "src": "protocol15:soa0:cell:13:4",
+          "dst": "protocol15:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:13:7",
+          "src": "protocol15:soa0:cell:13:6",
           "dst": "protocol15:soa0:asmt:13",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:13:7",
-          "dst": "protocol15:soa0:visit:7",
+          "src": "protocol15:soa0:cell:13:6",
+          "dst": "protocol15:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:13:9",
+          "src": "protocol15:soa0:cell:13:8",
           "dst": "protocol15:soa0:asmt:13",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:13:9",
-          "dst": "protocol15:soa0:visit:9",
+          "src": "protocol15:soa0:cell:13:8",
+          "dst": "protocol15:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3849,50 +3829,50 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:14:1",
+          "src": "protocol15:soa0:cell:14:0",
           "dst": "protocol15:soa0:asmt:14",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:14:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:14:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:14:5",
+          "src": "protocol15:soa0:cell:14:4",
           "dst": "protocol15:soa0:asmt:14",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:14:5",
-          "dst": "protocol15:soa0:visit:5",
+          "src": "protocol15:soa0:cell:14:4",
+          "dst": "protocol15:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:14:7",
+          "src": "protocol15:soa0:cell:14:6",
           "dst": "protocol15:soa0:asmt:14",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:14:7",
-          "dst": "protocol15:soa0:visit:7",
+          "src": "protocol15:soa0:cell:14:6",
+          "dst": "protocol15:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:14:9",
+          "src": "protocol15:soa0:cell:14:8",
           "dst": "protocol15:soa0:asmt:14",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:14:9",
-          "dst": "protocol15:soa0:visit:9",
+          "src": "protocol15:soa0:cell:14:8",
+          "dst": "protocol15:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3903,14 +3883,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:15:2",
+          "src": "protocol15:soa0:cell:15:1",
           "dst": "protocol15:soa0:asmt:15",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:15:2",
-          "dst": "protocol15:soa0:visit:2",
+          "src": "protocol15:soa0:cell:15:1",
+          "dst": "protocol15:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:15:3",
+          "dst": "protocol15:soa0:asmt:15",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:15:3",
+          "dst": "protocol15:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3971,18 +3963,6 @@
         {
           "src": "protocol15:soa0:cell:15:8",
           "dst": "protocol15:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:15:9",
-          "dst": "protocol15:soa0:asmt:15",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:15:9",
-          "dst": "protocol15:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3993,50 +3973,50 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:16:1",
+          "src": "protocol15:soa0:cell:16:0",
           "dst": "protocol15:soa0:asmt:16",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:16:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:16:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:16:5",
+          "src": "protocol15:soa0:cell:16:4",
           "dst": "protocol15:soa0:asmt:16",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:16:5",
-          "dst": "protocol15:soa0:visit:5",
+          "src": "protocol15:soa0:cell:16:4",
+          "dst": "protocol15:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:16:7",
+          "src": "protocol15:soa0:cell:16:6",
           "dst": "protocol15:soa0:asmt:16",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:16:7",
-          "dst": "protocol15:soa0:visit:7",
+          "src": "protocol15:soa0:cell:16:6",
+          "dst": "protocol15:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:16:9",
+          "src": "protocol15:soa0:cell:16:8",
           "dst": "protocol15:soa0:asmt:16",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:16:9",
-          "dst": "protocol15:soa0:visit:9",
+          "src": "protocol15:soa0:cell:16:8",
+          "dst": "protocol15:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4047,50 +4027,50 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:17:1",
+          "src": "protocol15:soa0:cell:17:0",
           "dst": "protocol15:soa0:asmt:17",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:17:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:17:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:17:5",
+          "src": "protocol15:soa0:cell:17:4",
           "dst": "protocol15:soa0:asmt:17",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:17:5",
-          "dst": "protocol15:soa0:visit:5",
+          "src": "protocol15:soa0:cell:17:4",
+          "dst": "protocol15:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:17:7",
+          "src": "protocol15:soa0:cell:17:6",
           "dst": "protocol15:soa0:asmt:17",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:17:7",
-          "dst": "protocol15:soa0:visit:7",
+          "src": "protocol15:soa0:cell:17:6",
+          "dst": "protocol15:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:17:9",
+          "src": "protocol15:soa0:cell:17:8",
           "dst": "protocol15:soa0:asmt:17",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:17:9",
-          "dst": "protocol15:soa0:visit:9",
+          "src": "protocol15:soa0:cell:17:8",
+          "dst": "protocol15:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4101,14 +4081,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:18:1",
+          "src": "protocol15:soa0:cell:18:0",
           "dst": "protocol15:soa0:asmt:18",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:18:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:18:0",
+          "dst": "protocol15:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:18:8",
+          "dst": "protocol15:soa0:asmt:18",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:18:8",
+          "dst": "protocol15:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4121,18 +4113,6 @@
         {
           "src": "protocol15:soa0:cell:18:9",
           "dst": "protocol15:soa0:visit:9",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:18:10",
-          "dst": "protocol15:soa0:asmt:18",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:18:10",
-          "dst": "protocol15:soa0:visit:10",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4143,6 +4123,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol15:soa0:cell:19:0",
+          "dst": "protocol15:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:19:0",
+          "dst": "protocol15:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol15:soa0:cell:19:1",
           "dst": "protocol15:soa0:asmt:19",
           "type": "cell_of_assessment",
@@ -4155,14 +4147,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:19:2",
+          "src": "protocol15:soa0:cell:19:3",
           "dst": "protocol15:soa0:asmt:19",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:19:2",
-          "dst": "protocol15:soa0:visit:2",
+          "src": "protocol15:soa0:cell:19:3",
+          "dst": "protocol15:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4235,18 +4227,6 @@
         {
           "src": "protocol15:soa0:cell:19:9",
           "dst": "protocol15:soa0:visit:9",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:19:10",
-          "dst": "protocol15:soa0:asmt:19",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:19:10",
-          "dst": "protocol15:soa0:visit:10",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4257,14 +4237,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:20:2",
+          "src": "protocol15:soa0:cell:20:1",
           "dst": "protocol15:soa0:asmt:20",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:20:2",
-          "dst": "protocol15:soa0:visit:2",
+          "src": "protocol15:soa0:cell:20:1",
+          "dst": "protocol15:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:20:3",
+          "dst": "protocol15:soa0:asmt:20",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:20:3",
+          "dst": "protocol15:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4337,18 +4329,6 @@
         {
           "src": "protocol15:soa0:cell:20:9",
           "dst": "protocol15:soa0:visit:9",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:20:10",
-          "dst": "protocol15:soa0:asmt:20",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:20:10",
-          "dst": "protocol15:soa0:visit:10",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4359,50 +4339,50 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:22:1",
+          "src": "protocol15:soa0:cell:22:0",
           "dst": "protocol15:soa0:asmt:22",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:22:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:22:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:22:5",
+          "src": "protocol15:soa0:cell:22:4",
           "dst": "protocol15:soa0:asmt:22",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:22:5",
-          "dst": "protocol15:soa0:visit:5",
+          "src": "protocol15:soa0:cell:22:4",
+          "dst": "protocol15:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:22:7",
+          "src": "protocol15:soa0:cell:22:6",
           "dst": "protocol15:soa0:asmt:22",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:22:7",
-          "dst": "protocol15:soa0:visit:7",
+          "src": "protocol15:soa0:cell:22:6",
+          "dst": "protocol15:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:22:9",
+          "src": "protocol15:soa0:cell:22:8",
           "dst": "protocol15:soa0:asmt:22",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:22:9",
-          "dst": "protocol15:soa0:visit:9",
+          "src": "protocol15:soa0:cell:22:8",
+          "dst": "protocol15:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4413,26 +4393,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:23:1",
+          "src": "protocol15:soa0:cell:23:0",
           "dst": "protocol15:soa0:asmt:23",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:23:1",
-          "dst": "protocol15:soa0:visit:1",
+          "src": "protocol15:soa0:cell:23:0",
+          "dst": "protocol15:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:23:9",
+          "src": "protocol15:soa0:cell:23:8",
           "dst": "protocol15:soa0:asmt:23",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:23:9",
-          "dst": "protocol15:soa0:visit:9",
+          "src": "protocol15:soa0:cell:23:8",
+          "dst": "protocol15:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4443,14 +4423,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:24:2",
+          "src": "protocol15:soa0:cell:24:1",
           "dst": "protocol15:soa0:asmt:24",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:24:2",
-          "dst": "protocol15:soa0:visit:2",
+          "src": "protocol15:soa0:cell:24:1",
+          "dst": "protocol15:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:24:3",
+          "dst": "protocol15:soa0:asmt:24",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:24:3",
+          "dst": "protocol15:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4511,18 +4503,6 @@
         {
           "src": "protocol15:soa0:cell:24:8",
           "dst": "protocol15:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:24:9",
-          "dst": "protocol15:soa0:asmt:24",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:24:9",
-          "dst": "protocol15:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4533,26 +4513,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:25:2",
+          "src": "protocol15:soa0:cell:25:1",
           "dst": "protocol15:soa0:asmt:25",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:25:2",
-          "dst": "protocol15:soa0:visit:2",
+          "src": "protocol15:soa0:cell:25:1",
+          "dst": "protocol15:soa0:visit:1",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:25:9",
+          "src": "protocol15:soa0:cell:25:8",
           "dst": "protocol15:soa0:asmt:25",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:25:9",
-          "dst": "protocol15:soa0:visit:9",
+          "src": "protocol15:soa0:cell:25:8",
+          "dst": "protocol15:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4563,14 +4543,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:26:2",
+          "src": "protocol15:soa0:cell:26:1",
           "dst": "protocol15:soa0:asmt:26",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:26:2",
-          "dst": "protocol15:soa0:visit:2",
+          "src": "protocol15:soa0:cell:26:1",
+          "dst": "protocol15:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:26:3",
+          "dst": "protocol15:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:26:3",
+          "dst": "protocol15:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4631,18 +4623,6 @@
         {
           "src": "protocol15:soa0:cell:26:8",
           "dst": "protocol15:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:26:9",
-          "dst": "protocol15:soa0:asmt:26",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:26:9",
-          "dst": "protocol15:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4653,14 +4633,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:27:2",
+          "src": "protocol15:soa0:cell:27:1",
           "dst": "protocol15:soa0:asmt:27",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:27:2",
-          "dst": "protocol15:soa0:visit:2",
+          "src": "protocol15:soa0:cell:27:1",
+          "dst": "protocol15:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:27:3",
+          "dst": "protocol15:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:27:3",
+          "dst": "protocol15:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4721,18 +4713,6 @@
         {
           "src": "protocol15:soa0:cell:27:8",
           "dst": "protocol15:soa0:visit:8",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:27:9",
-          "dst": "protocol15:soa0:asmt:27",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:27:9",
-          "dst": "protocol15:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4743,14 +4723,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:28:2",
+          "src": "protocol15:soa0:cell:28:1",
           "dst": "protocol15:soa0:asmt:28",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:28:2",
-          "dst": "protocol15:soa0:visit:2",
+          "src": "protocol15:soa0:cell:28:1",
+          "dst": "protocol15:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:28:3",
+          "dst": "protocol15:soa0:asmt:28",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:28:3",
+          "dst": "protocol15:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4823,18 +4815,6 @@
         {
           "src": "protocol15:soa0:cell:28:9",
           "dst": "protocol15:soa0:visit:9",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:28:10",
-          "dst": "protocol15:soa0:asmt:28",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:28:10",
-          "dst": "protocol15:soa0:visit:10",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4845,14 +4825,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:29:2",
+          "src": "protocol15:soa0:cell:29:1",
           "dst": "protocol15:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:29:2",
-          "dst": "protocol15:soa0:visit:2",
+          "src": "protocol15:soa0:cell:29:1",
+          "dst": "protocol15:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:29:3",
+          "dst": "protocol15:soa0:asmt:29",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:29:3",
+          "dst": "protocol15:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4925,18 +4917,6 @@
         {
           "src": "protocol15:soa0:cell:29:9",
           "dst": "protocol15:soa0:visit:9",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:29:10",
-          "dst": "protocol15:soa0:asmt:29",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:29:10",
-          "dst": "protocol15:soa0:visit:10",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4947,14 +4927,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:30:2",
+          "src": "protocol15:soa0:cell:30:1",
           "dst": "protocol15:soa0:asmt:30",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:30:2",
-          "dst": "protocol15:soa0:visit:2",
+          "src": "protocol15:soa0:cell:30:1",
+          "dst": "protocol15:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:30:3",
+          "dst": "protocol15:soa0:asmt:30",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:30:3",
+          "dst": "protocol15:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5027,18 +5019,6 @@
         {
           "src": "protocol15:soa0:cell:30:9",
           "dst": "protocol15:soa0:visit:9",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:30:10",
-          "dst": "protocol15:soa0:asmt:30",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:30:10",
-          "dst": "protocol15:soa0:visit:10",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5049,14 +5029,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:31:2",
+          "src": "protocol15:soa0:cell:31:1",
           "dst": "protocol15:soa0:asmt:31",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:31:2",
-          "dst": "protocol15:soa0:visit:2",
+          "src": "protocol15:soa0:cell:31:1",
+          "dst": "protocol15:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:31:3",
+          "dst": "protocol15:soa0:asmt:31",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:31:3",
+          "dst": "protocol15:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5073,26 +5065,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:31:5",
+          "src": "protocol15:soa0:cell:31:8",
           "dst": "protocol15:soa0:asmt:31",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:31:5",
-          "dst": "protocol15:soa0:visit:5",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:31:9",
-          "dst": "protocol15:soa0:asmt:31",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:31:9",
-          "dst": "protocol15:soa0:visit:9",
+          "src": "protocol15:soa0:cell:31:8",
+          "dst": "protocol15:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5100,6 +5080,18 @@
           "src": "protocol15:soa0:asmt:32",
           "dst": "protocol15:soa0:cat:21",
           "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:32:3",
+          "dst": "protocol15:soa0:asmt:32",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol15:soa0:cell:32:3",
+          "dst": "protocol15:soa0:visit:3",
+          "type": "cell_at_visit",
           "attrs": {}
         },
         {
@@ -5163,32 +5155,20 @@
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:32:9",
-          "dst": "protocol15:soa0:asmt:32",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol15:soa0:cell:32:9",
-          "dst": "protocol15:soa0:visit:9",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol15:soa0:asmt:33",
           "dst": "protocol15:soa0:cat:21",
           "type": "assessment_in_category",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:33:10",
+          "src": "protocol15:soa0:cell:33:9",
           "dst": "protocol15:soa0:asmt:33",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol15:soa0:cell:33:10",
-          "dst": "protocol15:soa0:visit:10",
+          "src": "protocol15:soa0:cell:33:9",
+          "dst": "protocol15:soa0:visit:9",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5206,7 +5186,15 @@
         },
         {
           "src": "protocol15:soa0:fn:3",
-          "dst": "protocol15:soa0:cell:10:9",
+          "dst": "protocol15:soa0:cell:10:8",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol15:soa0:fn:2",
+          "dst": "protocol15:soa0:cell:11:3",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5245,7 +5233,7 @@
           }
         },
         {
-          "src": "protocol15:soa0:fn:2",
+          "src": "protocol15:soa0:fn:3",
           "dst": "protocol15:soa0:cell:11:8",
           "type": "footnote_annotates",
           "attrs": {
@@ -5253,8 +5241,8 @@
           }
         },
         {
-          "src": "protocol15:soa0:fn:3",
-          "dst": "protocol15:soa0:cell:11:9",
+          "src": "protocol15:soa0:fn:2",
+          "dst": "protocol15:soa0:cell:12:4",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5262,15 +5250,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:12:5",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
-          "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:12:7",
+          "dst": "protocol15:soa0:cell:12:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5278,7 +5258,7 @@
         },
         {
           "src": "protocol15:soa0:fn:3",
-          "dst": "protocol15:soa0:cell:12:9",
+          "dst": "protocol15:soa0:cell:12:8",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5286,7 +5266,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:13:5",
+          "dst": "protocol15:soa0:cell:13:4",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5294,7 +5274,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:13:7",
+          "dst": "protocol15:soa0:cell:13:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5302,7 +5282,7 @@
         },
         {
           "src": "protocol15:soa0:fn:3",
-          "dst": "protocol15:soa0:cell:13:9",
+          "dst": "protocol15:soa0:cell:13:8",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5310,7 +5290,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:14:5",
+          "dst": "protocol15:soa0:cell:14:4",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5318,7 +5298,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:14:7",
+          "dst": "protocol15:soa0:cell:14:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5326,7 +5306,15 @@
         },
         {
           "src": "protocol15:soa0:fn:3",
-          "dst": "protocol15:soa0:cell:14:9",
+          "dst": "protocol15:soa0:cell:14:8",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol15:soa0:fn:2",
+          "dst": "protocol15:soa0:cell:15:3",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5365,7 +5353,7 @@
           }
         },
         {
-          "src": "protocol15:soa0:fn:2",
+          "src": "protocol15:soa0:fn:3",
           "dst": "protocol15:soa0:cell:15:8",
           "type": "footnote_annotates",
           "attrs": {
@@ -5373,8 +5361,8 @@
           }
         },
         {
-          "src": "protocol15:soa0:fn:3",
-          "dst": "protocol15:soa0:cell:15:9",
+          "src": "protocol15:soa0:fn:2",
+          "dst": "protocol15:soa0:cell:16:4",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5382,15 +5370,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:16:5",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
-          "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:16:7",
+          "dst": "protocol15:soa0:cell:16:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5398,7 +5378,7 @@
         },
         {
           "src": "protocol15:soa0:fn:3",
-          "dst": "protocol15:soa0:cell:16:9",
+          "dst": "protocol15:soa0:cell:16:8",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5406,7 +5386,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:17:5",
+          "dst": "protocol15:soa0:cell:17:4",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5414,7 +5394,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:17:7",
+          "dst": "protocol15:soa0:cell:17:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5422,7 +5402,7 @@
         },
         {
           "src": "protocol15:soa0:fn:3",
-          "dst": "protocol15:soa0:cell:17:9",
+          "dst": "protocol15:soa0:cell:17:8",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5430,7 +5410,15 @@
         },
         {
           "src": "protocol15:soa0:fn:3",
-          "dst": "protocol15:soa0:cell:18:9",
+          "dst": "protocol15:soa0:cell:18:8",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol15:soa0:fn:2",
+          "dst": "protocol15:soa0:cell:20:3",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5478,7 +5466,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:20:9",
+          "dst": "protocol15:soa0:cell:22:4",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5486,7 +5474,23 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:22:5",
+          "dst": "protocol15:soa0:cell:22:6",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol15:soa0:fn:3",
+          "dst": "protocol15:soa0:cell:22:8",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol15:soa0:fn:3",
+          "dst": "protocol15:soa0:cell:23:8",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5494,23 +5498,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:22:7",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
-          "src": "protocol15:soa0:fn:3",
-          "dst": "protocol15:soa0:cell:22:9",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
-          "src": "protocol15:soa0:fn:3",
-          "dst": "protocol15:soa0:cell:23:9",
+          "dst": "protocol15:soa0:cell:24:3",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5558,7 +5546,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:24:9",
+          "dst": "protocol15:soa0:cell:25:8",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5566,7 +5554,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:25:9",
+          "dst": "protocol15:soa0:cell:26:3",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5614,7 +5602,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:26:9",
+          "dst": "protocol15:soa0:cell:27:3",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5662,7 +5650,7 @@
         },
         {
           "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:27:9",
+          "dst": "protocol15:soa0:cell:30:3",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5709,8 +5697,8 @@
           }
         },
         {
-          "src": "protocol15:soa0:fn:2",
-          "dst": "protocol15:soa0:cell:30:9",
+          "src": "protocol15:soa0:fn:1",
+          "dst": "protocol15:soa0:cell:31:1",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5718,7 +5706,7 @@
         },
         {
           "src": "protocol15:soa0:fn:1",
-          "dst": "protocol15:soa0:cell:31:2",
+          "dst": "protocol15:soa0:cell:31:3",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5733,16 +5721,8 @@
           }
         },
         {
-          "src": "protocol15:soa0:fn:1",
-          "dst": "protocol15:soa0:cell:31:5",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
           "src": "protocol15:soa0:fn:3",
-          "dst": "protocol15:soa0:cell:31:9",
+          "dst": "protocol15:soa0:cell:31:8",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5750,7 +5730,8 @@
         }
       ],
       "warnings": [
-        "located by: 134 cell-like tokens; 30 repeated column positions, 100% of rows; 1239 ruling lines; schedule-like heading; table caption"
+        "located by: 134 cell-like tokens; 30 repeated column positions, 100% of rows; 1239 ruling lines; schedule-like heading; table caption",
+        "column 'Assessment' names the table's row axis and holds no values; dropped as the row-label header rather than kept as a visit"
       ],
       "discarded": 27
     }
@@ -5758,14 +5739,14 @@
   "stats": [
     {
       "periods": 4,
-      "visits": 11,
+      "visits": 10,
       "categories": 3,
       "assessments": 31,
       "cells": 128,
       "footnotes": 5,
       "footnote_links": 70,
       "ambiguous": 0,
-      "warnings": 1,
+      "warnings": 2,
       "conservation": 0
     }
   ],

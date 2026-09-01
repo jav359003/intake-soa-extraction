@@ -15,26 +15,6 @@
       "title": "Table 3. Overview of Study Assessments",
       "nodes": [
         {
-          "id": "protocol12:soa0:visit:0",
-          "type": "visit",
-          "label": "Assessment",
-          "attrs": {
-            "visit": null,
-            "day": null,
-            "week": "Study Week",
-            "window": null
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol12:soa0:period:0",
           "type": "period",
           "label": "Screening/Baseline",
@@ -44,7 +24,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:1",
+          "id": "protocol12:soa0:visit:0",
           "type": "visit",
           "label": "Screening/Baseline (14-21 days prior to randomization)",
           "attrs": {
@@ -73,7 +53,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:2",
+          "id": "protocol12:soa0:visit:1",
           "type": "visit",
           "label": "Study Medication Administration (1-3)",
           "attrs": {
@@ -93,7 +73,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:3",
+          "id": "protocol12:soa0:visit:2",
           "type": "visit",
           "label": "Study Medication Administration (4)",
           "attrs": {
@@ -113,7 +93,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:4",
+          "id": "protocol12:soa0:visit:3",
           "type": "visit",
           "label": "Study Medication Administration (5-7)",
           "attrs": {
@@ -133,7 +113,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:5",
+          "id": "protocol12:soa0:visit:4",
           "type": "visit",
           "label": "Study Medication Administration (8)",
           "attrs": {
@@ -153,7 +133,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:6",
+          "id": "protocol12:soa0:visit:5",
           "type": "visit",
           "label": "Study Medication Administration (9-11)",
           "attrs": {
@@ -173,7 +153,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:7",
+          "id": "protocol12:soa0:visit:6",
           "type": "visit",
           "label": "Study Medication Administration (12/Term)",
           "attrs": {
@@ -202,7 +182,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:visit:8",
+          "id": "protocol12:soa0:visit:7",
           "type": "visit",
           "label": "Follow-up (16)",
           "attrs": {
@@ -257,7 +237,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:1:1",
+          "id": "protocol12:soa0:cell:1:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -293,7 +273,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:2:1",
+          "id": "protocol12:soa0:cell:2:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -329,7 +309,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:3:1",
+          "id": "protocol12:soa0:cell:3:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -365,7 +345,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:4:1",
+          "id": "protocol12:soa0:cell:4:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -401,7 +381,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:5:1",
+          "id": "protocol12:soa0:cell:5:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -437,7 +417,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:6:1",
+          "id": "protocol12:soa0:cell:6:0",
           "type": "cell",
           "label": "3X/week",
           "attrs": {
@@ -473,7 +453,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:7:1",
+          "id": "protocol12:soa0:cell:7:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -509,7 +489,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:8:1",
+          "id": "protocol12:soa0:cell:8:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -547,12 +527,32 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:9:1",
+          "id": "protocol12:soa0:cell:9:0",
           "type": "cell",
           "label": "3X/week",
           "attrs": {
             "shaded": false,
             "markers": []
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:9:1",
+          "type": "cell",
+          "label": "x",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "a"
+            ]
           },
           "provenance": [
             {
@@ -571,7 +571,7 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "a"
+              "b"
             ]
           },
           "provenance": [
@@ -651,26 +651,6 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:9:7",
-          "type": "cell",
-          "label": "x",
-          "attrs": {
-            "shaded": false,
-            "markers": [
               "c"
             ]
           },
@@ -720,7 +700,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:11:1",
+          "id": "protocol12:soa0:cell:11:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -738,7 +718,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:11:7",
+          "id": "protocol12:soa0:cell:11:6",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -778,12 +758,32 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:12:1",
+          "id": "protocol12:soa0:cell:12:0",
           "type": "cell",
           "label": "3X/week",
           "attrs": {
             "shaded": false,
             "markers": []
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:12:1",
+          "type": "cell",
+          "label": "x",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "a"
+            ]
           },
           "provenance": [
             {
@@ -802,7 +802,7 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "a"
+              "b"
             ]
           },
           "provenance": [
@@ -882,26 +882,6 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:12:7",
-          "type": "cell",
-          "label": "x",
-          "attrs": {
-            "shaded": false,
-            "markers": [
               "c"
             ]
           },
@@ -934,7 +914,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:13:1",
+          "id": "protocol12:soa0:cell:13:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -952,7 +932,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:13:7",
+          "id": "protocol12:soa0:cell:13:6",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -990,7 +970,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:14:1",
+          "id": "protocol12:soa0:cell:14:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1008,7 +988,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:14:7",
+          "id": "protocol12:soa0:cell:14:6",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1046,7 +1026,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:15:1",
+          "id": "protocol12:soa0:cell:15:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1064,7 +1044,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:15:3",
+          "id": "protocol12:soa0:cell:15:2",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1084,7 +1064,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:15:5",
+          "id": "protocol12:soa0:cell:15:4",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1104,7 +1084,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:15:7",
+          "id": "protocol12:soa0:cell:15:6",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1142,7 +1122,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:16:1",
+          "id": "protocol12:soa0:cell:16:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1160,7 +1140,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:16:7",
+          "id": "protocol12:soa0:cell:16:6",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1198,7 +1178,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:17:1",
+          "id": "protocol12:soa0:cell:17:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1216,7 +1196,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:17:2",
+          "id": "protocol12:soa0:cell:17:1",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1236,7 +1216,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:17:3",
+          "id": "protocol12:soa0:cell:17:2",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1256,7 +1236,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:17:5",
+          "id": "protocol12:soa0:cell:17:4",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1276,7 +1256,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:17:7",
+          "id": "protocol12:soa0:cell:17:6",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1296,7 +1276,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:17:8",
+          "id": "protocol12:soa0:cell:17:7",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1332,7 +1312,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:18:1",
+          "id": "protocol12:soa0:cell:18:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1350,7 +1330,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:18:7",
+          "id": "protocol12:soa0:cell:18:6",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1390,9 +1370,29 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:19:1",
+          "id": "protocol12:soa0:cell:19:0",
           "type": "cell",
           "label": "3X/week",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "d"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:19:1",
+          "type": "cell",
+          "label": "3X",
           "attrs": {
             "shaded": false,
             "markers": [
@@ -1512,26 +1512,6 @@
         {
           "id": "protocol12:soa0:cell:19:7",
           "type": "cell",
-          "label": "3X",
-          "attrs": {
-            "shaded": false,
-            "markers": [
-              "d"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:19:8",
-          "type": "cell",
           "label": "X",
           "attrs": {
             "shaded": false,
@@ -1553,6 +1533,24 @@
           "label": "Concomitant medications",
           "attrs": {
             "indent": 1,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:20:1",
+          "type": "cell",
+          "label": "3X",
+          "attrs": {
+            "shaded": false,
             "markers": []
           },
           "provenance": [
@@ -1658,24 +1656,6 @@
         {
           "id": "protocol12:soa0:cell:20:7",
           "type": "cell",
-          "label": "3X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:20:8",
-          "type": "cell",
           "label": "X",
           "attrs": {
             "shaded": false,
@@ -1729,7 +1709,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:22:1",
+          "id": "protocol12:soa0:cell:22:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1765,7 +1745,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:23:4",
+          "id": "protocol12:soa0:cell:23:3",
           "type": "cell",
           "label": "x\nwk 6",
           "attrs": {
@@ -1785,7 +1765,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:23:7",
+          "id": "protocol12:soa0:cell:23:6",
           "type": "cell",
           "label": "x x",
           "attrs": {
@@ -1826,7 +1806,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:24:1",
+          "id": "protocol12:soa0:cell:24:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -1844,7 +1824,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:24:7",
+          "id": "protocol12:soa0:cell:24:6",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -1882,13 +1862,33 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:25:1",
+          "id": "protocol12:soa0:cell:25:0",
           "type": "cell",
           "label": "Weekly",
           "attrs": {
             "shaded": false,
             "markers": [
               "i"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:25:1",
+          "type": "cell",
+          "label": "x",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
             ]
           },
           "provenance": [
@@ -1988,26 +1988,6 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:25:7",
-          "type": "cell",
-          "label": "x",
-          "attrs": {
-            "shaded": false,
-            "markers": [
               "c"
             ]
           },
@@ -2040,13 +2020,33 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:26:1",
+          "id": "protocol12:soa0:cell:26:0",
           "type": "cell",
           "label": "Weekly",
           "attrs": {
             "shaded": false,
             "markers": [
               "i"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:26:1",
+          "type": "cell",
+          "label": "x",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
             ]
           },
           "provenance": [
@@ -2146,26 +2146,6 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:26:7",
-          "type": "cell",
-          "label": "x",
-          "attrs": {
-            "shaded": false,
-            "markers": [
               "c"
             ]
           },
@@ -2198,13 +2178,33 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:27:1",
+          "id": "protocol12:soa0:cell:27:0",
           "type": "cell",
           "label": "Weekly",
           "attrs": {
             "shaded": false,
             "markers": [
               "i"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:27:1",
+          "type": "cell",
+          "label": "x",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
             ]
           },
           "provenance": [
@@ -2304,26 +2304,6 @@
           "attrs": {
             "shaded": false,
             "markers": [
-              "b"
-            ]
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:27:7",
-          "type": "cell",
-          "label": "x",
-          "attrs": {
-            "shaded": false,
-            "markers": [
               "c"
             ]
           },
@@ -2358,7 +2338,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:28:1",
+          "id": "protocol12:soa0:cell:28:0",
           "type": "cell",
           "label": "Twice",
           "attrs": {
@@ -2376,7 +2356,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:28:4",
+          "id": "protocol12:soa0:cell:28:3",
           "type": "cell",
           "label": "X\nwk 6",
           "attrs": {
@@ -2394,7 +2374,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:28:7",
+          "id": "protocol12:soa0:cell:28:6",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2430,7 +2410,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:29:1",
+          "id": "protocol12:soa0:cell:29:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2448,7 +2428,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:29:4",
+          "id": "protocol12:soa0:cell:29:3",
           "type": "cell",
           "label": "X\nwk 6",
           "attrs": {
@@ -2466,7 +2446,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:29:7",
+          "id": "protocol12:soa0:cell:29:6",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2502,7 +2482,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:30:1",
+          "id": "protocol12:soa0:cell:30:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2538,7 +2518,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:31:1",
+          "id": "protocol12:soa0:cell:31:0",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2556,7 +2536,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:31:3",
+          "id": "protocol12:soa0:cell:31:2",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2574,7 +2554,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:31:5",
+          "id": "protocol12:soa0:cell:31:4",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2592,7 +2572,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:31:7",
+          "id": "protocol12:soa0:cell:31:6",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -2628,9 +2608,27 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:32:1",
+          "id": "protocol12:soa0:cell:32:0",
           "type": "cell",
           "label": "3X/week",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:32:1",
+          "type": "cell",
+          "label": "3X",
           "attrs": {
             "shaded": false,
             "markers": []
@@ -2738,24 +2736,6 @@
         {
           "id": "protocol12:soa0:cell:32:7",
           "type": "cell",
-          "label": "3X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:32:8",
-          "type": "cell",
           "label": "X",
           "attrs": {
             "shaded": false,
@@ -2790,9 +2770,27 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:33:1",
+          "id": "protocol12:soa0:cell:33:0",
           "type": "cell",
           "label": "3X/week",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:33:1",
+          "type": "cell",
+          "label": "3X",
           "attrs": {
             "shaded": false,
             "markers": []
@@ -2900,24 +2898,6 @@
         {
           "id": "protocol12:soa0:cell:33:7",
           "type": "cell",
-          "label": "3X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol12:soa0:cell:33:8",
-          "type": "cell",
           "label": "X",
           "attrs": {
             "shaded": false,
@@ -2954,7 +2934,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:34:1",
+          "id": "protocol12:soa0:cell:34:0",
           "type": "cell",
           "label": "3X/week",
           "attrs": {
@@ -2978,6 +2958,26 @@
           "attrs": {
             "indent": 1,
             "markers": []
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:35:1",
+          "type": "cell",
+          "label": "x",
+          "attrs": {
+            "shaded": false,
+            "markers": [
+              "b"
+            ]
           },
           "provenance": [
             {
@@ -3090,14 +3090,12 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:35:7",
-          "type": "cell",
-          "label": "x",
+          "id": "protocol12:soa0:asmt:36",
+          "type": "assessment",
+          "label": "Modafinil compliance",
           "attrs": {
-            "shaded": false,
-            "markers": [
-              "b"
-            ]
+            "indent": 1,
+            "markers": []
           },
           "provenance": [
             {
@@ -3110,11 +3108,11 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:asmt:36",
-          "type": "assessment",
-          "label": "Modafinil compliance",
+          "id": "protocol12:soa0:cell:36:1",
+          "type": "cell",
+          "label": "3X",
           "attrs": {
-            "indent": 1,
+            "shaded": false,
             "markers": []
           },
           "provenance": [
@@ -3218,24 +3216,6 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:36:7",
-          "type": "cell",
-          "label": "3X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol12:soa0:asmt:37",
           "type": "assessment",
           "label": "CBT compliance ****",
@@ -3256,7 +3236,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:37:1",
+          "id": "protocol12:soa0:cell:37:0",
           "type": "cell",
           "label": "2X/week",
           "attrs": {
@@ -3264,6 +3244,24 @@
             "markers": [
               "h"
             ]
+          },
+          "provenance": [
+            {
+              "page": 48,
+              "bbox": null,
+              "source": "gemini"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol12:soa0:cell:37:1",
+          "type": "cell",
+          "label": "3X",
+          "attrs": {
+            "shaded": false,
+            "markers": []
           },
           "provenance": [
             {
@@ -3366,24 +3364,6 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:37:7",
-          "type": "cell",
-          "label": "3X",
-          "attrs": {
-            "shaded": false,
-            "markers": []
-          },
-          "provenance": [
-            {
-              "page": 48,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
           "id": "protocol12:soa0:asmt:38",
           "type": "assessment",
           "label": "End of trial form",
@@ -3402,7 +3382,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:38:7",
+          "id": "protocol12:soa0:cell:38:6",
           "type": "cell",
           "label": "x",
           "attrs": {
@@ -3440,7 +3420,7 @@
           "note": ""
         },
         {
-          "id": "protocol12:soa0:cell:39:8",
+          "id": "protocol12:soa0:cell:39:7",
           "type": "cell",
           "label": "X",
           "attrs": {
@@ -3859,8 +3839,14 @@
       ],
       "edges": [
         {
-          "src": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:visit:0",
           "dst": "protocol12:soa0:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:visit:1",
+          "dst": "protocol12:soa0:period:1",
           "type": "visit_in_period",
           "attrs": {}
         },
@@ -3896,12 +3882,6 @@
         },
         {
           "src": "protocol12:soa0:visit:7",
-          "dst": "protocol12:soa0:period:1",
-          "type": "visit_in_period",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:visit:8",
           "dst": "protocol12:soa0:period:2",
           "type": "visit_in_period",
           "attrs": {}
@@ -3913,14 +3893,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:1:1",
+          "src": "protocol12:soa0:cell:1:0",
           "dst": "protocol12:soa0:asmt:1",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:1:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:1:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3931,14 +3911,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:2:1",
+          "src": "protocol12:soa0:cell:2:0",
           "dst": "protocol12:soa0:asmt:2",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:2:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:2:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3949,14 +3929,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:3:1",
+          "src": "protocol12:soa0:cell:3:0",
           "dst": "protocol12:soa0:asmt:3",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:3:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:3:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3967,14 +3947,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:4:1",
+          "src": "protocol12:soa0:cell:4:0",
           "dst": "protocol12:soa0:asmt:4",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:4:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:4:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -3985,14 +3965,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:5:1",
+          "src": "protocol12:soa0:cell:5:0",
           "dst": "protocol12:soa0:asmt:5",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:5:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:5:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4003,14 +3983,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:6:1",
+          "src": "protocol12:soa0:cell:6:0",
           "dst": "protocol12:soa0:asmt:6",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:6:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:6:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4021,14 +4001,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:7:1",
+          "src": "protocol12:soa0:cell:7:0",
           "dst": "protocol12:soa0:asmt:7",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:7:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:7:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4039,14 +4019,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:8:1",
+          "src": "protocol12:soa0:cell:8:0",
           "dst": "protocol12:soa0:asmt:8",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:8:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:8:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4057,6 +4037,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:9:0",
+          "dst": "protocol12:soa0:asmt:9",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:9:0",
+          "dst": "protocol12:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:9:1",
           "dst": "protocol12:soa0:asmt:9",
           "type": "cell_of_assessment",
@@ -4125,18 +4117,6 @@
         {
           "src": "protocol12:soa0:cell:9:6",
           "dst": "protocol12:soa0:visit:6",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:9:7",
-          "dst": "protocol12:soa0:asmt:9",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:9:7",
-          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4147,26 +4127,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:11:1",
+          "src": "protocol12:soa0:cell:11:0",
           "dst": "protocol12:soa0:asmt:11",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:11:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:11:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:11:7",
+          "src": "protocol12:soa0:cell:11:6",
           "dst": "protocol12:soa0:asmt:11",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:11:7",
-          "dst": "protocol12:soa0:visit:7",
+          "src": "protocol12:soa0:cell:11:6",
+          "dst": "protocol12:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4177,6 +4157,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:12:0",
+          "dst": "protocol12:soa0:asmt:12",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:12:0",
+          "dst": "protocol12:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:12:1",
           "dst": "protocol12:soa0:asmt:12",
           "type": "cell_of_assessment",
@@ -4245,18 +4237,6 @@
         {
           "src": "protocol12:soa0:cell:12:6",
           "dst": "protocol12:soa0:visit:6",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:12:7",
-          "dst": "protocol12:soa0:asmt:12",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:12:7",
-          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4267,26 +4247,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:13:1",
+          "src": "protocol12:soa0:cell:13:0",
           "dst": "protocol12:soa0:asmt:13",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:13:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:13:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:13:7",
+          "src": "protocol12:soa0:cell:13:6",
           "dst": "protocol12:soa0:asmt:13",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:13:7",
-          "dst": "protocol12:soa0:visit:7",
+          "src": "protocol12:soa0:cell:13:6",
+          "dst": "protocol12:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4297,26 +4277,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:14:1",
+          "src": "protocol12:soa0:cell:14:0",
           "dst": "protocol12:soa0:asmt:14",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:14:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:14:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:14:7",
+          "src": "protocol12:soa0:cell:14:6",
           "dst": "protocol12:soa0:asmt:14",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:14:7",
-          "dst": "protocol12:soa0:visit:7",
+          "src": "protocol12:soa0:cell:14:6",
+          "dst": "protocol12:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4327,50 +4307,50 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:1",
+          "src": "protocol12:soa0:cell:15:0",
           "dst": "protocol12:soa0:asmt:15",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:15:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:3",
+          "src": "protocol12:soa0:cell:15:2",
           "dst": "protocol12:soa0:asmt:15",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:3",
-          "dst": "protocol12:soa0:visit:3",
+          "src": "protocol12:soa0:cell:15:2",
+          "dst": "protocol12:soa0:visit:2",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:5",
+          "src": "protocol12:soa0:cell:15:4",
           "dst": "protocol12:soa0:asmt:15",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:5",
-          "dst": "protocol12:soa0:visit:5",
+          "src": "protocol12:soa0:cell:15:4",
+          "dst": "protocol12:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:7",
+          "src": "protocol12:soa0:cell:15:6",
           "dst": "protocol12:soa0:asmt:15",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:15:7",
-          "dst": "protocol12:soa0:visit:7",
+          "src": "protocol12:soa0:cell:15:6",
+          "dst": "protocol12:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4381,26 +4361,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:16:1",
+          "src": "protocol12:soa0:cell:16:0",
           "dst": "protocol12:soa0:asmt:16",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:16:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:16:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:16:7",
+          "src": "protocol12:soa0:cell:16:6",
           "dst": "protocol12:soa0:asmt:16",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:16:7",
-          "dst": "protocol12:soa0:visit:7",
+          "src": "protocol12:soa0:cell:16:6",
+          "dst": "protocol12:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4411,6 +4391,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:17:0",
+          "dst": "protocol12:soa0:asmt:17",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:17:0",
+          "dst": "protocol12:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:17:1",
           "dst": "protocol12:soa0:asmt:17",
           "type": "cell_of_assessment",
@@ -4435,26 +4427,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:17:3",
+          "src": "protocol12:soa0:cell:17:4",
           "dst": "protocol12:soa0:asmt:17",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:17:3",
-          "dst": "protocol12:soa0:visit:3",
+          "src": "protocol12:soa0:cell:17:4",
+          "dst": "protocol12:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:17:5",
+          "src": "protocol12:soa0:cell:17:6",
           "dst": "protocol12:soa0:asmt:17",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:17:5",
-          "dst": "protocol12:soa0:visit:5",
+          "src": "protocol12:soa0:cell:17:6",
+          "dst": "protocol12:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4467,18 +4459,6 @@
         {
           "src": "protocol12:soa0:cell:17:7",
           "dst": "protocol12:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:17:8",
-          "dst": "protocol12:soa0:asmt:17",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:17:8",
-          "dst": "protocol12:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4489,26 +4469,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:18:1",
+          "src": "protocol12:soa0:cell:18:0",
           "dst": "protocol12:soa0:asmt:18",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:18:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:18:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:18:7",
+          "src": "protocol12:soa0:cell:18:6",
           "dst": "protocol12:soa0:asmt:18",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:18:7",
-          "dst": "protocol12:soa0:visit:7",
+          "src": "protocol12:soa0:cell:18:6",
+          "dst": "protocol12:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4519,6 +4499,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:19:0",
+          "dst": "protocol12:soa0:asmt:19",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:19:0",
+          "dst": "protocol12:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:19:1",
           "dst": "protocol12:soa0:asmt:19",
           "type": "cell_of_assessment",
@@ -4599,18 +4591,6 @@
         {
           "src": "protocol12:soa0:cell:19:7",
           "dst": "protocol12:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:19:8",
-          "dst": "protocol12:soa0:asmt:19",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:19:8",
-          "dst": "protocol12:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4621,6 +4601,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:20:1",
+          "dst": "protocol12:soa0:asmt:20",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:20:1",
+          "dst": "protocol12:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:20:2",
           "dst": "protocol12:soa0:asmt:20",
           "type": "cell_of_assessment",
@@ -4689,18 +4681,6 @@
         {
           "src": "protocol12:soa0:cell:20:7",
           "dst": "protocol12:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:20:8",
-          "dst": "protocol12:soa0:asmt:20",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:20:8",
-          "dst": "protocol12:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4711,14 +4691,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:22:1",
+          "src": "protocol12:soa0:cell:22:0",
           "dst": "protocol12:soa0:asmt:22",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:22:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:22:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4729,26 +4709,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:23:4",
+          "src": "protocol12:soa0:cell:23:3",
           "dst": "protocol12:soa0:asmt:23",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:23:4",
-          "dst": "protocol12:soa0:visit:4",
+          "src": "protocol12:soa0:cell:23:3",
+          "dst": "protocol12:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:23:7",
+          "src": "protocol12:soa0:cell:23:6",
           "dst": "protocol12:soa0:asmt:23",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:23:7",
-          "dst": "protocol12:soa0:visit:7",
+          "src": "protocol12:soa0:cell:23:6",
+          "dst": "protocol12:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4759,26 +4739,26 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:24:1",
+          "src": "protocol12:soa0:cell:24:0",
           "dst": "protocol12:soa0:asmt:24",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:24:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:24:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:24:7",
+          "src": "protocol12:soa0:cell:24:6",
           "dst": "protocol12:soa0:asmt:24",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:24:7",
-          "dst": "protocol12:soa0:visit:7",
+          "src": "protocol12:soa0:cell:24:6",
+          "dst": "protocol12:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4789,6 +4769,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:25:0",
+          "dst": "protocol12:soa0:asmt:25",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:25:0",
+          "dst": "protocol12:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:25:1",
           "dst": "protocol12:soa0:asmt:25",
           "type": "cell_of_assessment",
@@ -4857,18 +4849,6 @@
         {
           "src": "protocol12:soa0:cell:25:6",
           "dst": "protocol12:soa0:visit:6",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:25:7",
-          "dst": "protocol12:soa0:asmt:25",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:25:7",
-          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4879,6 +4859,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:26:0",
+          "dst": "protocol12:soa0:asmt:26",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:26:0",
+          "dst": "protocol12:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:26:1",
           "dst": "protocol12:soa0:asmt:26",
           "type": "cell_of_assessment",
@@ -4947,18 +4939,6 @@
         {
           "src": "protocol12:soa0:cell:26:6",
           "dst": "protocol12:soa0:visit:6",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:26:7",
-          "dst": "protocol12:soa0:asmt:26",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:26:7",
-          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -4969,6 +4949,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:27:0",
+          "dst": "protocol12:soa0:asmt:27",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:27:0",
+          "dst": "protocol12:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:27:1",
           "dst": "protocol12:soa0:asmt:27",
           "type": "cell_of_assessment",
@@ -5037,18 +5029,6 @@
         {
           "src": "protocol12:soa0:cell:27:6",
           "dst": "protocol12:soa0:visit:6",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:27:7",
-          "dst": "protocol12:soa0:asmt:27",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:27:7",
-          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5059,38 +5039,38 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:28:1",
+          "src": "protocol12:soa0:cell:28:0",
           "dst": "protocol12:soa0:asmt:28",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:28:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:28:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:28:4",
+          "src": "protocol12:soa0:cell:28:3",
           "dst": "protocol12:soa0:asmt:28",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:28:4",
-          "dst": "protocol12:soa0:visit:4",
+          "src": "protocol12:soa0:cell:28:3",
+          "dst": "protocol12:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:28:7",
+          "src": "protocol12:soa0:cell:28:6",
           "dst": "protocol12:soa0:asmt:28",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:28:7",
-          "dst": "protocol12:soa0:visit:7",
+          "src": "protocol12:soa0:cell:28:6",
+          "dst": "protocol12:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5101,38 +5081,38 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:29:1",
+          "src": "protocol12:soa0:cell:29:0",
           "dst": "protocol12:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:29:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:29:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:29:4",
+          "src": "protocol12:soa0:cell:29:3",
           "dst": "protocol12:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:29:4",
-          "dst": "protocol12:soa0:visit:4",
+          "src": "protocol12:soa0:cell:29:3",
+          "dst": "protocol12:soa0:visit:3",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:29:7",
+          "src": "protocol12:soa0:cell:29:6",
           "dst": "protocol12:soa0:asmt:29",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:29:7",
-          "dst": "protocol12:soa0:visit:7",
+          "src": "protocol12:soa0:cell:29:6",
+          "dst": "protocol12:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5143,14 +5123,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:30:1",
+          "src": "protocol12:soa0:cell:30:0",
           "dst": "protocol12:soa0:asmt:30",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:30:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:30:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5161,50 +5141,50 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:1",
+          "src": "protocol12:soa0:cell:31:0",
           "dst": "protocol12:soa0:asmt:31",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:31:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:3",
+          "src": "protocol12:soa0:cell:31:2",
           "dst": "protocol12:soa0:asmt:31",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:3",
-          "dst": "protocol12:soa0:visit:3",
+          "src": "protocol12:soa0:cell:31:2",
+          "dst": "protocol12:soa0:visit:2",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:5",
+          "src": "protocol12:soa0:cell:31:4",
           "dst": "protocol12:soa0:asmt:31",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:5",
-          "dst": "protocol12:soa0:visit:5",
+          "src": "protocol12:soa0:cell:31:4",
+          "dst": "protocol12:soa0:visit:4",
           "type": "cell_at_visit",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:7",
+          "src": "protocol12:soa0:cell:31:6",
           "dst": "protocol12:soa0:asmt:31",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:31:7",
-          "dst": "protocol12:soa0:visit:7",
+          "src": "protocol12:soa0:cell:31:6",
+          "dst": "protocol12:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5215,6 +5195,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:32:0",
+          "dst": "protocol12:soa0:asmt:32",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:32:0",
+          "dst": "protocol12:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:32:1",
           "dst": "protocol12:soa0:asmt:32",
           "type": "cell_of_assessment",
@@ -5295,18 +5287,6 @@
         {
           "src": "protocol12:soa0:cell:32:7",
           "dst": "protocol12:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:32:8",
-          "dst": "protocol12:soa0:asmt:32",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:32:8",
-          "dst": "protocol12:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5317,6 +5297,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:33:0",
+          "dst": "protocol12:soa0:asmt:33",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:33:0",
+          "dst": "protocol12:soa0:visit:0",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:33:1",
           "dst": "protocol12:soa0:asmt:33",
           "type": "cell_of_assessment",
@@ -5397,18 +5389,6 @@
         {
           "src": "protocol12:soa0:cell:33:7",
           "dst": "protocol12:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:33:8",
-          "dst": "protocol12:soa0:asmt:33",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:33:8",
-          "dst": "protocol12:soa0:visit:8",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5419,14 +5399,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:34:1",
+          "src": "protocol12:soa0:cell:34:0",
           "dst": "protocol12:soa0:asmt:34",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:34:1",
-          "dst": "protocol12:soa0:visit:1",
+          "src": "protocol12:soa0:cell:34:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5437,6 +5417,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:35:1",
+          "dst": "protocol12:soa0:asmt:35",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:35:1",
+          "dst": "protocol12:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:35:2",
           "dst": "protocol12:soa0:asmt:35",
           "type": "cell_of_assessment",
@@ -5493,18 +5485,6 @@
         {
           "src": "protocol12:soa0:cell:35:6",
           "dst": "protocol12:soa0:visit:6",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:35:7",
-          "dst": "protocol12:soa0:asmt:35",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:35:7",
-          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5515,6 +5495,18 @@
           "attrs": {}
         },
         {
+          "src": "protocol12:soa0:cell:36:1",
+          "dst": "protocol12:soa0:asmt:36",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:36:1",
+          "dst": "protocol12:soa0:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
           "src": "protocol12:soa0:cell:36:2",
           "dst": "protocol12:soa0:asmt:36",
           "type": "cell_of_assessment",
@@ -5575,21 +5567,21 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:36:7",
-          "dst": "protocol12:soa0:asmt:36",
+          "src": "protocol12:soa0:asmt:37",
+          "dst": "protocol12:soa0:cat:21",
+          "type": "assessment_in_category",
+          "attrs": {}
+        },
+        {
+          "src": "protocol12:soa0:cell:37:0",
+          "dst": "protocol12:soa0:asmt:37",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:36:7",
-          "dst": "protocol12:soa0:visit:7",
+          "src": "protocol12:soa0:cell:37:0",
+          "dst": "protocol12:soa0:visit:0",
           "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:asmt:37",
-          "dst": "protocol12:soa0:cat:21",
-          "type": "assessment_in_category",
           "attrs": {}
         },
         {
@@ -5665,32 +5657,20 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:37:7",
-          "dst": "protocol12:soa0:asmt:37",
-          "type": "cell_of_assessment",
-          "attrs": {}
-        },
-        {
-          "src": "protocol12:soa0:cell:37:7",
-          "dst": "protocol12:soa0:visit:7",
-          "type": "cell_at_visit",
-          "attrs": {}
-        },
-        {
           "src": "protocol12:soa0:asmt:38",
           "dst": "protocol12:soa0:cat:21",
           "type": "assessment_in_category",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:38:7",
+          "src": "protocol12:soa0:cell:38:6",
           "dst": "protocol12:soa0:asmt:38",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:38:7",
-          "dst": "protocol12:soa0:visit:7",
+          "src": "protocol12:soa0:cell:38:6",
+          "dst": "protocol12:soa0:visit:6",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5701,14 +5681,14 @@
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:39:8",
+          "src": "protocol12:soa0:cell:39:7",
           "dst": "protocol12:soa0:asmt:39",
           "type": "cell_of_assessment",
           "attrs": {}
         },
         {
-          "src": "protocol12:soa0:cell:39:8",
-          "dst": "protocol12:soa0:visit:8",
+          "src": "protocol12:soa0:cell:39:7",
+          "dst": "protocol12:soa0:visit:7",
           "type": "cell_at_visit",
           "attrs": {}
         },
@@ -5722,6 +5702,14 @@
         },
         {
           "src": "protocol12:soa0:fn:4",
+          "dst": "protocol12:soa0:cell:9:1",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:5",
           "dst": "protocol12:soa0:cell:9:2",
           "type": "footnote_annotates",
           "attrs": {
@@ -5753,7 +5741,7 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:5",
+          "src": "protocol12:soa0:fn:6",
           "dst": "protocol12:soa0:cell:9:6",
           "type": "footnote_annotates",
           "attrs": {
@@ -5762,15 +5750,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:9:7",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
-          "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:11:7",
+          "dst": "protocol12:soa0:cell:11:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5786,6 +5766,14 @@
         },
         {
           "src": "protocol12:soa0:fn:4",
+          "dst": "protocol12:soa0:cell:12:1",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:5",
           "dst": "protocol12:soa0:cell:12:2",
           "type": "footnote_annotates",
           "attrs": {
@@ -5817,7 +5805,7 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:5",
+          "src": "protocol12:soa0:fn:6",
           "dst": "protocol12:soa0:cell:12:6",
           "type": "footnote_annotates",
           "attrs": {
@@ -5826,7 +5814,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:12:7",
+          "dst": "protocol12:soa0:cell:13:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5834,15 +5822,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:13:7",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
-          "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:14:7",
+          "dst": "protocol12:soa0:cell:14:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5850,7 +5830,7 @@
         },
         {
           "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:15:3",
+          "dst": "protocol12:soa0:cell:15:2",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5858,7 +5838,7 @@
         },
         {
           "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:15:5",
+          "dst": "protocol12:soa0:cell:15:4",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5866,7 +5846,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:15:7",
+          "dst": "protocol12:soa0:cell:15:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5874,7 +5854,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:16:7",
+          "dst": "protocol12:soa0:cell:16:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5882,6 +5862,14 @@
         },
         {
           "src": "protocol12:soa0:fn:10",
+          "dst": "protocol12:soa0:cell:17:1",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:5",
           "dst": "protocol12:soa0:cell:17:2",
           "type": "footnote_annotates",
           "attrs": {
@@ -5890,15 +5878,7 @@
         },
         {
           "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:17:3",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
-          "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:17:5",
+          "dst": "protocol12:soa0:cell:17:4",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5906,7 +5886,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:17:7",
+          "dst": "protocol12:soa0:cell:17:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5914,7 +5894,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:18:7",
+          "dst": "protocol12:soa0:cell:18:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5923,6 +5903,14 @@
         {
           "src": "protocol12:soa0:fn:7",
           "dst": "protocol12:soa0:asmt:19",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:7",
+          "dst": "protocol12:soa0:cell:19:0",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -5977,14 +5965,6 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:7",
-          "dst": "protocol12:soa0:cell:19:7",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
           "src": "protocol12:soa0:fn:2",
           "dst": "protocol12:soa0:asmt:22",
           "type": "footnote_annotates",
@@ -5994,7 +5974,7 @@
         },
         {
           "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:23:4",
+          "dst": "protocol12:soa0:cell:23:3",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6002,7 +5982,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:23:7",
+          "dst": "protocol12:soa0:cell:23:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6010,7 +5990,7 @@
         },
         {
           "src": "protocol12:soa0:fn:8",
-          "dst": "protocol12:soa0:cell:23:7",
+          "dst": "protocol12:soa0:cell:23:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6026,7 +6006,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:24:7",
+          "dst": "protocol12:soa0:cell:24:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6034,6 +6014,14 @@
         },
         {
           "src": "protocol12:soa0:fn:12",
+          "dst": "protocol12:soa0:cell:25:0",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:5",
           "dst": "protocol12:soa0:cell:25:1",
           "type": "footnote_annotates",
           "attrs": {
@@ -6073,7 +6061,7 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:5",
+          "src": "protocol12:soa0:fn:6",
           "dst": "protocol12:soa0:cell:25:6",
           "type": "footnote_annotates",
           "attrs": {
@@ -6081,15 +6069,15 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:25:7",
+          "src": "protocol12:soa0:fn:12",
+          "dst": "protocol12:soa0:cell:26:0",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
           }
         },
         {
-          "src": "protocol12:soa0:fn:12",
+          "src": "protocol12:soa0:fn:5",
           "dst": "protocol12:soa0:cell:26:1",
           "type": "footnote_annotates",
           "attrs": {
@@ -6129,7 +6117,7 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:5",
+          "src": "protocol12:soa0:fn:6",
           "dst": "protocol12:soa0:cell:26:6",
           "type": "footnote_annotates",
           "attrs": {
@@ -6137,15 +6125,15 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:26:7",
+          "src": "protocol12:soa0:fn:12",
+          "dst": "protocol12:soa0:cell:27:0",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
           }
         },
         {
-          "src": "protocol12:soa0:fn:12",
+          "src": "protocol12:soa0:fn:5",
           "dst": "protocol12:soa0:cell:27:1",
           "type": "footnote_annotates",
           "attrs": {
@@ -6185,16 +6173,8 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:27:6",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:27:7",
+          "dst": "protocol12:soa0:cell:27:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6211,6 +6191,14 @@
         {
           "src": "protocol12:soa0:fn:1",
           "dst": "protocol12:soa0:asmt:34",
+          "type": "footnote_annotates",
+          "attrs": {
+            "inferred_from": "marker"
+          }
+        },
+        {
+          "src": "protocol12:soa0:fn:5",
+          "dst": "protocol12:soa0:cell:35:1",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6257,14 +6245,6 @@
           }
         },
         {
-          "src": "protocol12:soa0:fn:5",
-          "dst": "protocol12:soa0:cell:35:7",
-          "type": "footnote_annotates",
-          "attrs": {
-            "inferred_from": "marker"
-          }
-        },
-        {
           "src": "protocol12:soa0:fn:11",
           "dst": "protocol12:soa0:asmt:37",
           "type": "footnote_annotates",
@@ -6274,7 +6254,7 @@
         },
         {
           "src": "protocol12:soa0:fn:11",
-          "dst": "protocol12:soa0:cell:37:1",
+          "dst": "protocol12:soa0:cell:37:0",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6282,7 +6262,7 @@
         },
         {
           "src": "protocol12:soa0:fn:6",
-          "dst": "protocol12:soa0:cell:38:7",
+          "dst": "protocol12:soa0:cell:38:6",
           "type": "footnote_annotates",
           "attrs": {
             "inferred_from": "marker"
@@ -6290,7 +6270,8 @@
         }
       ],
       "warnings": [
-        "located by: 121 cell-like tokens; 16 repeated column positions, 96% of rows; 554 ruling lines; schedule-like heading; table caption"
+        "located by: 121 cell-like tokens; 16 repeated column positions, 96% of rows; 554 ruling lines; schedule-like heading; table caption",
+        "column 'Assessment' names the table's row axis and holds no values; dropped as the row-label header rather than kept as a visit"
       ],
       "discarded": 24
     }
@@ -6298,14 +6279,14 @@
   "stats": [
     {
       "periods": 3,
-      "visits": 9,
+      "visits": 8,
       "categories": 3,
       "assessments": 37,
       "cells": 132,
       "footnotes": 21,
       "footnote_links": 72,
       "ambiguous": 0,
-      "warnings": 1,
+      "warnings": 2,
       "conservation": 0
     }
   ],

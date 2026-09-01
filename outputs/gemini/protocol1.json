@@ -3413,25 +3413,6 @@
         {
           "id": "protocol1:soa0:fn:3",
           "type": "footnote",
-          "label": "Xb = Performed at this visit and via telephone interview 2 weeks following this visit.",
-          "attrs": {
-            "marker": "b",
-            "complete": true,
-            "continued_on": []
-          },
-          "provenance": [
-            {
-              "page": 54,
-              "bbox": null,
-              "source": "gemini"
-            }
-          ],
-          "ambiguous": false,
-          "note": ""
-        },
-        {
-          "id": "protocol1:soa0:fn:4",
-          "type": "footnote",
           "label": "X = Performed at this visit.",
           "attrs": {
             "marker": "X",
@@ -3449,7 +3430,7 @@
           "note": ""
         },
         {
-          "id": "protocol1:soa0:fn:5",
+          "id": "protocol1:soa0:fn:4",
           "type": "footnote",
           "label": "Abbreviations: CT = computed tomography; ECG = electrocardiogram; ET = Early Termination; RT = Retrieval",
           "attrs": {
@@ -5162,18 +5143,6 @@
           "attrs": {}
         },
         {
-          "src": "protocol1:soa0:fn:3",
-          "dst": "protocol1:soa0:cell:26:0",
-          "type": "footnote_annotates",
-          "attrs": {}
-        },
-        {
-          "src": "protocol1:soa0:fn:3",
-          "dst": "protocol1:soa0:cell:26:2",
-          "type": "footnote_annotates",
-          "attrs": {}
-        },
-        {
           "src": "protocol1:soa0:fn:2",
           "dst": "protocol1:soa0:cell:27:0",
           "type": "footnote_annotates",
@@ -5190,7 +5159,7 @@
           }
         },
         {
-          "src": "protocol1:soa0:fn:3",
+          "src": "protocol1:soa0:fn:1",
           "dst": "protocol1:soa0:cell:28:6",
           "type": "footnote_annotates",
           "attrs": {
@@ -5198,7 +5167,7 @@
           }
         },
         {
-          "src": "protocol1:soa0:fn:3",
+          "src": "protocol1:soa0:fn:1",
           "dst": "protocol1:soa0:cell:28:7",
           "type": "footnote_annotates",
           "attrs": {
@@ -5206,7 +5175,7 @@
           }
         },
         {
-          "src": "protocol1:soa0:fn:3",
+          "src": "protocol1:soa0:fn:1",
           "dst": "protocol1:soa0:cell:28:8",
           "type": "footnote_annotates",
           "attrs": {
@@ -5214,7 +5183,7 @@
           }
         },
         {
-          "src": "protocol1:soa0:fn:3",
+          "src": "protocol1:soa0:fn:1",
           "dst": "protocol1:soa0:cell:28:9",
           "type": "footnote_annotates",
           "attrs": {
@@ -5232,7 +5201,8 @@
         "column 'Visit 11 / Week 20' closely resembles ['Visit 1 / Week -2', 'Visit 3 / Week 0'] but is not identical; kept as a separate visit. If these are the same visit the table now has a duplicate column.",
         "column 'Visit 12 / Week 24' closely resembles ['Visit 1 / Week -2', 'Visit 2 / Week -.3'] but is not identical; kept as a separate visit. If these are the same visit the table now has a duplicate column.",
         "column 'Visit 13 / Week 26' closely resembles ['Visit 1 / Week -2', 'Visit 3 / Week 0'] but is not identical; kept as a separate visit. If these are the same visit the table now has a duplicate column.",
-        "column 'Visit RT' closely resembles ['Visit ET'] but is not identical; kept as a separate visit. If these are the same visit the table now has a duplicate column."
+        "column 'Visit RT' closely resembles ['Visit ET'] but is not identical; kept as a separate visit. If these are the same visit the table now has a duplicate column.",
+        "footnote 'b' is printed identically on p53 and p54; kept once"
       ],
       "discarded": 0
     }
@@ -5244,12 +5214,12 @@
       "categories": 0,
       "assessments": 30,
       "cells": 139,
-      "footnotes": 6,
-      "footnote_links": 12,
+      "footnotes": 5,
+      "footnote_links": 10,
       "ambiguous": 3,
-      "warnings": 10,
+      "warnings": 11,
       "conservation": 0
     }
   ],
-  "seconds": 0.8
+  "seconds": 1.5
 }

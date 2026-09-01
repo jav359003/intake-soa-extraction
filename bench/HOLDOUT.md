@@ -102,3 +102,28 @@ It does not show the extraction is correct on these documents. Nobody has run
 the vision extractor on them, and page recall is not cell accuracy. The
 spurious spans are also real: ten pages that are not schedules would each cost
 an extractor call before being reported as empty.
+
+
+---
+
+# Scanned protocols
+
+Listed as an untested failure mode, so one was made: protocol15 rasterised at
+150 DPI, 61 pages, zero extractable words.
+
+**First run: all 61 pages returned.** With no text, every page scores
+identically and "every page is a candidate" is the only possible answer.
+
+The page still *looks* like a table though. Text-poor pages are now rendered at
+60 DPI and scored on long straight runs of dark pixels -- a table is long
+horizontal and vertical rules. That signal does not need a text layer.
+
+```
+before   61 spans covering every page
+after    span [25] exactly, plus one spurious span [52, 53]
+```
+
+Cost is about 15 ms per text-poor page, so a 122-page scan adds under two
+seconds. Precision is the weak point: 2 spurious pages against 1 real one, and
+that ratio would be worse on a longer scan. Recall is what the brief weights,
+and each spurious span costs one extractor call that returns an empty page.

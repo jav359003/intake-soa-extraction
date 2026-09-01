@@ -72,6 +72,8 @@ class PageFeatures:
     image_coverage: float = 0.0 # share of the page covered by raster images
     image_table: bool = False   # unreadable here, readable by the extractor
     sparse: bool = False        # almost no body text, but not an empty page
+    rule_rows: int = 0          # long horizontal rules seen on the rendered page
+    rule_cols: int = 0          # long vertical rules seen on the rendered page
     first_line: str = ""
     score: float = 0.0
     reasons: list[str] = field(default_factory=list)
@@ -111,6 +113,48 @@ def _columns(rows, tol: float = 6.0, min_rows: int = 4):
     for _, s in cols:
         covered |= s
     return len(cols), (len(covered) / len(rows) if rows else 0.0)
+
+
+def rendered_grid_score(page: pymupdf.Page, dpi: int = 60) -> tuple[int, int]:
+    """Count long straight runs of dark pixels on the rendered page.
+
+    On a scanned protocol the text layer is empty on every page, so every
+    text-based signal reads the same and the locator degenerates to "every page
+    is a candidate" -- on a 61-page scan it returned all 61. The page still
+    *looks* like a table though, and a table is long horizontal and vertical
+    rules. This renders small and counts them, which gives a shape signal that
+    survives having no text at all.
+
+    60 DPI is deliberate: enough to keep a ruling line contiguous, cheap enough
+    to run on every page of a 122-page document (~15ms each).
+    """
+    pix = page.get_pixmap(matrix=pymupdf.Matrix(dpi / 72, dpi / 72),
+                          colorspace=pymupdf.csGRAY, alpha=False)
+    w, h, buf = pix.width, pix.height, pix.samples
+    if w < 40 or h < 40:
+        return 0, 0
+    dark = bytearray(w * h)
+    for i, v in enumerate(buf):
+        if v < 160:
+            dark[i] = 1
+
+    min_run_h, min_run_v = int(w * 0.35), int(h * 0.25)
+    rows = cols = 0
+    for y in range(h):
+        base, run = y * w, 0
+        for x in range(w):
+            run = run + 1 if dark[base + x] else 0
+            if run == min_run_h:
+                rows += 1
+                break
+    for x in range(w):
+        run = 0
+        for y in range(h):
+            run = run + 1 if dark[y * w + x] else 0
+            if run == min_run_v:
+                cols += 1
+                break
+    return rows, cols
 
 
 def _image_coverage(page: pymupdf.Page) -> float:
@@ -153,14 +197,36 @@ def page_features(page: pymupdf.Page, index: int) -> PageFeatures:
         and HEADING.search(text)
         and (f.image_coverage >= 0.10 or f.landscape))
     f.sparse = f.n_words < 80 and (f.image_coverage >= 0.05 or len(page.get_drawings()) >= 2)
-    if caption_only or (f.image_coverage >= 0.30 and f.n_words < 80):
+    # Any page with almost no text gets looked at rather than read. Keying this
+    # on embedded-image coverage missed NCT05392192's redacted continuation
+    # pages, which carry a solid painted block and only a 0.7% logo. What the
+    # page *looks* like is the reliable signal when there is nothing to read.
+    if f.n_words < 80 and (caption_only or f.image_coverage >= 0.10
+                           or len(page.get_drawings()) >= 1):
         f.image_table = True
-        f.score = 8.0 + 4.0 * f.image_coverage
-        f.reasons.append(
-            f"schedule caption with only {f.n_words} words of body text and "
-            f"{f.image_coverage:.0%} image coverage; the table is not in the text "
-            f"layer, so the page is sent to the extractor to read from the "
-            f"rendered image")
+        # With no text to score, fall back to what the page looks like. A
+        # captioned page is a candidate on its caption; an uncaptioned one has
+        # to earn it by containing something grid-shaped, or a scanned document
+        # nominates all of its pages.
+        f.rule_rows, f.rule_cols = rendered_grid_score(page)
+        gridlike = f.rule_rows >= 6 and f.rule_cols >= 4
+        if caption_only:
+            f.score = 8.0 + 4.0 * f.image_coverage
+            f.reasons.append(
+                f"schedule caption with only {f.n_words} words of body text; the "
+                f"table is not in the text layer, so the page goes to the extractor "
+                f"to be read from the rendered image")
+        elif gridlike:
+            f.score = 6.0 + min(f.rule_rows / 6.0, 4.0)
+            f.reasons.append(
+                f"no usable text layer, but the rendered page has {f.rule_rows} "
+                f"horizontal and {f.rule_cols} vertical rules; read as a grid")
+        else:
+            f.image_table = False
+            f.score = 0.0
+            f.reasons.append(
+                f"no usable text layer and the rendered page shows no grid "
+                f"({f.rule_rows} h-rules, {f.rule_cols} v-rules)")
         return f
 
     if not words:
@@ -251,7 +317,10 @@ def _expand(feats: list[PageFeatures], seed: int, max_table: int = 6,
             page = seed + step
             while 0 < page <= n and len(span) < max_table:
                 f = by_page[page]
-                if not f.sparse or f.new_section:
+                # Continue only onto pages that are themselves grid-shaped or
+                # captioned. "Sparse" alone is every page of a scanned
+                # document, which is how a one-page table grew to six.
+                if not f.image_table or f.new_section:
                     break
                 span.add(page)
                 page += step

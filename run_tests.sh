@@ -13,6 +13,12 @@ echo
 echo "=== locator vs hand-built answer key (bench/GROUND_TRUTH.md)"
 python3 bench/score_locator.py | grep -E "^(MISS|recall)" || fail=1
 echo
+echo "=== locator on unseen protocols (bench/HOLDOUT.md)"
+python3 bench/score_holdout.py | grep -E "^(MISS|HOLD)" || fail=1
+echo
+echo "=== locator on a protocol with no text layer"
+python3 bench/score_scanned.py | grep -E "^(MISS|SCANNED)" || fail=1
+echo
 echo "=== end to end, both engines"
 python3 -u -m soa.pipeline --engine text-layer --out outputs/text-layer 2>/dev/null | sed 's/  */ /g'
 python3 -u -m soa.pipeline --engine gemini --out outputs/gemini 2>/dev/null \
