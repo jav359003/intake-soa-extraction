@@ -329,12 +329,37 @@ end to end; a five-protocol, twelve-page run is 10–15 minutes cold and
    and 123 against 0 on protocol5 p50. A cell two independent readings disagree
    about is exactly the cell a human should check. This is the highest-value
    thing left undone.
-3. **Derive the geometry constants** from each page's own typography — median
+3. **Replace the locator's hand-picked weights with a fitted model.** The page
+   score is currently `min(n_cells/10, 6.0) + min(n_columns/3, 4.0) + 1.5 if
+   ruled + 2.5 if headed`, and those four numbers were chosen by hand against
+   five documents. `PageFeatures` already computes eight numeric signals per
+   page, so the features exist; only the weights are guesswork.
+
+   The blocker is data, not method: eight protocols give twelve positive pages,
+   which is not enough to fit anything you could trust. clinicaltrials.gov
+   posts thousands of protocols and labelling is cheap — a page number per
+   document — so a hundred of them yields roughly 250 labelled SoA pages. On
+   that, logistic regression over the existing features gives three things the
+   current sum cannot: weights that were learned rather than picked, a
+   **calibrated probability** so the seed threshold means something instead of
+   being relative guesswork, and feature importances that would say honestly
+   which signals carry the work.
+
+   Worth being clear about what this would *not* improve. Extraction is the
+   vision model reading cells off a rendered page, and a table-structure
+   classifier is documented as weak on exactly this workload — multi-level
+   headers and merged cells. This is a locator change only. And the locator is
+   currently at 100% on every set it has been tried against, so a model would
+   have no headroom to prove itself until the dataset is larger than the
+   problem. That is the argument for building the dataset first and the model
+   second, not the reverse.
+
+4. **Derive the geometry constants** from each page's own typography — median
    glyph height, median column pitch — instead of fixing them.
-4. **A reviewer queue in the UI**, ordered by consequence. 19 ambiguous cells and
+5. **A reviewer queue in the UI**, ordered by consequence. 19 ambiguous cells and
    38 warnings is already more than anyone reads top to bottom.
-5. **USDM/FHIR export.** The schema was shaped for it; the mapping is not written.
-6. **Actually run Docling**, so the benchmark reports it measured rather than
+6. **USDM/FHIR export.** The schema was shaped for it; the mapping is not written.
+7. **Actually run Docling**, so the benchmark reports it measured rather than
    researched.
 
 ## AI tools used
