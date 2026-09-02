@@ -171,12 +171,13 @@ therefore reported but not vouched for.
 
 `bench/BENCHMARK.md` has the detail and the per-tool rejections.
 
-| | text-layer | Gemini |
-|---|---|---|
-| footnote links | 64 | **164** |
-| footnotes | 10 | **53** |
-| ambiguous cells | 406 | **19** |
-| warnings | 159 | **38** |
+| | text-layer | Gemini | OpenAI gpt-5 |
+|---|---|---|---|
+| footnote links | 64 | **162** | 109 |
+| footnotes | 10 | **53** | 46 |
+| ambiguous cells | 406 | **19** | 182 |
+| warnings | 159 | **41** | 77 |
+| a table on every located page | 5/5 | **5/5** | 4/5 |
 
 text-layer reports *more* rows and cells than Gemini on every protocol, and
 nearly all of the excess is garbage — footnote paragraphs read as rows, the
@@ -282,8 +283,10 @@ was a sentence I wrote, not code.
 
 ### Known limits
 
-- **Cell case is not always preserved.** protocol12's `Xa` came back as `x`;
-  protocol15's did not. Per-page model variance.
+- **Cell case is model-dependent.** protocol12 prints `Xa`; Gemini returns `x`,
+  OpenAI returns `X`, from the same prompt on the same page. Measured across
+  three engines rather than assumed — but it does mean the default engine
+  lowercases some marked cells.
 - **Structure handled inconsistently between pages.** protocol15's RANDOMIZATION
   divider was returned as a column and explained; protocol12's identical device
   was dropped.
@@ -320,9 +323,12 @@ end to end; a five-protocol, twelve-page run is 10–15 minutes cold and
 
 1. **Finish verification** on protocols 5 and 9, and run the vision engines
    across the hold-out set. Those are the two claims currently unmade.
-2. **Cross-model agreement as an ambiguity signal.** Two engines already read
-   every page. Where they disagree on a cell is exactly where a human should
-   look, and that is free signal being thrown away.
+2. **Cross-model agreement as an ambiguity signal.** Three engines have now read
+   every page and their outputs sit side by side in `outputs/`. They disagree on
+   cell counts for every protocol — most sharply 226 against 202 on protocol9,
+   and 123 against 0 on protocol5 p50. A cell two independent readings disagree
+   about is exactly the cell a human should check. This is the highest-value
+   thing left undone.
 3. **Derive the geometry constants** from each page's own typography — median
    glyph height, median column pitch — instead of fixing them.
 4. **A reviewer queue in the UI**, ordered by consequence. 19 ambiguous cells and
