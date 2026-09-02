@@ -1,0 +1,50 @@
+{
+  "is_soa_page": false,
+  "is_footnote_page": true,
+  "footnotes": [
+    {
+      "marker": null,
+      "text": "Footnotes to Flow Chart:",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "Detox = Detoxification",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "SCID: The Structured Clinical Interview for DSM IV (Axis I)",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "*",
+      "text": "Morphine: study day 1 morphine administration times may vary depending upon time of admission.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "**",
+      "text": "Lofexidine: The physician may withhold a dose of study medication if the patient is experiencing symptoms of hypotension (dizziness making it difficult to stand for one minute, or syncope) or if the patient’s orthostatic blood pressure is ≤ 80 mmHg systolic immediately before the dose is due to be given. If more than two doses of study medication need to be withheld in a single day, the patient will be terminated from the study and treated for their withdrawal symptoms with standard treatment.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "***",
+      "text": "MHOWS = Modified Himmelsbach Opiate Withdrawal Scale (Primary Outcome Measure) time range for collection  = 0 to ±30 min for all items",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "•",
+      "text": "Measures, time range and order: These measures should start being collected at 1000, and must be completed by 1200, and shall be collected in the following order: MHOWS, OOWS, SOWS Gossop, MCGI (rater, patient), SOWS (Handelsman), VAS-E, Addiction Research Center Inventory (ARCI-MBG) and Visual Analog Scale (VAS-High) for “Drug High”.",
+      "appears_complete": true,
+      "attaches_to": []
+    }
+  ],
+  "unresolved": [],
+  "_model": "gpt-5"
+}

@@ -1,0 +1,983 @@
+{
+  "is_soa_page": true,
+  "title": "Table 4, Continued\nSchedule of Measures and Data Collection for Lofexidine Phase 3",
+  "continuation": {
+    "is_continuation": true,
+    "axis": "rows",
+    "evidence": "Table 4, Continued"
+  },
+  "column_headers": [
+    {
+      "level": 0,
+      "role": "day",
+      "cells": [
+        {
+          "text": "1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "4",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "5",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "7",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "8",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "9",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "10",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "11",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "index": 0,
+      "period": null,
+      "visit": null,
+      "day": "1",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "1"
+    },
+    {
+      "index": 1,
+      "period": null,
+      "visit": null,
+      "day": "2",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "2"
+    },
+    {
+      "index": 2,
+      "period": null,
+      "visit": null,
+      "day": "3",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "3"
+    },
+    {
+      "index": 3,
+      "period": null,
+      "visit": null,
+      "day": "4",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "4"
+    },
+    {
+      "index": 4,
+      "period": null,
+      "visit": null,
+      "day": "5",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "5"
+    },
+    {
+      "index": 5,
+      "period": null,
+      "visit": null,
+      "day": "6",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "6"
+    },
+    {
+      "index": 6,
+      "period": null,
+      "visit": null,
+      "day": "7",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "7"
+    },
+    {
+      "index": 7,
+      "period": null,
+      "visit": null,
+      "day": "8",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "8"
+    },
+    {
+      "index": 8,
+      "period": null,
+      "visit": null,
+      "day": "9",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "9"
+    },
+    {
+      "index": 9,
+      "period": null,
+      "visit": null,
+      "day": "10",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "10"
+    },
+    {
+      "index": 10,
+      "period": null,
+      "visit": null,
+      "day": "11",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "11"
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "kind": "category",
+      "label": "Abuse Potential Assessment:",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 1,
+      "kind": "assessment",
+      "label": "Addiction Research Center Inventory (22)\n - (ARCI-MBG) (1000h)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "assessment",
+      "label": "Visual Analog Scale (VAS-High)(23) (1000h)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "category",
+      "label": "Safety Measures:",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 4,
+      "kind": "assessment",
+      "label": "(Sitting) Vital Signs (24, 33)\n(0800, 1000, 1100, 1300, 1800 2300h and at 0800 at day 11)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "6X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "6X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "6X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "6X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "6X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "6X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "6X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "6X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "6X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "6X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "assessment",
+      "label": "Orthostatic (Standing) Vital Signs (24,33)\n(800, 1100, 1300, 1800, 2300 and only at 0800 at day 11)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "5X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "5X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "5X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "5X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "5X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "5X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "5X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "5X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "5X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "5X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "assessment",
+      "label": "Electrocardiogram (25) (1300 to 1430h)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "assessment",
+      "label": "Adverse Events & Abnormal Clinical Signs: (26) (1000h)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "assessment",
+      "label": "Tobacco Withdrawal Scale (27) (1700)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "assessment",
+      "label": "Urine Toxicology (28)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "Admission, Monday, Wednesday, Friday, Discharge and As Needed",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "assessment",
+      "label": "Plasma Lofexidine Pk (LCMS) (29)\nTotal of 12 samples (10 ml of plasma each ),\nDay 4: 1X, 0800h; Day 6: 1X, 0800h\nDay 7: 8X, 0800, 0900, 1000, 1100, 1200, 1300, 1600, 1800h; 2100, 2300; Day 8: 1X:0800; Day 10: 1000h after MHOWS\nForm numbers may change (small print)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "8X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    }
+  ],
+  "footnotes": [],
+  "unresolved": [
+    "Column shading across days is unclear from the image; cells are recorded as unshaded.",
+    "Exact punctuation and hour suffixes in the long timing text under 'Plasma Lofexidine Pk (LCMS) (29)' may contain minor inaccuracies (e.g., '1800h' vs '1800', '1X:0800' vs '1X-0800').",
+    "Possible space in the Day 4 PK cell ('1 X' vs '1X')."
+  ],
+  "_model": "gpt-5"
+}

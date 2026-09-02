@@ -1,0 +1,518 @@
+{
+  "is_soa_page": true,
+  "title": "Appendix I: Time and Events Schedule",
+  "continuation": {
+    "is_continuation": false,
+    "axis": null,
+    "evidence": ""
+  },
+  "column_headers": [
+    {
+      "level": 0,
+      "role": "period",
+      "cells": [
+        {
+          "text": "Study Phase",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Pre-intake Screening",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Intake Screening",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Screening Infusions",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Baseline Infusions",
+          "span": 2,
+          "markers": []
+        },
+        {
+          "text": "Treatment Infusions",
+          "span": 5,
+          "markers": []
+        },
+        {
+          "text": "Dis-\ncharge",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Follow-up",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "role": "day",
+      "cells": [
+        {
+          "text": "Study day",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Up to -35",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "-15* to -9",
+          "span": 1,
+          "markers": [
+            "*"
+          ]
+        },
+        {
+          "text": "-6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "-2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "-1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "7",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "8",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "12",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "13",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "17",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "31",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "index": 0,
+      "period": "Pre-intake Screening",
+      "visit": null,
+      "day": "Up to -35",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Pre-intake Screening — Up to -35"
+    },
+    {
+      "index": 1,
+      "period": "Intake Screening",
+      "visit": null,
+      "day": "-15* to -9",
+      "week": null,
+      "window": null,
+      "markers": [
+        "*"
+      ],
+      "label": "Intake Screening — -15* to -9"
+    },
+    {
+      "index": 2,
+      "period": "Screening Infusions",
+      "visit": null,
+      "day": "-6",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Screening Infusions — -6"
+    },
+    {
+      "index": 3,
+      "period": "Baseline Infusions",
+      "visit": null,
+      "day": "-2",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Baseline Infusions — -2"
+    },
+    {
+      "index": 4,
+      "period": "Baseline Infusions",
+      "visit": null,
+      "day": "-1",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Baseline Infusions — -1"
+    },
+    {
+      "index": 5,
+      "period": "Treatment Infusions",
+      "visit": null,
+      "day": "7",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Treatment Infusions — 7"
+    },
+    {
+      "index": 6,
+      "period": "Treatment Infusions",
+      "visit": null,
+      "day": "8",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Treatment Infusions — 8"
+    },
+    {
+      "index": 7,
+      "period": "Treatment Infusions",
+      "visit": null,
+      "day": "12",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Treatment Infusions — 12"
+    },
+    {
+      "index": 8,
+      "period": "Treatment Infusions",
+      "visit": null,
+      "day": "13",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Treatment Infusions — 13"
+    },
+    {
+      "index": 9,
+      "period": "Treatment Infusions",
+      "visit": null,
+      "day": "17",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Treatment Infusions — 17"
+    },
+    {
+      "index": 10,
+      "period": "Dis-\ncharge",
+      "visit": null,
+      "day": "",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Dis-\ncharge"
+    },
+    {
+      "index": 11,
+      "period": "Follow-up",
+      "visit": null,
+      "day": "31",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Follow-up — 31"
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "kind": "assessment",
+      "label": "Informed consent",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 1,
+      "kind": "assessment",
+      "label": "Locator form/Demographics",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 2,
+      "kind": "assessment",
+      "label": "Cocaine use by timeline follow-back",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 3,
+      "kind": "assessment",
+      "label": "Breathalyzer test",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 4,
+      "kind": "assessment",
+      "label": "12-lead ECG",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 5,
+      "kind": "assessment",
+      "label": "SCID",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 6,
+      "kind": "assessment",
+      "label": "Medical History",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 7,
+      "kind": "assessment",
+      "label": "Physical Exam (complete)",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 8,
+      "kind": "assessment",
+      "label": "Physical Exam (brief)",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 9,
+      "kind": "assessment",
+      "label": "ASI-Lite",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 10,
+      "kind": "assessment",
+      "label": "Vital Signs",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 11,
+      "kind": "assessment",
+      "label": "Chemistries plus liver function tests**",
+      "indent": 0,
+      "markers": [
+        "**"
+      ],
+      "cells": []
+    },
+    {
+      "index": 12,
+      "kind": "assessment",
+      "label": "Hematology",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 13,
+      "kind": "assessment",
+      "label": "Pregnancy Test****",
+      "indent": 0,
+      "markers": [
+        "****"
+      ],
+      "cells": []
+    },
+    {
+      "index": 14,
+      "kind": "assessment",
+      "label": "Infectious disease serology x",
+      "indent": 0,
+      "markers": [
+        "x"
+      ],
+      "cells": []
+    },
+    {
+      "index": 15,
+      "kind": "assessment",
+      "label": "Plasma alcohol",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 16,
+      "kind": "assessment",
+      "label": "Urine toxicology screen",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 17,
+      "kind": "assessment",
+      "label": "POMS, BSCS",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 18,
+      "kind": "assessment",
+      "label": "Cognitive assessments****",
+      "indent": 0,
+      "markers": [
+        "****"
+      ],
+      "cells": []
+    },
+    {
+      "index": 19,
+      "kind": "assessment",
+      "label": "Atomoxetine or placebo",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 20,
+      "kind": "assessment",
+      "label": "Atomoxetine blood levels",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 21,
+      "kind": "assessment",
+      "label": "Adverse Events",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 22,
+      "kind": "assessment",
+      "label": "Cocaine Infusion Session #",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 23,
+      "kind": "assessment",
+      "label": "Saline/20 mg cocaine/40 mg cocaine i.v.",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 24,
+      "kind": "assessment",
+      "label": "20 mg cocaine i.v.",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 25,
+      "kind": "assessment",
+      "label": "40 mg cocaine i.v.",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 26,
+      "kind": "assessment",
+      "label": "VAS",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 27,
+      "kind": "assessment",
+      "label": "ARCI",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 28,
+      "kind": "assessment",
+      "label": "Continuous BP, HR, ECG monitoring",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 29,
+      "kind": "assessment",
+      "label": "BPRS",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 30,
+      "kind": "assessment",
+      "label": "Cocaine Blood PK",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    }
+  ],
+  "footnotes": [],
+  "unresolved": [
+    "Most per-visit cell values are illegible at the provided resolution; visit-level entries for each row could not be read with confidence. A higher-resolution image is required to transcribe the X/blank/shaded patterns and any superscript markers in cells.",
+    "Exact placement of ‘Cocaine Infusion Session #’ values (e.g., “1&2”, “3–8”) across columns is unclear in this scan."
+  ],
+  "_model": "gpt-5"
+}

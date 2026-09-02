@@ -5,3 +5,8 @@ scratch/
 protocols
 .gstack/
 cache/
+
+# Generated from the supplied protocol by bench/score_scanned.py, which
+# recreates it on demand. Not redistributed: it is the assignment's own
+# material, only rasterised.
+holdout/*_scanned.pdf

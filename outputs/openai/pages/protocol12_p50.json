@@ -1,0 +1,50 @@
+{
+  "is_soa_page": false,
+  "is_footnote_page": true,
+  "footnotes": [
+    {
+      "marker": "3.",
+      "text": "The following must be obtained weekly for at least two weeks during the screening/baseline period:\n    a. BSCS\n    b. CGI-S\n    c. CGI-O\n    d. Urine toxicology screening at a central laboratory. Note: This assay will be performed at a central laboratory only on the urine samples collected for the subjects who are randomized in the study.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "4.",
+      "text": "Daily report of methamphetamine, marijuana, nicotine, alcohol, opiates, and cocaine use will be recorded at each visit on a SUR CRF.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "5.",
+      "text": "HAM-D, ASI, ACDS, AISRS, Barratt Impulsiveness Scale and HRBS assessments must be obtained once. The CANTABelect assessments must be obtained twice.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "6.",
+      "text": "AEs will be assessed and recorded at each screening/baseline visit and reviewed by site investigator or study physician weekly.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Assessments During Study Medication Administration.",
+      "text": "Throughout the study medication administration period, subjects will be scheduled to return to the clinic three times per week for assessments. Some assessments will be collected three times per week (typically on a Monday, Wednesday, and Friday) and some will be collected once per week per the schedule in Table 3. Except for week 12, those assessments occurring once per week should be performed at the first clinic visit of the week whenever possible.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Assessments at End of Study (Week 12) or Early Termination.",
+      "text": "Urine methamphetamine and creatinine, SUR, concomitant medications and medication compliance are to be assessed three times during the last week of the study medication administration period. All other assessments scheduled for study week 12 (Table 3) should be completed, ideally at the final scheduled study visit. When a subject discontinues prematurely, regardless of the reason, all Table 3 week 12 assessments are to be completed. This may require requesting the subject to return specifically for final assessments.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Assessments at Follow-up (Week 16).",
+      "text": "The follow-up visit should be scheduled to occur approximately 4 weeks after the final in-clinic examination during the study medication administration period as per Table 3. Overview of Study Assessments. At the follow-up visit, record only those AEs which are serious and clinically significant; these must then be followed to resolution.",
+      "appears_complete": true,
+      "attaches_to": []
+    }
+  ],
+  "unresolved": [],
+  "_model": "gpt-5"
+}

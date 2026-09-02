@@ -1,0 +1,121 @@
+{
+  "is_soa_page": false,
+  "is_footnote_page": true,
+  "footnotes": [
+    {
+      "marker": "*",
+      "text": "Screening and baseline assessments may be conducted concurrently, and both must be completed within 21-days prior to randomization.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "**",
+      "text": "Vital Signs and On-site Urine Toxicology Screen are both screening and baseline measures, and will serve as a possible basis for exclusion from study.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "***",
+      "text": "ASI and HRBS also serve as both screening and baseline measures, but will not be used as a basis for exclusion from study.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "****",
+      "text": "CBT to be conducted three times a week during 12-week study medication administration period.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "X-",
+      "text": "Vital signs are taken at each visit for the first three study weeks, then weekly thereafter, preferably at the first visit of the week.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Xb",
+      "text": "Once per week preferably at the first visit of the week. If the study physician has medical concerns, blood may be drawn again to assess blood chemistry (for example, liver enzymes). In addition, at weeks 4 and 8, if female, a urine pregnancy test will be performed.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "X*",
+      "text": "At the final scheduled study visit (preferably last visit of week 12) or if the subject discontinues prematurely. If the study physician has medical concerns, additional ECGs may be performed.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "X#",
+      "text": "AEs will be assessed and recorded by investigative staff nurse or physician or PIs designee at every visit.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "X^",
+      "text": "A study physician will meet with the subject once a week to review the AEs and to assess for any additional AEs.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "X‡",
+      "text": "If there is a clear indication that a participant will terminate early and not return for the termination interview, the ASI-Lite Follow-up interview should be conducted as soon as possible during any scheduled or unscheduled visit.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Xf",
+      "text": "The alcohol breathalyzer test will only be performed if the subject is suspected to be intoxicated at clinic visits in accordance with institutional and state regulations.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Xk",
+      "text": "On study day 1, prior to randomization.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Xh",
+      "text": "During screening/baseline, subjects will attend 2 60-minute early recovery skills sessions each week.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Xh",
+      "text": "Will be conducted weekly during screening/baseline.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Xl",
+      "text": "CANTABelect tests should be completed twice during the screening/baseline period. The IED test (Intra-Extra Dimensional Set Shifting) will only be done at week 12 or the termination visit, whichever comes first.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "Screening/Baseline Assessments.",
+      "text": "Prior to randomization, subjects will be screened to determine if they meet eligibility requirements. In addition, certain screening/baseline assessments that are part of determining eligibility will also provide physiological, psychological, and disease status information prior to randomization. Because the screening/baseline period can occur simultaneously, screening/baseline can be as short as 14 days or as long as 21 days. After completing the screening/baseline period and meeting all eligibility criteria, subjects can be randomized on Day 15 to Day 25 after informed consent. Subjects cannot be randomized on or before Day 14 and cannot be randomized after Day 25 (Table 3).\n\nScreening/baseline assessments to occur over a 14 to 21-day period will include the following:",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "1.",
+      "text": "Urine toxicology screen using an on-site testing device. Subjects must provide at least 4 urine specimens in the 14 to 21-day period, at least one of which must be positive for urine amphetamine or methamphetamine (> 500 ng/mL). Ideally, 3 of the specimens will be obtained in one week and 3 in the next week. No more than 4 of the specimens may be obtained in one week of the screening/baseline period and no more than two specimens can be collected on consecutive days.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "2.",
+      "text": "Urine methamphetamine plus creatinine measurements at a central laboratory. Note: These assays will be performed at a central laboratory only on the urine samples collected for the subjects who are randomized in the study.",
+      "appears_complete": true,
+      "attaches_to": []
+    }
+  ],
+  "unresolved": [
+    "Unclear whether the marker on 'Vital signs are taken...' is 'X-' or a letter (e.g., 'Xa').",
+    "Marker on 'CANTAB...' line may be 'Xl' (lowercase L) or 'XJ' (uppercase J).",
+    "Word 'CANTABelect' may actually read 'CANTAB select' or similar; letters are hard to read.",
+    "Duplicate 'Xh' markers may reflect different letters (e.g., 'Xi'); low-resolution image."
+  ],
+  "_model": "gpt-5"
+}

@@ -21,7 +21,7 @@ from .stitch import (merge_pages, to_graph, conservation_report,
                      split_spans, reconcile_across_tables)
 from .schema import SoAGraph
 
-ENGINES = ("vision", "gemini", "text-layer")
+ENGINES = ("vision", "gemini", "openai", "text-layer")
 
 
 def _extract_span(engine: str, pdf: str, pages: list[int], model: str | None):
@@ -30,6 +30,8 @@ def _extract_span(engine: str, pdf: str, pages: list[int], model: str | None):
         return extract_span(pdf, pages)
     if engine == "gemini":
         from .extract_gemini import extract_span, MODEL
+    elif engine == "openai":
+        from .extract_openai import extract_span, MODEL
     else:
         from .extract import extract_span, MODEL
     exs = extract_span(pdf, pages, model=model or MODEL)

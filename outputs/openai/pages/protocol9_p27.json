@@ -1,0 +1,835 @@
+{
+  "is_soa_page": true,
+  "title": "Schedule of Measures and Data Collection for Lofexidine Phase 3",
+  "continuation": {
+    "is_continuation": true,
+    "axis": "rows",
+    "evidence": "Table 4, Continued"
+  },
+  "column_headers": [
+    {
+      "level": 0,
+      "role": "label",
+      "cells": [
+        {
+          "text": "Study Day",
+          "span": 11,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "role": "day",
+      "cells": [
+        {
+          "text": "1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "4",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "5",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "7",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "8",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "9",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "10",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "11",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "index": 0,
+      "period": null,
+      "visit": null,
+      "day": "1",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Day 1"
+    },
+    {
+      "index": 1,
+      "period": null,
+      "visit": null,
+      "day": "2",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Day 2"
+    },
+    {
+      "index": 2,
+      "period": null,
+      "visit": null,
+      "day": "3",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Day 3"
+    },
+    {
+      "index": 3,
+      "period": null,
+      "visit": null,
+      "day": "4",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Day 4"
+    },
+    {
+      "index": 4,
+      "period": null,
+      "visit": null,
+      "day": "5",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Day 5"
+    },
+    {
+      "index": 5,
+      "period": null,
+      "visit": null,
+      "day": "6",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Day 6"
+    },
+    {
+      "index": 6,
+      "period": null,
+      "visit": null,
+      "day": "7",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Day 7"
+    },
+    {
+      "index": 7,
+      "period": null,
+      "visit": null,
+      "day": "8",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Day 8"
+    },
+    {
+      "index": 8,
+      "period": null,
+      "visit": null,
+      "day": "9",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Day 9"
+    },
+    {
+      "index": 9,
+      "period": null,
+      "visit": null,
+      "day": "10",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Day 10"
+    },
+    {
+      "index": 10,
+      "period": null,
+      "visit": null,
+      "day": "11",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Day 11"
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "kind": "category",
+      "label": "Secondary Outcome Measures:",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 1,
+      "kind": "assessment",
+      "label": "•Modified Himmelsbach (MHOWS) (13)",
+      "indent": 1,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 2,
+      "kind": "assessment",
+      "label": "Peak Effect Detox/Med Phase",
+      "indent": 2,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 3,
+      "kind": "assessment",
+      "label": "•Objective Opiate Withdrawal Scale (15) (OOWS Handelsman) (1000h)",
+      "indent": 1,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "assessment",
+      "label": "•Short Opiate Withdrawal Scale (16) (SOWS Gossop) (1000h)",
+      "indent": 1,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "assessment",
+      "label": "•Modified Clinical Global Impressions Scale - Patient (17) (NIMH MCGI) (1000h)",
+      "indent": 1,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "assessment",
+      "label": "•Modified Clinical Global Impressions Scale - Rater (18) (NIMH MCGI) (1000h)",
+      "indent": 1,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "assessment",
+      "label": "•Subjective Opiate Withdrawal Scale (19) (SOWS Handelsman) (1000h)",
+      "indent": 1,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "assessment",
+      "label": "•Visual Analog Scale (VAS-E) (20)- Efficacy of Medication for Reducing Withdrawal Sickness (1000h)",
+      "indent": 1,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "1X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "assessment",
+      "label": "Medication Administration/Concomitant Medications (21)",
+      "indent": 1,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "1X",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "assessment",
+      "label": "Drop Out Day (cf. End of Study Form (31) (Reason for Drop Out)",
+      "indent": 1,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 9,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        },
+        {
+          "column": 10,
+          "raw": "",
+          "markers": [],
+          "shaded": true,
+          "ambiguous": false
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "marker": null,
+      "text": "Form numbers may change (small print)",
+      "appears_complete": true,
+      "attaches_to": []
+    }
+  ],
+  "unresolved": [],
+  "_model": "gpt-5"
+}

@@ -1,0 +1,2919 @@
+{
+  "protocol": "protocol5",
+  "engine": "openai",
+  "model": null,
+  "n_pages": 61,
+  "tables": [
+    {
+      "protocol": "protocol5",
+      "table_id": "protocol5:soa0",
+      "pages": [
+        50
+      ],
+      "title": "Appendix I: Time and Events Schedule",
+      "nodes": [
+        {
+          "id": "protocol5:soa0:period:0",
+          "type": "period",
+          "label": "Pre-intake Screening",
+          "attrs": {},
+          "provenance": [],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:0",
+          "type": "visit",
+          "label": "Pre-intake Screening — Up to -35",
+          "attrs": {
+            "visit": null,
+            "day": "Up to -35",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:period:1",
+          "type": "period",
+          "label": "Intake Screening",
+          "attrs": {},
+          "provenance": [],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:1",
+          "type": "visit",
+          "label": "Intake Screening — -15* to -9",
+          "attrs": {
+            "visit": null,
+            "day": "-15* to -9",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:period:2",
+          "type": "period",
+          "label": "Screening Infusions",
+          "attrs": {},
+          "provenance": [],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:2",
+          "type": "visit",
+          "label": "Screening Infusions — -6",
+          "attrs": {
+            "visit": null,
+            "day": "-6",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:period:3",
+          "type": "period",
+          "label": "Baseline Infusions",
+          "attrs": {},
+          "provenance": [],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:3",
+          "type": "visit",
+          "label": "Baseline Infusions — -2",
+          "attrs": {
+            "visit": null,
+            "day": "-2",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:4",
+          "type": "visit",
+          "label": "Baseline Infusions — -1",
+          "attrs": {
+            "visit": null,
+            "day": "-1",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:period:4",
+          "type": "period",
+          "label": "Treatment Infusions",
+          "attrs": {},
+          "provenance": [],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:5",
+          "type": "visit",
+          "label": "Treatment Infusions — 7",
+          "attrs": {
+            "visit": null,
+            "day": "7",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:6",
+          "type": "visit",
+          "label": "Treatment Infusions — 8",
+          "attrs": {
+            "visit": null,
+            "day": "8",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:7",
+          "type": "visit",
+          "label": "Treatment Infusions — 12",
+          "attrs": {
+            "visit": null,
+            "day": "12",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:8",
+          "type": "visit",
+          "label": "Treatment Infusions — 13",
+          "attrs": {
+            "visit": null,
+            "day": "13",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:9",
+          "type": "visit",
+          "label": "Treatment Infusions — 17",
+          "attrs": {
+            "visit": null,
+            "day": "17",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:period:5",
+          "type": "period",
+          "label": "Dis-\ncharge",
+          "attrs": {},
+          "provenance": [],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:10",
+          "type": "visit",
+          "label": "Dis-\ncharge",
+          "attrs": {
+            "visit": null,
+            "day": "",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:period:6",
+          "type": "period",
+          "label": "Follow-up",
+          "attrs": {},
+          "provenance": [],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:visit:11",
+          "type": "visit",
+          "label": "Follow-up — 31",
+          "attrs": {
+            "visit": null,
+            "day": "31",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:0",
+          "type": "assessment",
+          "label": "Informed consent",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:1",
+          "type": "assessment",
+          "label": "Locator form/Demographics",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:2",
+          "type": "assessment",
+          "label": "Cocaine use by timeline follow-back",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:3",
+          "type": "assessment",
+          "label": "Breathalyzer test",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:4",
+          "type": "assessment",
+          "label": "12-lead ECG",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:5",
+          "type": "assessment",
+          "label": "SCID",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:6",
+          "type": "assessment",
+          "label": "Medical History",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:7",
+          "type": "assessment",
+          "label": "Physical Exam (complete)",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:8",
+          "type": "assessment",
+          "label": "Physical Exam (brief)",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:9",
+          "type": "assessment",
+          "label": "ASI-Lite",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:10",
+          "type": "assessment",
+          "label": "Vital Signs",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:11",
+          "type": "assessment",
+          "label": "Chemistries plus liver function tests**",
+          "attrs": {
+            "indent": 0,
+            "markers": [
+              "**"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:12",
+          "type": "assessment",
+          "label": "Hematology",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:13",
+          "type": "assessment",
+          "label": "Pregnancy Test****",
+          "attrs": {
+            "indent": 0,
+            "markers": [
+              "****"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:14",
+          "type": "assessment",
+          "label": "Infectious disease serology x",
+          "attrs": {
+            "indent": 0,
+            "markers": [
+              "x"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:15",
+          "type": "assessment",
+          "label": "Plasma alcohol",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:16",
+          "type": "assessment",
+          "label": "Urine toxicology screen",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:17",
+          "type": "assessment",
+          "label": "POMS, BSCS",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:18",
+          "type": "assessment",
+          "label": "Cognitive assessments****",
+          "attrs": {
+            "indent": 0,
+            "markers": [
+              "****"
+            ]
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:19",
+          "type": "assessment",
+          "label": "Atomoxetine or placebo",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:20",
+          "type": "assessment",
+          "label": "Atomoxetine blood levels",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:21",
+          "type": "assessment",
+          "label": "Adverse Events",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:22",
+          "type": "assessment",
+          "label": "Cocaine Infusion Session #",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:23",
+          "type": "assessment",
+          "label": "Saline/20 mg cocaine/40 mg cocaine i.v.",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:24",
+          "type": "assessment",
+          "label": "20 mg cocaine i.v.",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:25",
+          "type": "assessment",
+          "label": "40 mg cocaine i.v.",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:26",
+          "type": "assessment",
+          "label": "VAS",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:27",
+          "type": "assessment",
+          "label": "ARCI",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:28",
+          "type": "assessment",
+          "label": "Continuous BP, HR, ECG monitoring",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:29",
+          "type": "assessment",
+          "label": "BPRS",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0:asmt:30",
+          "type": "assessment",
+          "label": "Cocaine Blood PK",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 50,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        }
+      ],
+      "edges": [
+        {
+          "src": "protocol5:soa0:visit:0",
+          "dst": "protocol5:soa0:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:visit:1",
+          "dst": "protocol5:soa0:period:1",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:visit:2",
+          "dst": "protocol5:soa0:period:2",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:visit:3",
+          "dst": "protocol5:soa0:period:3",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:visit:4",
+          "dst": "protocol5:soa0:period:3",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:visit:5",
+          "dst": "protocol5:soa0:period:4",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:visit:6",
+          "dst": "protocol5:soa0:period:4",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:visit:7",
+          "dst": "protocol5:soa0:period:4",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:visit:8",
+          "dst": "protocol5:soa0:period:4",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:visit:9",
+          "dst": "protocol5:soa0:period:4",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:visit:10",
+          "dst": "protocol5:soa0:period:5",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0:visit:11",
+          "dst": "protocol5:soa0:period:6",
+          "type": "visit_in_period",
+          "attrs": {}
+        }
+      ],
+      "warnings": [
+        "CONSERVATION: 4 markers were read off the page but none bound to a footnote. Every footnote qualifier on this table is lost.",
+        "located by: 101 cell-like tokens; 27 repeated column positions, 92% of rows; 1339 ruling lines; landscape page",
+        "p50: Most per-visit cell values are illegible at the provided resolution; visit-level entries for each row could not be read with confidence. A higher-resolution image is required to transcribe the X/blank/shaded patterns and any superscript markers in cells.",
+        "p50: Exact placement of ‘Cocaine Infusion Session #’ values (e.g., “1&2”, “3–8”) across columns is unclear in this scan.",
+        "marker '**' on assessment 'Chemistries plus liver functio' matches no footnote",
+        "marker '****' on assessment 'Pregnancy Test****' matches no footnote",
+        "marker 'x' on assessment 'Infectious disease serology x' matches no footnote",
+        "marker '****' on assessment 'Cognitive assessments****' matches no footnote"
+      ],
+      "discarded": 0
+    },
+    {
+      "protocol": "protocol5",
+      "table_id": "protocol5:soa0.1",
+      "pages": [
+        51
+      ],
+      "title": "APPENDIX II: Schedule of Blood Collections",
+      "nodes": [
+        {
+          "id": "protocol5:soa0.1:visit:0",
+          "type": "visit",
+          "label": "Analysis",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:1",
+          "type": "visit",
+          "label": "Volume Per Sample",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:2",
+          "type": "visit",
+          "label": "Type",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:period:0",
+          "type": "period",
+          "label": "Number of Samples per Day",
+          "attrs": {},
+          "provenance": [],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:3",
+          "type": "visit",
+          "label": "Screening",
+          "attrs": {
+            "visit": null,
+            "day": "Screening",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:4",
+          "type": "visit",
+          "label": "D-8",
+          "attrs": {
+            "visit": null,
+            "day": "D-8",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:5",
+          "type": "visit",
+          "label": "D-1",
+          "attrs": {
+            "visit": null,
+            "day": "D-1",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:6",
+          "type": "visit",
+          "label": "D1",
+          "attrs": {
+            "visit": null,
+            "day": "D1",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:7",
+          "type": "visit",
+          "label": "D2",
+          "attrs": {
+            "visit": null,
+            "day": "D2",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:8",
+          "type": "visit",
+          "label": "D3",
+          "attrs": {
+            "visit": null,
+            "day": "D3",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:9",
+          "type": "visit",
+          "label": "D6",
+          "attrs": {
+            "visit": null,
+            "day": "D6",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:10",
+          "type": "visit",
+          "label": "D8",
+          "attrs": {
+            "visit": null,
+            "day": "D8",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:11",
+          "type": "visit",
+          "label": "D11",
+          "attrs": {
+            "visit": null,
+            "day": "D11",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:12",
+          "type": "visit",
+          "label": "D13",
+          "attrs": {
+            "visit": null,
+            "day": "D13",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:13",
+          "type": "visit",
+          "label": "D17",
+          "attrs": {
+            "visit": null,
+            "day": "D17",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:14",
+          "type": "visit",
+          "label": "D31",
+          "attrs": {
+            "visit": null,
+            "day": "D31",
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:visit:15",
+          "type": "visit",
+          "label": "Total Volume",
+          "attrs": {
+            "visit": null,
+            "day": null,
+            "week": null,
+            "window": null
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:asmt:0",
+          "type": "assessment",
+          "label": "Chemistries plus liver function tests",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:0:1",
+          "type": "cell",
+          "label": "10 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:0:2",
+          "type": "cell",
+          "label": "S",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:0:4",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:0:5",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:0:8",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:0:11",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:0:12",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:0:13",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:0:15",
+          "type": "cell",
+          "label": "60 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:asmt:1",
+          "type": "assessment",
+          "label": "Hematology",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:1:1",
+          "type": "cell",
+          "label": "10 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:1:2",
+          "type": "cell",
+          "label": "P",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:1:3",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:1:12",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:1:13",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:1:15",
+          "type": "cell",
+          "label": "30 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:asmt:2",
+          "type": "assessment",
+          "label": "Infectious disease serology",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:2:1",
+          "type": "cell",
+          "label": "10 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:2:2",
+          "type": "cell",
+          "label": "S",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:2:3",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:2:15",
+          "type": "cell",
+          "label": "10 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:asmt:3",
+          "type": "assessment",
+          "label": "PK Samples for cocaine",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:3:1",
+          "type": "cell",
+          "label": "5 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:3:2",
+          "type": "cell",
+          "label": "P",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:3:6",
+          "type": "cell",
+          "label": "15",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:3:8",
+          "type": "cell",
+          "label": "15",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:3:11",
+          "type": "cell",
+          "label": "15",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:3:15",
+          "type": "cell",
+          "label": "225 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:asmt:4",
+          "type": "assessment",
+          "label": "PK Samples for Atomoxetine",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:4:1",
+          "type": "cell",
+          "label": "5 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:4:2",
+          "type": "cell",
+          "label": "P",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:4:7",
+          "type": "cell",
+          "label": "2",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:4:9",
+          "type": "cell",
+          "label": "2",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:4:10",
+          "type": "cell",
+          "label": "2",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:4:12",
+          "type": "cell",
+          "label": "2",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:4:15",
+          "type": "cell",
+          "label": "40 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:asmt:5",
+          "type": "assessment",
+          "label": "Pregnancy Test",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:5:1",
+          "type": "cell",
+          "label": "5 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:5:2",
+          "type": "cell",
+          "label": "S",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:5:3",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:5:4",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:5:13",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:5:14",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": true,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:5:15",
+          "type": "cell",
+          "label": "20 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:asmt:6",
+          "type": "assessment",
+          "label": "Alcohol Test",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:6:1",
+          "type": "cell",
+          "label": "5 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:6:2",
+          "type": "cell",
+          "label": "P",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:6:14",
+          "type": "cell",
+          "label": "1",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:6:15",
+          "type": "cell",
+          "label": "5 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:asmt:7",
+          "type": "assessment",
+          "label": "Total",
+          "attrs": {
+            "indent": 0,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:cell:7:15",
+          "type": "cell",
+          "label": "390 mL",
+          "attrs": {
+            "shaded": false,
+            "markers": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:fn:0",
+          "type": "footnote",
+          "label": "S = serum, P = plasma",
+          "attrs": {
+            "marker": "a",
+            "complete": true,
+            "continued_on": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        },
+        {
+          "id": "protocol5:soa0.1:fn:1",
+          "type": "footnote",
+          "label": "D = day",
+          "attrs": {
+            "marker": "b",
+            "complete": true,
+            "continued_on": []
+          },
+          "provenance": [
+            {
+              "page": 51,
+              "bbox": null,
+              "source": "openai"
+            }
+          ],
+          "ambiguous": false,
+          "note": ""
+        }
+      ],
+      "edges": [
+        {
+          "src": "protocol5:soa0.1:visit:3",
+          "dst": "protocol5:soa0.1:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:visit:4",
+          "dst": "protocol5:soa0.1:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:visit:5",
+          "dst": "protocol5:soa0.1:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:visit:6",
+          "dst": "protocol5:soa0.1:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:visit:7",
+          "dst": "protocol5:soa0.1:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:visit:8",
+          "dst": "protocol5:soa0.1:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:visit:9",
+          "dst": "protocol5:soa0.1:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:visit:10",
+          "dst": "protocol5:soa0.1:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:visit:11",
+          "dst": "protocol5:soa0.1:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:visit:12",
+          "dst": "protocol5:soa0.1:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:visit:13",
+          "dst": "protocol5:soa0.1:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:visit:14",
+          "dst": "protocol5:soa0.1:period:0",
+          "type": "visit_in_period",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:1",
+          "dst": "protocol5:soa0.1:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:1",
+          "dst": "protocol5:soa0.1:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:2",
+          "dst": "protocol5:soa0.1:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:2",
+          "dst": "protocol5:soa0.1:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:4",
+          "dst": "protocol5:soa0.1:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:4",
+          "dst": "protocol5:soa0.1:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:5",
+          "dst": "protocol5:soa0.1:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:5",
+          "dst": "protocol5:soa0.1:visit:5",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:8",
+          "dst": "protocol5:soa0.1:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:8",
+          "dst": "protocol5:soa0.1:visit:8",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:11",
+          "dst": "protocol5:soa0.1:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:11",
+          "dst": "protocol5:soa0.1:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:12",
+          "dst": "protocol5:soa0.1:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:12",
+          "dst": "protocol5:soa0.1:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:13",
+          "dst": "protocol5:soa0.1:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:13",
+          "dst": "protocol5:soa0.1:visit:13",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:15",
+          "dst": "protocol5:soa0.1:asmt:0",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:0:15",
+          "dst": "protocol5:soa0.1:visit:15",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:1:1",
+          "dst": "protocol5:soa0.1:asmt:1",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:1:1",
+          "dst": "protocol5:soa0.1:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:1:2",
+          "dst": "protocol5:soa0.1:asmt:1",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:1:2",
+          "dst": "protocol5:soa0.1:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:1:3",
+          "dst": "protocol5:soa0.1:asmt:1",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:1:3",
+          "dst": "protocol5:soa0.1:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:1:12",
+          "dst": "protocol5:soa0.1:asmt:1",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:1:12",
+          "dst": "protocol5:soa0.1:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:1:13",
+          "dst": "protocol5:soa0.1:asmt:1",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:1:13",
+          "dst": "protocol5:soa0.1:visit:13",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:1:15",
+          "dst": "protocol5:soa0.1:asmt:1",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:1:15",
+          "dst": "protocol5:soa0.1:visit:15",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:2:1",
+          "dst": "protocol5:soa0.1:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:2:1",
+          "dst": "protocol5:soa0.1:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:2:2",
+          "dst": "protocol5:soa0.1:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:2:2",
+          "dst": "protocol5:soa0.1:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:2:3",
+          "dst": "protocol5:soa0.1:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:2:3",
+          "dst": "protocol5:soa0.1:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:2:15",
+          "dst": "protocol5:soa0.1:asmt:2",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:2:15",
+          "dst": "protocol5:soa0.1:visit:15",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:3:1",
+          "dst": "protocol5:soa0.1:asmt:3",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:3:1",
+          "dst": "protocol5:soa0.1:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:3:2",
+          "dst": "protocol5:soa0.1:asmt:3",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:3:2",
+          "dst": "protocol5:soa0.1:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:3:6",
+          "dst": "protocol5:soa0.1:asmt:3",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:3:6",
+          "dst": "protocol5:soa0.1:visit:6",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:3:8",
+          "dst": "protocol5:soa0.1:asmt:3",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:3:8",
+          "dst": "protocol5:soa0.1:visit:8",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:3:11",
+          "dst": "protocol5:soa0.1:asmt:3",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:3:11",
+          "dst": "protocol5:soa0.1:visit:11",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:3:15",
+          "dst": "protocol5:soa0.1:asmt:3",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:3:15",
+          "dst": "protocol5:soa0.1:visit:15",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:1",
+          "dst": "protocol5:soa0.1:asmt:4",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:1",
+          "dst": "protocol5:soa0.1:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:2",
+          "dst": "protocol5:soa0.1:asmt:4",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:2",
+          "dst": "protocol5:soa0.1:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:7",
+          "dst": "protocol5:soa0.1:asmt:4",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:7",
+          "dst": "protocol5:soa0.1:visit:7",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:9",
+          "dst": "protocol5:soa0.1:asmt:4",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:9",
+          "dst": "protocol5:soa0.1:visit:9",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:10",
+          "dst": "protocol5:soa0.1:asmt:4",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:10",
+          "dst": "protocol5:soa0.1:visit:10",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:12",
+          "dst": "protocol5:soa0.1:asmt:4",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:12",
+          "dst": "protocol5:soa0.1:visit:12",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:15",
+          "dst": "protocol5:soa0.1:asmt:4",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:4:15",
+          "dst": "protocol5:soa0.1:visit:15",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:1",
+          "dst": "protocol5:soa0.1:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:1",
+          "dst": "protocol5:soa0.1:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:2",
+          "dst": "protocol5:soa0.1:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:2",
+          "dst": "protocol5:soa0.1:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:3",
+          "dst": "protocol5:soa0.1:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:3",
+          "dst": "protocol5:soa0.1:visit:3",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:4",
+          "dst": "protocol5:soa0.1:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:4",
+          "dst": "protocol5:soa0.1:visit:4",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:13",
+          "dst": "protocol5:soa0.1:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:13",
+          "dst": "protocol5:soa0.1:visit:13",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:14",
+          "dst": "protocol5:soa0.1:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:14",
+          "dst": "protocol5:soa0.1:visit:14",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:15",
+          "dst": "protocol5:soa0.1:asmt:5",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:5:15",
+          "dst": "protocol5:soa0.1:visit:15",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:6:1",
+          "dst": "protocol5:soa0.1:asmt:6",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:6:1",
+          "dst": "protocol5:soa0.1:visit:1",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:6:2",
+          "dst": "protocol5:soa0.1:asmt:6",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:6:2",
+          "dst": "protocol5:soa0.1:visit:2",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:6:14",
+          "dst": "protocol5:soa0.1:asmt:6",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:6:14",
+          "dst": "protocol5:soa0.1:visit:14",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:6:15",
+          "dst": "protocol5:soa0.1:asmt:6",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:6:15",
+          "dst": "protocol5:soa0.1:visit:15",
+          "type": "cell_at_visit",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:7:15",
+          "dst": "protocol5:soa0.1:asmt:7",
+          "type": "cell_of_assessment",
+          "attrs": {}
+        },
+        {
+          "src": "protocol5:soa0.1:cell:7:15",
+          "dst": "protocol5:soa0.1:visit:15",
+          "type": "cell_at_visit",
+          "attrs": {}
+        }
+      ],
+      "warnings": [
+        "located by: 101 cell-like tokens; 27 repeated column positions, 92% of rows; 1339 ruling lines; landscape page",
+        "p51: Exact day placement for one '2' in 'PK Samples for Atomoxetine' and some '1' entries in 'Pregnancy Test' not perfectly legible in scan."
+      ],
+      "discarded": 0
+    }
+  ],
+  "stats": [
+    {
+      "periods": 7,
+      "visits": 12,
+      "categories": 0,
+      "assessments": 31,
+      "cells": 0,
+      "footnotes": 0,
+      "footnote_links": 0,
+      "ambiguous": 0,
+      "warnings": 8,
+      "conservation": 1
+    },
+    {
+      "periods": 1,
+      "visits": 16,
+      "categories": 0,
+      "assessments": 8,
+      "cells": 44,
+      "footnotes": 2,
+      "footnote_links": 0,
+      "ambiguous": 4,
+      "warnings": 2,
+      "conservation": 0
+    }
+  ],
+  "seconds": 201.6
+}

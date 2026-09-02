@@ -1,0 +1,977 @@
+{
+  "is_soa_page": true,
+  "title": "Protocol Attachment LZZT.1 Schedule of Events for Protocol H2Q-MC-LZZT(c)",
+  "continuation": {
+    "is_continuation": false,
+    "axis": null,
+    "evidence": ""
+  },
+  "column_headers": [
+    {
+      "level": 0,
+      "role": "visit",
+      "cells": [
+        {
+          "text": "1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "4",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "5",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "7",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "8",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "role": "week",
+      "cells": [
+        {
+          "text": "-2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "-.3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "0",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "4",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "8",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "index": 0,
+      "period": null,
+      "visit": "1",
+      "day": null,
+      "week": "-2",
+      "window": null,
+      "markers": [],
+      "label": "Visit 1 / Week -2"
+    },
+    {
+      "index": 1,
+      "period": null,
+      "visit": "2",
+      "day": null,
+      "week": "-.3",
+      "window": null,
+      "markers": [],
+      "label": "Visit 2 / Week -.3"
+    },
+    {
+      "index": 2,
+      "period": null,
+      "visit": "3",
+      "day": null,
+      "week": "0",
+      "window": null,
+      "markers": [],
+      "label": "Visit 3 / Week 0"
+    },
+    {
+      "index": 3,
+      "period": null,
+      "visit": "4",
+      "day": null,
+      "week": "2",
+      "window": null,
+      "markers": [],
+      "label": "Visit 4 / Week 2"
+    },
+    {
+      "index": 4,
+      "period": null,
+      "visit": "5",
+      "day": null,
+      "week": "4",
+      "window": null,
+      "markers": [],
+      "label": "Visit 5 / Week 4"
+    },
+    {
+      "index": 5,
+      "period": null,
+      "visit": "7",
+      "day": null,
+      "week": "6",
+      "window": null,
+      "markers": [],
+      "label": "Visit 7 / Week 6"
+    },
+    {
+      "index": 6,
+      "period": null,
+      "visit": "8",
+      "day": null,
+      "week": "8",
+      "window": null,
+      "markers": [],
+      "label": "Visit 8 / Week 8"
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "kind": "assessment",
+      "label": "Informed consent",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "assessment",
+      "label": "Patient number assigned",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "assessment",
+      "label": "Hachinski \u00144",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "assessment",
+      "label": "MMSE 10-23",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "assessment",
+      "label": "Physical examination",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "assessment",
+      "label": "Medical History",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "assessment",
+      "label": "Habits",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "assessment",
+      "label": "Chest x-ray",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "assessment",
+      "label": "Apo E genotyping",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "assessment",
+      "label": "Patient randomized",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "assessment",
+      "label": "Vital signs/Temperature",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "assessment",
+      "label": "Ambulatory ECG placed",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "assessment",
+      "label": "Ambulatory ECG removed",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "assessment",
+      "label": "ECG",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "assessment",
+      "label": "Placebo TTS test",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "assessment",
+      "label": "CT Scan (if not within last year and patient passes all other screens)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "assessment",
+      "label": "Concomitant Medications",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "assessment",
+      "label": "Laboratory (Chem/Hemat):",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "kind": "assessment",
+      "label": "Laboratory (Urinalysis)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "assessment",
+      "label": "Plasma Specimen (Xanomeline)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 20,
+      "kind": "assessment",
+      "label": "Hemoglobin A1C",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "Xa",
+          "markers": [
+            "a"
+          ],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 21,
+      "kind": "assessment",
+      "label": "Study drug record",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 22,
+      "kind": "assessment",
+      "label": "Medications dispensed",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 23,
+      "kind": "assessment",
+      "label": "Medications returned",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 24,
+      "kind": "assessment",
+      "label": "TTS Acceptability Survey",
+      "indent": 0,
+      "markers": [],
+      "cells": []
+    },
+    {
+      "index": 25,
+      "kind": "assessment",
+      "label": "ADAS-Cog",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "P",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 26,
+      "kind": "assessment",
+      "label": "CIBIC+",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "P",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 27,
+      "kind": "assessment",
+      "label": "DAD",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "P",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 28,
+      "kind": "assessment",
+      "label": "NPI-X",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "P",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "Xb",
+          "markers": [
+            "b"
+          ],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 29,
+      "kind": "assessment",
+      "label": "Adverse events",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "marker": "Abbreviations",
+      "text": "Abbreviations: CT = computed tomography; ECG = electrocardiogram",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "X",
+      "text": "X = Performed at this visit.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "a",
+      "text": "Xa = Performed at this visit if patient is an insulin-dependent diabetic.",
+      "appears_complete": true,
+      "attaches_to": [
+        {
+          "kind": "cell",
+          "row": 20,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "marker": "b",
+      "text": "Xb = Performed at this visit and via telephone interview 2 weeks following this visit.",
+      "appears_complete": true,
+      "attaches_to": [
+        {
+          "kind": "cell",
+          "row": 28,
+          "column": 6
+        }
+      ]
+    },
+    {
+      "marker": "P",
+      "text": "P = Practice only - It is recommended that a sampling of the CIBIC+, ADAS-Cog, DAD, and NPI-X be administered at Visit 1. Data from this sampling would not be considered as study data and would not be collected.",
+      "appears_complete": true,
+      "attaches_to": []
+    }
+  ],
+  "unresolved": [
+    "WEEK header for Visit 2 appears as '-.3' and may be '-3'.",
+    "Exact columns for X in rows: Apo E genotyping; Patient randomized; Ambulatory ECG removed; ECG; Placebo TTS test; Concomitant Medications; Laboratory (Chem/Hemat); Laboratory (Urinalysis); Plasma Specimen (Xanomeline); Adverse events."
+  ],
+  "_model": "gpt-5"
+}
