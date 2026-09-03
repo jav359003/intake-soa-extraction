@@ -1,0 +1,104 @@
+{
+  "is_soa_page": false,
+  "is_footnote_page": true,
+  "footnotes": [
+    {
+      "marker": "1)",
+      "text": "The treatment phase continues until the patient is withdrawn from Sym004 (As of Amendment 3)",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "2)",
+      "text": "Screening assessments include demographics, medical history, tumor history, mutation status, extent of disease, prior anti-cancer treatment etc.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "3)",
+      "text": "Applicable for dose-escalation only: DLTs are reported during Cycle 1 with final assessment on scheduled first day of Cycle 2, prior to dosing",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "4)",
+      "text": "In addition to the scheduled ECGs, an ECG should be performed in the event of ≥ Grade 3 hypomagnesemia and if otherwise clinically indicated. Furthermore, in the event of QT prolongation, an ECG is to be performed prior to the next dose of Sym004",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "5)",
+      "text": "Local laboratory results must be available and assessed no later than 2 days prior to each Sym004/FOLFIRI infusion. Refer to Table 16 for further details",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "6)",
+      "text": "Sample is to be taken only after patient eligibility has been confirmed",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "7)",
+      "text": "A tumor biopsy must be performed, if archived tumor tissue is not available for central evaluation of biomarkers, RAS mutations (KRAS and NRAS, exon 2, 3, 4).",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "8)",
+      "text": "Tumor Marker, Carcinoembryonic Antigen (CEA), completed at EOT if > 3 weeks since previous evaluation; at 1M FUP (if PD was not documented before or at EOT)",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "9)",
+      "text": "CT or MRI imaging schedule and conditions, applying to all cohorts:\n• The first CT/MRI assessment for response is done at the end of Cycle 2 and thereafter repeated at the end of every second cycle.\n• In the event of suspected PD, a CT/MRI is to be performed as soon as possible\n• In the event of CR/PR, a confirmatory CT/MRI is to be performed no earlier than 28 days after the first assessment of CR/PR",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "10)",
+      "text": "A CT/MRI at EOT should only be performed if the previous CT/MRI has been performed > 3 weeks before; a CT/MRI scan at 1M FUP should only be performed if no CT/MRI documents disease progression before or at EOT",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "11)",
+      "text": "*Applicable for dose-escalation only: Extended PK sampling for PK profiling will be done for Day 1 (C1/D1) and in relation to the 4th Sym004 infusion (scheduled for C2/D15). For all other visits with PK sampling, blood samples are taken prior to and at the end of each infusion. Refer to Table 17 for further details",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "12)",
+      "text": "*A biomarker blood and urine sample is taken during screening after patient eligibility has been confirmed. Sampling is repeated at the end of Cycle 2, or upon PD whichever occurs first, and at EOT",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "13)",
+      "text": "Prophylactic treatment with an oral antibiotic and a topical steroid until end of Cycle 2 followed by comprehensive treatment of skin toxicities",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "14)",
+      "text": "Prior to the first 2 infusions with Sym004 patients will receive glucocorticoid therapy and an antihistamine. For infusion following Cycle 1, pre-medication is at the Investigators discretion",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "15)",
+      "text": "Patients will receive prophylactic treatment for nausea and vomiting according to institutional standards, and all patients will be treated with loperamide in an effort to prevent diarrhea during Cycle 1. Prophylaxis with loperamide may be continued beyond Cycle 1 at the Investigator’s discretion.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "*",
+      "text": "Omitted with Amendment 3",
+      "appears_complete": true,
+      "attaches_to": []
+    }
+  ],
+  "unresolved": [],
+  "_model": "gpt-5"
+}

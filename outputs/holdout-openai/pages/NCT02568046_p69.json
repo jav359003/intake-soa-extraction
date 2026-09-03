@@ -1,0 +1,38 @@
+{
+  "is_soa_page": false,
+  "is_footnote_page": true,
+  "footnotes": [
+    {
+      "marker": null,
+      "text": "• Each cycle thereafter\na. Day 1 and 15 (prior to dosing)\n• EOT\n• 1M FUP\n• As clinically indicated",
+      "appears_complete": false,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "8.2.9.4 Urinalysis\n\nMulti-parameter chemical test strips are acceptable and should include assessment of: Specific gravity, pH, protein, glucose, ketones, leukocyte esterase, nitrite, bilirubin, and urobilinogen.\n\n• Screening\n• Cycle 1\na. Day 1 and 15 (prior to dosing)\n• Day 1 of each cycle thereafter (prior dosing)\n• EOT\n• 1M FUP\n• As clinically indicated",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "8.2.9.5 Pregnancy Test\n\nSerum human Chorionic Gonadotropin (β-hCG) at screening, urine β-hCG thereafter, in women of childbearing potential.\n\n• Screening\n• EOT\n• As clinically indicated\n\nWomen are considered of childbearing potential unless they have been hysterectomized, have undergone tubal ligation or have been postmenopausal for at least one year.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "8.3 Disease Assessments",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "8.3.1 Tumor Marker Evaluation\n\nTo include Carcinoembryonic Antigen (CEA). Will be performed at a laboratory facility local to the trial site.\n\n• Screening\n• End of Cycle 2 and end of every second cycle thereafter, i.e. Cycle 4, 6, 8 etc.",
+      "appears_complete": true,
+      "attaches_to": []
+    }
+  ],
+  "unresolved": [],
+  "_model": "gpt-5"
+}

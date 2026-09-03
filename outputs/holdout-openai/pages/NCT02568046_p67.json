@@ -1,0 +1,587 @@
+{
+  "is_soa_page": true,
+  "title": "Table 16  Schedule of Safety Blood and Urine Samples",
+  "continuation": {
+    "is_continuation": false,
+    "axis": null,
+    "evidence": ""
+  },
+  "column_headers": [
+    {
+      "level": 0,
+      "role": "period",
+      "cells": [
+        {
+          "text": "Screening",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Cycle 1",
+          "span": 4,
+          "markers": []
+        },
+        {
+          "text": "Cycles Thereafter",
+          "span": 2,
+          "markers": []
+        },
+        {
+          "text": "EOT",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "1M FUP",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "role": "label",
+      "cells": [
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Day within Cycle",
+          "span": 6,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "role": "day",
+      "cells": [
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D8",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D15",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D22",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D15",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "index": 0,
+      "period": "Screening",
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Screening"
+    },
+    {
+      "index": 1,
+      "period": "Cycle 1",
+      "visit": null,
+      "day": "D1",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Cycle 1 D1"
+    },
+    {
+      "index": 2,
+      "period": "Cycle 1",
+      "visit": null,
+      "day": "D8",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Cycle 1 D8"
+    },
+    {
+      "index": 3,
+      "period": "Cycle 1",
+      "visit": null,
+      "day": "D15",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Cycle 1 D15"
+    },
+    {
+      "index": 4,
+      "period": "Cycle 1",
+      "visit": null,
+      "day": "D22",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Cycle 1 D22"
+    },
+    {
+      "index": 5,
+      "period": "Cycles Thereafter",
+      "visit": null,
+      "day": "D1",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Cycles Thereafter D1"
+    },
+    {
+      "index": 6,
+      "period": "Cycles Thereafter",
+      "visit": null,
+      "day": "D15",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Cycles Thereafter D15"
+    },
+    {
+      "index": 7,
+      "period": "EOT",
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "EOT"
+    },
+    {
+      "index": 8,
+      "period": "1M FUP",
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "1M FUP"
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "kind": "assessment",
+      "label": "Hematology Panel",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "assessment",
+      "label": "Biochemistry Panel",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "assessment",
+      "label": "Coagulation Panel",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 8,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "assessment",
+      "label": "Urinalysis",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "assessment",
+      "label": "Pregnancy Test",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "marker": null,
+      "text": "Abbreviations (in alphabetical order): D, day; EOT, End of Treatment Visit; 1M FUP, One Month Follow-up Visit",
+      "appears_complete": true,
+      "attaches_to": []
+    }
+  ],
+  "unresolved": [
+    "Exact values for Urinalysis across all columns could not be read; cells marked '?'",
+    "Pregnancy Test schedule beyond Screening could not be read; cells marked '?'",
+    "Placement/span of the header label 'Day within Cycle' inferred from layout"
+  ],
+  "_model": "gpt-5"
+}

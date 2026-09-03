@@ -1,0 +1,17 @@
+{
+  "is_soa_page": true,
+  "title": "Table 1: Schedule of Assessments",
+  "continuation": {
+    "is_continuation": false,
+    "axis": null,
+    "evidence": "Title shows 'Table 1: Schedule of Assessments' without 'Continued'."
+  },
+  "column_headers": [],
+  "columns": [],
+  "rows": [],
+  "footnotes": [],
+  "unresolved": [
+    "The entire Schedule of Assessments grid on this page is fully redacted/illegible; no column headers, rows, cells, or markers can be read."
+  ],
+  "_model": "gpt-5"
+}

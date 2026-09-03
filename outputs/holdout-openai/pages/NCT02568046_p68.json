@@ -1,0 +1,26 @@
+{
+  "is_soa_page": false,
+  "is_footnote_page": true,
+  "footnotes": [
+    {
+      "marker": null,
+      "text": "a. Day 1 and 15 (prior to dosing)\n\n• EOT\n\n• 1M FUP\n\n• As clinically indicated\n\nIn the event of hematologic toxicity, the evaluation frequency should be increased to include additional evaluations between scheduled assessments, as clinically indicated.",
+      "appears_complete": false,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "8.2.9.2 Biochemistry Panel\n\nTo include, if applicable, sodium, potassium, chloride, bicarbonate or carbon dioxide, Blood Urea Nitrogen (BUN), creatinine, glucose, bilirubin [total and direct], AST, ALT, Alkaline Phosphatase (ALP), calcium, magnesium, phosphorus, albumin, total protein, uric acid, amylase, lipase, and Creatine Kinase (CK). Clinically significant electrolyte abnormalities should be corrected prior to dosing.\n\n• Screening\n\n• Cycle 1\n\na. Day 1 and 15 (prior to dosing)\n\nb. Day 8 and 22\n\n• Each cycle thereafter\n\na. Day 1 and 15 (prior to dosing)\n\n• EOT\n\n• 1M FUP\n\n• As clinically indicated\n\nIn the event of significant biochemistry analyte abnormalities, the evaluation frequency should be increased to include additional evaluations between the scheduled assessments, as clinically indicated. In the event of CK abnormalities, isoenzyme analysis should be performed.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "8.2.9.3 Coagulation Panel\n\nTo include PT, PTT and INR.\n\n• Screening\n\n• Cycle 1\n\na. Day 1 and 15 (prior to dosing)\n\nb. Day 8 and 22",
+      "appears_complete": false,
+      "attaches_to": []
+    }
+  ],
+  "unresolved": [],
+  "_model": "gpt-5"
+}

@@ -1,0 +1,510 @@
+{
+  "is_soa_page": true,
+  "title": "Table 17 Schedule of Pharmacokinetic Assessments",
+  "continuation": {
+    "is_continuation": false,
+    "axis": null,
+    "evidence": ""
+  },
+  "column_headers": [
+    {
+      "level": 0,
+      "role": "period",
+      "cells": [
+        {
+          "text": "Window",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Cycle 1",
+          "span": 2,
+          "markers": []
+        },
+        {
+          "text": "Cycle 2",
+          "span": 2,
+          "markers": []
+        },
+        {
+          "text": "Cycles Thereafter",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "EOT",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "1M FUP",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "role": "visit",
+      "cells": [
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D15",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D15",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "D1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "index": 0,
+      "period": "Window",
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Window"
+    },
+    {
+      "index": 1,
+      "period": "Cycle 1",
+      "visit": "D1",
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Cycle 1 D1"
+    },
+    {
+      "index": 2,
+      "period": "Cycle 1",
+      "visit": "D15",
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Cycle 1 D15"
+    },
+    {
+      "index": 3,
+      "period": "Cycle 2",
+      "visit": "D1",
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Cycle 2 D1"
+    },
+    {
+      "index": 4,
+      "period": "Cycle 2",
+      "visit": "D15",
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Cycle 2 D15"
+    },
+    {
+      "index": 5,
+      "period": "Cycles Thereafter",
+      "visit": "D1",
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Cycles Thereafter D1"
+    },
+    {
+      "index": 6,
+      "period": "EOT",
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "EOT"
+    },
+    {
+      "index": 7,
+      "period": "1M FUP",
+      "visit": null,
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "1M FUP"
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "kind": "assessment",
+      "label": "SOI",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "- 4 h",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X1",
+          "markers": [
+            "1"
+          ],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X1,2",
+          "markers": [
+            "1",
+            "2"
+          ],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X1",
+          "markers": [
+            "1"
+          ],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "assessment",
+      "label": "EOI",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "+ 10 min",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 3,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 4,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 5,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "assessment",
+      "label": "EOI + 1 h",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "+/- 15 min",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "assessment",
+      "label": "EOI + 2 h",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "+/- 30 min",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "assessment",
+      "label": "EOI + 4 h",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "+/- 30 min",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "assessment",
+      "label": "EOI + 24 h",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "+/- 6 h",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "assessment",
+      "label": "EOI + 48 h",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "+/- 12 h",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 1,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 2,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "assessment",
+      "label": "During Visit",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "NA",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 6,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        },
+        {
+          "column": 7,
+          "raw": "X",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": false
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "marker": null,
+      "text": "Abbreviations (in alphabetical order): D, day; EOI, End of Infusion, EOT, End of Treatment Visit; NA, Not Applicable; h, hour; min, minutes; 1M FUP, One Month Follow-up Visit; SOI, Start of Infusion",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "1",
+      "text": "If Sym004 is paused, only one PK sample should be taken during the visit",
+      "appears_complete": true,
+      "attaches_to": [
+        {
+          "kind": "cell",
+          "row": 0,
+          "column": 3
+        },
+        {
+          "kind": "cell",
+          "row": 0,
+          "column": 4
+        },
+        {
+          "kind": "cell",
+          "row": 0,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "marker": "2",
+      "text": "If Sym004 is paused, the scheduled extended PK profile samples (i.e. additional timepoints EOI + 1, 2, 4, 24 and 48 hours) should be postponed until the 4th administration of Sym004 takes place",
+      "appears_complete": true,
+      "attaches_to": [
+        {
+          "kind": "cell",
+          "row": 0,
+          "column": 4
+        }
+      ]
+    }
+  ],
+  "unresolved": [],
+  "_model": "gpt-5"
+}

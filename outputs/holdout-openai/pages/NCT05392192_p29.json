@@ -1,0 +1,17 @@
+{
+  "is_soa_page": true,
+  "title": null,
+  "continuation": {
+    "is_continuation": true,
+    "axis": "rows",
+    "evidence": "Schedule of Activities continues from adjacent pages; the grid on this page is fully obscured/illegible."
+  },
+  "column_headers": [],
+  "columns": [],
+  "rows": [],
+  "footnotes": [],
+  "unresolved": [
+    "Entire grid region on this page is obscured; unable to read column headers, visits, rows, or cell contents."
+  ],
+  "_model": "gpt-5"
+}

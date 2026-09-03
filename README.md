@@ -221,10 +221,24 @@ original    100%, 0 spurious          →   unchanged
 sponsors, with bullet cell markers it had never seen, five-level header stacks,
 and a redacted table.
 
-**What it does not show:** extraction correctness on those documents. Page recall
-is not cell accuracy, and the vision extractors were never run on them — the
-Anthropic credit was spent and Gemini's daily quota was consumed. Not estimated
-in place of measured.
+**Extraction has now been run on them too.** All seventeen located pages, with
+the OpenAI engine:
+
+```
+NCT02568046  pages 35–36    11 visits · 25 assessments · 169 cells · 17 footnotes
+NCT03235752  pages 44–46    18 visits · 29 assessments · 263 cells · 11 footnotes
+NCT05392192  pages 28–30    correctly returned nothing — the table is redacted
+```
+
+Both real tables came back structurally correct: NCT02568046's cycle-based
+columns (`Cycle 1 D8 (+2)`, `Cycle 2, 4, 6 etc. D15`) with its four category
+rows, and NCT03235752's five-level header stack flattened into
+`Visit 1.1 Baseline (Day 0, Week 0)`. Its cells are bullets rather than X marks,
+a convention that appears in none of the five reference protocols.
+
+**What is still not shown:** cell-level accuracy on those documents. They have
+not been checked cell by cell against the page the way the three in
+`VERIFICATION.md` were, so the numbers above are counts and not scores.
 
 ---
 

@@ -1,0 +1,122 @@
+{
+  "is_soa_page": false,
+  "is_footnote_page": true,
+  "footnotes": [
+    {
+      "marker": null,
+      "text": "NOTE: End of cycle assessments may be conducted at any time during the week prior to Day 1 of the next cycle",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "• At least 28 days following an OR (PR, CR)",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "• EOT (if > 3 weeks since previous evaluation)",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "• 1M FUP (if PD was not documented before or at EOT)",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "8.3.2 Disease Status Evaluation using CT or MRI",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "The anti-tumor activity of Sym004 in combination with FOLFIRI will be assessed by the Investigator, or qualified designee, according to RECIST v1.1. Refer to Appendix 1.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "Patients will undergo imaging of the thorax, abdomen, and pelvis by CT or MRI as indicated, based on tumor type and prior areas of documented disease. The use of CT or MRI must be consistent per patient throughout the trial. Use of contrast is preferred but is at the discretion of the Investigator, as medically indicated.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "• Screening",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "NOTE: A CT/MRI performed within 28 days prior to Day 1 can be used for evaluation of eligibility and as baseline scan, provided that the CT/MRI has been performed according to the protocol requirements",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "• End of Cycle 2 and end of every second cycle thereafter, i.e. Cycle 4, 6, 8 etc.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "NOTE: End of cycle assessments may be conducted at any time during the week prior to Day 1 of the next cycle",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "• Suspected PD (as soon as possible)",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "• At least 28 days following an OR (PR, CR)",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "• EOT (if > 3 weeks since previous CT/MRI)",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "• At 1M FUP (if PD was not documented before or at EOT)",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "If disease progression is documented at any time, no further disease assessments will be required. Patients with documented PD will be discontinued from further treatment with Sym004/FOLFIRI so that alternative management of their malignancy may be considered.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "To be assigned a status of confirmed PR or CR, changes in disease status must be confirmed by repeat studies performed no less than 28 days (4 weeks) after the criteria for response are first met. In the case of SD, follow-up measurements must have met the SD criteria at least once after trial entry at a minimal interval in general no less than 6-8 weeks.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "Imaging data will be stored by the sites and will be available upon request for potential review by the Sponsor or an independent radiology reviewer.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": null,
+      "text": "For all imaging time points, the following will be recorded as per RECIST v1.1: Target lesions including size, location, and type (nodal/non-nodal); sum of diameters of target",
+      "appears_complete": false,
+      "attaches_to": []
+    }
+  ],
+  "unresolved": [],
+  "_model": "gpt-5"
+}

@@ -1,0 +1,1150 @@
+{
+  "is_soa_page": true,
+  "title": "Table 1     Time and Events Schedule",
+  "continuation": {
+    "is_continuation": false,
+    "axis": null,
+    "evidence": ""
+  },
+  "column_headers": [
+    {
+      "level": 0,
+      "role": "period",
+      "cells": [
+        {
+          "text": "Run-in",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Screening Period",
+          "span": 3,
+          "markers": []
+        },
+        {
+          "text": "Treatment Period",
+          "span": 11,
+          "markers": []
+        },
+        {
+          "text": "Follow-up Period",
+          "span": 2,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "role": "week",
+      "cells": [
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "0",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "4",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "8",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "10",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "",
+          "span": 4,
+          "markers": []
+        },
+        {
+          "text": "12",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "15",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "role": "day",
+      "cells": [
+        {
+          "text": "-28 to -6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "-5 to -1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "0",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "10",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "14",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "28",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "42",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "56",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "70",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "72",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "76",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "80",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "84",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "90",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "105",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "role": "window",
+      "cells": [
+        {
+          "text": "",
+          "span": 2,
+          "markers": []
+        },
+        {
+          "text": "±1",
+          "span": 3,
+          "markers": []
+        },
+        {
+          "text": "±1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "±1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "±1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "±2",
+          "span": 3,
+          "markers": []
+        },
+        {
+          "text": "±1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "±2",
+          "span": 2,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "role": "visit",
+      "cells": [
+        {
+          "text": "Visit 0 Stabilization",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Visit 1 Screening",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Visit 1.1 Baseline",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Visit 2 Baseline",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V2.1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V2.2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V2.3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 4",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 5",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 7",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V7.1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V7.2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V7.3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 8 (EoT Visit)",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 8.1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 9 (Safety Follow-up Visit)",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "index": 0,
+      "period": "Run-in",
+      "visit": "Visit 0 Stabilization",
+      "day": "-28 to -6",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Visit 0 Stabilization (Day -28 to -6)"
+    },
+    {
+      "index": 1,
+      "period": "Screening Period",
+      "visit": "Visit 1 Screening",
+      "day": "-5 to -1",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Visit 1 Screening (Day -5 to -1)"
+    },
+    {
+      "index": 2,
+      "period": "Screening Period",
+      "visit": "Visit 1.1 Baseline",
+      "day": "0",
+      "week": "0",
+      "window": "±1",
+      "markers": [],
+      "label": "Visit 1.1 Baseline (Day 0, Week 0)"
+    },
+    {
+      "index": 3,
+      "period": "Screening Period",
+      "visit": "Visit 2 Baseline",
+      "day": "2",
+      "week": "1",
+      "window": "±1",
+      "markers": [],
+      "label": "Visit 2 Baseline (Day 2, Week 1)"
+    },
+    {
+      "index": 4,
+      "period": "Treatment Period",
+      "visit": "V2.1",
+      "day": "6",
+      "week": "2",
+      "window": "±1",
+      "markers": [],
+      "label": "V2.1 (Day 6, Week 2)"
+    },
+    {
+      "index": 5,
+      "period": "Treatment Period",
+      "visit": "V2.2",
+      "day": "10",
+      "week": null,
+      "window": "±1",
+      "markers": [],
+      "label": "V2.2 (Day 10)"
+    },
+    {
+      "index": 6,
+      "period": "Treatment Period",
+      "visit": "V2.3",
+      "day": "14",
+      "week": null,
+      "window": "±1",
+      "markers": [],
+      "label": "V2.3 (Day 14)"
+    },
+    {
+      "index": 7,
+      "period": "Treatment Period",
+      "visit": "V 3",
+      "day": "28",
+      "week": "4",
+      "window": "±1",
+      "markers": [],
+      "label": "V 3 (Day 28, Week 4)"
+    },
+    {
+      "index": 8,
+      "period": "Treatment Period",
+      "visit": "V 4",
+      "day": "42",
+      "week": "6",
+      "window": "±2",
+      "markers": [],
+      "label": "V 4 (Day 42, Week 6)"
+    },
+    {
+      "index": 9,
+      "period": "Treatment Period",
+      "visit": "V 5",
+      "day": "56",
+      "week": "8",
+      "window": "±2",
+      "markers": [],
+      "label": "V 5 (Day 56, Week 8)"
+    },
+    {
+      "index": 10,
+      "period": "Treatment Period",
+      "visit": "V 6",
+      "day": "70",
+      "week": "10",
+      "window": "±2",
+      "markers": [],
+      "label": "V 6 (Day 70, Week 10)"
+    },
+    {
+      "index": 11,
+      "period": "Treatment Period",
+      "visit": "V 7",
+      "day": "72",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V 7 (Day 72)"
+    },
+    {
+      "index": 12,
+      "period": "Treatment Period",
+      "visit": "V7.1",
+      "day": "76",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V7.1 (Day 76)"
+    },
+    {
+      "index": 13,
+      "period": "Treatment Period",
+      "visit": "V7.2",
+      "day": "80",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V7.2 (Day 80)"
+    },
+    {
+      "index": 14,
+      "period": "Treatment Period",
+      "visit": "V7.3",
+      "day": "84",
+      "week": null,
+      "window": "±1",
+      "markers": [],
+      "label": "V7.3 (Day 84)"
+    },
+    {
+      "index": 15,
+      "period": "Follow-up Period",
+      "visit": "V 8 (EoT Visit)",
+      "day": "90",
+      "week": "12",
+      "window": "±2",
+      "markers": [],
+      "label": "V 8 (EoT Visit) (Day 90, Week 12)"
+    },
+    {
+      "index": 16,
+      "period": "Follow-up Period",
+      "visit": "V 9 (Safety Follow-up Visit)",
+      "day": "105",
+      "week": "15",
+      "window": "±2",
+      "markers": [],
+      "label": "V 9 (Safety Follow-up Visit) (Day 105, Week 15)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "kind": "assessment",
+      "label": "Informed consent",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "assessment",
+      "label": "Inclusion/exclusion criteria",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "assessment",
+      "label": "Stable conventional treatment",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 15,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "assessment",
+      "label": "HIV, HBV, HCV, EBV, CMV test",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "assessment",
+      "label": "TB test",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "assessment",
+      "label": "Randomisation",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 3,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "assessment",
+      "label": "Demographics",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "assessment",
+      "label": "Alcohol and tobacco habits",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "assessment",
+      "label": "Medical and surgical history",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "assessment",
+      "label": "UC medical history, confirmation of UC diagnosis, and previous UC therapy",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "assessment",
+      "label": "Urine screening for drugs of abuse",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "kind": "assessment",
+      "label": "Endoscopy including biopsy sampling",
+      "indent": 0,
+      "markers": [
+        "b"
+      ],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 15,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 12,
+      "kind": "assessment",
+      "label": "Diary dispensing",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 1,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "kind": "assessment",
+      "label": "Diary review",
+      "indent": 0,
+      "markers": [
+        "a"
+      ],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "kind": "assessment",
+      "label": "Efficacy evaluation (full Mayo score)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "kind": "assessment",
+      "label": "Efficacy evaluation (9-point partial Mayo score)",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 7,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "kind": "assessment",
+      "label": "Blood sampling for PK assessments",
+      "indent": 0,
+      "markers": [
+        "c"
+      ],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 12,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 13,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "kind": "assessment",
+      "label": "Faeces sampling for calprotectin",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 2,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "•",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    }
+  ],
+  "footnotes": [],
+  "unresolved": [
+    "Exact placement of • in several rows/columns is unclear at this image resolution.",
+    "Allowed window values by column may be incomplete.",
+    "Header text for the penultimate column appears as \"V 8.1\" but could differ (e.g., \"V 8/I\")."
+  ],
+  "_model": "gpt-5"
+}

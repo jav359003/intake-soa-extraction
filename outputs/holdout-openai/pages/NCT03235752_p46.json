@@ -1,0 +1,32 @@
+{
+  "is_soa_page": false,
+  "is_footnote_page": true,
+  "footnotes": [
+    {
+      "marker": "h",
+      "text": "Serum pregnancy test at Visit 1 and urine pregnancy test at Visits 8 and 9.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "i",
+      "text": "A complete physical examination will be performed at Visits 1 (Screening) and 9 (Follow-up). Body weight only will be measured at Visits 1.1, 4, 6 and 8.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "j",
+      "text": "Includes blood pressure (measured after the patient has been in a seated position for \u001a3 minutes of rest), pulse, respiratory rate, and body temperature.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "k",
+      "text": "IMP administration should be the last procedure of each IMP administration visit. The infusion time will be 2 hours.",
+      "appears_complete": true,
+      "attaches_to": []
+    }
+  ],
+  "unresolved": [],
+  "_model": "gpt-5"
+}

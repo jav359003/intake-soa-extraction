@@ -1,0 +1,2060 @@
+{
+  "is_soa_page": true,
+  "title": null,
+  "continuation": {
+    "is_continuation": true,
+    "axis": "vertical",
+    "evidence": "Schedule grid and column headers repeat; rows continue from previous page without a new caption."
+  },
+  "column_headers": [
+    {
+      "level": 0,
+      "role": "period",
+      "cells": [
+        {
+          "text": "Run-in",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Screening Period",
+          "span": 2,
+          "markers": []
+        },
+        {
+          "text": "Treatment Period",
+          "span": 13,
+          "markers": []
+        },
+        {
+          "text": "Follow-up Period",
+          "span": 2,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 1,
+      "role": "visit",
+      "cells": [
+        {
+          "text": "Visit 0 Stabilization",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Visit 1 Screening",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Visit 1.1 Baseline",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "Visit 2 Baseline",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V2.1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V2.2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V2.3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 4",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 5",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 7",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V7.1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V7.2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V7.3",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 8 (EoT Visit)",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V8.1 (Follow-up)",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "V 9 (Safety Follow-up Visit)",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "role": "day",
+      "cells": [
+        {
+          "text": "",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "-28 to -6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "-5 to -1",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "0",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "2",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "6",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "10",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "14",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "28",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "42",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "56",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "70",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "72",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "76",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "80",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "84",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "90",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "105",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "role": "window",
+      "cells": [
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        },
+        {
+          "text": "?",
+          "span": 1,
+          "markers": []
+        }
+      ]
+    }
+  ],
+  "columns": [
+    {
+      "index": 0,
+      "period": "Run-in",
+      "visit": "Visit 0 Stabilization",
+      "day": null,
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Visit 0 Stabilization"
+    },
+    {
+      "index": 1,
+      "period": "Screening Period",
+      "visit": "Visit 1 Screening",
+      "day": "-28 to -6",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Visit 1 Screening"
+    },
+    {
+      "index": 2,
+      "period": "Screening Period",
+      "visit": "Visit 1.1 Baseline",
+      "day": "-5 to -1",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Visit 1.1 Baseline"
+    },
+    {
+      "index": 3,
+      "period": "Treatment Period",
+      "visit": "Visit 2 Baseline",
+      "day": "0",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "Visit 2 Baseline"
+    },
+    {
+      "index": 4,
+      "period": "Treatment Period",
+      "visit": "V2.1",
+      "day": "2",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V2.1"
+    },
+    {
+      "index": 5,
+      "period": "Treatment Period",
+      "visit": "V2.2",
+      "day": "6",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V2.2"
+    },
+    {
+      "index": 6,
+      "period": "Treatment Period",
+      "visit": "V2.3",
+      "day": "10",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V2.3"
+    },
+    {
+      "index": 7,
+      "period": "Treatment Period",
+      "visit": "V 3",
+      "day": "14",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V 3"
+    },
+    {
+      "index": 8,
+      "period": "Treatment Period",
+      "visit": "V 4",
+      "day": "28",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V 4"
+    },
+    {
+      "index": 9,
+      "period": "Treatment Period",
+      "visit": "V 5",
+      "day": "42",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V 5"
+    },
+    {
+      "index": 10,
+      "period": "Treatment Period",
+      "visit": "V 6",
+      "day": "56",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V 6"
+    },
+    {
+      "index": 11,
+      "period": "Treatment Period",
+      "visit": "V 7",
+      "day": "70",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V 7"
+    },
+    {
+      "index": 12,
+      "period": "Treatment Period",
+      "visit": "V7.1",
+      "day": "72",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V7.1"
+    },
+    {
+      "index": 13,
+      "period": "Treatment Period",
+      "visit": "V7.2",
+      "day": "76",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V7.2"
+    },
+    {
+      "index": 14,
+      "period": "Treatment Period",
+      "visit": "V7.3",
+      "day": "80",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V7.3"
+    },
+    {
+      "index": 15,
+      "period": "Treatment Period",
+      "visit": "V 8 (EoT Visit)",
+      "day": "84",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V 8 (EoT Visit)"
+    },
+    {
+      "index": 16,
+      "period": "Follow-up Period",
+      "visit": "V8.1 (Follow-up)",
+      "day": "90",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V8.1 (Follow-up)"
+    },
+    {
+      "index": 17,
+      "period": "Follow-up Period",
+      "visit": "V 9 (Safety Follow-up Visit)",
+      "day": "105",
+      "week": null,
+      "window": null,
+      "markers": [],
+      "label": "V 9 (Safety Follow-up Visit)"
+    }
+  ],
+  "rows": [
+    {
+      "index": 0,
+      "kind": "assessment",
+      "label": "Blood sampling for biomarkers",
+      "indent": 0,
+      "markers": [
+        "f"
+      ],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 12,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 13,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 15,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 17,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "assessment",
+      "label": "Blood sampling for anti-TJ301 antibodies",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 12,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 13,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 15,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 17,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "assessment",
+      "label": "Clinical laboratory tests",
+      "indent": 0,
+      "markers": [
+        "g"
+      ],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 12,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 13,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 15,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 17,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "assessment",
+      "label": "Pregnancy test",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 12,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 13,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 15,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 17,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "assessment",
+      "label": "Stool sample for Clostridium difficile assay",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 12,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 13,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 15,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 17,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "assessment",
+      "label": "Physical examination",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 12,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 13,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 15,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 17,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "kind": "assessment",
+      "label": "Vital signs",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 12,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 13,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 15,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 17,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "kind": "assessment",
+      "label": "12-lead ECG",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 12,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 13,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 15,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 17,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "kind": "assessment",
+      "label": "Concomitant medications documented",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 12,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 13,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 15,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 17,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "kind": "assessment",
+      "label": "Adverse events documented",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 12,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 13,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 15,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 17,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "kind": "assessment",
+      "label": "IMP administration",
+      "indent": 0,
+      "markers": [],
+      "cells": [
+        {
+          "column": 0,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 1,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 2,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 3,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 4,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 5,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 6,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 7,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 8,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 9,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 10,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 11,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 12,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 13,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 14,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 15,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 16,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        },
+        {
+          "column": 17,
+          "raw": "?",
+          "markers": [],
+          "shaded": false,
+          "ambiguous": true
+        }
+      ]
+    }
+  ],
+  "footnotes": [
+    {
+      "marker": "a",
+      "text": "If not already signed the ICF during the Run-in Period",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "b",
+      "text": "Including mucosal biopsies. During screening, diagnostic colonoscopy or flexible sigmoidoscopy, at the discretion of the Investigator (if no diagnostic colonoscopy with serial biopsy has been performed within one year of screening, a full colonoscopy is required, to exclude malignancy), centrally read. Endoscopy conducted within 35 days before Randomisation is acceptable. At Visit 8, flexible sigmoidoscopy, centrally read.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "c",
+      "text": "The screening endoscopy should be performed at Day -35 to Day -6 prior to Randomisation.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "d",
+      "text": "The scores for stool frequency and rectal bleeding will be calculated as an average based on scores collected from the Patient daily Diary, for up to 5, but at least 3 days prior to each applicable visit. If the patient undergoes bowel preparation for endoscopy on any of the days before a visit, the stool frequency and rectal bleeding subscore for that day(s) should be considered missing. In addition, the stool frequency and rectal bleeding subscore will be considered missing for the day of all endoscopies and the day after.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "e",
+      "text": "For Mainland China PK subgroup only. At 1st dose: pre-dose and 0.5, 1, 2 (end of infusion), 6, 48, 144 (Day 6), and 240 (Day 10) h after the start of the 1st administration; At the 2nd, 3rd, 4th, and 5th administrations blood samples will be collected pre-dose and at the end of infusion; At 6th dose: pre-dose and 0.5, 1, 2 (end of infusion), 6, 48, 144 (Day 70), 240 (Day 80), 336 (Day 84), 480 (Day 90), and 840 h (Day 105) after the start of the 6th administration.",
+      "appears_complete": true,
+      "attaches_to": []
+    },
+    {
+      "marker": "f",
+      "text": "Biomarkers erythrocyte sedimentation rate [ESR], C-reactive protein (CRP), neutrophil and platelet count tests will be analysed in local sites. IL-6, IL-6/sIL-6R complex, and faecal calprotectin tests will be analysed in central lab. At Visits 2 and 8, the patient should be in a fasting state ( ≥8 hours).",
+      "appears_complete": true,
+      "attaches_to": [
+        {
+          "kind": "row",
+          "row": 0
+        }
+      ]
+    },
+    {
+      "marker": "g",
+      "text": "Includes haematology, clinical chemistry, coagulation tests, and urinalysis assessments. Clinical laboratory test should be conducted -5 to -1 days prior to Randomisation.",
+      "appears_complete": true,
+      "attaches_to": [
+        {
+          "kind": "row",
+          "row": 2
+        }
+      ]
+    }
+  ],
+  "unresolved": [
+    "Exact visit windows (Allowed window for visit [days]) for each column are not legible.",
+    "Shading status and exact per-visit entries (•, X, etc.) for all assessment rows are not legible; cells marked with '?' accordingly.",
+    "Whether some row labels carry superscript markers (e.g., Pregnancy test, IMP administration) is unclear from the image.",
+    "Week values per column are not legible.",
+    "If any additional assessment rows appear above or below the visible list on this page, they may belong to the preceding/following pages of the same schedule."
+  ],
+  "_model": "gpt-5"
+}

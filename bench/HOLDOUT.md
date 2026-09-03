@@ -127,3 +127,63 @@ Cost is about 15 ms per text-poor page, so a 122-page scan adds under two
 seconds. Precision is the weak point: 2 spurious pages against 1 real one, and
 that ratio would be worse on a longer scan. Recall is what the brief weights,
 and each spurious span costs one extractor call that returns an empty page.
+
+
+---
+
+# Extraction on the hold-out set
+
+Everything above measures the **locator**. Page recall is not cell accuracy, and
+until now extraction had never been run on a protocol the pipeline had not been
+built against. It has now, with the OpenAI engine, on all seventeen located
+pages.
+
+## What came out
+
+| protocol | pages | visits | assessments | cells | footnotes | linked |
+|---|---|---|---|---|---|---|
+| NCT02568046 main SoA | 35–36 | 11 | 25 | 169 | 17 | 16 |
+| NCT03235752 main SoA | 44–46 | 18 | 29 | 263 | 11 | 7 |
+| NCT05392192 | 28–30 | 0 | 0 | 0 | 0 | 0 |
+
+**NCT02568046** returned the cycle-based column hierarchy intact —
+`Screening D-14 to D-1`, `Cycle 1 D1`, `Cycle 1 D8 (+2)`, `Cycle 2, 4, 6 etc.
+D15 (+2)` — with four category rows (Safety Assessments, Disease Assessments,
+Additional Assessments, Trial Treatment) and assessment labels matching the page
+verbatim. A hand count of the printed page finds 22 rows carrying cell marks
+against 25 assessments emitted, the difference being rows whose marks are text
+rather than an X.
+
+**NCT03235752** returned all eighteen columns with the five-level header stack
+flattened correctly — visit number, visit name, study day and week together, as
+in `Visit 1.1 Baseline (Day 0, Week 0)`. Its cells are bullets rather than X
+marks, a convention absent from all five reference protocols.
+
+**NCT05392192 correctly returned nothing.** Its schedule is a solid black
+rectangle: the sponsor redacted it before publishing. The locator found the
+pages, the extractor reported no readable table, and the pipeline said so rather
+than inventing rows. That is the intended behaviour on an unreadable table and
+it is the first time it has been exercised end to end.
+
+## What this does and does not establish
+
+It establishes that the pipeline produces a structurally correct table from a
+protocol nobody tuned it against — correct visit hierarchy, correct category
+rows, verbatim labels, footnotes bound to anchors — on documents using cell
+conventions (bullets, cycle-relative day columns) that appear nowhere in the
+reference set.
+
+It does **not** establish cell-level accuracy. These tables have not been
+verified cell by cell against the page the way the three in `VERIFICATION.md`
+were, and the numbers above are counts, not scores.
+
+## The cost of imperfect precision, made concrete
+
+The locator's spurious spans are no longer free once extraction runs on them.
+NCT02568046's three extra spans produced a 5-assessment table, an 8-assessment
+table and an empty one; NCT05392192's two produced nothing. Each cost an API
+call and each appears in the output as a table a reviewer must dismiss.
+
+Recall is still the right thing to favour — a missed schedule is invisible and a
+spurious one is merely annoying — but "10 spurious pages" is a real number with
+a real price, not a rounding error.

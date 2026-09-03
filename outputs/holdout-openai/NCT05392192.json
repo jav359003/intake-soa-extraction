@@ -1,0 +1,100 @@
+{
+  "protocol": "NCT05392192",
+  "engine": "openai",
+  "model": null,
+  "n_pages": 68,
+  "tables": [
+    {
+      "protocol": "NCT05392192",
+      "table_id": "NCT05392192:soa0",
+      "pages": [
+        28,
+        29,
+        30
+      ],
+      "title": "Table 1: Schedule of Assessments",
+      "nodes": [],
+      "edges": [],
+      "warnings": [
+        "CONSERVATION: p28 is inside the located span but produced no rows and no footnotes -- either a locator false positive or an extraction that returned an empty table.",
+        "CONSERVATION: p29 is inside the located span but produced no rows and no footnotes -- either a locator false positive or an extraction that returned an empty table.",
+        "CONSERVATION: p30 is inside the located span but produced no rows and no footnotes -- either a locator false positive or an extraction that returned an empty table.",
+        "located by: no usable text layer, but the rendered page has 327 horizontal and 587 vertical rules; read as a grid",
+        "p28: The entire Schedule of Assessments grid on this page is fully redacted/illegible; no column headers, rows, cells, or markers can be read.",
+        "p29: Entire grid region on this page is obscured; unable to read column headers, visits, rows, or cell contents."
+      ],
+      "discarded": 0
+    },
+    {
+      "protocol": "NCT05392192",
+      "table_id": "NCT05392192:soa1",
+      "pages": [
+        64,
+        65
+      ],
+      "title": "",
+      "nodes": [],
+      "edges": [],
+      "warnings": [
+        "CONSERVATION: p64 is inside the located span but produced no rows and no footnotes -- either a locator false positive or an extraction that returned an empty table.",
+        "CONSERVATION: p65 is inside the located span but produced no rows and no footnotes -- either a locator false positive or an extraction that returned an empty table.",
+        "located by: no usable text layer, but the rendered page has 471 horizontal and 437 vertical rules; read as a grid"
+      ],
+      "discarded": 0
+    },
+    {
+      "protocol": "NCT05392192",
+      "table_id": "NCT05392192:soa2",
+      "pages": [
+        67
+      ],
+      "title": "",
+      "nodes": [],
+      "edges": [],
+      "warnings": [
+        "CONSERVATION: p67 is inside the located span but produced no rows and no footnotes -- either a locator false positive or an extraction that returned an empty table.",
+        "located by: no usable text layer, but the rendered page has 328 horizontal and 442 vertical rules; read as a grid"
+      ],
+      "discarded": 0
+    }
+  ],
+  "stats": [
+    {
+      "periods": 0,
+      "visits": 0,
+      "categories": 0,
+      "assessments": 0,
+      "cells": 0,
+      "footnotes": 0,
+      "footnote_links": 0,
+      "ambiguous": 0,
+      "warnings": 6,
+      "conservation": 3
+    },
+    {
+      "periods": 0,
+      "visits": 0,
+      "categories": 0,
+      "assessments": 0,
+      "cells": 0,
+      "footnotes": 0,
+      "footnote_links": 0,
+      "ambiguous": 0,
+      "warnings": 3,
+      "conservation": 2
+    },
+    {
+      "periods": 0,
+      "visits": 0,
+      "categories": 0,
+      "assessments": 0,
+      "cells": 0,
+      "footnotes": 0,
+      "footnote_links": 0,
+      "ambiguous": 0,
+      "warnings": 2,
+      "conservation": 1
+    }
+  ],
+  "seconds": 79.5
+}
